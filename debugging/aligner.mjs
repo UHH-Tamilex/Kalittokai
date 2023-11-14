@@ -3,7 +3,7 @@ import needlemanWunsch from './needlemanwunsch.mjs';
 const CONCATRIGHT = Symbol.for('concatright');
 const CONCATLEFT = Symbol.for('concatleft');
 
-const affixbare = ['amma','arō','ā','ār','āl','āl-amma','āl-illa','ikā','ē','ō','kol','kollō','kollē','koṉ','tilla','tillamma','teyya','maṟṟu','maṟṟē','ōmaṟṟē','maṟṟilla','maṉ','maṉṟilla','maṉṉō','maṉṉē','maṉṟa','maṉṟamma','mātu','mātō','māḷa','yāḻa'];
+const affixbare = ['amma','arō','ā','ār','āl','āl-amma','āl-illa','ikā','um','ē','ō','kol','kollō','kollē','koṉ','tilla','tillamma','teyya','maṟṟu','maṟṟē','ōmaṟṟē','maṟṟilla','maṉ','maṉṟilla','maṉṉō','maṉṉē','maṉṟa','maṉṟamma','mātu','mātō','māḷa','yāḻa'];
 affixbare.sort((a,b) => b.length - a.length);
 
 
@@ -24,10 +24,6 @@ const caseAffixes = [
         regex: /iṉ$/,
         gram: 'locative',
         translationregex: /\(loc\.\)$|iṉ$/
-    }],
-    ['um',{
-        regex: /um$/,
-        translationregex: /um$/
     }],
     ['iṉum',{
         regex: /iṉum$/,
@@ -141,13 +137,27 @@ const warnTypos = (alignment) => {
 
 const removeOptions = (words) => words.map(w => w.split('/')[0]);
 
+const tamilSplit = (str) => {
+    const ret = [];
+    const ugh = new Set(['i','u']);
+    for(let n=0;n<str.length;n++) {
+        if(ugh.has(str[n]) && ret[ret.length-1] === 'a')
+                ret[ret.length-1] = 'a' + str[n];
+        else
+            ret.push(str[n]);
+    }
+    return ret;
+};
+
 const alignWordsplits = (text,tam,eng) => {
     if(tam.length !== eng.length) {
         return {xml: null, warnings: ['Tamil and English don\'t match.']};
     }
-    const wl = restoreSandhi(removeOptions(tam).join(''));
-    const aligned = needlemanWunsch(text,wl,wordsplitscore);
-    const warnings = warnTypos(aligned);
+    //const wl = restoreSandhi(removeOptions(tam).join(''));
+    const wl = tamilSplit(removeOptions(tam).join(''));
+    const aligned = needlemanWunsch(tamilSplit(text),wl,wordsplitscore);
+    ///const warnings = warnTypos(aligned);
+    const warnings = [];
     const realigned = jiggleAlignment(aligned,tam);
     
     const wordlist = tam.map((e,i) => {
@@ -161,7 +171,7 @@ const alignWordsplits = (text,tam,eng) => {
     const entries = makeEntries(wordlist);
     //console.log(aligned1.map(a => a.map(b => typeof b === 'symbol'? b.toString() : b).join(',')).join('\n'));
     const rle = formatAlignment(realigned,0);
-    return {xml: rle + '\n' + entries.join('\n'), warnings: warnings};
+    return {xml: rle + '\n' + entries.join('\n'), alignment: aligned};
 };
 
 const cleanupTranslation = (str) => {
@@ -176,6 +186,34 @@ const restoreSandhi = (s) => {
 };
 
 const formatAlignment = (arr) => {
+    const getChar = s => {
+            if(s === '') return 'G';
+            else if(s === CONCATRIGHT) return 'R';
+            else if(s === CONCATLEFT) return 'L';
+            else return 'M';
+    };
+    let a0 = '';
+    let a1 = '';
+    for(let n=0;n<arr[0].length;n++) {
+        const arr0len = arr[0][n].length;
+        const arr1len = arr[1][n].length;
+        if(arr0len === 2) {
+            a0 = a0 + 'MM';
+            if(arr1len === 2)
+                a1 = a1 + 'MM';
+            else
+                a1 = getChar(arr[1][n]) + 'G';
+        }
+        else if(arr1len === 2) {
+            a1 = a1 + 'MM';
+            a0 = getChar(arr[0][n]) + 'G';
+        }
+        else {
+            a0 = a0 + getChar(arr[0][n]);
+            a1 = a1 + getChar(arr[1][n]);
+        }
+    }
+    /*
     const flatarrs = arr.map(a => {
         const alignment = a.map(s => {
             if(s === '') return 'G';
@@ -185,6 +223,8 @@ const formatAlignment = (arr) => {
         }).join('');
         return alignment.replaceAll(/([GRLM])\1+/g,(match, chr) => match.length + chr);
     });
+    */
+    const flatarrs = [a0,a1].map(a => a.replaceAll(/([GRLM])\1+/g,(match, chr) => match.length + chr));
     return `<interp type="alignment" select="0">${flatarrs[0]},${flatarrs[1]}</interp>`;
 };
 
@@ -223,7 +263,7 @@ const makeEntries = (arr) => {
 
 const cleanBare = (str) => {
     //str = str.replaceAll(/[~+-.]/g,'').replace(/['’*]$/,'u');
-    str = str.replaceAll(/[~+-.]/g,'').replace(/['’*]/,'u');
+    str = str.replaceAll(/[~+.]/g,'').replace(/-$/,'').replace(/['’*]/,'u');
     /*
     if(str.match(/[iīeē]y$/))
         return str.slice(0,-1); // inserted glide
@@ -356,7 +396,6 @@ const jiggleWord = (word, text, start, end) => {
     const textpostend = text[end];
     const textstart = text[start-1];
     const textprestart = text[start-2];
-
     if(textend === '') { // assimilated final
 
         if(wordend === 'm' && ['m','n'].includes(textpostend))
@@ -397,8 +436,8 @@ const jiggleAlignment = (aligned, wordlist) => {
     let curword = wordlist.shift().replaceAll(/[\[\]]/g,''); // AGGHHH
     let curcount = 0;
     for(let n=0; n<aligned[1].length; n++) {
-        if(curcount === curword.length) {
-            aligned[0] = jiggleWord(curword, aligned[0], wordstart, n);
+        if(curcount === tamilSplit(curword).length) {
+            aligned[0] = jiggleWord(tamilSplit(curword), aligned[0], wordstart, n);
             wordstart = n+1;
             curcount = 0;
             curword = wordlist.shift()?.replaceAll(/[\[\]]/g,''); // UGGHHHH
@@ -409,4 +448,4 @@ const jiggleAlignment = (aligned, wordlist) => {
     return aligned;
 };
 
-export default alignWordsplits;
+export { alignWordsplits, tamilSplit };

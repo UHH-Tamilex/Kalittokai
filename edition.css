@@ -241,23 +241,48 @@ span.invisible {
     align-self: center;
 }
 
-#popup-output {
+#output-boxen {
     display: none;
+    margin-top: 0.5rem;
+    justify-content: space-between;
+}
+
+#output-boxen > div {
+    overflow-y: scroll;
+    overflow-x: scroll;
+    height: 300px;
+    width: 50%;
+}
+
+#popup-output {
     background: white;
+    position: relative;
 }
 
 #popup-warnings {
-    display: flex;
-    visibility: hidden;
     border: 1px dotted red;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
 }
 
 #popup-warnings > div {
     margin-right: 1rem;
+}
+
+#popup-warnings table {
+    width: min-content;
+    border-collapse: collapse;
+    margin-bottom: 0.5rem;
+}
+#popup-warnings td {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 100%;
+}
+#popup-warnings td.mismatch {
+    background: rgb(200,200,200);
+}
+#popup-warnings td.typo {
+    background: #FF3535;
 }
 
 #popup-output {
