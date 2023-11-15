@@ -89,7 +89,7 @@ const checkEquality = (str1, str2) => {
         else return 'typo';
     }
     if(str2 === '+') {
-        if(['k','c','t','p','m','l','v'].includes(str1)) return null;
+        if(['k','c','t','p','m','l','ḷ','v','ṉ'].includes(str1)) return null;
         else return 'typo';
 
     }
