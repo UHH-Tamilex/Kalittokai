@@ -1,5 +1,5 @@
 const defaultscore = (a,b) => {
-    const vowels = 'aāiīuūoōeē'.split('');
+    const vowels = ['a','ā','i','ī','u','ū','o','ō','e','ē','ai','au'];
     if(a === b) return 1;
     if(a === '' && b === ' ') return 1;
     if(a === ' ' && b === '') return 1;
