@@ -1,0 +1,15 @@
+{
+  "name": "lexicalizer",
+  "version": "1.0.0",
+  "main": "index.mjs",
+  "license": "MIT",
+  "devDependencies": {
+    "fs": "^0.0.1-security",
+    "jsdom": "^22.1.0",
+    "process": "^0.11.10"
+  },
+  "scripts": {
+      "go": "node index.mjs",
+      "combine": "node combinelists.mjs"
+  }
+}
