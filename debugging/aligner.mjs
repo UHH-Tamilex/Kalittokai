@@ -8,7 +8,7 @@ affixbare.sort((a,b) => b.length - a.length);
 
 const affixes = affixbare.map(a => [a,new RegExp(`\\[?${a}\\]?$`)]);
 
-affixes.push(['maṟṟu',new RegExp('^\\[?maṟṟu\\]?')]);
+affixes.push(['maṟṟu',new RegExp('^\\[?maṟṟ[u*\'’]\\]?')]);
 
 const caseAffixes = [
     ['māṭṭu',{
