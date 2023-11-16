@@ -413,6 +413,9 @@ const printWordlist = (doc, words, filename) => {
     const cleanid = id.replace(/^#/,'');
     const basename = Path.basename(filename);
     const witness = `<witness xml:id="${cleanid}" source="${basename}"><abbr>${cleanid}</abbr><expan>${title}</expan></witness>`;
+
+    if(!Fs.existsSync('wordlists')) fs.mkdirSync('wordlists');
+
     Fs.writeFileSync(`wordlists/${basename}`,`<?xml version="1.0" encoding="UTF-8"?><file>${witness}<body>${entries.join('')}</body></file>`);
 };
 const clipWord = (wordsplitarr, textarr, start, end) => {
