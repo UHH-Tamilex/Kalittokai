@@ -114,8 +114,8 @@ const alignSplits = () => {
     popup.querySelector('button').innerHTML = 'Re-align';
 
     const inputs = popup.querySelectorAll('textarea');
-    const tam = inputs[0].value.trim().split(/\s+/).map(s => s.replace(/[,.;]$/,''));
-    const eng = inputs[1].value.trim().split(/\s+/).map(s => s.replace(/[,.;]$/,''));
+    const tam = inputs[0].value.trim().split(/\s+/).map(s => s.replace(/[,.;?]$/,''));
+    const eng = inputs[1].value.trim().split(/\s+/).map(s => s.replace(/[,.;?]$/,''));
 
     document.getElementById('output-boxen').style.display = 'flex';
 
