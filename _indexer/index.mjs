@@ -414,7 +414,7 @@ const printWordlist = (doc, words, filename) => {
     const basename = Path.basename(filename);
     const witness = `<witness xml:id="${cleanid}" source="${basename}"><abbr>${cleanid}</abbr><expan>${title}</expan></witness>`;
 
-    if(!Fs.existsSync('wordlists')) fs.mkdirSync('wordlists');
+    if(!Fs.existsSync('wordlists')) Fs.mkdirSync('wordlists');
 
     Fs.writeFileSync(`wordlists/${basename}`,`<?xml version="1.0" encoding="UTF-8"?><file>${witness}<body>${entries.join('')}</body></file>`);
 };
