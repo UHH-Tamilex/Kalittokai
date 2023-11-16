@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Kalittokai</title> 34. 
+            <persName xml:lang="ta"></persName>
+        </title>
+        
+      </titleStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+        <listWit n="1"></listWit>
+        <listWit n="2"></listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+
+        <div xml:id="Kali34-kilavi">
+          <p type="edition">itu paruvaṅkaṇṭu vaṉpuṟai yetiraḻintu āṟṟāḷāya talaivikkut tōḻi avaṉ 
+            varavuṇarntu kaḻiyuvakaiyāṟ kūṟiyatu.</p>
+          <p type="translation" xml:lang="en"></p>
+        </div>
+        <div xml:id="Kali34">
+            <lg type="edition">
+                <l>34-1 maṉṉuyi rēmuṟa malarñālam puravīṉṟu
+                    
+                    
+                    
+                    
+                    
+                    </l>
+                <l>34-2 paṉṉīrāṟ pāypuṉal parantūṭṭi yiṟantapiṟ</l>
+                <l>34-3 ciṉṉīrā ṉaṟalvāra vakalyāṟu kaviṉpeṟa</l>
+                <l>34-4 muṉṉoṉṟu tamakkāṟṟi muyaṉṟava riṟutikkaṭ</l>
+                <l>34-5 piṉṉoṉṟu peyarttāṟṟum pīṭuṭai yāḷarpōṟ</l>
+                <l>34-6 paṉmalar ciṉaiyukac curumpimirntu vaṇṭārppa</l>
+                <l>34-7 viṉṉama riḷavēṉi liṟuttanta poḻutiṉāṉ;</l>
+                <l>34-8 virikāñcit tātāṭi yiruṅkuyil viḷippavum</l>
+                <l>34-9 pirivañcā tavartīmai maṟaippeṉmaṉ maṟaippavuṅ</l>
+                <l>34-10 karipoyttāṉ kīḻirunta marampōlak kaviṉvāṭi</l>
+                <l>34-11 yeripotti yeṉṉeñcañ cuṭumāyi ṉevaṉceykō;</l>
+                <l>34-12 poṟaitaḷar kompiṉmēṟ citariṉa miṟaikoḷa</l>
+                <l>34-13 niṟaitaḷarā tavartīmai maṟaippeṉmaṉ maṟaippavu</l>
+                <l>34-14 muṟaitaḷarnta maṉṉavaṉkīḻk kuṭipōlak kalaṅkupu</l>
+                <l>34-15 poṟaitaḷarpu paṉivāruṅ kaṇṇāyi ṉevaṉceykō;</l>
+                <l>34-16 taḷaiyaviḻpūñ ciṉaiccurumpi yāḻpōla vicaippavuṅ</l>
+                <l>34-17 koḷaitaḷarā tavartīmai maṟaippeṉmaṉ maṟaippavuṅ</l>
+                <l>34-18 kiḷaiyaḻiya vāḻpava ṉākkampōṟ pulleṉṟu</l>
+                <l>34-19 vaḷaiyāṉā nekiḻpoṭun tōḷāyi ṉevaṉceykō;</l>
+                <l>34-20 eṉavāṅku,</l>
+                <l>34-21 niṉṉuṇṇōy nīyurait talamara lellānā</l>
+                <l>34-22 meṇṇiya nāḷvarai yiṟavātu kātalar</l>
+                <l>34-23 paṇṇiya māviṉar pukutantār</l>
+                <l>34-24 kaṇṇuṟu pūcal kaikaḷain tāṅkē.</l>
+            </lg>
+            <lg type="translation" xml:lang="en">
+                <l></l>
+            </lg>
+        </div>
+COPY STANDOFF FROM INTERFACE HERE
+
+    </body>
+  </text>
+
+</TEI>

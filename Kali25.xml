@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Kalittokai</title> 25. 
+            <persName xml:lang="ta"></persName>
+        </title>
+        
+      </titleStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+        <listWit n="1"></listWit>
+        <listWit n="2"></listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+
+        <div xml:id="Kali25-kilavi">
+          <p type="edition">itu pirivuṇarttappaṭṭa tōḻi nī pirintāṟ pīṭilār toṭarpupōla nummai alar tūṟṟuvaṉa 
+            ivvakaippaṭṭaṉa cilavuḷaveṉat talaivi āṟṟāmai kūṟic celavaḻuṅkuvittatu.</p>
+          <p type="translation" xml:lang="en"></p>
+        </div>
+        <div xml:id="Kali25">
+            <lg type="edition">
+                <l>25-1 vayakkuṟu maṇṭilam vaṭamoḻip peyarpeṟṟa</l>
+                <l>25-2 mukattavaṉ makkaḷuḷ mutiyavaṉ puṇarppiṉā</l>
+                <l>25-3 laivareṉ ṟulakēttu maracarka ḷakattarāk</l>
+                <l>25-4 kaipuṉai yarakkillaik kataḻeri cūḻntāṅkuk</l>
+                <l>25-5 kaḷitikaḻ kaṭāatta kaṭuṅkaḷi ṟakattavā</l>
+                <l>25-6 muḷikaḻai yuyarmalai muṟṟiya muḻaṅkaḻa</l>
+                <l>25-7 loḷḷuru varakkillai vaḷimaka ṉuṭaittuttaṉ</l>
+                <l>25-8 ṉuḷḷattuk kiḷaiyō  ṭuyappōku vāṉpōla</l>
+                <l>25-9 veḻuvuṟaḻ taṭakkaiyi ṉiṉaṅkākku meḻilvēḻa</l>
+                <l>25-10 maḻuvañcūḻ pukaiyaḻa latarpaṭa mitittuttaṅ</l>
+                <l>25-11 kuḻuvoṭu puṇarntupōṅ kuṉṟaḻal veñcura</l>
+                <l>25-12 miṟattirā laiyamaṟ ṟivaṇilaimai kēṭṭīmiṉ;</l>
+                <l>25-13 maṇakkuṅkāṉ malaraṉṉa takaiyavāyc ciṟitunī</l>
+                <l>25-14 taṇakkuṅkāṟ kaluḻpāṉāk kaṇṇeṉavu muḷavaṉṟō</l>
+                <l>25-15 ciṟappuccey tuḻaiyarāp pukaḻpēṟṟi maṟṟavar</l>
+                <l>25-16 puṟakkoṭaiyē paḻitūṟṟum pulliyār toṭarpupōl;</l>
+                <l>25-17 īṅkunī raḷikkuṅkā liṟaiciṟan torunāṇīr</l>
+                <l>25-18 nīṅkuṅkā ṉekiḻpōkum vaḷaiyeṉavu muḷavaṉṟō</l>
+                <l>25-19 celvattuṭ cērntavar vaḷaṉuṇṭu maṟṟava</l>
+                <l>25-20 rolkiṭat tulappilā vuṇarvilār toṭarpupōl;</l>
+                <l>25-21 orunāṇī raḷikkuṅkā loḷiciṟan torunāṇīr</l>
+                <l>25-22 pārāṭṭāk kāṟpacakku nutaleṉavu muḷataṉṟō</l>
+                <l>25-23 poruntiya kēṇmaiyiṉ maṟaiyuṇarn tammaṟai</l>
+                <l>25-24 pirintakkāṟ piṟarkkuraikkum pīṭilār toṭarpupōl;</l>
+                <l>25-25 eṉavāṅku,</l>
+                <l>25-26 yāniṟ kūṟuva tevaṉuṇ ṭemmiṉu</l>
+                <l>25-27 nīnaṟ kaṟintaṉai neṭuntakai vāṉan</l>
+                <l>25-28 tuḷimāṟu poḻutiṉiv vulakam pōluniṉ</l>
+                <l>25-29 ṉaḷimāṟu poḻutiṉiv vāyiḻai kaviṉē.</l>
+            </lg>
+            <lg type="translation" xml:lang="en">
+                <l>You would indeed traverse, lord,</l>
+                <l>the desert hot [as] fire among the hills</l>
+                <l>where, in the roaring fire that engulfed the high mountain with dry bamboo,</l>
+                <l>the fierce elephant bulls, [their] temples glittering with musth, being inside,</l>
+                <l>as if fast flames were surrounding the hand-made lac house,</l>
+                <l>the kings that are praised by the world as ‘the five’ being inside,</l>
+                <l>by the scheming of the one older one among the children of him with a face</l>
+                <l>A: that obtained the name, in Northern language, of a resplendent orb,</l><!-- alternative lines! -->
+                <l>B: that obtained a name in the Northen language of the resplendent orb,</l> 
+                <l>the fine elephant bull that guards the herd with [his] broad trunk like a cross-bar,</l>
+                <l rend="5">goes joined to his troup,</l>
+                <l>trampling, as fire occurs on the road with smoke that surrounds the thicket,</l>
+                <l>like Bhīma who went to escape along with the relatives of his heart,</l>
+                <l>breaking the lac house of bright shape,</l>
+                <l rend="4">listen still [what is] her state:</l>
+                <l>As for [her] eyes, having been fit like blossoms the time you united,</l>
+                <l>the time you depart [even] a little they are unending in dimming, aren’t they?,</l>
+                <l>like in an attachment of low people, lauding, praising [him] as he is near, making him superior(?),</l>
+                <l>[and] spreading blame as soon as he turns [his] back.</l>
+                <l>As for [her] bangles, [her] joints being excellent the time you cared [for her] here,</l>
+                <l>emaciated the time you leave for a single day, they are such that run, aren’t they?,</l>
+                <l>like the attachment of people without perception, eating the wealth of those</l>
+                <l>joined with wealth, but not granting [its] weakening.</l>
+                <l>As for the forehead, excelling in brightness the time you care for [her] one day,</l>
+                <l>it is one that pales the time you do not praise it for one day, isn’t it?,</l>
+                <l>like the attachment of those who don’t have greatness, hearing a secret in a close friendship,</l> 
+                <l>[but] telling that secret to other at the time of separation.</l>
+                <l>That is to say,</l>
+                <l>what is [the good] of our telling you? You have</l>
+                <l>understood better than us, in a greatly befitting way,</l>
+                <l>the beauty of  this [girl with] choice jewels at a time when your care alters,</l>
+                <l>like this world at a time the sky’s drops alter.</l>
+            </lg>
+        </div>
+COPY STANDOFF FROM INTERFACE HERE
+
+    </body>
+  </text>
+
+</TEI>

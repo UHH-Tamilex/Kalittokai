@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Kalittokai</title> 26. 
+            <persName xml:lang="ta"></persName>
+        </title>
+        
+      </titleStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+        <listWit n="1"></listWit>
+        <listWit n="2"></listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+
+        <div xml:id="Kali26-kilavi">
+          <p type="edition">itu ''mēviya ciṟappi ṉēṉōr'' (to.po.28) eṉṉuñ cūttirattiṟ pakaimēṟceṉṟa aracaṉ tiṟaipeṟṟa 
+            nāṭu kāttu ataṉkaṭ ṭaṉ neṟimuṟaimai aṭippaṭuttu varutaṟkup pirivaṉeṉṟaliṉ, piriviṉkaṭ ṭalaivaṉ iḷavēṉiṟ 
+            kālaṅkuṟittup piriya, akkāla varaviṉkaṭ ṭalaivi āṟṟāḷāy avar namakku aruḷuṅkālaiyil aruḷār-kāṇeṉṟāṭkut, 
+            tōḻi, avar varaviṟku ikkālan tūtāyaṉṟē vantatu? nī āṟṟuvāyākaveṉa vaṟpuṟuttiyatu.</p>
+          <p type="translation" xml:lang="en"></p>
+        </div>
+        <div xml:id="Kali26">
+            <lg type="edition">
+                <l>orukuḻai yoruvaṉpō liṇarcērnta marāamum</l>
+                <l>parutiyañ celvaṉpō ṉaṉaiyūḻtta ceruntiyu</l>
+                <l>mīṉēṟṟuk koṭiyōṉpōṉ miñiṟārkkuṅ kāñciyu</l>
+                <l>mēṉōṉpō ṉiṟaṅkiḷarpu kañaliya ñāḻalu</l>
+                <l>māṉēṟṟuk koṭiyōṉpō letiriya vilavamu māṅkut</l>
+                <l>tītutīr ciṟappi ṉaivarka ṇilaipōlap</l>
+                <l>pōtaviḻ marattoṭu porukarai kaviṉpeṟa</l>
+                <l>nōtaka vantaṉṟā liḷavēṉiṉ mētaka;</l>
+                <l>palvari yiṉavaṇṭu putituṇṇum paruvattut</l>
+                <l>tolkaviṉ ṟolaintaveṉ ṟaṭameṉṟō ḷuḷḷuvā</l>
+                <l>rolkupu niḻalcērntārk kulaiyātu kāttōmpi</l>
+                <l>velpuka ḻulakētta viruntunāṭ ṭuṟaipavar;</l>
+                <l>ticaiticai tēṉārkkun tirumaruta muṉṟuṟai</l>
+                <l>vacaitīrnta veṉṉalam vāṭuva taruḷuvār</l>
+                <l>nacaikoṇṭu tannīḻal cērntārait tāṅkittam</l>
+                <l>micaiparan tulakētta vētiṉāṭ ṭuṟaipavar;</l>
+                <l>aṟalcāay poḻutōṭem  maṇinutal vēṟākit</l>
+                <l>tiṟalcāṉṟa peruvaṉap piḻappatai yaruḷuvā</l>
+                <l>rūṟañci niḻalcērntārk kulaiyātu kāttōmpi</l>
+                <l>yāṟiṉṟip poruḷveḵki yakaṉṟanāṭ ṭuṟaipavar;</l>
+                <l>eṉanī;</l>
+                <l>terumaral vāḻi tōḻinaṅ kātalar</l>
+                <l>porumuraṇ yāṉaiyar pōrmalain teḻuntavar</l>
+                <l>cerumēm paṭṭa veṉṟiyar</l>
+                <l>varumeṉa vantaṉṟavar vāymoḻit tūtē.</l>
+            </lg>
+            <lg type="translation" xml:lang="en">
+                <l></l>
+            </lg>
+        </div>
+COPY STANDOFF FROM INTERFACE HERE
+
+    </body>
+  </text>
+
+</TEI>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Kalittokai</title> 16. 
+            <persName xml:lang="ta"></persName>
+        </title>
+        
+      </titleStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+        <listWit n="1"></listWit>
+        <listWit n="2"></listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+
+        <div xml:id="Kali16-kilavi">
+          <p type="edition">itu talaimakaṉ poruḷvayiṟpirinta iṭattu avaṉ pōkiya kāṭṭatu kaṭumai niṉaintu 
+            āṟṟāḷākiya talaimakaḷ avarporuṭṭāka nām ivvakaippaṭṭa teyvaṅkaḷaip paravutal naṅkaṟpukku 
+            iyaivatō-veṉak kēṭṭa tōḻi avvāṟṟāṉē mīṇṭaṉar nī kavalavēṇṭā-veṉak kūṟiyatu.</p>
+          <p type="translation" xml:lang="en"></p>
+        </div>
+        <div xml:id="Kali16">
+            <lg type="edition">
+                <l>pāṭiṉṟip pacantakaṇ paital paṉimalka</l>
+                <l>vāṭupu vaṉappōṭi vaṇaṅkiṟai vaḷaiyūra</l>
+                <l>vāṭeḻi laḻivañcā takaṉṟavar tiṟattiṉi</l>
+                <l>nāṭuṅkā ṉiṉaippatoṉ ṟuṭaiyēṉmaṉ ṉatuvuntāṉ;</l>
+                <l>toṉṉalan tolaipīṅkiyān tuyaruḻappat tuṟantuḷḷār</l>
+                <l>tuṉṉinaṅ kātalar tuṟantēku māriṭaik</l>
+                <l>kaṉmicai yuruppaṟak kaṉaituḷi citaṟeṉa</l>
+                <l>viṉṉicai yeḻiliyai yirappavu miyaivatō;</l>
+                <l>puṉaiyiḻā yīṅkunām pulampuṟap poruḷveḵki</l>
+                <l>muṉaiyeṉṉār kātalar muṉṉiya vāriṭaic</l>
+                <l>ciṉaivāṭac ciṟakkuniṉ ciṉantaṇin tīkeṉak</l>
+                <l>kaṉaikatirk kaṉaliyaik kāmuṟa liyaivatō;</l>
+                <l>oḷiyiḻā yīṅkunān tuyarkūrap poruḷvayi</l>
+                <l>ṉaḷiyorīik kātala rakaṉṟēku māriṭai</l>
+                <l>muḷimutaṉ mūḻkiya vemmaitīrn tuṟukeṉa</l>
+                <l>vaḷitaruñ celvaṉai vāḻttavu miyaivatō;</l>
+                <l>eṉavāṅku,</l>
+                <l>ceyporuṭ ciṟappeṇṇic celvārmāṭ ṭiṉaiyaṉa</l>
+                <l>teyvattut tiṟaṉōkkit terumara ṟēmoḻi</l>
+                <l>vaṟaṉōṭiṉ vaiyattu vāṉṟaruṅ kaṟpiṉā</l>
+                <l>ṇiṟaṉōṭip pacappūrta luṇṭeṉa</l>
+                <l>vaṟaṉōṭi vilaṅkiṉṟava rāḷviṉait tiṟattē.</l>
+            </lg>
+            <lg type="translation" xml:lang="en">
+                <l>Now, about the one who parted without fearing for [your] dancing grace</l>
+                <l>so that dew increases in [your] suffering eyes that have withered without closing,</l>
+                <l>so that, fading, [your] beauty perishes, the bangles slide over [your] supple joints,</l>
+                <l>I have something to think indeed, at the time I consider, and that is:</l>
+                <l>He who abandons [and] does not remember [us] so that the old beauty is lost [and] we suffer misery,</l>
+                <l>is it congruent to beg, too, the sweet-sounding clouds:</l>
+                <l>“scatter dense drops so that the heat is severed” on the stones</l>
+                <l>of the difficult path our lover goes, having been close [to us and then] abandoned [us]?</l>  
+                <l>You with decorative jewels, he who does not say [it is] a frontier, coveting wealth</l>
+                <l>so that we feel loneliness here, is it congruent to desire the sun with dense rays:</l>
+                <l>“please let your supreme anger cool down since the branches wither”</l>
+                <l>on the difficult path that [our] lover approaches?</l>
+                <l>You with bright jewels, is it congruent to praise, too, the goer/lord who brings the wind</l>
+                <l>“may [your] heat be ended in which the drying branches are submerged”</l>
+                <l>on the difficult path on which [our] lover goes after parting, having renounced care</l>
+                <l>for the sake of wealth so that we are full of misery here?</l>
+                <l>That is to say,</l>
+                <l>don’t be confused, [you with] sweet speech, looking at the deities,</l>
+                <l>by such things on account for those who go, calculating the wealth to be made as superior.</l>
+                <l>With the thought “there will be the creeping of pallor, the colour running</l>
+                <l>from the faithful girl who brings the clouds into the world when the drought runs”</l>
+                <l>duty will run [and] block [him] in his manly work.</l>
+            </lg>
+        </div>
+COPY STANDOFF FROM INTERFACE HERE
+
+    </body>
+  </text>
+
+</TEI>
