@@ -496,7 +496,8 @@ const extendStart = (arr,n) => {
     if(vowels.has(arr[n])) {
         for(let m=n-1;m>0;m--) {
             if(arr[m] === '') continue;
-            if(!consonants.has(arr[m])) return m+1;
+            if(arr[m] === ' ') return m+1;
+            if(consonants.has(arr[m])) return m;
         }
     }
     return n;
