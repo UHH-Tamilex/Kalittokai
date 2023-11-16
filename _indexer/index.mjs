@@ -479,9 +479,44 @@ const clipWord = (wordsplitarr, textarr, start, end) => {
                .replaceAll('(i)','u');
 };
 
+const consonants = new Set('kṅcñṭṇtnpmyrlvḻḷṟṉ'.split(''));
+const vowels = new Set('aāiīuūeēoō'.split(''));
+const extendEnd = (arr,n) => {
+    if(arr[n-1] === ' ') return n-1;
+    if(arr[n-1] === '' || consonants.has(arr[n-1])) {
+        for(let m=n;m<arr.length;m++) {
+            if(arr[m] === '') continue;
+            if(arr[m] === ' ') return m;
+            if(!vowels.has(arr[m])) return m;
+        }
+    }
+    return n;
+};
+const extendStart = (arr,n) => {
+    if(vowels.has(arr[n])) {
+        for(let m=n-1;m>0;m--) {
+            if(arr[m] === '') continue;
+            if(!consonants.has(arr[m])) return m+1;
+        }
+    }
+    return n;
+};
+
 const findContext = (textarr, start, end) => {
     let newstart = 0;
     let breaks = 0;
+    const joinText = (arr,n) => {
+        const ret = arr.slice(newstart,n).map(c => {
+            if(c === CONCATLEFT || c === CONCATRIGHT) return '';
+            return c;
+        });
+        const hiend = extendEnd(ret,end-newstart);
+        const histart = extendStart(ret,start-newstart);
+        ret.splice(hiend,0,'</hi>');
+        ret.splice(histart,0,'<hi>');
+        return ret.join('');
+    };
+
     for(let n=start;n>=0;n--) {
         if(textarr[n] === ' ') {
             breaks = breaks + 1;
@@ -497,17 +532,11 @@ const findContext = (textarr, start, end) => {
             breaks = breaks + 1;
             if(breaks === 2)
                 //return textarr.slice(newstart,n).join('');
-                return textarr.slice(newstart,n).map(c => {
-                    if(c === CONCATLEFT || c === CONCATRIGHT) return '';
-                    return c;
-                }).join('');
+                return joinText(textarr,n);
         }
     }
     //return textarr.slice(newstart).join('');
-    return textarr.slice(newstart).map(c => {
-        if(c === CONCATLEFT || c === CONCATRIGHT) return '';
-        return c;
-    }).join('');
+    return joinText(textarr,textarr.length-1);
 };
 
 const collateVariants = (variants) => {
