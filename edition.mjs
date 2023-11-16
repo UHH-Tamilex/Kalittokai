@@ -6,7 +6,7 @@ import { addVariants } from './debugging/variants.mjs';
 import './lib/js/tooltip.mjs';
 //import { tamilize, iastToTamil } from './transliterate.mjs';
 
-const Debugging = true;
+var Debugging = true;
 
 const cachedContent = new Map();
 
@@ -335,6 +335,9 @@ const removemarkup = (standoff) => {
 };
 
 const go = () => {
+    if(document.getElementById('editionscript').dataset.debugging === 'false')
+        Debugging = false;
+
     const lineview = document.querySelector('.line-view-icon');
     lineview.style.display = 'none';
 /*

@@ -85,6 +85,7 @@
                 <xsl:attribute name="type">module</xsl:attribute>
                 <xsl:attribute name="src">edition.mjs</xsl:attribute>
                 <xsl:attribute name="id">editionscript</xsl:attribute>
+                <xsl:attribute name="data-debugging"><xsl:value-of select="$debugging"/></xsl:attribute>
             </xsl:element>
             <xsl:element name="script">
                 <xsl:attribute name="src">raphael-min.js</xsl:attribute>
