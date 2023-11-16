@@ -24,7 +24,6 @@ const showPopup = () => {
     const wordsplitlabel = document.createElement('label');
     wordsplitlabel.append('Tamil wordsplit');
     const wordsplit = document.createElement('textarea');
-    wordsplit.setAttribute('contenteditable', true);
     const container1 = document.createElement('div');
     container1.appendChild(wordsplitlabel);
     container1.appendChild(wordsplit);
@@ -32,7 +31,6 @@ const showPopup = () => {
     const translationlabel = document.createElement('label');
     translationlabel.append('Word-by-word translation');
     const translation = document.createElement('textarea');
-    translation.setAttribute('contenteditable', true);
     const container2 = document.createElement('div');
     container2.appendChild(translationlabel);
     container2.appendChild(translation);
@@ -115,8 +113,8 @@ const alignSplits = () => {
     popup.querySelector('button').innerHTML = 'Re-align';
 
     const inputs = popup.querySelectorAll('textarea');
-    const tam = inputs[0].value.trim().split(/\s+/);
-    const eng = inputs[1].value.trim().split(/\s+/);
+    const tam = inputs[0].value.trim().split(/\s+/).map(s => s.replace(/[,.;]$/,''));
+    const eng = inputs[1].value.trim().split(/\s+/).map(s => s.replace(/[,.;]$/,''));
 
     document.getElementById('output-boxen').style.display = 'flex';
 
