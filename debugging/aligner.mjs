@@ -264,7 +264,7 @@ const makeEntries = (arr) => {
 
 const cleanBare = (str) => {
     //str = str.replaceAll(/[~+-.]/g,'').replace(/['’*]$/,'u');
-    str = str.replaceAll(/[~+.]/g,'').replace(/-$/,'').replace(/['’*]/,'u');
+    str = str.replaceAll(/[~+.]/g,'').replace(/-$|^-/,'').replace(/['’*]/,'u');
     /*
     if(str.match(/[iīeē]y$/))
         return str.slice(0,-1); // inserted glide
