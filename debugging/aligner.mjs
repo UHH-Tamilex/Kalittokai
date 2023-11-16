@@ -6,8 +6,9 @@ const CONCATLEFT = Symbol.for('concatleft');
 const affixbare = ['amma','arō','ā','ār','āl','āl-amma','āl-illa','ikā','um','ē','ō','kol','kollō','kollē','koṉ','tilla','tillamma','teyya','maṟṟu','maṟṟē','ōmaṟṟē','maṟṟilla','maṉ','maṉṟilla','maṉṉō','maṉṉē','maṉṟa','maṉṟamma','mātu','mātō','māḷa','yāḻa'];
 affixbare.sort((a,b) => b.length - a.length);
 
-
 const affixes = affixbare.map(a => [a,new RegExp(`\\[?${a}\\]?$`)]);
+
+affixes.push(['maṟṟu',new RegExp('^\\[?maṟṟu\\]?')]);
 
 const caseAffixes = [
     ['māṭṭu',{
@@ -284,9 +285,11 @@ const findParticle = (word,translation) => {
         const transmatch = translation.match(regex);
         if(wordmatch && transmatch)
             return {
-                translation: translation.slice(0,translation.length-transmatch[0].length),
+                //translation: translation.slice(0,translation.length-transmatch[0].length),
+                translation: translation.replace(regex,''),
                 particle: affix,
-                bare: cleanBare(cleanword.slice(0,cleanword.length-wordmatch[0].length))
+                //bare: cleanBare(cleanword.slice(0,cleanword.length-wordmatch[0].length))
+                bare: cleanBare(cleanword.replace(regex,''))
             };
     }
     for(const [affix,obj] of caseAffixes) {
