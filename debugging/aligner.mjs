@@ -326,8 +326,9 @@ const findGrammar = (translation) => {
 
 const cleanupWordlist = (list) => {
     const cleanupWord = (obj) => {
-        obj.word = obj.word.replace(/[\.;]$/,'');
-        obj.translation = obj.translation.replace(/[\.;]$/,'');
+        // we should remove punctuation from the wordlist so it aligns properly
+        //obj.word = obj.word.replace(/[\.;]$/,'');
+        //obj.translation = obj.translation.replace(/[\.;]$/,'');
         const particle = findParticle(obj.word,obj.translation);
         if(particle) {
             console.log(`Found particle: ${particle.affix || particle.particle} in ${obj.word}, "${obj.translation}".`);
