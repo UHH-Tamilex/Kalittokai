@@ -116,7 +116,7 @@ const wordsplit = (e) => {
         target.dataset.anno = 'word-split text';
     }
 };
-
+/*
 const countpos = (str, pos) => {
     if(pos === 0) return 0;
     let realn = 0;
@@ -126,6 +126,7 @@ const countpos = (str, pos) => {
         if(realn === pos) return n;
     }
 };
+*/
 const nextSibling = (node) => {
     let start = node;
     while(start) {
