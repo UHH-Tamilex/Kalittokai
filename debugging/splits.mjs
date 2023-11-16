@@ -100,7 +100,8 @@ const checkEquality = (str1, str2) => {
         if(str1 !== '') return 'typo';
         else return null;
     }
-
+    if(str1 === 'i' && ['u','’','*'].includes(str2))
+        return 'typo';
     return 'mismatch';
 
 };
