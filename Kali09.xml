@@ -93,7 +93,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali9">
-    <interp type="alignment" select="0">4MG48MG14MG3MGMR23MG18MG84MG19MG8MG45MG31MG18MG9ML22ML44MG15MG11ML6MG14MR8MG3ML7ML5M2G5MG7MG28MG12MG10MR5MG20MG3ML7ML5M2G5MG7MG28MG12MG16MG20MG3ML7ML5M2G5MG7MG26MG61M2G2MG3M2G3MG3M,830M</interp>
+    <interp type="alignment" select="0">4MG48MG14MG3MGMR23MG18MG84MG19MG8MG45MG31MG18MG9ML22ML44MG15MG11ML6MG14MR8MG3ML7ML5M2G5MG7MG28MG12MG10MR5MG20MG3ML7ML5M2G5MG7MG28MG12MG16MG20MG3ML7ML5M2G5MG7MG26MG61M2G2ML3M2G3MG3M,374MG125MG112MG112MG8MG93MG</interp>
     <entry>
     <form>eṟi<pc>+</pc>-taru</form>
     <def>throw-give-</def>
@@ -376,7 +376,7 @@
     <gram type="role">plural</gram>
     </entry>
     <entry>
-    <form>pōṟir;</form>
+    <form>pōṟir</form>
     <def>be-similar-you</def>
     <gram type="role">plural</gram>
     </entry>
@@ -467,8 +467,10 @@
     <def>there</def>
     </entry>
     <entry>
-    <form>aṉaiyaḷ-ē;</form>
-    <def>thus-sheē</def>
+    <form>aṉaiyaḷ-ē</form>
+    <def>thus-she</def>
+    <form type="simple">aṉaiyaḷ</form>
+    <gramGrp type="particle"><form>ē</form></gramGrp>
     </entry>
     <entry>
     <form>cīr</form>
@@ -556,8 +558,10 @@
     <def>there</def>
     </entry>
     <entry>
-    <form>aṉaiyaḷ-ē;</form>
-    <def>thus-sheē</def>
+    <form>aṉaiyaḷ-ē</form>
+    <def>thus-she</def>
+    <form type="simple">aṉaiyaḷ</form>
+    <gramGrp type="particle"><form>ē</form></gramGrp>
     </entry>
     <entry>
     <form>ēḻ</form>
@@ -645,8 +649,10 @@
     <def>there</def>
     </entry>
     <entry>
-    <form>aṉaiyaḷ-ē;</form>
-    <def>thus-sheē</def>
+    <form>aṉaiyaḷ-ē</form>
+    <def>thus-she</def>
+    <form type="simple">aṉaiyaḷ</form>
+    <gramGrp type="particle"><form>ē</form></gramGrp>
     </entry>
     <entry>
     <form>eṉa</form>
@@ -654,7 +660,7 @@
     <gram type="role">infinitive</gram>
     </entry>
     <entry>
-    <form><pc>~</pc>āṅku,</form>
+    <form><pc>~</pc>āṅku</form>
     <def>thus</def>
     </entry>
     <entry>
