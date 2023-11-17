@@ -278,19 +278,39 @@ const cleanBare = (str) => {
     return str;
 };
 
+const findHyphen = (str, index) => {
+    for(let i=index-1;i>0;i--) {
+        if(str[i] === '-') return i;
+        if(['~','+'].includes(str[i])) continue;
+        return false;
+    }
+    return false;
+};
+
 const findParticle = (word,translation) => {
     for(const [affix,regex] of affixes) {
         const cleanword = word.replaceAll(/[\[\]]/g,'');
         const wordmatch = cleanword.match(regex);
         const transmatch = translation.match(regex);
-        if(wordmatch && transmatch)
-            return {
-                //translation: translation.slice(0,translation.length-transmatch[0].length),
-                translation: translation.replace(regex,''),
-                particle: affix,
-                //bare: cleanBare(cleanword.slice(0,cleanword.length-wordmatch[0].length))
-                bare: cleanBare(cleanword.replace(regex,''))
-            };
+        if(wordmatch) {
+            if(transmatch)
+                return {
+                    //translation: translation.slice(0,translation.length-transmatch[0].length),
+                    translation: translation.replace(regex,''),
+                    particle: affix,
+                    //bare: cleanBare(cleanword.slice(0,cleanword.length-wordmatch[0].length))
+                    bare: cleanBare(cleanword.replace(regex,''))
+                };
+            else {
+                const hyphen = findHyphen(cleanword,wordmatch.index);
+                if(hyphen)
+                    return {
+                        translation: translation,
+                        particle: affix,
+                        bare: cleanBare(cleanword.replace(regex,''))
+                    };
+            }
+        }
     }
     for(const [affix,obj] of caseAffixes) {
         const wordmatch = word.match(obj.regex);
