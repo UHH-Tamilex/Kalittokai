@@ -44,7 +44,8 @@
                 <l>viṟaṉmalai vempiya pōkkaru veñcurañ</l>
                 <l>collā tiṟappat tuṇintaṉirk koruporuḷ</l>
                 <l>colluva tuṭaiyēṉ kēṇmiṉmaṟ ṟaiiya;</l>
-                <l>vīḻunark kiṟaicciyāy viralkavar picaikkuṅkō</l>
+                <l>vīḻunark kiṟaicciyāy viralkavar picaikkuṅkō</l> <!-- metrical and wordsplit don't match 
+                  picaikkuṅkō vs. icaikkum kōl; I don't change this however as this doesn't upset the lines -->
                 <l>lēḻuntam payaṉkeṭa viṭainiṉṟa narampaṟūum</l>
                 <l>yāḻiṉu nilaiyilāp poruḷaiyu naccupavō;</l>
                 <l>marīittāṅ koṇṭāraik koṇṭakkāṟ pōlātu</l>
@@ -67,7 +68,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali8">
-    <interp type="alignment" select="0">5MG5MG30MG80MG39MG34MG17MG19MG16MG17M2G15MG34MG30MG11MR8MG9MG2MR7MG27MG32MG10ML12MR8MG9MG2MR7MG18ML14ML15MG25MG18MR8MG9MG2MR7MG38MG55MG50MG7MG2M,309MG483M</interp>
+    <interp type="alignment" select="0">5MG5MG30MG80MG39MG34MG17MG19MG16MG17M2G15MG34MG30MG11MR8MG9MG2MR7MG27MG32MG10ML12MR8MG9MG2MR7MG18ML14ML15MG25MG18MR8MG9MG2MR7MG38MG55MG47MG3MG7MG2M,278MG30MG89MG114MG124MG8MG144MG</interp>
     <entry>
     <form>naṭuv<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
     <def>middle</def>
@@ -274,9 +275,11 @@
     <gram type="role">imperative</gram>
     </entry>
     <entry>
-    <form>maṟṟ<pc type="ignored">(</pc>u<pc type="ignored">)</pc>-aiiya;</form>
-    <def>maṟṟulord</def>
+    <form>maṟṟ<pc type="ignored">(</pc>u<pc type="ignored">)</pc>-aiiya</form>
+    <def>lord</def>
+    <form type="simple">aiiya</form>
     <gram type="role">vocative</gram>
+    <gramGrp type="particle"><form>maṟṟu</form></gramGrp>
     </entry>
     <entry>
     <form>vīḻunarkk<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
@@ -366,8 +369,10 @@
     <gramGrp type="particle"><form>um</form></gramGrp>
     </entry>
     <entry>
-    <form>naccupa-<pc>~</pc>ō;</form>
-    <def>desire-theyō</def>
+    <form>naccupa-<pc>~</pc>ō</form>
+    <def>desire-they</def>
+    <form type="simple">naccupa</form>
+    <gramGrp type="particle"><form>ō</form></gramGrp>
     </entry>
     <entry>
     <form>marīi<pc>+</pc></form>
@@ -448,8 +453,10 @@
     <gramGrp type="particle"><form>um</form></gramGrp>
     </entry>
     <entry>
-    <form>naccupa-<pc>~</pc>ō;</form>
-    <def>desire-theyō</def>
+    <form>naccupa-<pc>~</pc>ō</form>
+    <def>desire-they</def>
+    <form type="simple">naccupa</form>
+    <gramGrp type="particle"><form>ō</form></gramGrp>
     </entry>
     <entry>
     <form>purai</form>
@@ -536,8 +543,10 @@
     <gramGrp type="particle"><form>um</form></gramGrp>
     </entry>
     <entry>
-    <form>naccupa-<pc>~</pc>ō;</form>
-    <def>desire-theyō</def>
+    <form>naccupa-<pc>~</pc>ō</form>
+    <def>desire-they</def>
+    <form type="simple">naccupa</form>
+    <gramGrp type="particle"><form>ō</form></gramGrp>
     </entry>
     <entry>
     <form>eṉa</form>
@@ -545,7 +554,7 @@
     <gram type="role">infinitive</gram>
     </entry>
     <entry>
-    <form><pc>~</pc>āṅku,</form>
+    <form><pc>~</pc>āṅku</form>
     <def>thus</def>
     </entry>
     <entry>
@@ -645,13 +654,9 @@
     <gram type="role">vocative</gram>
     </entry>
     <entry>
-    <form><pc>~</pc>atu</form>
-    <def>that</def>
-    </entry>
-    <entry>
-    <form>maṉ-um</form>
-    <def>maṉ-</def>
-    <form type="simple">maṉ</form>
+    <form><pc>~</pc>atu-maṉ-um</form>
+    <def>thatmaṉ-</def>
+    <form type="simple">atu-maṉ</form>
     <gramGrp type="particle"><form>um</form></gramGrp>
     </entry>
     <entry>
