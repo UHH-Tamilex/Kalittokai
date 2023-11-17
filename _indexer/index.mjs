@@ -37,8 +37,8 @@ const prepWordEntry = (entry) => {
     return ret;
 };
 
-const prepWordsplits = (doc) => {
-    const entries = doc.querySelector('standOff[type="wordsplit"]').querySelectorAll(':scope > entry, :scope > superEntry');
+const prepWordsplits = (standOff) => {
+    const entries = standOff.querySelectorAll(':scope > entry, :scope > superEntry');
                           //.querySelectorAll('entry');
     const wordsplits = [[],[]];
     for(const entry of entries) {
@@ -238,6 +238,9 @@ const go = (f/*, out*/) => {
 
     let textwithspaces = prepText(doc);
     let textarr = textwithspaces.replaceAll(/\s/g,'').split('');
+    const standOff = doc.querySelector('standOff[type="wordsplit"]');
+    if(!standOff) return;
+
     const wordsplits = prepWordsplits(doc);
     const rles = [...doc.querySelectorAll('interp[type="alignment"]')].map(r => r.textContent.split(',').map(rr => decodeRLE(rr))); 
 
