@@ -155,7 +155,7 @@ const alignSplits = () => {
         let atab = document.createElement('table');
         let row1 = document.createElement('tr');
         let row2 = document.createElement('tr');
-        let nn = 0;
+        let nn = -1;
         for(let n=0;n<ret.alignment[0].length;n++) {
             const unequal = checkEquality(ret.alignment[0][n],ret.alignment[1][n]);
             let td1;
@@ -183,7 +183,9 @@ const alignSplits = () => {
                 row2.appendChild(td2);
             }
 
-            if(charcounts.includes(nn)) {
+            if(typeof ret.alignment[1][n] === 'string' && ret.alignment[1][n] !== '') nn++;
+
+            if(ret.alignment[1][n+1] !== '' && charcounts.includes(nn)) {
                 atab.appendChild(row1);
                 atab.appendChild(row2);
                 warnings.appendChild(atab);
@@ -191,7 +193,6 @@ const alignSplits = () => {
                 row1 = document.createElement('tr');
                 row2 = document.createElement('tr');
             }
-            if(typeof ret.alignment[1][n] === 'string' && ret.alignment[1][n] !== '') nn++;
         }
         atab.appendChild(row1);
         atab.appendChild(row2);

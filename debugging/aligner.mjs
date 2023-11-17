@@ -102,8 +102,8 @@ const gramAbbreviations = [
 const wordsplitscore = (a,b) => {
     const vowels = 'aāiīuūoōeē'.split('');
     if(a === ' ' || b === ' ') return -2;
-    if(b === '-') return -2;
     if(a === b) return 1;
+    if(['-','*','\'','’','(',')'].includes(b)) return -2;
     if(['y','v'].includes(a) && b === '~') return 1; // is this needed?
     if(vowels.includes(a) && vowels.includes(b)) return -0.5;
     return -1;
