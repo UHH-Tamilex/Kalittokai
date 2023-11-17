@@ -40,7 +40,8 @@
                 <l>aritāya vaṟaṉeyti yaruḷiyōrk kaḷittalum</l>
                 <l>peritāya pakaiveṉṟu pēṇārait teṟutalum</l>
                 <l>purivamar kātaliṟ puṇarcciyun tarumeṉap</l>
-                <l>piriveṇṇip poruḷvayiṟ ceṉṟanaṅ kātalar</l> <!-- inconsistence ceṉṟanaṅ vs peyarntanaṅ-->
+                <l>piriveṇṇip poruḷvayiṟ ceṉṟanaṅ kātalar</l> <!-- inconsistence ceṉṟanaṅ vs peyarntanaṅ, I haven't changed 
+                  it in Word, but changed here -->
                 <l>varuvarkol vayaṅkiḻāay  valippalyāṉ kēḷiṉi;</l>
                 <l>aṭitāṅku maḷaviṉṟi yaḻalaṉṉa vemmaiyāṟ</l>
                 <l>kaṭiyavē kaṉaṅkuḻāy kāṭeṉṟā rakkāṭṭuṭ</l>
@@ -89,7 +90,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali11">
-    <interp type="alignment" select="0">4MG23MG7MG7MG28MG7MG19MG17MG10MG30MG9MG36MG28MG15MG11M2G63MG3MG13MG15MG28MG12MG5MG11M2G60MG3MG13MG41MG12MG5MG11M2G57MG16MG13MG65MG10MG7MG3MG22M2G6MG6MG2M,140M3G654M</interp>
+    <interp type="alignment" select="0">4MG23MG7MG7MG28MG7MG19MG17MG10MG27MG9MG36MG28MG15MG7MG4M2G63MG3MG13MG15MG28MG12MG5MG7MG4M2G60MG3MG13MG41MG12MG5MG11M2G57MG16MG13MG65MG10MG7MG3MG22MG6MG6MG2M,191MG156MG156MG162MG8MG116MG</interp>
     <entry>
     <form>arit<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
     <def>difficult-it</def>
@@ -229,7 +230,7 @@
     <gram type="role">imperative</gram>
     </entry>
     <entry>
-    <form>iṉi;</form>
+    <form>iṉi</form>
     <def>now</def>
     </entry>
     <entry>
@@ -287,12 +288,8 @@
     <gram type="role">honorific</gram>
     </entry>
     <entry>
-    <form>a<pc>+</pc></form>
-    <def>that-</def>
-    </entry>
-    <entry>
-    <form>kāṭṭ<pc type="ignored">(</pc>u<pc type="ignored">)</pc>-uḷ</form>
-    <def>wilderness</def>
+    <form>a<pc>+</pc>-kāṭṭ<pc type="ignored">(</pc>u<pc type="ignored">)</pc>-uḷ</form>
+    <def>that-wilderness</def>
     <gram type="role">locative</gram>
     </entry>
     <entry>
@@ -352,8 +349,11 @@
     <gramGrp type="particle"><form>um</form></gramGrp>
     </entry>
     <entry>
-    <form>uraittaṉar-ē;</form>
-    <def>told-he(h.)ē</def>
+    <form>uraittaṉar-ē</form>
+    <def>told-he</def>
+    <form type="simple">uraittaṉar</form>
+    <gram type="role">honorific</gram>
+    <gramGrp type="particle"><form>ē</form></gramGrp>
     </entry>
     <entry>
     <form>iṉpattiṉ</form>
@@ -407,12 +407,8 @@
     <gram type="role">honorific</gram>
     </entry>
     <entry>
-    <form>a<pc>+</pc></form>
-    <def>that-</def>
-    </entry>
-    <entry>
-    <form>kāṭṭ<pc type="ignored">(</pc>u<pc type="ignored">)</pc>-uḷ</form>
-    <def>wilderness</def>
+    <form>a<pc>+</pc>-kāṭṭ<pc type="ignored">(</pc>u<pc type="ignored">)</pc>-uḷ</form>
+    <def>that-wilderness</def>
     <gram type="role">locative</gram>
     </entry>
     <entry>
@@ -466,8 +462,11 @@
     <gramGrp type="particle"><form>um</form></gramGrp>
     </entry>
     <entry>
-    <form>uraittaṉar-ē;</form>
-    <def>told-he(h.)ē</def>
+    <form>uraittaṉar-ē</form>
+    <def>told-he</def>
+    <form type="simple">uraittaṉar</form>
+    <gram type="role">honorific</gram>
+    <gramGrp type="particle"><form>ē</form></gramGrp>
     </entry>
     <entry>
     <form>kal</form>
@@ -587,8 +586,11 @@
     <gramGrp type="particle"><form>um</form></gramGrp>
     </entry>
     <entry>
-    <form>uraittaṉar-ē;</form>
-    <def>told-he(h.)ē</def>
+    <form>uraittaṉar-ē</form>
+    <def>told-he</def>
+    <form type="simple">uraittaṉar</form>
+    <gram type="role">honorific</gram>
+    <gramGrp type="particle"><form>ē</form></gramGrp>
     </entry>
     <entry>
     <form>eṉa</form>
@@ -596,7 +598,7 @@
     <gram type="role">infinitive</gram>
     </entry>
     <entry>
-    <form><pc>~</pc>āṅku,</form>
+    <form><pc>~</pc>āṅku</form>
     <def>thus</def>
     </entry>
     <entry>
