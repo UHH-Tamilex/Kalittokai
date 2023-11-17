@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Kalittokai</title> 23. 
+            <persName xml:lang="ta"></persName>
+        </title>
+        
+      </titleStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+        <listWit n="1"></listWit>
+        <listWit n="2"></listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+
+        <div xml:id="Kali23-kilavi">
+          <p type="edition">itu pirivuṇarttappaṭṭu āṟṟāḷāya talaivi emmaiyum uṭaṉ-koṇṭu ceṉmiṉeṉṟāṭku uṭaṉpaṭātu 
+            avaṉ piriyaluṟat taṉatu iṟantupāṭutōṉṟak kūṟiyatu.</p>
+          <p type="translation" xml:lang="en"></p>
+        </div>
+        <div xml:id="Kali23">
+            <lg type="edition">
+                <l>ilaṅkoḷi maruppiṟ kaimmā vuḷampunar</l>
+                <l>pulaṅkaṭi kavaṇaiyiṟ pūñciṉai yutirkku</l>
+                <l>milaṅkumalai vempiya pōkkaru veñcuran</l>
+                <l>taṉiyē yiṟappa yāṉoḻin tirutta</l>
+                <l>ṉakutaṟ koṉṟiv vaḻuṅka lūrkkē;</l>
+                <l>iṉiyāṉ,</l>
+                <l>uṇṇalu muṇṇēṉ vāḻalum vāḻēṉ;</l>
+                <l>tōṇala muṇṭu tuṟakkap paṭṭōr</l>
+                <l>vēṇī ruṇṭa kuṭaiyō raṉṉar;</l>
+                <l>nalkunar purintu nalaṉuṇap paṭṭō</l>
+                <l>ralkunar pōkiya vūrō raṉṉar;</l>
+                <l>kūṭiṉar purintu kuṇaṉuṇap paṭṭōr</l>
+                <l>cūṭiṉa riṭṭa pūvō raṉṉar;</l>
+                <l>eṉavāṅku,</l>
+                <l>yāṉu niṉṉakat taṉaiyē ṉāṉātu</l>
+                <l>kolaiveṅ koḷkaiyoṭu nāyakap paṭuppa</l>
+                <l>valaivark kamarnta maṭamāṉ pōla</l>
+                <l>niṉṉāṅku varūumeṉ ṉeñciṉai</l>
+                <l>yeṉṉāṅku vārā tōmpiṉai koṇmē.</l>
+            </lg>
+            <lg type="translation" xml:lang="en">
+                <l></l>
+            </lg>
+        </div>
+COPY STANDOFF FROM INTERFACE HERE
+
+    </body>
+  </text>
+
+</TEI>

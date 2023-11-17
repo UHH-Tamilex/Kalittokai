@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Kalittokai</title> 28. 
+            <persName xml:lang="ta"></persName>
+        </title>
+        
+      </titleStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+        <listWit n="1"></listWit>
+        <listWit n="2"></listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+
+        <div xml:id="Kali28-kilavi">
+          <p type="edition">iḵtu iḷavēṉil varaviṉkaṇ āṟṟāta talaivi tūtuviṭak karutat, tōḻi, avar pirintiruttalai 
+            nammiṉuntām vallarallareṉac colli vaṟpuṟuttiyatu.</p>
+          <p type="translation" xml:lang="en"></p>
+        </div>
+        <div xml:id="Kali8">
+            <lg type="edition">
+                <l>pāṭalcāl ciṟappiṟ ciṉaiyavuñ cuṉaiyavu</l>
+                <l>nāṭiṉar koyalvēṇṭā nayantutāṅ koṭuppapōṟ</l>
+                <l>ṟōṭaviḻ kamaḻkaṇṇi taiyupu puṉaivārkaṭ</l>
+                <l>ṭōṭuṟat tāḻntu tuṟaituṟai kaviṉpeṟac</l>
+                <l>ceyyava ḷaṇiyakalat tāramō ṭaṇikoḷpu</l>
+                <l>toyyakan tāḻnta katuppuppōṟ ṟuvarmaṇal</l>
+                <l>vaiyaivā raviraṟa liṭaipōḻum poḻutiṉāṉ;</l>
+                <l>virintāṉā malarāyiṉ viḷittāluṅ kuyilāyiṟ</l>
+                <l>pirintuḷḷā ravarāyiṟ pētuṟūum poḻutāyi</l>
+                <l>ṉarumpaṭa ravalanō yāṟṟuva ḷeṉṉātu</l>
+                <l>varuntanōy mikumāyiṉ vaṇaṅkiṟai yaḷiyeṉṉō;</l>
+                <l>putalavai malarāyiṟ poṅkariṉa vaṇṭāyi</l>
+                <l>ṉayalatai yalarāyi ṉakaṉṟuḷḷā ravarāyiṉ</l>
+                <l>matalaiyi ṉeñcoṭu mataṉila ḷeṉṉātu</l>
+                <l>nutalūrum pacappāyi ṉuṇaṅkiṟai yaḷiyeṉṉō;</l>
+                <l>tōyiṉa vaṟalāyiṟ curumpārkkuñ ciṉaiyāyiṉ</l>
+                <l>māviṉa taḷirāyiṉ maṟantuḷḷā ravarāyiṟ</l>
+                <l>pūveḻi liḻantakaṇ pulampukoṇ ṭamaiyātu</l>
+                <l>pāyaṉōy mikumāyiṟ paintoṭi yaḷiyeṉṉō;</l>
+                <l>eṉavāṅku,</l>
+                <l>āyiḻā yāṅkaṉa muraiyāti cēyārkku</l>
+                <l>nāntūtu moḻintaṉam viṭalvēṇṭā nammiṉun</l>
+                <l>tāmpirin tuṟaita lāṟṟalar</l>
+                <l>parintevaṉ ceyti varukuvar viraintē.</l>
+            </lg>
+            <lg type="translation" xml:lang="en">
+                <l>At the time when,</l>
+                <l>while place after place obtains beauty, as [flowers] from branches and from pools,</l>
+                <l>of an excellence worthy of singing, hang down so that [their] multitude touches</l>
+                <l>upon those who decorate themselves by fixing fragrant chaplets on which the petals open</l>
+                <l>without that those who seek [them] would have to pluck [them], as if they gave themselves for freely,</l>
+                <l>the coral sand crosses through the shining black sand where the Vaiyai flows,</l>
+                <l>like the hair from which decoratively hang down the head ornament</l>
+                <l>together with the ornate pearl necklace of the red goddess [Śrī],</l>
+                <l>if there are blossoms that do not stop unfolding, if there are koels that call [and] sing,</l>
+                <l>if there is he who parted [and] does not remember, if it is a time that causes folly,</l>
+                <l>without thinking that she will not be able to bear the unhappy pain of difficult affliction,</l>
+                <l>if the pain increases while she suffers, you with pliable joints, what of [his] care?</l>
+                <l>If there are blossom that are on the bushes, if there are bees that are on the branches,</l>
+                <l>if there is gossip that is in the neighbourhood, if there is he who departed [and] does not remember,</l>
+                <l>without thinking that she is without pride, with a heart that is without support,</l>
+                <l>if pallor creeps up [her] forehead, you with delicate wrists, what of [his] care?</l>
+                <l>If there are black sands that are [only just] touched [by water], if there are branched on which bees hum,</l>
+                <l>if there are sprout that are on mango trees, if there is he who forgot [and] does not remember,</l>
+                <l>without that the eyes that lost [their] flower grace would be suited to cope with the loneliness,</l>
+                <l>if the pain of [not] sleeping increases, you with green[-golden] bangles, what of [his] care?</l>
+                <l>That is to say,</l>
+                <l>you should not talk like that, [you with] choice jewels. To him who is far</l>
+                <l>we have spoken a message. It is not necessary to send [it]. More than us</l>
+                <l>he cannot bear to stay away.</l>
+                <l>What is the need of running [after him]? He will come in a hurry.</l>
+            </lg>
+        </div>
+COPY STANDOFF FROM INTERFACE HERE
+
+    </body>
+  </text>
+
+</TEI>

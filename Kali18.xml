@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Kalittokai</title> 18. 
+            <persName xml:lang="ta"></persName>
+        </title>
+        
+      </titleStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+        <listWit n="1"></listWit>
+        <listWit n="2"></listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+
+        <div xml:id="Kali18-kilavi">
+          <p type="edition">iḵtu “oṉṟāt tamariṉum” (to.po.41) eṉṉuñ cūttirattil “nāḷatu ciṉmaiyu miḷamaiya 
+            tarumaiyun - tāḷāṇ pakkamun takutiyatamaitiyu - miṉmaiya tiḷivu muṭaimaiya tuyarcciyu - maṉpiṉa 
+            takalamu makaṟciya tarumaiyum” eṉak kūṟiya eṭṭiṉaiyun talaivaṉ kūṟak kēṭṭa tōḻi avaṟṟai 
+            “nikaḻntatu kūṟi nilaiyalun tiṇaiyē” (to.po.44) eṉṉum vitiyāṟ ṟalaivaṟkuk kūṟic 
+            celavaḻuṅkuvittatu.</p>
+          <p type="translation" xml:lang="en"></p>
+        </div>
+        <div xml:id="Kali18">
+            <lg type="edition">
+                <l>arumporuḷ vēṭkaiyi ṉuḷḷan turappap</l>
+                <l>pirintuṟai cūḻāti yaiya virumpinī</l>
+                <l>yeṉṟō ḷeḻutiya toyyilum yāḻaniṉ</l>
+                <l>maintuṭai mārpiṟ cuṇaṅku niṉaittukkāṇ</l>
+                <l>ceṉṟōr mukappap poruḷuṅ kiṭavā</l>
+                <l>toḻintava rellāru muṇṇātuñ cellā</l>
+                <l>riḷamaiyuṅ kāmamu mōrāṅkup peṟṟār</l>
+                <l>vaḷamai viḻaitakka tuṇṭō vuḷanā</l>
+                <l>ḷorōokai  tammuṭ ṭaḻīi yorōokai</l>
+                <l>yoṉṟaṉkū ṟāṭai yuṭuppavarē yāyiṉu</l>
+                <l>moṉṟiṉār vāḻkkaiyē vāḻkkai yaritarō</l>
+                <l>ceṉṟa viḷamai taraṟku.</l>
+            </lg>
+            <lg type="translation" xml:lang="en">
+                <l></l>
+            </lg>
+        </div>
+COPY STANDOFF FROM INTERFACE HERE
+
+    </body>
+  </text>
+
+</TEI>

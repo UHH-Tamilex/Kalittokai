@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Kalittokai</title> 15. 
+            <persName xml:lang="ta"></persName>
+        </title>
+        
+      </titleStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+        <listWit n="1"></listWit>
+        <listWit n="2"></listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+
+        <div xml:id="Kali15-kilavi">
+          <p type="edition">itu pirivuṇarttiya talaimakaṟkut, tōḻi, talaimakaḷatu āṟṟāmaiyum iḷamaiya 
+            tarumaiyuṅ kūṟi, nīr pirintu ceyyak karutiyavai ekkālattuñ ceyyalām poruḷāṟ kaḻinta iḷamai 
+            mīṭkalākumō-veṉak kūṟiyatu.</p>
+          <p type="translation" xml:lang="en"></p>
+        </div>
+        <div xml:id="Kali15">
+            <lg type="edition">
+                <l>arimā ṉiṭittaṉṉa vañcilai valviṟ</l>
+                <l>purināṇ puṭaiyiṟ puṟaṅkāṇṭa lallā</l>
+                <l>liṇaippaṭait tāṉai yaracō ṭuṟiṉuṅ</l>
+                <l>kaṇaittoṭai nāṇuṅ kaṭuntuṭi yārppi</l>
+                <l>ṉeruttu valiya veṟuḻnōk kiralai</l>
+                <l>maruppiṟ ṟirintu maṟintuvīḻ tāṭi</l>
+                <l>yurutta kaṭuñciṉat tōṭā maṟavar</l>
+                <l>poruḷkoṇṭu puṇceyi ṉallatai yaṉpō</l>
+                <l>ṭaruḷpuṟa māṟiya vāriṭai yattam;</l>
+                <l>puripunī puṟamāṟip pōkkeṇṇip putitīṇṭip</l>
+                <l>perukiya celvattāṟ peyarttara lolvatō</l>
+                <l>ceyalaiyan taḷirēykku meḻiṉala mannalam</l>
+                <l>payalaiyā luṇappaṭṭup paṇṭainī roḻintakkāl;</l>
+                <l>poyyaṟṟa kēḷviyāṟ puraiyōraip paṭarntunī</l>
+                <l>maiyaṟṟa paṭivattāṉ maṟuttara lolvatō</l>
+                <l>tīṅkatir matiyēykkun tirumuka mammukam</l>
+                <l>pāmpucēr matipōlap pacappūrntu tolaintakkāl;</l>
+                <l>piṉṉiya toṭarnīvip piṟarnāṭṭup paṭarntunī</l>
+                <l>maṉṉiya puṇarcciyāṉ maṟuttara lolvatō</l>
+                <l>puriyaviḻ naṟunīlam puraiyuṇkaṇ kaluḻpāṉāt</l>
+                <l>tiriyumiḻ neyyēpōṟ ṟeṇpaṉi yuṟaikkuṅkāl;</l>
+                <l>eṉavāṅku,</l>
+                <l>aṉaiyavai pōṟṟi niṉaiiyaṉa nāṭikkāṇ</l>
+                <l>vaḷamaiyō vaikaluñ ceyalāku maṟṟivaṇ</l>
+                <l>muḷainirai muṟuvalā rāyattu ḷeṭuttāynta</l>
+                <l>viḷamaiyun taruvatō viṟanta piṉṉē.</l>
+            </lg>
+            <lg type="translation" xml:lang="en">
+                <l></l>
+            </lg>
+        </div>
+COPY STANDOFF FROM INTERFACE HERE
+
+    </body>
+  </text>
+
+</TEI>

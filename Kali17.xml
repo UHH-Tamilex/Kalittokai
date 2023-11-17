@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Kalittokai</title> 17. 
+            <persName xml:lang="ta"></persName>
+        </title>
+        
+      </titleStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+        <listWit n="1"></listWit>
+        <listWit n="2"></listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+
+        <div xml:id="Kali17-kilavi">
+          <p type="edition">itu pakaivar tiṟai tanta nāṭu kāttaṟkup pirikiṉṟamai yuṇarntu talaivi 
+            vēṟupaṭṭamai kaṇṭu tōḻi avaṉai etirppaṭṭu avaḷatu āṟṟāmaiyum iḷamaiyatarumaiyuṅ kūṟic 
+            celavaḻuṅkuvittamai talai-makaṭkuk kūṟiyatu.</p>
+          <p type="translation" xml:lang="en"></p>
+        </div>
+        <div xml:id="Kali17">
+            <lg type="edition">
+                <l>paṭaipaṇṇip puṉaiyavum pāmāṇṭa palavaṇaip</l>
+                <l>puṭaipeyarn toṭuṅkavum puṟañcēra vuyirppavu</l>
+                <l>muṭaiyatai yevaṉkoleṉ ṟūṟaḷan tavarvayi</l>
+                <l>ṉaṭaicellāy naṉiyēṅki naṭuṅkaṟkā ṇaṟunutāl;</l>
+                <l>tolleḻi ṟolaipiva ṭuyaruḻappat tuṟantunī</l>
+                <l>valviṉai vayakkutal valittimaṉ valippaḷavai</l>
+                <l>nīḷkati ravirmati niṟaivupō ṉilaiyātu</l>
+                <l>nāḷiṉu nekiḻpoṭu nalaṉuṭa ṉilaiyumō;</l>
+                <l>āṟṟaṉō yaṭaviva ḷaṇivāṭa vakaṉṟunī</l>
+                <l>tōṟṟañcā ṟokuporuṇ muyaṟimaṉ muyalvaḷavai</l>
+                <l>nāṟṟañcā ṉaḷipoykai yaṭaimutir mukaiyiṟkuk</l>
+                <l>kūṟṟūḻpōṟ kuṟaipaṭūum vāḻnāḷu nilaiyumō;</l>
+                <l>vakaiyeḻil vaṉappeñca varaipōka valittunī</l>
+                <l>pakaiyaṟu payaviṉai muyaṟimaṉ muyalvaḷavait</l>
+                <l>takaivaṇṭu putituṇṇat tātaviḻ taṇpōtiṉ</l>
+                <l>mukaivāytta taṭampōlu miḷamaiyu nilaiyumō;</l>
+                <l>eṉavāṅku,</l>
+                <l>poruntiyāṉ ṟāṉvēṭṭa poruḷvayi ṉiṉaintacoṟ</l>
+                <l>ṟiruntiya yākkaiyuṇ maruttuva ṉūṭṭiya</l>
+                <l>maruntupōṉ maruntāki maṉaṉuvappap</l>
+                <l>perumpeyar mīḷi peyarntaṉaṉ celavē.</l>
+            </lg>
+            <lg type="translation" xml:lang="en">
+                <l></l>
+            </lg>
+        </div>
+COPY STANDOFF FROM INTERFACE HERE
+
+    </body>
+  </text>
+
+</TEI>

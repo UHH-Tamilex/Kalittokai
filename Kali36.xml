@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Kalittokai</title> 36. 
+            <persName xml:lang="ta"></persName>
+        </title>
+        
+      </titleStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+        <listWit n="1"></listWit>
+        <listWit n="2"></listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+
+        <div xml:id="Kali36-kilavi">
+          <p type="edition">itu kālaṅkaṇṭu āṟṟāta talaiviyatu nilaimaikaṇṭu, āṟṟāta tōḻi tāṉ āṟṟāḷāy 
+            avaṭkuk kūṟiyatu.</p>
+          <p type="translation" xml:lang="en"></p>
+        </div>
+        <div xml:id="Kali36">
+            <lg type="edition">
+                <l>36-1 koṭumiṭa ṉāñcilāṉ ṟārpōṉ marāttu</l>
+                <l>36-2 neṭumicaic cūḻu mayilāluñ cīra</l>
+                <l>36-3 vaṭinaram picaippapōl vaṇṭoṭu curumpārppat</l>
+                <l>36-4 toṭimakaṇ muraṟcipōṟ ṟumpivan timirtara</l>
+                <l>36-5 viyaṉeḻīi yavaipōla vevvāyu mimmeṉak</l>
+                <l>36-6 kayaṉaṇi potumparuṭ kaṭimalart tēṉūta</l>
+                <l>36-7 malarāyntu vayiṉvayiṉ viḷippapōṉ maraṉūḻppa</l>
+                <l>36-8 viruṅkuyi lālap peruntuṟai kaviṉpeṟak</l>
+                <l>36-9 kuḻavi vēṉil viḻavetir koḷḷuñ</l>
+                <l>36-10 cīrār cevviyum vantaṉṟu</l>
+                <l>36-11 vārār tōḻinaṅ kāta lōrē;</l>
+                <l>36-12 pāayp pāayp pacantaṉṟu nutal</l>
+                <l>36-13 cāayc cāay nekiḻntaṉa tōḷ;</l>
+                <l>36-14 naṉiyaṟal vārum poḻuteṉa veyya</l>
+                <l>36-15 paṉiyaṟal vārumeṉ kaṇ;</l>
+                <l>36-16 malaiyiṭaip pōyiṉar vāynacaii nōyoṭu</l>
+                <l>36-17 mulaiyiṭaik kaṉalumeṉ ṉeñcu;</l>
+                <l>36-18 kātaliṟ pirintār kollō vaṟitōr</l>
+                <l>36-19 tūtoṭu maṟantār kollō nōtakak</l>
+                <l>36-20 kātalar kātaluṅ kāṇpāṅ kollō</l>
+                <l>36-21 tuṟantava rāṇṭāṇ ṭuṟaikuvar kollō</l>
+                <l>36-22 yāvatu, nīḷiṭaip paṭutalu mollum yāḻaniṉ</l>
+                <l>36-23 vāḷiṭaip paṭutta vayaṅkī rōti</l>
+                <l>36-24 nāḷaṇi citaittalu muṇṭeṉa nayavantu</l>
+                <l>36-25 kēḷvi yantaṇar kaṭavum</l>
+                <l>36-26 vēḷvi yāviyi ṉuyirkkumeṉ ṉeñcē.</l>
+            </lg>
+            <lg type="translation" xml:lang="en">
+                <l></l>
+            </lg>
+        </div>
+COPY STANDOFF FROM INTERFACE HERE
+
+    </body>
+  </text>
+
+</TEI>

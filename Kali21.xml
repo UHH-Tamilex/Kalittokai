@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Kalittokai</title> 21. 
+            <persName xml:lang="ta"></persName>
+        </title>
+        
+      </titleStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+        <listWit n="1"></listWit>
+        <listWit n="2"></listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+
+        <div xml:id="Kali21-kilavi">
+          <p type="edition">itu talaimakaṉāṟ pirivuṇarttappaṭṭa tōḻi avaṉai neruṅkik, kaḷavukālattoḻukkam 
+            eṭuttukkāṭṭalāṟ ṟeḷivupaṭa moḻintatūum poruḷatu nilaiyiṉmaiyum avaḷatu āṟṟāmaiyuṅ kūṟic 
+            celavu maṟuttatu.</p>
+          <p type="translation" xml:lang="en"></p>
+        </div>
+        <div xml:id="Kali21">
+            <lg type="edition">
+                <l>pāṉmaruṇ maruppi ṉuralpurai pāvaṭi</l>
+                <l>yīrnaṟuṅ kamaḻkaṭāat tiṉampiri yorutta</l>
+                <l>lāṟukaṭi koḷḷum vēṟupulam paṭarntu</l>
+                <l>poruḷvayiṟ pirital vēṇṭu meṉṉu</l>
+                <l>maruḷil collu nīcol liṉaiyē</l>
+                <l>naṉṉar naṟunuta ṉayantaṉai nīvi</l>
+                <l>niṉṉiṟ piriyale ṉañcalōm peṉṉu</l>
+                <l>naṉṉar moḻiyu nīmoḻin taṉaiyē</l>
+                <l>avaṟṟuḷ, yāvō vāyiṉa māaṉ makaṉē</l>
+                <l>kiḻava riṉṉō reṉṉātu poruṭāṉ</l>
+                <l>paḻaviṉai maruṅkiṟ peyarpupeyar puṟaiyu</l>
+                <l>maṉṉa poruḷvayiṟ pirivōy niṉṉiṉ</l>
+                <l>ṟimaippuvarai vāḻāṇ maṭavō</l>
+                <l>ḷamaikkaviṉ koṇṭa tōḷiṇai maṟantē.</l>
+            </lg>
+            <lg type="translation" xml:lang="en">
+                <l></l>
+            </lg>
+        </div>
+COPY STANDOFF FROM INTERFACE HERE
+
+    </body>
+  </text>
+
+</TEI>
