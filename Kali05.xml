@@ -84,7 +84,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali5">
-    <interp type="alignment" select="0">58MG20MG35MR35ML8MG29MG36MG16MR3MG17MG8MG25MG44MG7MG15MG47MG7MG13MG19ML30MG51MG5MG6MG13MG9MG24MG2M,519M2G4MG82M</interp>
+    <interp type="alignment" select="0">58MG20MG35MR35ML8MG29MG36MG16MR3MG17MG8MG25MG44MG7MG15MG47MG7MG13MG19ML30MG48MG5MG6MG13MG9MG24MG2M,277MG78MG71MG64MG8MG101MG</interp>
     <entry>
     <form>pāal</form>
     <def>division</def>
@@ -297,8 +297,10 @@
     <gramGrp type="particle"><form>um</form></gramGrp>
     </entry>
     <entry>
-    <form>takaim-ē;</form>
-    <def>stopsē</def>
+    <form>takaim-ē</form>
+    <def>stops</def>
+    <form type="simple">takaim</form>
+    <gramGrp type="particle"><form>ē</form></gramGrp>
     </entry>
     <entry>
     <form>kalleṉa<pc>+</pc></form>
@@ -347,8 +349,10 @@
     <def>taken</def>
     </entry>
     <entry>
-    <form>amaivāḷ-ō;</form>
-    <def>content-sheō</def>
+    <form>amaivāḷ-ō</form>
+    <def>content-she</def>
+    <form type="simple">amaivāḷ</form>
+    <gramGrp type="particle"><form>ō</form></gramGrp>
     </entry>
     <entry>
     <form>āḷpavar</form>
@@ -394,12 +398,14 @@
     <def>suffering</def>
     </entry>
     <entry>
-    <form>koṇṭ<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
+    <form>koṇṭu</form>
     <def>taken</def>
     </entry>
     <entry>
-    <form>amaivāḷ-ō;</form>
-    <def>content-sheō</def>
+    <form>amaivāḷ-ō</form>
+    <def>content-she</def>
+    <form type="simple">amaivāḷ</form>
+    <gramGrp type="particle"><form>ō</form></gramGrp>
     </entry>
     <entry>
     <form>ōr</form>
@@ -453,8 +459,10 @@
     <def>leave-if</def>
     </entry>
     <entry>
-    <form>vāḻvāḷ-ō;</form>
-    <def>life-sheō</def>
+    <form>vāḻvāḷ-ō</form>
+    <def>life-she</def>
+    <form type="simple">vāḻvāḷ</form>
+    <gramGrp type="particle"><form>ō</form></gramGrp>
     </entry>
     <entry>
     <form>eṉa</form>
@@ -462,7 +470,7 @@
     <gram type="role">infinitive</gram>
     </entry>
     <entry>
-    <form><pc>~</pc>āṅku,</form>
+    <form><pc>~</pc>āṅku</form>
     <def>thus</def>
     </entry>
     <entry>
