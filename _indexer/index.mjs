@@ -241,7 +241,7 @@ const go = (f/*, out*/) => {
     const standOff = doc.querySelector('standOff[type="wordsplit"]');
     if(!standOff) return;
 
-    const wordsplits = prepWordsplits(doc);
+    const wordsplits = prepWordsplits(standOff);
     const rles = [...doc.querySelectorAll('interp[type="alignment"]')].map(r => r.textContent.split(',').map(rr => decodeRLE(rr))); 
 
     const alignment = restoreAlignment(textarr, wordsplits, rles);
