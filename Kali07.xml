@@ -68,7 +68,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali7">
-    <interp type="alignment" select="0">16MG5MG11ML27MG34MG6M2G15MG24MG11MG26MG2MG5M2G6MG11ML32MG4MG5MG56MG8M2G10ML27MG13MG5MG9MG15MG36MG8M2G7MG29MG19MG26M2G11ML38M2G18MG7MG29MG2M,655M</interp>
+    <interp type="alignment" select="0">16MG5MG11ML27MG34MG6M2G15MG24MG6MGMG4MG26MG8MG5MG11ML32MG4MG5MG56MG9MG9ML27MG13MG5MG9MG15MG36MG9MG6MG29MG19MG26M2G11ML38M2G18MG7MG29MG2M,118MG5MG130MG5MG56MG61MG5MG62MG66MG6MG128MG</interp>
     <entry>
     <form>vēṉil</form>
     <def>summer</def>
@@ -161,12 +161,14 @@
     <gram type="role">vocative</gram>
     </entry>
     <entry>
-    <form>ciṟitu;</form>
+    <form>ciṟitu</form>
     <def>little-it</def>
     </entry>
     <entry>
-    <form>nī-<pc>~</pc>ē,</form>
-    <def>youē,</def>
+    <form>nī-<pc>~</pc>ē</form>
+    <def>you</def>
+    <form type="simple">nī</form>
+    <gramGrp type="particle"><form>ē</form></gramGrp>
     </entry>
     <entry>
     <form>cey</form>
@@ -186,7 +188,7 @@
     <def>going</def>
     </entry>
     <entry>
-    <form>ayarntu</form>
+    <form>ayarnt<pc>(</pc>i<pc>)</pc></form>
     <def>engaged</def>
     </entry>
     <entry>
@@ -214,12 +216,17 @@
     <def>string</def>
     </entry>
     <entry>
-    <form>uḷartī-<pc>~</pc>ē;</form>
-    <def>smooth-you(sub.?)ē</def>
+    <form>uḷartī-<pc>~</pc>ē</form>
+    <def>smooth-you(sub.?)</def>
+    <form type="simple">uḷartī</form>
+    <gramGrp type="particle"><form>ē</form></gramGrp>
     </entry>
     <entry>
-    <form>ivaṭk<pc type="ignored">(</pc>u<pc type="ignored">)</pc>-ē,</form>
-    <def>her(dat.)ē</def>
+    <form>ivaṭk<pc type="ignored">(</pc>u<pc type="ignored">)</pc>-ē</form>
+    <def>her</def>
+    <form type="simple">ivaṭku</form>
+    <gram type="role">dative</gram>
+    <gramGrp type="particle"><form>ē</form></gramGrp>
     </entry>
     <entry>
     <form>ceyv<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
@@ -262,12 +269,16 @@
     <def>pallor</def>
     </entry>
     <entry>
-    <form>ūrum-<pc>+</pc>ē;</form>
-    <def>creepsē</def>
+    <form>ūrum-<pc>+</pc>ē</form>
+    <def>creeps</def>
+    <form type="simple">ūrum</form>
+    <gramGrp type="particle"><form>ē</form></gramGrp>
     </entry>
     <entry>
-    <form>nī-<pc>~</pc>ē,</form>
-    <def>youē,</def>
+    <form>nī-<pc>~</pc>ē</form>
+    <def>you</def>
+    <form type="simple">nī</form>
+    <gramGrp type="particle"><form>ē</form></gramGrp>
     </entry>
     <entry>
     <form>viṉai</form>
@@ -307,12 +318,18 @@
     <def>arrow</def>
     </entry>
     <entry>
-    <form>teriti-<pc>~</pc>ē;</form>
-    <def>understand-you(sub.)ē</def>
+    <form>teriti-<pc>~</pc>ē</form>
+    <def>understand-you</def>
+    <form type="simple">teriti</form>
+    <gram type="role">subjuntive</gram>
+    <gramGrp type="particle"><form>ē</form></gramGrp>
     </entry>
     <entry>
-    <form>ivaṭk<pc type="ignored">(</pc>u<pc type="ignored">)</pc>-ē,</form>
-    <def>her(dat.)ē,</def>
+    <form>ivaṭk<pc type="ignored">(</pc>u<pc type="ignored">)</pc>-ē</form>
+    <def>her</def>
+    <form type="simple">ivaṭku</form>
+    <gram type="role">dative</gram>
+    <gramGrp type="particle"><form>ē</form></gramGrp>
     </entry>
     <entry>
     <form>cuṉai</form>
@@ -328,7 +345,7 @@
     </entry>
     <entry>
     <form>kār</form>
-    <def>rainy-season,</def>
+    <def>rainy-season</def>
     </entry>
     <entry>
     <form>etirpavai</form>
@@ -360,12 +377,17 @@
     <def>water</def>
     </entry>
     <entry>
-    <form>nillā-<pc>~</pc>ē;</form>
-    <def>stand-not-they(n.pl.)ē</def>
+    <form>nillā-<pc>~</pc>ē</form>
+    <def>stand-not-they</def>
+    <form type="simple">nillā</form>
+    <gram type="role">neuter plural</gram>
+    <gramGrp type="particle"><form>ē</form></gramGrp>
     </entry>
     <entry>
-    <form>nī-<pc>~</pc>ē,</form>
-    <def>youē,</def>
+    <form>nī-<pc>~</pc>ē</form>
+    <def>you</def>
+    <form type="simple">nī</form>
+    <gramGrp type="particle"><form>ē</form></gramGrp>
     </entry>
     <entry>
     <form>pulamp<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
@@ -407,12 +429,18 @@
     <def>mouth</def>
     </entry>
     <entry>
-    <form>nīvuti-<pc>~</pc>ē;</form>
-    <def>rub-you(sub.)ē</def>
+    <form>nīvuti-<pc>~</pc>ē</form>
+    <def>rub-you</def>
+    <form type="simple">nīvuti</form>
+    <gram type="role">subjuntive</gram>
+    <gramGrp type="particle"><form>ē</form></gramGrp>
     </entry>
     <entry>
-    <form>ivaṭk<pc type="ignored">(</pc>u<pc type="ignored">)</pc>-ē,</form>
-    <def>her(dat.)ē,</def>
+    <form>ivaṭk<pc type="ignored">(</pc>u<pc type="ignored">)</pc>-ē</form>
+    <def>her</def>
+    <form type="simple">ivaṭku</form>
+    <gram type="role">dative</gram>
+    <gramGrp type="particle"><form>ē</form></gramGrp>
     </entry>
     <entry>
     <form>alaṅk<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
@@ -460,15 +488,17 @@
     <def>joint</def>
     </entry>
     <entry>
-    <form><pc>~</pc>ūrum-<pc>+</pc>ē;</form>
-    <def>creepsē</def>
+    <form><pc>~</pc>ūrum-<pc>+</pc>ē</form>
+    <def>creeps</def>
+    <form type="simple">ūrum</form>
+    <gramGrp type="particle"><form>ē</form></gramGrp>
     </entry>
     <entry>
     <form>eṉa</form>
     <def>say</def>
     </entry>
     <entry>
-    <form>niṉ,</form>
+    <form>niṉ</form>
     <def>your-</def>
     </entry>
     <entry>
@@ -517,7 +547,9 @@
     </entry>
     <entry>
     <form>maṟṟ<pc type="ignored">(</pc>u<pc type="ignored">)</pc>-ivaḷ</form>
-    <def>maṟṟushe</def>
+    <def>she</def>
+    <form type="simple">ivaḷ</form>
+    <gramGrp type="particle"><form>maṟṟu</form></gramGrp>
     </entry>
     <entry>
     <form>iṉ</form>
