@@ -38,20 +38,27 @@
     <xsl:element name="div">
         <xsl:attribute name="class">editionStmt</xsl:attribute>
         <p>
-            <xsl:text>Catalogue description by </xsl:text>
-            <xsl:for-each select="x:editor">
-                <xsl:choose>
-                    <xsl:when test="position() = last() and position() != 1">
-                        <xsl:text> &amp; </xsl:text>
-                    </xsl:when>
-                    <xsl:when test="position() != 1">
-                        <xsl:text>, </xsl:text>
-                    </xsl:when>
-                    <xsl:otherwise/>
-                </xsl:choose>
-                <xsl:apply-templates/>
-            </xsl:for-each>
-            <xsl:text>.</xsl:text>
+            <xsl:if test="x:editor[not(@role)]">
+                <xsl:text>Catalogue description by </xsl:text>
+                <xsl:for-each select="x:editor[not(@role)]">
+                    <xsl:choose>
+                        <xsl:when test="position() = last() and position() != 1">
+                            <xsl:text> &amp; </xsl:text>
+                        </xsl:when>
+                        <xsl:when test="position() != 1">
+                            <xsl:text>, </xsl:text>
+                        </xsl:when>
+                        <xsl:otherwise/>
+                    </xsl:choose>
+                    <xsl:apply-templates/>
+                </xsl:for-each>
+                <xsl:text>. </xsl:text>
+            </xsl:if>
+            <xsl:if test="x:editor[@role='translator']">
+                <xsl:text>Translated by </xsl:text>
+                <xsl:value-of select="x:editor[@role='translator']"/>
+                <xsl:text>.</xsl:text>
+            </xsl:if>
         </p>
    </xsl:element>
 </xsl:template>
@@ -74,16 +81,18 @@
 </xsl:template-->
 
 <xsl:template match="x:publicationStmt">
-    <xsl:element name="p">
-        <xsl:text>Published in </xsl:text>
-        <xsl:apply-templates select="x:date"/>
-        <xsl:text> by </xsl:text>
-        <xsl:apply-templates select="x:publisher"/> 
-        <xsl:if test="x:pubPlace">
-            <xsl:text>in </xsl:text><xsl:apply-templates select="x:pubPlace"/>
-        </xsl:if>
-        <xsl:text>.</xsl:text>
-    </xsl:element>
+    <xsl:if test="x:date and x:publisher">
+        <xsl:element name="p">
+            <xsl:text>Published in </xsl:text>
+            <xsl:apply-templates select="x:date"/>
+            <xsl:text> by </xsl:text>
+            <xsl:apply-templates select="x:publisher"/> 
+            <xsl:if test="x:pubPlace">
+                <xsl:text>in </xsl:text><xsl:apply-templates select="x:pubPlace"/>
+            </xsl:if>
+            <xsl:text>.</xsl:text>
+        </xsl:element>
+    </xsl:if>
 </xsl:template>
 
 <xsl:template match="x:title">

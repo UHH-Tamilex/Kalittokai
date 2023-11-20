@@ -216,7 +216,7 @@ const makeWord = (entry) => {
     const translation = entry.querySelector('.f[data-name="translation"]');
     const affix = entry.querySelector('.f[data-name="affix"]');
     const particle = entry.querySelector('.f[data-name="particle"]');
-    const role = entry.querySelector(':scope > .f[data-name="role"]');
+    const role = entry.querySelector(':scope .f[data-name="role"]');
     const cleanlemma = entry.querySelector('.f[data-name="simple"]');
     if(cleanlemma) span.dataset.clean = cleanlemma.textContent;
     if(translation || affix) {

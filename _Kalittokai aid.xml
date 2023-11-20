@@ -8,9 +8,9 @@
         <title>
             <title xml:lang="ta">Kalittokai</title> NUMBER. 
             <persName xml:lang="ta"></persName>
-        </title>
-        
+        </title>     
       </titleStmt>
+      <publicationStmt><p/></publicationStmt>
       <sourceDesc>
         <msDesc xml:lang="en">
           <msIdentifier>
@@ -20,11 +20,12 @@
             </summary>
           </msContents>    
         </msDesc>
-        <listWit n="1"></listWit>
-        <listWit n="2"></listWit>
+        <!--listWit n="1"></listWit>
+        <listWit n="2"></listWit-->
       </sourceDesc>
     </fileDesc>
-    <revisionDesc/>
+    <revisionDesc><change/></revisionDesc>
+
   </teiHeader>
   <text xml:lang="ta" type="edition">
     <body>

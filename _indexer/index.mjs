@@ -20,7 +20,7 @@ const prepWordEntry = (entry) => {
     entry = entry.cloneNode(true);
     const form = entry.querySelector('form');
     const simpleform = entry.querySelector('form[type="simple"]');
-    const particle = entry.querySelector('gramGrp[type="particle"] form');
+    const particle = entry.querySelector('gramGrp[type="particle"] form, gramGrp[type="particle"] m');
     const affix = entry.querySelector('gramGrp[type="affix"]');
     const ret = {
         clean: cleanText(form).replaceAll('(u)',"'"),
@@ -31,7 +31,7 @@ const prepWordEntry = (entry) => {
                                                      .replaceAll('(u)',"'");
     if(particle) ret.particle = particle.textContent;
     if(affix) ret.affix = {
-        form: affix.querySelector('form').textContent,
+        form: affix.querySelector('form, m').textContent,
         role: affix.querySelector('gram[type="role"]')?.textContent || null
     };
     return ret;
@@ -388,12 +388,12 @@ const printWordlist = (doc, words, filename) => {
     const entries = words.map(w => {
         const entry = `<entry><form type="standard">${w.simple || w.word}</form>`;
         //const sandhi = w.sandhi !== w.word ? `<form type="sandhi">${w.sandhi}</form>` : '';
-        const particle = w.particle ? `<gramGrp type="particle"><form>${w.particle}</form></gramGrp>` : '';
+        const particle = w.particle ? `<gramGrp type="particle"><m>${w.particle}</m></gramGrp>` : '';
         const sandhiform = getSandhiForm(w.simple || w.word,w.lemma,w.particle);
         const sandhi = sandhiform ? `<form type="sandhi">${sandhiform}</form>` : '';
         const def =   `<def xml:lang="en">${w.def}</def>`;
         const cit = `<cit><q corresp="${id}">${w.context}</q></cit>`;
-        const affix = w.affix ? `<gramGrp type="affix"><form>${w.affix.form}</form>${w.affix.role ? '<gram type="role">'+w.affix.role+'</gram>' : ''}</gramGrp>` : '';
+        const affix = w.affix ? `<gramGrp type="affix"><m>${w.affix.form}</m>${w.affix.role ? '<gram type="role">'+w.affix.role+'</gram>' : ''}</gramGrp>` : '';
         let variants = '';
         if(w.variants.size !== 0) {
             const collated = collateVariants(w.variants);

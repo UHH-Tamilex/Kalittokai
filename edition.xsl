@@ -307,6 +307,18 @@
         <xsl:apply-templates/>
     </xsl:element>
 </xsl:template>
+<xsl:template match="x:m">
+    <xsl:element name="div">
+        <xsl:attribute name="class">f</xsl:attribute>
+        <xsl:attribute name="data-name">
+            <xsl:choose>
+                <xsl:when test="@type"><xsl:value-of select="@type"/></xsl:when>
+                <xsl:otherwise><xsl:text>lemma</xsl:text></xsl:otherwise>
+            </xsl:choose>
+        </xsl:attribute>
+        <xsl:apply-templates/>
+    </xsl:element>
+</xsl:template>
 <xsl:template match="x:gramGrp">
     <xsl:element name="div">
         <xsl:attribute name="class">f</xsl:attribute>

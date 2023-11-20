@@ -240,10 +240,10 @@ const makeEntries = (arr) => {
 
     const formatEntry = (e) => {
         const bare = e.bare ? `<form type="simple">${e.bare}</form>\n` : '';
-        const affixrole = e.affixrole ? `<gram type="role">${e.affixrole}</gram>` : '';
-        const affix = e.affix ? `<gramGrp type="affix"><form>${e.affix}</form>${affixrole}</gramGrp>\n` : '';
+        const affixrole = e.affixrole ? `<gramGrp><gram type="role">${e.affixrole}</gram></gramGrp>` : '';
+        const affix = e.affix ? `<gramGrp type="affix"><m>${e.affix}</m>${affixrole}</gramGrp>\n` : '';
         const gram = e.gram ? `<gram type="role">${e.gram}</gram>\n` : '';
-        const particle = e.particle ? `<gramGrp type="particle"><form>${e.particle}</form></gramGrp>\n` : '';
+        const particle = e.particle ? `<gramGrp type="particle"><m>${e.particle}</m></gramGrp>\n` : '';
         return `<entry>\n<form>${formatWord(e.word)}</form>\n<def>${e.translation}</def>\n${bare}${affix}${gram}${particle}${e.wordnote ? formatNote(e.wordnote) : ''}${e.transnote ? formatNote(e.transnote) : ''}</entry>`;
     };
 
