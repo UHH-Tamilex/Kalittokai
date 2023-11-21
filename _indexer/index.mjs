@@ -325,10 +325,9 @@ const makeWordlist = (textarr,wordsplitarr,variants,wordsplits) => {
             end = n + 1;
         }
         
-        const simple = curword.particle ? curword.clean.replace(/-$/,'').replace(new RegExp(`-[~+]${curword.particle}$`),'') : curword.clean.replace(/-$/,'');
+        const simple = curword.particle ? curword.clean.replace(/-$/,'').replace(new RegExp(`-[~+]?${curword.particle}$`),'') : curword.clean.replace(/-$/,'');
         const parts = simple.split('-');
         if(parts.length > 1) {
-            console.log(parts);
             const colloc = makeWord(curword,textarr,wordsplitarr,variants,start,end);
 
             let newstart = start;
@@ -416,7 +415,7 @@ const getSandhiForm = (word, sandhiform, particle) => {
     const cleaned = sandhiform.replace(/[.-]$/,'');
     if(word === cleaned) return null;
     if(particle) {
-        const clipped = cleaned.replace(new RegExp(`-[~+]${particle}$`),'');
+        const clipped = cleaned.replace(new RegExp(`-[~+]?${particle}$`),'');
         // TODO: do maṟṟu prefix, e.g. maṟṟ*-avar
         if(word === clipped) return null;
         return clipped;
