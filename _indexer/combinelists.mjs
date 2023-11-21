@@ -115,7 +115,6 @@ const addWords = (words, wits, fname) => {
     const doc = parser.parseFromString(str,'text/xml');
     const entries = doc.querySelectorAll('body > entry');
     if(!entries) return;
-
     if(wits) wits.push(doc.querySelector('witness').outerHTML);
 
     for(const entry of entries)
