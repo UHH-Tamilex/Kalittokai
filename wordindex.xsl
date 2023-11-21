@@ -263,6 +263,10 @@
                     </xsl:element>
                 </xsl:element>
             </xsl:if>
+            <xsl:if test="x:entry">
+                <xsl:element name="hr"/>
+                <xsl:apply-templates select="x:entry"/>
+            </xsl:if>
         </xsl:element>
     </xsl:element>
     <xsl:element name="hr"/>
