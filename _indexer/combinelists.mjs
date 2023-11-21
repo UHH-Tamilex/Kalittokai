@@ -78,10 +78,10 @@ const tamilSort = (a,b) => {
     return a.length > b.length ? 1 : -1;
 };
 
-const formatWords = (words) => {
+const formatWords = (words,append='') => {
     let ret = '';
     for(const [word, entry] of words) {
-           ret += '<entry>\n';
+           ret += `<entry${append}>\n`;
            ret += `<form type="standard">${word}</form>\n`;
            const sandhis = [...entry.sandhis];
            sandhis.sort(tamilSort2);
@@ -97,6 +97,8 @@ const formatWords = (words) => {
                ret += cit.outerHTML;
            for(const app of entry.apps)
                ret += gapsEtc(app.outerHTML);
+           if(entry.collocs.size) 
+               ret += formatWords(entry.collocs,' type="colloc"');
            ret += '</entry>\n';
     }
     return ret;
@@ -111,34 +113,53 @@ const addWords = (words, wits, fname) => {
     const dom = new Jsdom.JSDOM('');
     const parser = new dom.window.DOMParser();
     const doc = parser.parseFromString(str,'text/xml');
-    wits.push(doc.querySelector('witness').outerHTML);
+    if(wits) wits.push(doc.querySelector('witness').outerHTML);
 
-    const entries = doc.querySelectorAll('entry');
-    for(const entry of entries) {
-        const word = entry.querySelector('form[type="standard"]').textContent;
-        const sandhi = entry.querySelector('form[type="sandhi"]');
-        const particle = entry.querySelector('gramGrp[type="particle"] form, gramGrp[type="particle"] m');
-        const def = entry.querySelector('def');
-        const app = entry.querySelector('app');
-        const cit = entry.querySelector('cit');
-        const curentry = words.get(word);
-        if(!curentry) {
-            const ret = {};
-            ret.sandhis = sandhi ? new Set([sandhi.textContent]) : new Set();
-            ret.particles = particle ? new Set([particle.textContent]) : new Set();
-            ret.defs = def ? new Set([def.textContent]) : new Set();
-            ret.apps = app ? [app.cloneNode(true)] : [] ;
-            ret.cits = cit ? [cit.cloneNode(true)] : [] ;
-            words.set(word, ret);
+    const entries = doc.querySelectorAll('body > entry');
+    for(const entry of entries)
+        addEntry(words,entry);
+};
+
+const addEntry = (words,entry) => {
+    const kids = {};
+    for(const child of entry.children) {
+        if(child.tagName === 'entry' && child.getAttribute('type') === 'colloc')
+            kids.colloc = child;
+        else if(child.tagName === 'form') {
+            if(child.getAttribute('type') === 'standard')
+                kids.word = child.textContent;
+            else if(child.getAttribute('type') === 'sandhi')
+                kids.sandhi = child;
         }
-        else {
-            if(sandhi) curentry.sandhis.add(sandhi.textContent);
-            if(particle) curentry.particles.add(particle.textContent);
-            if(def) curentry.defs.add(def.textContent);
-            if(app) curentry.apps.push(app.cloneNode(true));
-            if(cit) curentry.cits.push(cit.cloneNode(true));
+        else if(child.tagName === 'gramGrp' && child.getAttribute('type') === 'particle') {
+            kids.particle = child.querySelector('form, m');
         }
+        else if(child.tagName === 'def')
+            kids.def = child;
+        else if(child.tagName === 'app')
+            kids.app = child;
+        else if(child.tagName === 'cit')
+            kids.cit = child;
     }
+    let curentry = words.get(kids.word);
+    if(!curentry) {
+        curentry = {
+            sandhis: new Set(),
+            particles: new Set(),
+            defs: new Set(),
+            apps: [],
+            cits: [],
+            collocs: new Map()
+        };
+        words.set(kids.word, curentry);
+    }
+
+    if(kids.sandhi) curentry.sandhis.add(kids.sandhi.textContent);
+    if(kids.particle) curentry.particles.add(kids.particle.textContent);
+    if(kids.def) curentry.defs.add(kids.def.textContent);
+    if(kids.app) curentry.apps.push(kids.app.cloneNode(true));
+    if(kids.cit) curentry.cits.push(kids.cit.cloneNode(true));
+    if(kids.colloc) addEntry(curentry.collocs,kids.colloc);
 };
 
 go();

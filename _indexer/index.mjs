@@ -25,7 +25,7 @@ const prepWordEntry = (entry) => {
     const ret = {
         clean: cleanText(form).replaceAll('(u)',"'"),
         form: form.textContent,
-        def: entry.querySelector('def').textContent
+        def: entry.querySelector(':scope > def').textContent
     };
     if(simpleform) ret.simple = cleanText(simpleform).replaceAll(/[~+]/g,'')
                                                      .replaceAll('(u)',"'");
@@ -303,10 +303,8 @@ const concatAlignment = (arr) => {
     }).join(',');
 };
 
-const makeWordlist = (textarr,wordsplitarr,variants,wordsplits/*,id,filename*/) => {
-    //const translations = wordsplits.map(w => w.def || w.options[0].def);
+const makeWordlist = (textarr,wordsplitarr,variants,wordsplits) => {
     const wordlist = wordsplits.map(w => w.def ? w : w.options[0]);
-    //const wordlist = wordsplits.map(w => w.clean);
     let start = 0;
     const words = [];
     let wordlettercount = 0;
@@ -326,94 +324,142 @@ const makeWordlist = (textarr,wordsplitarr,variants,wordsplits/*,id,filename*/) 
             wordlettercount = 0;
             end = n + 1;
         }
-        const cleanword = clipWord(wordsplitarr,textarr,start,end);
         
-        if(textarr[start] === CONCATLEFT) start = start - 1;
-        while(wordsplitarr[start] === '') start = start + 1;
-        if(textarr[end] === CONCATRIGHT) end = end - 1;
-        else while(wordsplitarr[end] === '') end = end + 1;
-        // right now gaps on the left are discarded; gaps on the right are included
-        
-        //console.log(`${cleanword}:${textarr.slice(start,end).join('')}`);
-        const lemma = textarr.slice(start,end).map(c => {
-            if(c === CONCATLEFT || c === CONCATRIGHT || c === ' ') return '';
-            return c;
-        }).join('');
-        //console.log(lemma);
-        const context = findContext(textarr,start,end);
-        
-        const ret = {
-            word: cleanword, 
-            lemma: lemma, context: context, 
-            wit: [], 
-            variants: new Map(), 
-            def: curword.def
-        };
-        if(curword.simple) ret.simple = curword.simple;
-        if(curword.particle) ret.particle = curword.particle;
-        if(curword.affix) ret.affix = curword.affix;
+        const simple = curword.particle ? curword.simple : curword.clean;
+        const parts = simple.split('-');
 
-        for(const [wit,row] of variants) {
-            const vartext = row.slice(start,end).map(c => {
-                if(c === CONCATLEFT || c === CONCATRIGHT) return '';
-                return c;
-            }).join('');
-            if(vartext !== '' && vartext !== lemma) 
-                ret.variants.set(wit,vartext);
-            else if(vartext !== '') ret.wit.push(wit);
-            // remove vartext !== '' for fully positive apparatus
+        if(parts.length > 1) {
+            const colloc = makeWord(curword,textarr,wordsplitarr,variants,start,end);
+
+            let newstart = start;
+            for(let m=0;m<parts.length;m++) {
+                const newend = getEnd(wordsplitarr,newstart,parts[m]);
+                const newword = {colloc: colloc};
+                if(m === parts.length - 1) {
+                    newword.particle = curword.particle;
+                    newword.affix = curword.affix;
+                }
+                const ret = makeWord(newword,textarr,wordsplitarr,variants,newstart,newend);
+                words.push(ret);
+                newstart = newend + 1;
+            }
         }
-        
-        words.push(ret);
+        else {
+            const ret = makeWord(curword,textarr,wordsplitarr,variants,start,end);
+            words.push(ret);
+        }
+
         start = n+1;
     }
     return words;
+};
+
+const getEnd = (wordsplitarr,start,word) => {
+    let wordlettercount = 0;
+    for(let n=start;n<wordsplitarr.length;n++) {
+        if(wordsplitarr[n] === '')
+            continue;
+        else if(wordsplitarr[n] === word[wordlettercount]) {
+            wordlettercount = wordlettercount + 1;
+            if(wordlettercount < word.length) {
+                continue;
+            }
+            return n + 1;
+        }
+    }   
+};
+
+const makeWord = (word,textarr,wordsplitarr,variants,start,end) => {
+    const cleanword = clipWord(wordsplitarr,textarr,start,end);
+    
+    if(textarr[start] === CONCATLEFT) start = start - 1;
+    while(wordsplitarr[start] === '') start = start + 1;
+    if(textarr[end] === CONCATRIGHT) end = end - 1;
+    else while(wordsplitarr[end] === '') end = end + 1;
+    // right now gaps on the left are discarded; gaps on the right are included
+    
+    const lemma = textarr.slice(start,end).map(c => {
+        if(c === CONCATLEFT || c === CONCATRIGHT || c === ' ') return '';
+        return c;
+    }).join('');
+
+    const context = findContext(textarr,start,end);
+    
+    const ret = {
+        word: cleanword, 
+        lemma: lemma, 
+        context: context, 
+        wit: [], 
+        variants: new Map(), 
+    };
+    if(word.def) ret.def = word.def;
+    if(word.simple) ret.simple = word.simple;
+    if(word.particle) ret.particle = word.particle;
+    if(word.affix) ret.affix = word.affix;
+    if(word.colloc) ret.colloc = word.colloc;
+
+    for(const [wit,row] of variants) {
+        const vartext = row.slice(start,end).map(c => {
+            if(c === CONCATLEFT || c === CONCATRIGHT) return '';
+            return c;
+        }).join('');
+        if(vartext !== '' && vartext !== lemma) 
+            ret.variants.set(wit,vartext);
+        else if(vartext !== '') ret.wit.push(wit);
+        // remove vartext !== '' for fully positive apparatus
+    }
+
+    return ret;
 };
 
 const getSandhiForm = (word, sandhiform, particle) => {
     const cleaned = sandhiform.replace(/[.-]$/,'');
     if(word === cleaned) return null;
     if(particle) {
-        const clipped = cleaned.slice(0,-particle.length).replace(/-$/,'');
+        const clipped = cleaned.replace(new RegExp(`-${particle}$`),'');
+        // TODO: do maṟṟu prefix, e.g. maṟṟ*-avar
         if(word === clipped) return null;
         return clipped;
     }
     return cleaned;
 };
 
+const printEntry = (w,id,append='') => {
+    const entry = `<entry${append}><form type="standard">${w.simple || w.word}</form>`;
+    //const sandhi = w.sandhi !== w.word ? `<form type="sandhi">${w.sandhi}</form>` : '';
+    const particle = w.particle ? `<gramGrp type="particle"><m>${w.particle}</m></gramGrp>` : '';
+    const sandhiform = getSandhiForm(w.simple || w.word,w.lemma,w.particle);
+    const sandhi = sandhiform ? `<form type="sandhi">${sandhiform}</form>` : '';
+    const def =   w.def ? `<def xml:lang="en">${w.def}</def>`: '';
+    const cit = `<cit><q corresp="${id}">${w.context}</q></cit>`;
+    const affix = w.affix ? `<gramGrp type="affix"><m>${w.affix.form}</m>${w.affix.role ? '<gram type="role">'+w.affix.role+'</gram>' : ''}</gramGrp>` : '';
+    let variants = '';
+    if(w.variants.size !== 0) {
+        const collated = collateVariants(w.variants);
+        const filteredlemwits = w.wit.filter(w => primaryWits.includes(w.replace(/^#/,'')));
+        variants = `<app corresp="${id}">` + 
+            `<lem wit="${filteredlemwits.join(' ')}">${w.lemma}</lem>` + 
+            [...collated].map(([variant,witnesses]) => {
+                const filteredrdgwits = witnesses.reduce((acc, cur) => {
+                    if(revisedWits.includes(cur) && acc.includes(cur.replace(/v$/,'')))
+                        return acc;
+                    else
+                        acc.push(cur);
+                    return acc;
+                },[]);
+                return `<rdg wit="${filteredrdgwits.join(' ')}">${variant}</rdg>`;
+            }).join('') +
+            '</app>';
+    }
+    const colloc = w.colloc ? printEntry(w.colloc,id,' type="colloc"') : '';
+    return entry + sandhi + affix + particle + def + cit + variants + colloc + '</entry>';
+};
+
 const printWordlist = (doc, words, filename) => {
     const id = doc.querySelector('standOff').getAttribute('corresp');
     const title = doc.querySelector('titleStmt title').innerHTML;
 
-    const entries = words.map(w => {
-        const entry = `<entry><form type="standard">${w.simple || w.word}</form>`;
-        //const sandhi = w.sandhi !== w.word ? `<form type="sandhi">${w.sandhi}</form>` : '';
-        const particle = w.particle ? `<gramGrp type="particle"><m>${w.particle}</m></gramGrp>` : '';
-        const sandhiform = getSandhiForm(w.simple || w.word,w.lemma,w.particle);
-        const sandhi = sandhiform ? `<form type="sandhi">${sandhiform}</form>` : '';
-        const def =   `<def xml:lang="en">${w.def}</def>`;
-        const cit = `<cit><q corresp="${id}">${w.context}</q></cit>`;
-        const affix = w.affix ? `<gramGrp type="affix"><m>${w.affix.form}</m>${w.affix.role ? '<gram type="role">'+w.affix.role+'</gram>' : ''}</gramGrp>` : '';
-        let variants = '';
-        if(w.variants.size !== 0) {
-            const collated = collateVariants(w.variants);
-            const filteredlemwits = w.wit.filter(w => primaryWits.includes(w.replace(/^#/,'')));
-            variants = `<app corresp="${id}">` + 
-                `<lem wit="${filteredlemwits.join(' ')}">${w.lemma}</lem>` + 
-                [...collated].map(([variant,witnesses]) => {
-                    const filteredrdgwits = witnesses.reduce((acc, cur) => {
-                        if(revisedWits.includes(cur) && acc.includes(cur.replace(/v$/,'')))
-                            return acc;
-                        else
-                            acc.push(cur);
-                        return acc;
-                    },[]);
-                    return `<rdg wit="${filteredrdgwits.join(' ')}">${variant}</rdg>`;
-                }).join('') +
-                '</app>';
-        }
-        return entry + sandhi + affix + particle + def + cit + variants + '</entry>';
-    });
+    const entries = words.map(w => printEntry(w,id));
     const cleanid = id.replace(/^#/,'');
     const basename = Path.basename(filename);
     const witness = `<witness xml:id="${cleanid}" source="${basename}"><abbr>${cleanid}</abbr><expan>${title}</expan></witness>`;
@@ -478,7 +524,7 @@ const clipWord = (wordsplitarr, textarr, start, end) => {
     //return [newstart, newend];
     const word = wordsplitarr.slice(newstart,newend).join('');
 
-    return word.replaceAll(/[.-]/g,'')
+    return word//.replaceAll(/[.-]/g,'')
                .replaceAll("'",'u')
                .replaceAll('(i)','u');
 };
