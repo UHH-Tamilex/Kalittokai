@@ -113,9 +113,11 @@ const addWords = (words, wits, fname) => {
     const dom = new Jsdom.JSDOM('');
     const parser = new dom.window.DOMParser();
     const doc = parser.parseFromString(str,'text/xml');
+    const entries = doc.querySelectorAll('body > entry');
+    if(!entries) return;
+
     if(wits) wits.push(doc.querySelector('witness').outerHTML);
 
-    const entries = doc.querySelectorAll('body > entry');
     for(const entry of entries)
         addEntry(words,entry);
 };
