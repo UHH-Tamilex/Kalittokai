@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Kalittokai</title> 37. 
+            <persName xml:lang="ta"></persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+        <!--listWit n="1"></listWit>
+        <listWit n="2"></listWit-->
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+
+        <div xml:id="Kali37-kilavi">
+          <p type="edition"></p>
+          <p type="translation" xml:lang="en"></p>
+        </div>
+        <div xml:id="Kali37">
+            <lg type="edition">
+                <l>kayamala ruṇkaṇṇāy kāṇā yoruvaṉ
+                <l>vayamā ṉaṭittērvāṉ pōlat toṭaimāṇṭa</l>
+                <l>kaṇṇiyaṉ villaṉ varumeṉṉai nōkkupu</l>
+                <l>muṉṉattiṟ kāṭṭuta lallatu tāṉuṟṟa</l>
+                <l>nōyuraik kallāṉ peyarumaṟ paṉṉāḷum</l>
+                <l>pāyal peṟēeṉ paṭarkūrn tavaṉvayiṟ</l>
+                <l>cēyēṉmaṉ yāṉun tuyaruḻappē ṉāyiṭaik</l>
+                <l>kaṇṇiṉṟu kūṟuta lāṟṟā ṉavaṉāyiṟ</l>
+                <l>peṇṇaṉ ṟuraitta ṉamakkāyi ṉiṉṉatūuṅ</l>
+                <l>kāṇāṉ kaḻitalu muṇṭeṉ ṟorunāḷeṉ</l>
+                <l>ṟōṇekiḻ puṟṟa tuyarāṟ ṟuṇitantōr</l>
+                <l>nāṇiṉmai ceytē ṉaṟunutā lēṉa</l>
+                <l>liṉakkiḷi yāṅkaṭin tōmpum puṉattaya</l>
+                <l>lūcalūrn tāṭa voruñāṉṟu vantāṉai</l>
+                <l>yaiya ciṟiteṉṉai yūkki yeṉakkūṟat</l>
+                <l>taiyā ṉaṉṟeṉ ṟavaṉūkkak kainekiḻpu</l>
+                <l>poyyāka vīḻntē ṉavaṉmārpiṉ vāyāccet</l>
+                <l>toyyeṉa vāṅkē yeṭuttaṉaṉ koṇṭāṉmēṉ</l>
+                <l>meyyaṟiyā tēṉpōṟ kiṭantēṉmaṉ ṉāyiṭai</l>
+                <l>meyyaṟin tēṟṟeḻuvē ṉāyiṉmaṟ ṟoyyeṉa</l>
+                <l>voṇkuḻāy celkeṉak kūṟi viṭumpaṇpi</l>
+                <l>ṉaṅka ṇuṭaiya ṉavaṉ.</l>
+            </lg>
+            <lg type="translation" xml:lang="en">
+                <l>You with painted eyes [like] blossoms from the tank, look: someone,</l>
+                <l>like one who searches for the trace of a strong animal, comes,</l>
+                <l>with a chaplet glorious for [its] fastening, with a bow. Looking at me,</l>
+                <l>besides showing the signs he does not take about the pain</l>
+                <l>he has [and] turns [back] indeed. For many days</l>
+                <l>I do not get sleep, affliction abounding I am distant</l>
+                <l>from him indeed and I too bear misery. In between,</l>
+                <l>when he stood on the spot, unable to talk,</l>
+                <l>when I thought “it is not for us, a woman, to talk. He who does</l>
+                <l>see all such may also [just] pass by [and not come back]”, one day,</l>
+                <l>I resolved because of the misery I had as my</l>
+                <l>shoulders became emaciated [and] I acted in the absence of any shame,</l>
+                <l>you with fragrant forehead: Near the field</l>
+                <l>that we were protecting by chasing away the parakeets in flocks from the millet,</l>
+                <l>when we were mounted on the swing one day, [and] said to him who had come</l>
+                <l>“lord, swing me a little bit”, when saying “lady, it is good” he swang [me],</l>
+                <l>my hand loosened [and] I falsely fell. Thinking [it] to be true</l>
+                <l>he then quickly lifted me on his chest. I certainly lay</l>
+                <l>on him who had taken me as if I did not know [my] body (~ had swooned). At that time,</l>
+                <l>when I regained consciousness, aware of [my] body, in turn he quickly</l>
+                <l>let me go, saying “you with bright earrings, you may go.”  in [that] quality,</l>
+                <l>he had benevolent eyes.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+COPY STANDOFF FROM INTERFACE HERE
+</TEI>
