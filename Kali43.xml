@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Kalittokai</title> 43. 
+            <persName xml:lang="ta"></persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+        <!--listWit n="1"></listWit>
+        <listWit n="2"></listWit-->
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+
+        <div xml:id="Kali43-kilavi">
+          <p type="edition">itu varaivu nīṭa āṟṟāḷāyiṉa viṭattut tōḻi tāṉun talaiviyum vaḷḷaippāṭaluḷ 
+            murukaṉaip pāṭuvārpōla iruvarkkum ēṟpat talaivaṉaip pāṭat talaivi āṟṟiṉamai tōḻi taṉṉuḷḷē 
+            kūṟu-vāḷayt talaivaṉ ciṟaippuṟamākak kūṟiyatu.</p>
+          <p type="translation" xml:lang="en"></p>
+        </div>
+        <div xml:id="Kali43">
+            <lg type="edition">
+                <l>vēṅkai tolaitta veṟipoṟi vāraṇat</l>
+                <l>tēntu maruppi ṉiṉavaṇ ṭimirpūtuñ</l>
+                <l>cānta maratti ṉiyaṉṟa vulakkaiyā</l>
+                <l>laivaṉa veṇṇe laṟaiyuraluṭ peytiruvā</l>
+                <l>maiyaṉai yēttuvām pōla vaṇipeṟṟa</l>
+                <l>maipaṭu ceṉṉip payamalai nāṭaṉait</l>
+                <l>taiyalāy pāṭuvā nām;</l>
+                <l>takaiyavar kaicceṟitta tāḷpōlak kāntaṇ</l>
+                <l>mukaiyiṉmēṟ ṟumpi yirukkum pakaiyeṉiṟ</l>
+                <l>kūṟṟam variṉun tolaiyāṉṟaṉ ṉaṭṭārkkut</l>
+                <l>tōṟṟalai nāṇātōṉ kuṉṟu;</l>
+                <l>veruḷpuṭa ṉōkki viyalaṟai yūka</l>
+                <l>miruṭūṅ kiṟuvarai yūrpiḻi pāṭum</l>
+                <l>varuṭaimāṉ kuḻaviya vaḷamalai nāṭaṉait</l>
+                <l>teruḷat teriyiḻāy nīyoṉṟu pāṭittai;</l>
+                <l>nuṇpoṟi māṉcevi pōla vetirmuḷaik</l>
+                <l>kaṇpoti pāḷai kaḻaṉṟukum paṇpiṟṟē</l>
+                <l>māṟukoṇ ṭāṟṟā reṉiṉum piṟarkuṟṟaṅ</l>
+                <l>kūṟuta ṟēṟṟātōṉ kuṉṟu;</l>
+                <l>puṇarnilai vaḷakiṉ kuḷakamarn tuṇṭa</l>
+                <l>puṇarmarup peḻilkoṇṭa varaipurai celaviṉ</l>
+                <l>vayaṅkeḻil yāṉaip payamalai nāṭaṉai</l>
+                <l>maṇanāṟu katuppiṉāy maṟuttoṉṟu pāṭittai;</l>
+                <l>kaṭuṅka ṇuḻuvai yaṭipōla vāḻaik</l>
+                <l>koṭuṅkāy kulaitoṟūun tūṅku miṭumpaiyā</l>
+                <l>liṉmai yuraittārk  katuniṟaikka lāṟṟākkāṟ</l>
+                <l>ṟaṉmey tuṟappāṉ malai;</l>
+                <l>eṉavāṅku,</l>
+                <l>kūṭi yavartiṟam pāṭaveṉ ṟōḻikku</l>
+                <l>vāṭiya meṉṟōḷum vīṅkiṉa</l>
+                <l>vāṭamai veṟpa ṉaḷittakkāṟ pōṉṟē.</l>
+            </lg>
+            <lg type="translation" xml:lang="en">
+                <l></l>
+            </lg>
+        </div>
+    </body>
+  </text>
+COPY STANDOFF FROM INTERFACE HERE
+</TEI>

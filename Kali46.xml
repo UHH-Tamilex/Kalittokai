@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Kalittokai</title> 46. 
+            <persName xml:lang="ta"></persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+        <!--listWit n="1"></listWit>
+        <listWit n="2"></listWit-->
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+
+        <div xml:id="Kali46-kilavi">
+          <p type="edition">iḵtu allakuṟippaṭṭut talaivaṉ mīḷa ataṉai eṉ piḻaippākak karutuvaṉeṉak 
+            kavaṉṟu āṟṟāḷākit “taṉkuṟi taḷḷiya teruḷāk kālai - vantaṉaṉ peyarnta vaṟuṅkaḷa nōkkit – 
+            taṉpiḻaip pākat taḻīit tēṟiya” (to.po.111) talaiviyatu nilaimai tōḻi talaivaṟkuk kūṟi 
+            ivviṭaiyīṭu niṉ tōḻiyiṉāyiṟṟeṉa eṉatu piḻaippākki avaḷai āṟṟuvippāy, nī uraittatē uraiyām 
+            avaṭkeṉa avaḷatu āṟṟāmai kūṟi varaivukaṭāyatu.</p>
+          <p type="translation" xml:lang="en"></p>
+        </div>
+        <div xml:id="Kali46">
+            <lg type="edition">
+                <l>vīyakam pulampa vēṭṭam pōkiya</l>
+                <l>māa lañciṟai maṇiniṟat tumpi</l>
+                <l>vāyiḻi kaṭātta vāṉmarup poruttalō</l>
+                <l>ṭāypoṟi yuḻuvai tākkiya poḻutiṉ</l>
+                <l>vēṅkaiyañ ciṉaiyeṉa viṟaṟpuli muṟṟiyum</l>
+                <l>pūmpoṟi yāṉaip pukarmukaṅ kuṟukiyum</l>
+                <l>valimiku vekuḷiyāṉ vāḷuṟṟa maṉṉarai</l>
+                <l>nayaṉāṭi naṭpākkum viṉaivarpōṉ maṟitaru</l>
+                <l>mayamiḻi yaruviya vaṇimalai naṉṉāṭa;</l>
+                <l>ēṟiraṅ kiruḷiṭai yiraviṉiṟ patampeṟāaṉ</l>
+                <l>māṟiṉe ṉeṉakkūṟi maṉaṅkoḷḷun tāṉeṉpa</l>
+                <l>kūṭutal vēṭkaiyāṟ kuṟipārttuk kuraṉoccip</l>
+                <l>pāṭōrkkuñ ceviyoṭu paitalēṉ yāṉāka;</l>
+                <l>aruñcela vāriṭai yaruḷivan taḷipeṟāaṉ</l>
+                <l>varuntiṉe ṉeṉappala vāyviṭūun tāṉeṉpa</l>
+                <l>nilaiyuyar kaṭavuṭkuk kaṭampūṇṭu taṉmāṭṭup</l>
+                <l>palacūḻu maṉattoṭu paitalēṉ yāṉāka;</l>
+                <l>kaṉaipeya ṉaṭunāḷyāṉ kaṇmāṟak kuṟipeṟāaṉ</l>
+                <l>puṉaiyiḻā yeṉpaḻi niṉakkuraikkun tāṉeṉpa</l>
+                <l>tuḷinacaii vēṭkaiyāṉ micaipāṭum puḷḷiṟṟaṉ</l>
+                <l>ṉaḷinacaii yārvuṟṟa vaṉpiṉēṉ yāṉāka;</l>
+                <l>eṉavāṅku,</l>
+                <l>kalantanōy kaimmikak kaṇpaṭā veṉvayiṟ</l>
+                <l>pulantāyu nīyāyiṟ poyyāṉē velkuvai</l>
+                <l>yilaṅkutā ḻaruviyō ṭaṇikoṇṭa niṉmalaic</l>
+                <l>cilampupōṟ kūṟuva kūṟu</l>
+                <l>milaṅkē relvaḷai yivaḷuṭai nōyē.</l>
+            </lg>
+            <lg type="translation" xml:lang="en">
+                <l></l>
+            </lg>
+        </div>
+    </body>
+  </text>
+COPY STANDOFF FROM INTERFACE HERE
+</TEI>

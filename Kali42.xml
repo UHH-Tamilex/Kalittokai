@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Kalittokai</title> 42. 
+            <persName xml:lang="ta"></persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+        <!--listWit n="1"></listWit>
+        <listWit n="2"></listWit-->
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+
+        <div xml:id="Kali42-kilavi">
+          <p type="edition">itu muṉpu peṟṟavaḻi malintataṉaip piṉpu pirintavaḻik kalaṅkik kūṟiyatu. eṉṉai? 
+            talaivaṉ arumai ceytayarttavaḻit tōḻi talaiviyai āṟṟuvittaṟporuṭṭut talaivaṉai iyaṟpaḻippat 
+            talaivi iyaṟpaṭamoḻintataṉaic ciṟaippuṟamākak kēṭṭut talaivaṉ muṉṉorukāl vantu ciṟupuṟañ cārat 
+            tāṉ āṟṟiṉamai kuṟittup piṉṉorukāl avvāṟu pāṭa avaṉ ciṟupuṟañ cārāmaiyiṟ kalaṅki neñcoṭu kūṟiyatākaliṉ.</p>
+          <p type="translation" xml:lang="en"></p>
+        </div>
+        <div xml:id="Kali42">
+            <lg type="edition">
+                <l>maṟaṅko ḷirumpulit toṉmuraṇ ṭolaitta</l>
+                <l>muṟañcevi vāraṇa muṉkuḷa karuntik</l>
+                <l>kaṟaṅkumveḷ ḷaruvi yoliyiṟ ṟuñcum</l>
+                <l>piṟaṅkiruñ cōlai naṉmalai nāṭaṉ</l>
+                <l>maṟantāṉ maṟakkiṉi yellā namakkuc</l>
+                <l>ciṟantamai nānaṟ kaṟintaṉa māyi ṉavaṉṟiṟaṅ</l>
+                <l>kolyāṉaik kōṭṭāl vetirneṟ kuṟuvānām</l>
+                <l>vaḷḷai yakavuvam vā, ikuḷainām</l>
+                <l>vaḷḷai yakavuvam vā;</l>
+                <l>kāṇiya vāvāḻi tōḻi varaittāḻpu</l>
+                <l>vāṇiṟaṅ koṇṭa varuvittē nammaruḷā</l>
+                <l>nāṇili nāṭṭu malai;</l>
+                <l>ārvuṟṟār neñca maḻiya viṭuvāṉō</l>
+                <l>vōrvuṟ ṟorutiṟa molkāta nērkō</l>
+                <l>laṟampuri neñcat tavaṉ;</l>
+                <l>taṇṇaṟuṅ kōṅka malarnta varaiyellām</l>
+                <l>poṉṉaṇi yāṉaipōṟ ṟōṉṟumē nammaruḷāk</l>
+                <l>koṉṉāḷa ṉāṭṭu malai;</l>
+                <l>kūrunō yēyppa viṭuvāṉō taṉmalai</l>
+                <l>nīriṉuñ cāya luṭaiya ṉayantōrkkut</l>
+                <l>tērīyum vaṇkai yavaṉ;</l>
+                <l>varaimicai mēṟṟoṭutta neykka ṇiṟāaṉ</l>
+                <l>maḻainuḻai tiṅkaḷpōṟ ṟōṉṟu miḻainekiḻa</l>
+                <l>vevva muṟīiyiṉāṉ kuṉṟu;</l>
+                <l>eñcā tellā koṭumai nuvalāti</l>
+                <l>yañcuva tañcā vaṟaṉili yallaṉeṉ</l>
+                <l>ṉeñcam piṇikkoṇ ṭavaṉ;</l>
+                <l>eṉṟiyām pāṭa maṟainiṉṟu kēṭṭaṉaṉ</l>
+                <l>ṟāḻiruṅ kūntaleṉ ṟōḻiyaik kaikaviyāc</l>
+                <l>cāyaliṉ mārpaṉ ciṟupuṟañ cārtara</l>
+                <l>ñāyiṟṟu muṉṉa riruḷpōla māyntateṉ</l>
+                <l>ṉāyiḻai mēṉip pacappu.</l>
+            </lg>
+            <lg type="translation" xml:lang="en">
+                <l></l>
+            </lg>
+        </div>
+    </body>
+  </text>
+COPY STANDOFF FROM INTERFACE HERE
+</TEI>

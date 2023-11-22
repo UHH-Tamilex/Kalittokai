@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Kalittokai</title> 47. 
+            <persName xml:lang="ta"></persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+        <!--listWit n="1"></listWit>
+        <listWit n="2"></listWit-->
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+
+        <div xml:id="Kali47-kilavi">
+          <p type="edition">itu talaimakaṟkuk kuṟainērnta tōḻi avaṉ taṉmaiyum avaṉ taṉakkuk kūṟuvaṉavum 
+            akkūṟṟut taṉṉāṟ poṟukka voṇṇāta-vāṟum avaṉ karuttun talaivikkuk kūṟi avaṉ kuṟainayappat taṉṉuḷḷē colliyatu.</p>
+          <p type="translation" xml:lang="en"></p>
+        </div>
+        <div xml:id="Kali47">
+            <lg type="edition">
+                <l>oṉṟu, irappāṉpō leḷivantuñ collu mulakam</l>
+                <l>purappāṉ pōlvatōr matukaiyu muṭaiyaṉ</l>
+                <l>vallārai vaḻipaṭ ṭoṉṟaṟin tāṉpō</l>
+                <l>ṉallārkaṭ ṭōṉṟu maṭakkamu muṭaiya</l>
+                <l>ṉillōr puṉka ṇīkaiyiṟ ṟaṇikka</l>
+                <l>vallāṉ pōlvatōr vaṇmaiyu muṭaiya</l>
+                <l>ṉaṉṉā ṉoruvaṉṟaṉ ṉāṇṭakai viṭṭeṉṉaic</l>
+                <l>colluñcoṟ kēṭṭī cuṭariḻāy paṉmāṇum;</l>
+                <l>niṉṉiṉṟi yamaiyalēṉ yāṉeṉṉu mavaṉāyi</l>
+                <l>ṉaṉṉāṉco ṉampuṇṭal yārkkumiṅ karitāyi</l>
+                <l>ṉeṉṉuṟṟa piṟarkkumāṅ kuḷakollō naṟunutāl;</l>
+                <l>aṟiyāynī varuntuval yāṉeṉṉu mavaṉāyiṟ</l>
+                <l>ṟamiyarē tuṇikiṟṟal peṇṭirkku maritāyi</l>
+                <l>ṉaḷiyarō vempōla vīṅkivaṉ valaippaṭṭār;</l>
+                <l>vāḻalēṉ yāṉeṉṉu nīnīppi ṉavaṉāyi</l>
+                <l>ṉēḻaiya reṉappalar kūṟuñcoṟ paḻiyāyiṟ</l>
+                <l>cūḻuṅkā ṉiṉaippatoṉ ṟaṟikilaṉ varuntuval</l>
+                <l>cūḻuṅkā ṉaṟunutā ṉammuḷē cūḻkuvam;</l>
+                <l>avaṉai,</l>
+                <l>nāṇaṭap peyartta ṉamakkumāṅ kollātu</l>
+                <l>pēṇiṉa reṉappaṭutal peṇmaiyu maṉṟavaṉ</l>
+                <l>vauviṉaṉ muyaṅku māttiram vāveṉak</l>
+                <l>kūṟuveṉ pōlak kāṭṭi</l>
+                <l>maṟṟavaṉ mēevaḻi mēvāy neñcē.</l>
+            </lg>
+            <lg type="translation" xml:lang="en">
+                <l>One thing, although he came abject, like someone who begs, he possesses</l>
+                <l>strength that is like that of the protector of the world who speaks,</l>
+                <l>revering those who are expert, like on who knows one thing,</l>
+                <l>he possesses self-control that appears in the eyes of good people</l>
+                <l>and, in order to alleviate by giving the misery of those who are destitute,</l>
+                <l>he possesses generosity that is like that of a donor</l>
+                <l>– letting go of what is befitting to the manliness of someone like that</l> 
+                <l>listen to the word he spoke to me, you with glowing jewels, many times:</l>
+                <l>When he says “I won’t be content without you”,</l>
+                <l>if it is difficult for anybody here to trust in the words of such a one,</l>
+                <l>will the things experienced by me be there for the others, you with good forehead?</l>
+                <l>When he says “you don’t know. I suffer!”,</l>
+                <l>if it is difficult for all women to be able to decide all alone,</l>
+                <l>won’t they be caught in his net here, like us – pitiable they?</l>
+                <l>When he says I won’t live if you leave,</l>
+                <l>if there is blame in the word spoken by may, that is, “wretches!”,</l>
+                <l>when one considers, I don’t know at all what to think, I suffer.</l>
+                <l>When one considers, you with fragrant forehead, we will consider in our minds.</l>
+                <l>Him,</l>
+                <l>making [him] return so that shame kills [him] thus is not possible to us.</l>
+                <l>It is not feminine to be called those who cherish [him].</l>
+                <l>Showing [myself?] to him like I will say</l>
+                <l>“come, to the limit of embracing as one who snatches”,</l>
+                <l>be attached the way he is attached, heart.</l></l>
+            </lg>
+        </div>
+    </body>
+  </text>
+COPY STANDOFF FROM INTERFACE HERE
+</TEI>
