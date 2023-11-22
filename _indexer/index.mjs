@@ -416,7 +416,7 @@ const makeWord = (word,textarr,wordsplitarr,variants,start,end) => {
 const stripParticle = (word, particle) => {
     const cleaned = word.replace(/-$/,'');
     if(particle === 'maṟṟu') {
-        return cleaned.replace(/-maṟṟu$|^maṟṟ[u*]-/,'');
+        return cleaned.replace(/-maṟṟu$|^maṟṟ[u*']-/,'');
     }
     
     return cleaned.replace(new RegExp(`-[~+]?${particle}$`),'');
