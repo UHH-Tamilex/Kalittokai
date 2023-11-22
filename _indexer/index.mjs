@@ -423,7 +423,7 @@ const stripParticle = (word, particle) => {
 };
 
 const getSandhiForm = (word, sandhiform, particle) => {
-    const cleaned = sandhiform.replace(/[.-]$/,'');
+    const cleaned = sandhiform.replace(/[.-;,]$/,'');
     if(word === cleaned) return null;
     if(particle) {
         const clipped = stripParticle(cleaned,particle);
