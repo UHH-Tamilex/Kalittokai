@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Kalittokai</title> 56. 
+            <persName xml:lang="ta"></persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+        <!--listWit n="1"></listWit>
+        <listWit n="2"></listWit-->
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+
+        <div xml:id="Kali56-kilavi">
+          <p type="edition">itu “kāmañ cālā viḷamai yōḷvayi - ṉēmañ cālā viṭumpai yeyti naṉmaiyun 
+            tīmaiyu meṉṟiru tiṟattāṟ ṟaṉṉoṭu mavaḷoṭun tarukkiya puṇarttuc colletir peṟāaṉ colli yiṉpuṟal - 
+            pullit tōṉṟuṅ kaikkiḷaik kuṟippē” (to.po.50) eṉpataṉāṟ ṟarukkic collic colletir peṟāṉ iṉpuṟṟatu.</p>
+          <p type="translation" xml:lang="en"></p>
+        </div>
+        <div xml:id="Kali56">
+            <lg type="edition">
+                <l>ūrkkā ṉivanta potumparu ṇīrkkāṟ</l>
+                <l>koḻuniḻaṉ ñāḻaṉ mutiriṇar koṇṭu</l>
+                <l>kaḻuma muṭittuk kaṇkūṭu kūḻai</l>
+                <l>cuvaṉmicait tātoṭu tāḻa vakaṉmati</l>
+                <l>tīṅkatir viṭṭatu pōla mukaṉamarn</l>
+                <l>tīṅkē varuvā ḷivaḷyārko lāṅkēyōr</l>
+                <l>vallavaṉ ṟaiiya pāvaiko ṉallā</l>
+                <l>ruṟuppelāṅ koṇṭiyaṟṟi yāḷkol veṟuppiṉāl</l>
+                <l>vēṇṭuruvaṅ koṇṭatōr kūṟṟaṅko lāṇṭār</l>
+                <l>kaṭitivaḷaik kāvā viṭutal koṭiyiyaṟ</l>
+                <l>palkalaic cilpūṅ kaliṅkatta ḷīṅkitōr</l>
+                <l>nalkūrntār celva makaḷ;</l>
+                <l>ivaḷaic, collāṭik kāṇpeṉ ṟakaittu,</l>
+                <l>nallāy kēḷ,</l>
+                <l>āytūvi yaṉameṉa vaṇimayiṟ peṭaiyeṉat</l>
+                <l>tūtuṇam puṟaveṉat tutaintaniṉ ṉeḻiṉala</l>
+                <l>mātarkoṇ māṉōkkiṉ maṭanallāy niṟkaṇṭārp</l>
+                <l>pētuṟūu meṉpatai yaṟitiyō vaṟiyāyō;</l>
+                <l>nuṇaṅkamait tiraḷeṉa nuṇṇiḻai yaṇaiyeṉa</l>
+                <l>muḻaṅkunīrp puṇaiyeṉa vamaintaniṉ ṟaṭameṉṟōḷ</l>
+                <l>vaṇaṅkiṟai vāleyiṟ ṟannallāy niṟkaṇṭārk</l>
+                <l>kaṇaṅkāku meṉpatai yaṟitiyō vaṟiyāyō;</l>
+                <l>mutirkōṅkiṉ mukaiyeṉa mukañceyta kurumpaiyeṉap</l>
+                <l>peyaṟuḷi mukiḻeṉap peruttaniṉ ṉiḷamulai</l>
+                <l>mayirvārnta varimuṉkai maṭanallāy niṟkaṇṭā</l>
+                <l>ruyirvāṅku meṉpatai yuṇartiyō vuṇarāyō;</l>
+                <l>eṉavāṅku,</l>
+                <l>pētuṟṟāy pōlap piṟarevva nīyaṟiyāy</l>
+                <l>yātoṉṟum vāḷā tiṟantīvāy kēḷiṉi</l>
+                <l>nīyun tavaṟilai niṉṉaip puṟaṅkaṭaip</l>
+                <l>pōtara viṭṭa numarun tavaṟilar</l>
+                <l>niṟaiyaḻi kolyāṉai nīrkkuviṭ ṭāṅkup</l>
+                <l>paṟaiyaṟain tallatu cellaṟka veṉṉā</l>
+                <l>viṟaiyē tavaṟuṭai yāṉ.</l>
+            </lg>
+            <lg type="translation" xml:lang="en">
+                <l>While [her] hair, meeting the eye after completing to mix [it]</l>
+                <l>with ripening clusters of the Cassia with rich shade</l>
+                <l>from the water channel in the grove come up at the foot of the village,</l>
+                <l>hangs down with pollen onto [her neck’s] nape, [her] face suitable</l>
+                <l>to being compared to the wide moon’s emitting sweet beams,</l>
+                <l>she who comes here, who is she? Is she</l>
+                <l>an image thus fashioned by an artisan? Has she been</l>
+                <l>created from all the bodies of good people? Is she a Death</l>
+                <l>having taken the desired form out of aversion? She of creeper nature,</l>
+                <l>let go by those who rule [her] who do not guard her fiercely,</l>
+                <l>she with a Kaliṅka garment of many[-threaded] girdle [and] few flowers, consider this here</l>
+                <l>a rich daughter of poor people,</l>
+                <l>speaking of her I see what is fit,</l>
+                <l>o good one, listen:</l>
+                <l>“a swan with choice feathers,” “a decorative female peacock,”</l>
+                <l>“a pretty black messenger dove,” – intense as those the goodness of your grace,</l>
+                <l>inexperienced good girl with your beautiful deer glances, the fact that it causes folly in those who have seen you, do you know it or do you not know?</l>
+                <l>“a lump of fine bamboo,” “a bed of fine jewels,”</l>
+                <l>“a raft in thundering water,” regular as those your broad soft shoulders,</l>
+                <l>o pretty good girl with flexible joints [and] pure teeth, the fact that they are</l>
+                <l>a torment to those who’ve seen you, do you know it or do you not know?</l>
+                <l>“bud of ripening Kōṅku,” “nut kernel that took shape,”</l>
+                <l>“rain-dripping bud,” grown like those your young breasts,</l>
+                <l>inexperienced good girl with forearms with long lines of hair, the fact that they arrest the breath of those who’ve seen you, do you perceive it or do you not perceive?</l>
+                <l>That is to say:</l>
+                <l>Like someone taken by folly you do not know the trouble of others.</l>
+                <l>Don’t let anything vainly pass [your] mouth. Listen now:</l>
+                <l>You are without fault and your people</l>
+                <l>who have let you go outside are without fault.</l>
+                <l>As if letting go for the water a killing elephant bull out of control,</l>
+                <l>who besides beating the drum did not say “don’t go”,</l>
+                <l>the lord is at fault.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+COPY STANDOFF FROM INTERFACE HERE
+</TEI>

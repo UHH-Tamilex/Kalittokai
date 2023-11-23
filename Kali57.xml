@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Kalittokai</title> 57. 
+            <persName xml:lang="ta"></persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+        <!--listWit n="1"></listWit>
+        <listWit n="2"></listWit-->
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+
+        <div xml:id="Kali57-kilavi">
+          <p type="edition">ituvumatu.</p>
+          <p type="translation" xml:lang="en"></p>
+        </div>
+        <div xml:id="Kali57">
+            <lg type="edition">
+                <l>vēyeṉat tiraṇṭatōḷ veṟikamaḻ vaṇaraimpāṉ</l>
+                <l>māṉveṉṟa maṭanōkkiṉ mayiliyaṟ ṟaḷarpolki</l>
+                <l>yāycilam pariyārppa vaviroḷi yiḻaiyimaippak</l>
+                <l>koṭiyeṉa miṉṉeṉa vaṇaṅkeṉa yātoṉṟun</l>
+                <l>terikallā viṭaiyiṉkaṭ kaṇkavar poruṅkōṭa</l>
+                <l>vaḷamaicā luyarciṟappi ṉuntaitol viyaṉaka</l>
+                <l>riḷamaiyā ṉeṟipantō ṭikattantāy kēḷiṉi;</l>
+                <l>pūntaṇṭārp pularcāntiṟ ṟeṉṉava ṉuyarkūṭaṟ</l>
+                <l>ṟēmpāya vaviḻnīlat talarveṉṟa vamaruṇkaṇ</l>
+                <l>ṇēntukōṭ ṭeḻilyāṉai yoṉṉātārk kavaṉvēliṟ</l>
+                <l>cēntunī yiṉaiyaiyā yottatō ciṉmoḻi;</l>
+                <l>poḻipeyal vaṇmaiyā ṉacōkantaṇ kāviṉuṭ</l>
+                <l>kaḻikavi ṉiḷamāviṉ ṟaḷiraṉṉā yataṉṟalaip</l>
+                <l>paṇaiyamai pāymāṉṟē ravaṉceṟṟār niṟampāynta</l>
+                <l>kaṇaiyiṉu nōyceytal kaṭappaṉṟō kaṉaṅkuḻāy;</l>
+                <l>vakaiyamai taṇṭārāṉ kōṭuyar poruppiṉmēṟ</l>
+                <l>ṟakaiyiṇa riḷavēṅkai malaraṉṉa cuṇaṅkiṉāy</l>
+                <l>matavali mikukaṭāatta vaṉyāṉai maruppiṉuṅ</l>
+                <l>katavavāṟ ṟakkatō kāḻkoṇṭa viḷamulai;</l>
+                <l>eṉavāṅku,</l>
+                <l>iṉaiyaṉa kūṟa viṟaiñcupu nilaṉōkki</l>
+                <l>niṉaiyupu neṭitoṉṟu niṉaippāḷpōṉ maṟṟāṅkē</l>
+                <l>tuṇaiyamai tōḻiyark kamartta kaṇṇaḷ</l>
+                <l>maṉaiyāṅkup peyarntāḷe ṉaṟivakap paṭuttē.</l>
+            </lg>
+            <lg type="translation" xml:lang="en">
+                <l></l>
+            </lg>
+        </div>
+    </body>
+  </text>
+COPY STANDOFF FROM INTERFACE HERE
+</TEI>
