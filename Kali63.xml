@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Kalittokai</title> 63. 
+            <persName xml:lang="ta"></persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+        <!--listWit n="1"></listWit>
+        <listWit n="2"></listWit-->
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+
+        <div xml:id="Kali63-kilavi">
+          <p type="edition">itu talaimakaṟkuk kuṟainērnta tōḻi avaṉilaimai talaimakaṭkuk kūṟi, avaḷuraitta 
+            māṟṟattāl avaḷ kuṟippaṟintu ivvakaiyāṉa talaivaṟkuk kūṟeṉa avaḷuṭaṉ nakaiyāṭik kūṭṭamuṇmai tāṉ 
+            aṟintamai tōṟṟuvittatu.</p>
+          <p type="translation" xml:lang="en"></p>
+        </div>
+        <div xml:id="Kali63">
+            <lg type="edition">
+                <l>nōkkuṅkā ṉōkkit toḻūum piṟarkāṇpār</l>
+                <l>tūkkili tūṟṟum paḻiyeṉak kaikavittup</l>
+                <l>pōkkuṅkāṟ pōkku niṉaintirukku maṟṟunāṅ</l>
+                <l>kākku miṭamaṉ ṟiṉi;</l>
+                <l>ellā vevaṉceyvām;</l>
+                <l>pūkkuḻāy cella lavaṉuḻaik kūuykkūuy</l>
+                <l>virumpiyāṉ viṭṭēṉum pōlvaleṉ ṟōṇmēṟ</l>
+                <l>karumpeḻutu toyyiṟkuc celvalīṅ kāka</l>
+                <l>viruntāyō veṉṟāṅ kiṟa;</l>
+                <l>avaṉiṉ, tiruntaṭi mēlvīḻn tirakkunōy tīrkku</l>
+                <l>maruntunī yākuta lāṉ;</l>
+                <l>iṉṉum, kaṭampūṇ ṭorukāṉī vantai yuṭampaṭṭā</l>
+                <l>ḷeṉṉāmai yeṉmey toṭu;</l>
+                <l>iḵtō vaṭaṅkak kēḷ;</l>
+                <l>niṉṉoṭu cūḻuṅkā ṉīyu nilaṅkiḷaiyā</l>
+                <l>veṉṉoṭu niṟṟa leḷitaṉṟō maṟṟavaṉ</l>
+                <l>ṟaṉṉoṭu niṉṟu viṭu.</l>
+            </lg>
+            <lg type="translation" xml:lang="en">
+                <l></l>
+            </lg>
+        </div>
+    </body>
+  </text>
+COPY STANDOFF FROM INTERFACE HERE
+</TEI>
