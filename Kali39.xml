@@ -149,7 +149,7 @@
       </body>
     </text>
     <standOff type="wordsplit" corresp="#Kali39">
-      <interp type="alignment" select="0">21MG5MG6ML17MG12MG6MG8ML2ML3MR24MG27MG75MG16MG6MG17MG13MG60MG14ML21MG12MG18MG54MG33MG16MG51MG15MG78MG4MG16MG36MG18MG5MG10MG9M3G5MG40MG2MR6MG63MG35ML52MG18MG22ML27M2G24MG5M2G28M2G16MGMR2MG10MG7MG22MG3MG3MG5MG35MG22MG3MG57MG8MG7MG19MG32M3G5MG39MG85MG8MG2ML12MG12ML18MG22MG8MG6MG3M,236MG10MG111MG107MG136MG8MG59MG7MG116MG107MG6MG63MG130MG143MG73MG22MG15MG22MG8MG210MG</interp>
+      <interp type="alignment" select="0">21MG5MG6ML17MG12MG6MG8ML2ML3MR24MG27MG75MG16MG6MG17MG13MG60MG14ML21MG12MG18MG54MG33MG16MG51MG15MG78MG4MG16MG36MG18MG5MG10MG9MG7MG40MG2MR6MG63MG35ML52MG18MG22ML27M2G24MG5M2G28M2G16MGMR2MG10MG7MG22MG3MG3MG5MG35MG22MG3MG57MG8MG7MG19MG32M3G5MG39MG85MG8MG2ML12MG12ML18MG22MG8MG6MG3M,236MG10MG111MG107MG136MG8MG59MG7MG116MG107MG6MG63MG130MG143MG63MG9MG22MG15MG22MG8MG210MG</interp>
       <entry>
       <form>kāmar</form>
       <def>desirable</def>
@@ -182,6 +182,7 @@
       <entry>
       <form>kaṇ</form>
       <def>eye</def>
+      <gramGrp type="affix"><m>kaṇ</m><gramGrp><gram type="role">locative</gram></gramGrp></gramGrp>
       </entry>
       <entry>
       <form>putaitt<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
@@ -530,6 +531,7 @@
       <entry>
       <form>kaṇ</form>
       <def>eye</def>
+      <gramGrp type="affix"><m>kaṇ</m><gramGrp><gram type="role">locative</gram></gramGrp></gramGrp>
       </entry>
       <entry>
       <form>vāṅk<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
@@ -707,6 +709,7 @@
       <entry>
       <form>kaṇ</form>
       <def>eye</def>
+      <gramGrp type="affix"><m>kaṇ</m><gramGrp><gram type="role">locative</gram></gramGrp></gramGrp>
       </entry>
       <entry>
       <form>cēnt<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
@@ -739,6 +742,7 @@
       <entry>
       <form><pc>~</pc>iruvar-kaṇ</form>
       <def>two</def>
+      <gramGrp type="affix"><m>kaṇ</m><gramGrp><gram type="role">locative</gram></gramGrp></gramGrp>
       <gram type="role">honorific locative</gram>
       </entry>
       <entry>
@@ -1161,7 +1165,7 @@
       <gramGrp type="particle"><m>ō</m></gramGrp>
       </entry>
       <entry>
-      <form><pc>~</pc>eṉṉai-maṉ</form>
+      <form>eṉṉai-maṉ</form>
       <def>what</def>
       <form type="simple">eṉṉai</form>
       <gramGrp type="particle"><m>maṉ</m></gramGrp>
@@ -1200,6 +1204,7 @@
       <entry>
       <form>kaṇ</form>
       <def>eye</def>
+      <gramGrp type="affix"><m>kaṇ</m><gramGrp><gram type="role">locative</gram></gramGrp></gramGrp>
       </entry>
       <entry>
       <form>niṉ</form>
@@ -1208,6 +1213,7 @@
       <entry>
       <form>kaṇ</form>
       <def>eye</def>
+      <gramGrp type="affix"><m>kaṇ</m><gramGrp><gram type="role">locative</gram></gramGrp></gramGrp>
       </entry>
       <entry>
       <form><pc>+</pc>āk<pc>(</pc>a<pc>)</pc></form>
