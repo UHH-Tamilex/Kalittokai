@@ -3,7 +3,7 @@ import needlemanWunsch from './needlemanwunsch.mjs';
 const CONCATRIGHT = Symbol.for('concatright');
 const CONCATLEFT = Symbol.for('concatleft');
 
-const affixbare = ['amma','arō','ā','ār','āl','āl-amma','āl-illa','ikā','um','ē','ō','kol','kollō','kollē','koṉ','tilla','tillamma','teyya','maṟṟu','maṟṟē','ōmaṟṟē','maṟṟilla','maṉ','maṉṟilla','maṉṉō','maṉṉē','maṉṟa','maṉṟamma','mātu','mātō','māḷa','yāḻa'];
+const affixbare = ['amma','arō','ā','ār','āl','āl-amma','āl-illa','ikā','um','ē','ō','kol','kollō','kollē','koṉ','tilla','tillamma','teyya','maṟṟu','maṟṟē','ōmaṟṟē','maṟṟilla','maṉ','maṉṟa','maṉṟilla','maṉṉō','maṉṉē','maṉṟa','maṉṟamma','mātu','mātō','māḷa','yāḻa'];
 affixbare.sort((a,b) => b.length - a.length);
 
 const affixes = affixbare.map(a => [a,new RegExp(`\\[?${a}\\]?$`)]);
@@ -20,6 +20,11 @@ const caseAffixes = [
         regex: /mutal$/,
         gram: 'locative',
         translationregex: /\(loc\.\)$/
+    }],
+    ['kaṇ',{
+        regex: /kaṇ$/,
+        gram: 'locative',
+        translatonregex: /\(loc.\.\)$/
     }],
     ['iṉ',{
         regex: /iṉ$/,
@@ -103,6 +108,7 @@ const wordsplitscore = (a,b) => {
     const vowels = 'aāiīuūoōeē'.split('');
     if(a === ' ' || b === ' ') return -2;
     if(a === b) return 1;
+    if([',',';','.'].includes(a)) return -2;
     if(['-','*','\'','’','(',')'].includes(b)) return -2;
     if(['y','v'].includes(a) && b === '~') return 1; // is this needed?
     if(vowels.includes(a) && vowels.includes(b)) return -0.5;
@@ -278,7 +284,9 @@ const cleanBare = (str) => {
     return str;
 };
 
-const findHyphen = (str, index) => {
+const findHyphen = (str, index,affix) => {
+    if(affix === 'maṟṟu' && /^maṟṟ[*u']-/.test(str))
+        return true;
     for(let i=index-1;i>0;i--) {
         if(str[i] === '-') return i;
         if(['~','+'].includes(str[i])) continue;
@@ -302,7 +310,7 @@ const findParticle = (word,translation) => {
                     bare: cleanBare(cleanword.replace(regex,''))
                 };
             else {
-                const hyphen = findHyphen(cleanword,wordmatch.index);
+                const hyphen = findHyphen(cleanword,wordmatch.index,affix);
                 if(hyphen)
                     return {
                         translation: translation,
