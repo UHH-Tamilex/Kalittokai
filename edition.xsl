@@ -21,82 +21,84 @@
     <xsl:call-template name="TEI"/>
 </xsl:template>
 
+<xsl:template name="htmlheader">
+    <xsl:element name="head">
+        <xsl:element name="meta">
+            <xsl:attribute name="charset">utf-8</xsl:attribute>
+        </xsl:element>
+        <xsl:element name="meta">
+            <xsl:attribute name="name">viewport</xsl:attribute>
+            <xsl:attribute name="content">width=device-width,initial-scale=1</xsl:attribute>
+        </xsl:element>
+        <xsl:element name="title">
+            <xsl:value-of select="//x:titleStmt/x:title"/>
+        </xsl:element>
+        <xsl:element name="link">
+            <xsl:attribute name="rel">icon</xsl:attribute>
+            <xsl:attribute name="type">image/png</xsl:attribute>
+            <xsl:attribute name="href">lib/img/favicon-32.png</xsl:attribute>
+        </xsl:element>
+        <xsl:element name="link">
+            <xsl:attribute name="rel">stylesheet</xsl:attribute>
+            <xsl:attribute name="href"><xsl:value-of select="$root"/>css/tufte.css</xsl:attribute>
+        </xsl:element>
+        <xsl:element name="link">
+            <xsl:attribute name="rel">stylesheet</xsl:attribute>
+            <xsl:attribute name="href"><xsl:value-of select="$root"/>css/fonts.css</xsl:attribute>
+        </xsl:element>
+        <xsl:element name="link">
+            <xsl:attribute name="rel">stylesheet</xsl:attribute>
+            <xsl:attribute name="href"><xsl:value-of select="$root"/>css/tst.css</xsl:attribute>
+        </xsl:element>
+        <xsl:element name="link">
+            <xsl:attribute name="rel">stylesheet</xsl:attribute>
+            <xsl:attribute name="href"><xsl:value-of select="$root"/>css/header.css</xsl:attribute>
+        </xsl:element>
+        <xsl:element name="link">
+            <xsl:attribute name="rel">stylesheet</xsl:attribute>
+            <xsl:attribute name="href"><xsl:value-of select="$root"/>css/transcription.css</xsl:attribute>
+        </xsl:element>
+        <xsl:element name="link">
+            <xsl:attribute name="rel">stylesheet</xsl:attribute>
+            <xsl:attribute name="href"><xsl:value-of select="$root"/>css/apparatus.css</xsl:attribute>
+        </xsl:element>
+        <xsl:if test="$debugging = 'true'">
+            <xsl:element name="link">
+                <xsl:attribute name="rel">stylesheet</xsl:attribute>
+                <xsl:attribute name="href">debugging/prism.css</xsl:attribute>
+            </xsl:element>
+        </xsl:if>
+        <xsl:element name="link">
+            <xsl:attribute name="rel">stylesheet</xsl:attribute>
+            <xsl:attribute name="href">edition.css</xsl:attribute>
+        </xsl:element>
+        <xsl:if test="$debugging = 'true'">
+            <xsl:element name="link">
+                <xsl:attribute name="rel">stylesheet</xsl:attribute>
+                <xsl:attribute name="href">debugging/debugging.css</xsl:attribute>
+            </xsl:element>
+            <!--xsl:element name="script">
+                <xsl:attribute name="src">debugging/papaparse.min.js</xsl:attribute>
+            </xsl:element-->
+            <xsl:element name="script">
+                <xsl:attribute name="src">debugging/prism.js</xsl:attribute>
+                <xsl:attribute name="data-manual"/>
+            </xsl:element>
+        </xsl:if>
+        <xsl:element name="script">
+            <xsl:attribute name="type">module</xsl:attribute>
+            <xsl:attribute name="src">edition.mjs</xsl:attribute>
+            <xsl:attribute name="id">editionscript</xsl:attribute>
+            <xsl:if test="$debugging = 'true'">
+                <xsl:attribute name="data-debugging">true</xsl:attribute>
+            </xsl:if>
+        </xsl:element>
+    </xsl:element>
+</xsl:template>
+
 <xsl:template name="TEI">
     <xsl:element name="html">
-        <xsl:element name="head">
-            <xsl:element name="meta">
-                <xsl:attribute name="charset">utf-8</xsl:attribute>
-            </xsl:element>
-            <xsl:element name="meta">
-                <xsl:attribute name="name">viewport</xsl:attribute>
-                <xsl:attribute name="content">width=device-width,initial-scale=1</xsl:attribute>
-            </xsl:element>
-            <xsl:element name="title">
-                <xsl:value-of select="//x:titleStmt/x:title"/>
-            </xsl:element>
-            <xsl:element name="link">
-                <xsl:attribute name="rel">icon</xsl:attribute>
-                <xsl:attribute name="type">image/png</xsl:attribute>
-                <xsl:attribute name="href">lib/img/favicon-32.png</xsl:attribute>
-            </xsl:element>
-            <xsl:element name="link">
-                <xsl:attribute name="rel">stylesheet</xsl:attribute>
-                <xsl:attribute name="href"><xsl:value-of select="$root"/>css/tufte.css</xsl:attribute>
-            </xsl:element>
-            <xsl:element name="link">
-                <xsl:attribute name="rel">stylesheet</xsl:attribute>
-                <xsl:attribute name="href"><xsl:value-of select="$root"/>css/fonts.css</xsl:attribute>
-            </xsl:element>
-            <xsl:element name="link">
-                <xsl:attribute name="rel">stylesheet</xsl:attribute>
-                <xsl:attribute name="href"><xsl:value-of select="$root"/>css/tst.css</xsl:attribute>
-            </xsl:element>
-            <xsl:element name="link">
-                <xsl:attribute name="rel">stylesheet</xsl:attribute>
-                <xsl:attribute name="href"><xsl:value-of select="$root"/>css/header.css</xsl:attribute>
-            </xsl:element>
-            <xsl:element name="link">
-                <xsl:attribute name="rel">stylesheet</xsl:attribute>
-                <xsl:attribute name="href"><xsl:value-of select="$root"/>css/transcription.css</xsl:attribute>
-            </xsl:element>
-            <xsl:element name="link">
-                <xsl:attribute name="rel">stylesheet</xsl:attribute>
-                <xsl:attribute name="href"><xsl:value-of select="$root"/>css/apparatus.css</xsl:attribute>
-            </xsl:element>
-            <xsl:if test="$debugging = 'true'">
-                <xsl:element name="link">
-                    <xsl:attribute name="rel">stylesheet</xsl:attribute>
-                    <xsl:attribute name="href">debugging/prism.css</xsl:attribute>
-                </xsl:element>
-            </xsl:if>
-            <xsl:element name="link">
-                <xsl:attribute name="rel">stylesheet</xsl:attribute>
-                <xsl:attribute name="href">edition.css</xsl:attribute>
-            </xsl:element>
-            <xsl:element name="style">
-                <xsl:text>
-                </xsl:text>
-            </xsl:element>
-            <xsl:if test="$debugging = 'true'">
-                <xsl:element name="script">
-                    <xsl:attribute name="src">debugging/papaparse.min.js</xsl:attribute>
-                </xsl:element>
-            </xsl:if>
-            <xsl:if test="$debugging = 'true'">
-                <xsl:element name="script">
-                    <xsl:attribute name="src">debugging/prism.js</xsl:attribute>
-                    <xsl:attribute name="data-manual"/>
-                </xsl:element>
-            </xsl:if>
-            <xsl:element name="script">
-                <xsl:attribute name="type">module</xsl:attribute>
-                <xsl:attribute name="src">edition.mjs</xsl:attribute>
-                <xsl:attribute name="id">editionscript</xsl:attribute>
-                <xsl:if test="$debugging = 'true'">
-                    <xsl:attribute name="data-debugging">true</xsl:attribute>
-                </xsl:if>
-            </xsl:element>
-        </xsl:element>
+        <xsl:call-template name="htmlheader"/>
         <xsl:element name="body">
             <xsl:attribute name="lang">en</xsl:attribute>   
             <xsl:element name="div">
@@ -150,6 +152,9 @@
                         </xsl:choose>
                     </xsl:attribute>
                 </xsl:element>
+            </xsl:if>
+            <xsl:if test="$debugging = 'true'">
+                <div id="blackout"><div class="popup"><select name="edblock"></select><div class="boxen"><div><label>Tamil wordsplit</label><textarea></textarea></div><div><label>Word-by-word translation</label><textarea></textarea></div></div><button type="button">Align</button><div id="output-boxen"><div id="popup-output"></div><div id="popup-warnings"></div></div></div></div>
             </xsl:if>
         </xsl:element>
     </xsl:element>
