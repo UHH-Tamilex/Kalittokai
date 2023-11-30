@@ -53,7 +53,7 @@
                 <l>yātunī vēṇṭi yatu;</l>
                 <l>pētāy, poruḷvēṇṭum puṉkaṇmai yīṇṭillai yāḻa</l>
                 <l>maruḷi maṭanōkki ṉiṉṟōḻi yeṉṉai</l>
-                <l>yaruḷiyal vēṇṭuval yāṉ;</l>
+                <l>yaruḷīyal vēṇṭuval yāṉ;</l> <!-- aruḷiyal vs aruḷīyal, Eva uses variant here, changed metrical here, Word left unchanged -->
                 <l>aṉṉaiyō, maṇṭamaraṭṭa kaḷiṟaṉṉāṉ ṟaṉṉaiyoru</l>
                 <l>peṇṭi raruḷak kiṭanta tevaṉkolō;</l>
                 <l>oṇṭoṭī, nāṇilaṉ maṉṟa vivaṉ;</l>
@@ -72,5 +72,619 @@
         </div>
     </body>
   </text>
-COPY STANDOFF FROM INTERFACE HERE
+  <standOff type="wordsplit" corresp="#Kali61">
+    <interp type="alignment" select="0">8MG92MG33MG11ML3MGM2G3ML87MG18MG2MG19MG3MG29MG3MG19MG9M2G9ML18M2G66MG5MG20ML38MG7MG13MG35MG4MG19MG28MG5MG33MG10ML65ML6MR67M,183MG6MG80MG6MG21MG7MG53MG10MG49MG5MG84MG8MG64MG6MG18MG6MG201MG</interp>
+    <entry>
+    <form>ellā</form>
+    <def>friend</def>
+    <gramGrp><gram type="role">vocative</gram></gramGrp>
+    </entry>
+    <entry>
+    <form><pc>~</pc>iḵt<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
+    <def>this</def>
+    </entry>
+    <entry>
+    <form>ottaṉ</form>
+    <def>one-he</def>
+    </entry>
+    <entry>
+    <form>eṉ</form>
+    <def>what</def>
+    </entry>
+    <entry>
+    <form>peṟāṉ</form>
+    <def>obtain-not-he</def>
+    </entry>
+    <entry>
+    <form>kēṭṭai<pc>+</pc></form>
+    <def>loss</def>
+    <gramGrp><gram type="role">accusative</gram></gramGrp>
+    </entry>
+    <entry>
+    <form>kāṇ</form>
+    <def>see</def>
+    <gramGrp><gram type="role">imperative</gram></gramGrp>
+    </entry>
+    <entry>
+    <form>celvam</form>
+    <def>prosperity</def>
+    </entry>
+    <entry>
+    <form>kaṭaikoḷa<pc>+</pc></form>
+    <def>be-finished</def>
+    <gramGrp><gram type="role">infinitive</gram></gramGrp>
+    </entry>
+    <entry>
+    <form>cāay<pc>+</pc></form>
+    <def>exhausted</def>
+    </entry>
+    <entry>
+    <form>cāṉṟavar</form>
+    <def>abounded-he</def>
+    <gramGrp><gram type="role">honorific</gram></gramGrp>
+    </entry>
+    <entry>
+    <form>allal</form>
+    <def>unhappiness</def>
+    </entry>
+    <entry>
+    <form>kaḷai</form>
+    <def>remove-</def>
+    </entry>
+    <entry>
+    <form>takka</form>
+    <def>been-fit-</def>
+    </entry>
+    <entry>
+    <form>kēḷir</form>
+    <def>relatives</def>
+    </entry>
+    <entry>
+    <form>uḻai<pc>+</pc></form>
+    <def>proximity</def>
+    </entry>
+    <entry>
+    <form>ceṉṟu</form>
+    <def>gone</def>
+    </entry>
+    <entry>
+    <form>collutal</form>
+    <def>speaking</def>
+    </entry>
+    <entry>
+    <form>uṟṟ<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
+    <def>had</def>
+    </entry>
+    <entry>
+    <form>uraikkallātavar</form>
+    <def>speak-not-he</def>
+    <gramGrp><gram type="role">honorific</gram></gramGrp>
+    </entry>
+    <entry>
+    <form>pōla<pc>+</pc></form>
+    <def>be-similar</def>
+    <gramGrp><gram type="role">infinitive</gram></gramGrp>
+    </entry>
+    <entry>
+    <form>pal</form>
+    <def>many</def>
+    </entry>
+    <entry>
+    <form><pc>+</pc>ūḻ</form>
+    <def>turn</def>
+    </entry>
+    <entry>
+    <form>peyarnt<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
+    <def>moved</def>
+    </entry>
+    <entry>
+    <form>eṉṉai</form>
+    <def>me</def>
+    <gramGrp><gram type="role">accusative</gram></gramGrp>
+    </entry>
+    <entry>
+    <form>nōkkum</form>
+    <def>looks-at</def>
+    </entry>
+    <entry>
+    <form>maṟṟ<pc>(</pc>i<pc>)</pc>-yāṉ</form>
+    <def>maṟṟuI</def>
+    </entry>
+    <entry>
+    <form>nōkkiṉ</form>
+    <def>look-if</def>
+    </entry>
+    <entry>
+    <form>mella</form>
+    <def>soft-they</def>
+    <gramGrp><gram type="role">neuter plural</gram></gramGrp>
+    </entry>
+    <entry>
+    <form><pc>~</pc>iṟaiñcum</form>
+    <def>bows</def>
+    </entry>
+    <entry>
+    <form>talai</form>
+    <def>head</def>
+    </entry>
+    <entry>
+    <form>ellā</form>
+    <def>friend</def>
+    <gramGrp><gram type="role">vocative</gram></gramGrp>
+    </entry>
+    <entry>
+    <form>nī</form>
+    <def>you</def>
+    </entry>
+    <entry>
+    <form>muṉṉattāṉ</form>
+    <def>gesture</def>
+    <gramGrp><gram type="role">instrumental</gram></gramGrp>
+    </entry>
+    <entry>
+    <form>oṉṟu</form>
+    <def>one-it</def>
+    </entry>
+    <entry>
+    <form>kuṟittāy</form>
+    <def>intended-you</def>
+    </entry>
+    <entry>
+    <form>pōl</form>
+    <def>be-similar-</def>
+    </entry>
+    <entry>
+    <form>kāṭṭiṉai</form>
+    <def>showed-you</def>
+    </entry>
+    <entry>
+    <form>niṉṉiṉ</form>
+    <def>you</def>
+    <gramGrp type="affix"><m>iṉ</m><gramGrp><gram type="role">locative</gram></gramGrp></gramGrp>
+    </entry>
+    <entry>
+    <form>viṭāa</form>
+    <def>let-go-not-</def>
+    </entry>
+    <entry>
+    <form>niḻal</form>
+    <def>shadow</def>
+    </entry>
+    <entry>
+    <form>pōl</form>
+    <def>be-similar-</def>
+    </entry>
+    <entry>
+    <form>tiri-taruvāy</form>
+    <def>turn-give-you</def>
+    </entry>
+    <entry>
+    <form>eṉ</form>
+    <def>what</def>
+    </entry>
+    <entry>
+    <form>nī</form>
+    <def>you</def>
+    </entry>
+    <entry>
+    <form>peṟātat<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
+    <def>obtain-not-it</def>
+    </entry>
+    <entry>
+    <form>īt<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
+    <def>this</def>
+    </entry>
+    <entry>
+    <form>eṉ</form>
+    <def>what</def>
+    </entry>
+    <entry>
+    <form>colliṉ</form>
+    <def>speak-if</def>
+    </entry>
+    <entry>
+    <form>maṟātīvāḷ-maṉ-<pc>+</pc>ō</form>
+    <def>refuse-not-shemaṉṉ</def>
+    <form type="simple">maṟātīvāḷ-maṉ</form>
+    <gramGrp type="particle"><m>ō</m></gramGrp>
+    </entry>
+    <entry>
+    <form><pc>~</pc>ivaḷ</form>
+    <def>she</def>
+    </entry>
+    <entry>
+    <form>ceṟāatu</form>
+    <def>subdue-not</def>
+    </entry>
+    <entry>
+    <form>ītal</form>
+    <def>giving</def>
+    </entry>
+    <entry>
+    <form>irantārkk<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
+    <def>begged-they</def>
+    <gramGrp><gram type="role">honorific dative</gram></gramGrp>
+    </entry>
+    <entry>
+    <form>oṉṟ<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
+    <def>one-it</def>
+    </entry>
+    <entry>
+    <form>āṟṟātu</form>
+    <def>capable-not</def>
+    </entry>
+    <entry>
+    <form>vāḻtaliṉ</form>
+    <def>living</def>
+    <gramGrp type="affix"><m>iṉ</m><gramGrp><gram type="role">locative</gram></gramGrp></gramGrp>
+    </entry>
+    <entry>
+    <form>cātal-um</form>
+    <def>dying</def>
+    <form type="simple">cātal</form>
+    <gramGrp type="particle"><m>um</m></gramGrp>
+    </entry>
+    <entry>
+    <form>kūṭum</form>
+    <def>joins</def>
+    </entry>
+    <entry>
+    <form>ām-maṟṟu</form>
+    <def>becomes</def>
+    <form type="simple">ām</form>
+    <gramGrp type="particle"><m>maṟṟu</m></gramGrp>
+    </entry>
+    <entry>
+    <form>ivaḷ</form>
+    <def>she</def>
+    </entry>
+    <entry>
+    <form>tantai</form>
+    <def>father</def>
+    </entry>
+    <entry>
+    <form>kātaliṉ</form>
+    <def>love</def>
+    <gramGrp type="affix"><m>iṉ</m><gramGrp><gram type="role">locative</gram></gramGrp></gramGrp>
+    </entry>
+    <entry>
+    <form>yārkk<pc type="ignored">(</pc>u<pc type="ignored">)</pc>-um</form>
+    <def>who</def>
+    <form type="simple">yārkku</form>
+    <gramGrp><gram type="role">dative</gram></gramGrp>
+    <gramGrp type="particle"><m>um</m></gramGrp>
+    </entry>
+    <entry>
+    <form>koṭukkum</form>
+    <def>gives</def>
+    </entry>
+    <entry>
+    <form>viḻu<pc>+</pc></form>
+    <def>excellent</def>
+    </entry>
+    <entry>
+    <form>poruḷ</form>
+    <def>wealth</def>
+    </entry>
+    <entry>
+    <form>yātu</form>
+    <def>what</def>
+    </entry>
+    <entry>
+    <form>nī</form>
+    <def>you</def>
+    </entry>
+    <entry>
+    <form>vēṇṭiyatu</form>
+    <def>wanted-it</def>
+    </entry>
+    <entry>
+    <form>pētāy</form>
+    <def>folly</def>
+    <gramGrp><gram type="role">vocative</gram></gramGrp>
+    </entry>
+    <entry>
+    <form>poruḷ</form>
+    <def>wealth</def>
+    </entry>
+    <entry>
+    <form>vēṇṭum</form>
+    <def>wanting-</def>
+    </entry>
+    <entry>
+    <form>puṉkaṇmai</form>
+    <def>sorrow</def>
+    </entry>
+    <entry>
+    <form><pc>~</pc>īṇṭ<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
+    <def>here</def>
+    </entry>
+    <entry>
+    <form>illai-yāḻa</form>
+    <def>not</def>
+    <form type="simple">illai</form>
+    <gramGrp type="particle"><m>yāḻa</m></gramGrp>
+    </entry>
+    <entry>
+    <form>maruḷi</form>
+    <def>confused</def>
+    </entry>
+    <entry>
+    <form>maṭa</form>
+    <def>innocence</def>
+    </entry>
+    <entry>
+    <form>nōkkiṉ</form>
+    <def>glance</def>
+    <gramGrp type="affix"><m>iṉ</m><gramGrp><gram type="role">locative</gram></gramGrp></gramGrp>
+    </entry>
+    <entry>
+    <form>niṉ</form>
+    <def>your-</def>
+    </entry>
+    <entry>
+    <form>tōḻi</form>
+    <def>friend</def>
+    </entry>
+    <entry>
+    <form><pc>~</pc>eṉṉai</form>
+    <def>me</def>
+    <gramGrp><gram type="role">accusative</gram></gramGrp>
+    </entry>
+    <entry>
+    <form><pc>~</pc>aruḷīyal</form>
+    <def>grace-giving</def>
+    </entry>
+    <entry>
+    <form>vēṇṭuval</form>
+    <def>I-want</def>
+    </entry>
+    <entry>
+    <form>yāṉ</form>
+    <def>I</def>
+    </entry>
+    <entry>
+    <form>aṉṉai-<pc>~</pc>ō</form>
+    <def>mother</def>
+    <form type="simple">aṉṉai</form>
+    <gramGrp type="particle"><m>ō</m></gramGrp>
+    </entry>
+    <entry>
+    <form>maṇṭ<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
+    <def>plenty</def>
+    </entry>
+    <entry>
+    <form>amar</form>
+    <def>fight</def>
+    </entry>
+    <entry>
+    <form>aṭṭa</form>
+    <def>killed-</def>
+    </entry>
+    <entry>
+    <form>kaḷiṟ<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
+    <def>elephant-bull</def>
+    </entry>
+    <entry>
+    <form>aṉṉāṉ</form>
+    <def>like-he</def>
+    </entry>
+    <entry>
+    <form>taṉṉai</form>
+    <def>self</def>
+    <gramGrp><gram type="role">accusative</gram></gramGrp>
+    </entry>
+    <entry>
+    <form><pc>~</pc>oru</form>
+    <def>one</def>
+    </entry>
+    <entry>
+    <form>peṇṭir</form>
+    <def>women</def>
+    </entry>
+    <entry>
+    <form>aruḷa<pc>+</pc></form>
+    <def>be-considerate</def>
+    <gramGrp><gram type="role">infinitive</gram></gramGrp>
+    </entry>
+    <entry>
+    <form>kiṭantat<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
+    <def>lied-it</def>
+    </entry>
+    <entry>
+    <form>evaṉ-kolō</form>
+    <def>whatkol</def>
+    <form type="simple">evaṉ-kol</form>
+    <gramGrp type="particle"><m>ō</m></gramGrp>
+    </entry>
+    <entry>
+    <form>oḷ</form>
+    <def>bright</def>
+    </entry>
+    <entry>
+    <form>toṭī</form>
+    <def>bracelet</def>
+    <gramGrp><gram type="role">vocative</gram></gramGrp>
+    </entry>
+    <entry>
+    <form>nāṇ</form>
+    <def>shame</def>
+    </entry>
+    <entry>
+    <form>ilaṉ-maṉṟa</form>
+    <def>not-he</def>
+    <form type="simple">ilaṉ</form>
+    <gramGrp type="particle"><m>maṉṟa</m></gramGrp>
+    </entry>
+    <entry>
+    <form><pc>~</pc>ivaṉ</form>
+    <def>he</def>
+    </entry>
+    <entry>
+    <form>āyiṉ</form>
+    <def>if</def>
+    </entry>
+    <entry>
+    <form>ēe</form>
+    <def>‘ēe’</def>
+    </entry>
+    <entry>
+    <form>pallār</form>
+    <def>many-they</def>
+    <gramGrp><gram type="role">honorific</gram></gramGrp>
+    </entry>
+    <entry>
+    <form>nakk<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
+    <def>laughed</def>
+    </entry>
+    <entry>
+    <form>eḷḷa<pc>+</pc>-paṭu</form>
+    <def>reproach(inf.)-happen-</def>
+    </entry>
+    <entry>
+    <form>maṭal</form>
+    <def>palmyra-stem</def>
+    </entry>
+    <entry>
+    <form>mā</form>
+    <def>horse</def>
+    </entry>
+    <entry>
+    <form><pc>~</pc>ēṟi</form>
+    <def>mounted</def>
+    </entry>
+    <entry>
+    <form>mallal</form>
+    <def>richness</def>
+    </entry>
+    <entry>
+    <form>ūr</form>
+    <def>village</def>
+    </entry>
+    <entry>
+    <form>āṅkaṇ</form>
+    <def>there</def>
+    <gramGrp type="affix"><m>kaṇ</m><gramGrp><gram type="role">locative</gram></gramGrp></gramGrp>
+    </entry>
+    <entry>
+    <form>paṭum-ē</form>
+    <def>happens</def>
+    <form type="simple">paṭum</form>
+    <gramGrp type="particle"><m>ē</m></gramGrp>
+    </entry>
+    <entry>
+    <form>naṟu</form>
+    <def>fragrant</def>
+    </entry>
+    <entry>
+    <form>nutal</form>
+    <def>forehead</def>
+    </entry>
+    <entry>
+    <form>nalkāḷ</form>
+    <def>grant-not-she</def>
+    </entry>
+    <entry>
+    <form>kaṇmāṟi</form>
+    <def>neglected</def>
+    </entry>
+    <entry>
+    <form>viṭiṉ</form>
+    <def>let-go-if</def>
+    </entry>
+    <entry>
+    <form>eṉa<pc>+</pc></form>
+    <def>say</def>
+    <gramGrp><gram type="role">infinitive</gram></gramGrp>
+    </entry>
+    <entry>
+    <form>celvāṉ</form>
+    <def>go-he</def>
+    </entry>
+    <entry>
+    <form>ām</form>
+    <def>becomes</def>
+    </entry>
+    <entry>
+    <form>eḷḷi</form>
+    <def>reproached</def>
+    </entry>
+    <entry>
+    <form>nakiṉum</form>
+    <def>laugh-if-even</def>
+    </entry>
+    <entry>
+    <form>varūum</form>
+    <def>coming-</def>
+    </entry>
+    <entry>
+    <form>iṭai<pc>~</pc></form>
+    <def>middle</def>
+    </entry>
+    <entry>
+    <form>iṭai<pc>+</pc></form>
+    <def>middle</def>
+    </entry>
+    <entry>
+    <form>kaḷvar</form>
+    <def>robber</def>
+    <gramGrp><gram type="role">honorific</gram></gramGrp>
+    </entry>
+    <entry>
+    <form>pōl</form>
+    <def>be-similar-</def>
+    </entry>
+    <entry>
+    <form>nōkkiṉum</form>
+    <def>look-if-even</def>
+    </entry>
+    <entry>
+    <form>nōkkum</form>
+    <def>looking-</def>
+    </entry>
+    <entry>
+    <form>kuṟittatu</form>
+    <def>intended-it</def>
+    </entry>
+    <entry>
+    <form>koḷḷātu</form>
+    <def>take-not</def>
+    </entry>
+    <entry>
+    <form>pōkā<pc>+</pc></form>
+    <def>go-not-</def>
+    </entry>
+    <entry>
+    <form>kuṇaṉ</form>
+    <def>quality</def>
+    </entry>
+    <entry>
+    <form>uṭaiyaṉ</form>
+    <def>possess-he</def>
+    </entry>
+    <entry>
+    <form>entai</form>
+    <def>my-father</def>
+    </entry>
+    <entry>
+    <form>taṉ</form>
+    <def>self-</def>
+    </entry>
+    <entry>
+    <form><pc>+</pc>uḷḷam</form>
+    <def>inside</def>
+    </entry>
+    <entry>
+    <form>kuṟai</form>
+    <def>request</def>
+    </entry>
+    <entry>
+    <form>paṭā</form>
+    <def>happen-not-</def>
+    </entry>
+    <entry>
+    <form><pc>~</pc>āṟu</form>
+    <def>way</def>
+    </entry>
+    </standOff>
 </TEI>
