@@ -20,6 +20,13 @@ const go = () => {
     });
 };
 
+const getInitial = (str) => {
+    const ugh = new Set(['i','u']);
+    if(str[0] === 'a' && ugh.has(str[1]))
+        return str.slice(0,2);
+    return str[0];
+};
+
 const readfiles = (arr) => {
      
     const words = new Map();
@@ -32,7 +39,7 @@ const readfiles = (arr) => {
         [...order].reverse().map(s => [s,[]])
     );
     for(const [word, entry] of words) {
-        const arr = wordgroups.get(word[0]);
+        const arr = wordgroups.get(getInitial(word));
         arr.push([word,entry]);
     }
 
