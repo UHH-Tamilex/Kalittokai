@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Kalittokai</title> 70. 
+            <persName xml:lang="ta"></persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+        <!--listWit n="1"></listWit>
+        <listWit n="2"></listWit-->
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+
+        <div xml:id="Kali70-kilavi">
+          <p type="edition">itu parattaiyiṟ pirintuvanta talaivaṉ tōḻiyai vāyilvēṇṭa avaḷ vāyiṉērvāḷ neruṅkik kūṟiyatu.</p>
+          <p type="translation" xml:lang="en"></p>
+        </div>
+        <div xml:id="Kali70">
+            <lg type="edition">
+                <l>maṇiniṟa malarppoykai makiḻntāṭu maṉṉantaṉ</l>
+                <l>ṉaṇimiku cēvalai yakalaṭai maṟaitteṉak</l>
+                <l>katumeṉak kāṇātu kalaṅkiyam maṭappeṭai</l>
+                <l>matiniḻa ṉīruṭkaṇ ṭatuveṉa vuvantōṭit</l>
+                <l>tuṉṉattaṉ ṉetirvarūun tuṇaikaṇṭu mikanāṇip</l>
+                <l>paṉmala riṭaippukūum paḻaṉañcē rūrakēḷ;</l>
+                <l>nalanīppat tuṟantemmai nalkāynī viṭutaliṟ</l>
+                <l>palanāḷum paṭātakaṇ pāyalkoṇ ṭiyaipavāṟ</l>
+                <l>ṟuṇaimalark kōtaiyār vaikalum pārāṭṭa</l>
+                <l>maṇamaṉait tatumpuniṉ maṇamuḻavan teṭuppumē;</l>
+                <l>akalanī tuṟattali ṉaḻutōvā vuṇkaṇem</l>
+                <l>putalvaṉai meytīṇṭap poruntuta liyaipavā</l>
+                <l>ṉiṉakkotta nallārai neṭunakart tantuniṉ</l>
+                <l>ṟamarpāṭun tuṇaṅkaiyu ḷaravamvan teṭuppumē;</l>
+                <l>vārāynī tuṟattaliṉ varuntiya vemakkāṅkē</l>
+                <l>nīritaḻ pularākkaṇ ṇimaikūmpa viyaipavā</l>
+                <l>ṉēriḻai nallārai neṭunakart tantuniṉ</l>
+                <l>ṟērpūṇṭa neṭunaṉmāṉ ṟeṇmaṇivan teṭuppumē;</l>
+                <l>eṉavāṅku,</l>
+                <l>melliyāṉ cevimutaṉ mēlvantāṉ kālaipō</l>
+                <l>lellān tuyilō veṭuppuka niṉpeṇṭi</l>
+                <l>rilli ṉeḻīiya yāḻtaḻīik kallāvāyp</l>
+                <l>pāṇaṉ pukutarāk kāl.</l>
+            </lg>
+            <lg type="translation" xml:lang="en">
+                <l>Listen, oh man from a village near the paddy fields, where,</l> 
+                <l>of the geese that joyfully bathe in the pond with blossoms of sapphire colour,</l>
+                <l>the pretty youthful she-bird, having been upset at not immediately seeing,</l>
+                <l>because the wide leaves hid [it], her very ornate gander,</l>
+                <l>saw the moon’s shadow in the water [and], thinking [it was] that, ran [there] in joy,</l>
+                <l>[and] when approaching, it saw [its] mate coming towards it [and] was very embarrassed:</l>
+                <l>Because you, ungranting, abandoned [us and] let go of us so that [our] beauty leaves,</l>
+                <l>[our] eyes that did not close for many a day indeed agree in taking to the bed;</l>
+                <l>while those with garlands of matching blossoms daily praise,</l>
+                <l>your marriage drum that sounds in the marriage house comes [and] wakes [us] up.</l>
+                <l>Because you have abandoned [us] in order to depart [our] kajal eyes that do not stop crying</l>
+                <l>indeed agree to close when we touch the body of our son;</l>
+                <l>the sounds in the Tuṇaṅkai that their people sing, having brought to the high mansion</l>
+                <l>good women who are equal to you, come [and] wake [us] up.</l>
+                <l>Because you who do not come have abandoned [us], for us thus</l>
+                <l>the eyes on whose lids the water does not dry indeed agree to close for a moment;</l>
+                <l>the clear bells of the tall good horses yoked to your chariot after bringing</l>
+                <l>good women with fine jewels to the high mansion comes [and] wake [us] up.</l>
+                <l>That is to say,</l>
+                <l>like on who comes in the morning right into the ear one who is of soft nature,</l>
+                <l>all [attempts at] sleep, ah, let them be interrupted –</l>
+                <l>before the bard with the untaught voice enters,</l>
+                <l>holding [his] lute that is raised in the house of your women.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+COPY STANDOFF FROM INTERFACE HERE
+</TEI>

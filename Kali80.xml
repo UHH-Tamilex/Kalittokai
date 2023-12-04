@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Kalittokai</title> 80. 
+            <persName xml:lang="ta"></persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+        <!--listWit n="1"></listWit>
+        <listWit n="2"></listWit-->
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+
+        <div xml:id="Kali80-kilavi">
+          <p type="edition">itu parattaiyiṟ pirintu vanta talaivaṉ ciṟaippuṟattāṉākat talaivi makaṉukku uraittatu.</p>
+          <p type="translation" xml:lang="en"></p>
+        </div>
+        <div xml:id="Kali80">
+            <lg type="edition">
+                <l>nayantalai māṟuvār māṟuka māṟāk</l>
+                <l>kayantalai miṉṉuṅ katirviṭu mukkāḻ</l>
+                <l>payantaveṅ kaṇṇāra yāṅkāṇa nalkit</l>
+                <l>tikaḻoḷi muttaṅ karumpākat taiip</l>
+                <l>pavaḻam puṉaintu paruti cumappak</l>
+                <l>kavaḻa maṟiyāniṉ kaipuṉai vēḻam</l>
+                <l>puripuṇai pūṅkayiṟṟiṟ paipaya vāṅki</l>
+                <l>yaripuṉai puṭṭili ṉāṅkaṇīrt tīṅkē</l>
+                <l>varukavem pāka makaṉ;</l>
+                <l>kiḷarmaṇi yārppārppac cāayccāayc cellun</l>
+                <l>taḷarnaṭai kāṇṭa liṉitumaṟ ṟiṉṉātē</l>
+                <l>yuḷameṉṉā nuntaimāṭ ṭevva muḻappār</l>
+                <l>vaḷainekiḻ piyāṅkāṇuṅ kāl;</l>
+                <l>aiya, kāmaru nōkkiṉai yattattā veṉṉuniṉ</l>
+                <l>ṟēmoḻi kēṭṭa liṉitumaṟ ṟiṉṉātē</l>
+                <l>yuyviṉṟi nuntai nalaṉuṇac cāayccāaymā</l>
+                <l>revvanōy yāṅkāṇuṅ kāl;</l>
+                <l>aiya, tiṅkaṭ kuḻavi varukeṉa yāṉiṉṉai</l>
+                <l>yampuli kāṭṭa liṉitumaṟ ṟiṉṉātē</l>
+                <l>nalkātu nuntai puṟamāṟap paṭṭava</l>
+                <l>ralkulvari yāṅkāṇuṅ kāl;</l>
+                <l>aiya eṅkātiṟ kaṉaṅkuḻai vāṅkip peyartoṟum</l>
+                <l>pōtil vaṟuṅkūntaṟ koḷvatai niṉṉaiyā</l>
+                <l>ṉētilār kaṇcāya nuntai viyaṉmārpiṟ</l>
+                <l>ṟātutēr vaṇṭiṉ kiḷaipaṭat taiiya</l>
+                <l>kōtai paripāṭak kāṇkum.</l>
+            </lg>
+            <lg type="translation" xml:lang="en">
+                <l></l>
+            </lg>
+        </div>
+    </body>
+  </text>
+COPY STANDOFF FROM INTERFACE HERE
+</TEI>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Kalittokai</title> 73. 
+            <persName xml:lang="ta"></persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+        <!--listWit n="1"></listWit>
+        <listWit n="2"></listWit-->
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+
+        <div xml:id="Kali73-kilavi">
+          <p type="edition">itu “taṅkiya voḻukkattuk kiḻavaṉai vaṇaṅki – yeṅkaiyark kuraiyeṉa virattaṟkaṭ” (to.po.147) 
+            ṭalaivi kūṟiyatu.</p>
+          <p type="translation" xml:lang="en"></p>
+        </div>
+        <div xml:id="Kali73">
+            <lg type="edition">
+                <l>akaṉṟuṟai yaṇipeṟap putaloṭu tāḻnta</l>
+                <l>pakaṉṟaippū vuṟanīṇṭa pācaṭait tāmarai</l>
+                <l>kaṇpora voḷiviṭṭa veḷḷiya vaḷḷattāṟ</l>
+                <l>ṟaṇkamaḻ naṟuntēṟa luṇpavaṇ mukampōla</l>
+                <l>vaṇpiṇi taḷaiviṭūum vayalaṇi nallūra;</l>
+                <l>nōtakkā yeṉaniṉṉai nontīvā rilvaḻit</l>
+                <l>tītilēṉ yāṉeṉat tēṟṟiya varutimaṉ</l>
+                <l>ñekiḻtoṭi yiḷaiyava riṭaimulait tātucōrn</l>
+                <l>titaḻvaṉap piḻantaniṉ kaṇṇivan turaiyākkāl;</l>
+                <l>kaṉaṟṟinī ceyvatu kaṭintīvā rilvaḻi</l>
+                <l>maṉattiṟṟī tilaṉeṉa mayakkiya varutimaṉ</l>
+                <l>ṉalamara luṇkaṇṇā rāykōtai kuḻaittaniṉ</l>
+                <l>malarmārpiṉ maṟuppaṭṭa cāntamvan turaiyākkāl;</l>
+                <l>eṉṉainī ceyyiṉu muraittīvā rilvaḻi</l>
+                <l>muṉṉaṭip paṇintemmai yuṇarttiya varutimaṉ</l>
+                <l>ṉiraitoṭi nallavar tuṇaṅkaiyuṭ ṭalaikkoḷḷak</l>
+                <l>karaiyiṭaik kiḻintaniṉ kāḻakamvan turaiyākkāl;</l>
+                <l>eṉavāṅku,</l>
+                <l>maṇṭunī rārā malikaṭal pōluniṉ</l>
+                <l>ṟaṇṭāp parattai talaikkoḷḷa nāḷum</l>
+                <l>pulattakaip peṇṭirait tēṟṟimaṟ ṟiyāmēṟ</l>
+                <l>ṟōlāmō niṉpoy maruṇṭu.</l>
+            </lg>
+            <lg type="translation" xml:lang="en">
+                <l>Oh man from a good village adorned by paddy fields, where</l>
+                <l>the red lotus with green leaves that has grown long so that it reaches the flowers of the jalap tree</l>
+                <l>that decoratively hang down with the bushes by the wide ghat</l>
+                <l>let’s go of its generously tight outer petals,</l>
+                <l>like the mouth of a girl that drinks cool, scented fragrant toddy</l>
+                <l>from a silver dish that send out light so as to blind the eyes,</l>
+                    
+                <l>The way they to not pain you saying “you are fit for pain”</l>
+                <l>you definitely should come to say “I am without evil”,</l>
+                <l>at the time there is no talk of your chaplet’s coming that lost the beauty of [its] petals</l>
+                <l>after the pollen has trickled down in between the breasts of young women with bracelets coming loose.</l>
+                    
+                <l>The way they do not chase [you] away for your acting devastatingly</l>
+                <l>you definitely should come to confuse “in [my] heart I am without evil”,</l>
+                <l>at the time there is no talk of [your] sandal paste coming that is spoiled on your blooming chest</l>
+                <l>that has been crushed by the choice garlands of those with flitting kajal eyes.</l>
+                    
+                <l>The way they do not talk although you have done (?) to me</l>
+                <l>you definitely should come to inform us, humbling yourself before [our] feet,</l>
+                <l>at the time there is no talk of your garment coming that has be torne along the rim</l>
+                <l>when [your] took the lead in the Tuṇaṅkai dance of good women with bracelets in rows.</l>
+                    
+                <l>Thus,</l>
+                <l>like the increasing sea that does not become full of rushing water,</l>
+                <l>while your unhindered other woman takes the lead daily,</l>
+                <l>understanding women for whom it is befitting to be vexed, we</l>
+                <l>won’t be defeated further, confused by your lies.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+COPY STANDOFF FROM INTERFACE HERE
+</TEI>

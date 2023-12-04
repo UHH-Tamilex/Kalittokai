@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Kalittokai</title> 82. 
+            <persName xml:lang="ta"></persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+        <!--listWit n="1"></listWit>
+        <listWit n="2"></listWit-->
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+
+        <div xml:id="Kali82-kilavi">
+          <p type="edition">itu puttēḷir kōṭṭam valañceyvittuk koṇṭu varutaṟkuc cēṭiyaruṭaṉ makaṟpōkkiya 
+            talaimakaḷ avaṉ nīṭṭittu vantavaḻit “tāyar kaṇṇiya nallaṇip putalvaṉai - māyap parattai yuḷḷiya 
+            vaḻi”yāṟ (to.po. 147) ṟalaimakaṉ ciṟaippuṟattāṉākac colliyatu.</p>
+          <p type="translation" xml:lang="en">This is what SHE, who had let [her] son go with the servant girl 
+            For coming [back] after circumambulating the temple of the gods, Said, when he came [back] late, 
+            while HE was behind the hedge, in “the way she thinks of the false other woman [while addressing her] 
+            son with good ornaments that were attached by the ‘mothers’”.</p>
+        </div>
+        <div xml:id="Kali82">
+            <lg type="edition">
+                <l>ñālam vaṟantīrap peyyak kuṇakkērpu</l>
+                <l>kālattiṟ ṟōṉṟiya koṇmūppō lemmulai</l>
+                <l>pāloṭu vīṅkat tavaneṭi tāyiṉai</l>
+                <l>puttēḷir kōṭṭam valaṅcey tivaṉoṭu</l>
+                <l>pukka vaḻiyellāṅ kūṟu;</l>
+                <l>kūṟuveṉ, mēyāyē pōla viṉavi vaḻimuṟaik</l>
+                <l>kāyāmai vēṇṭuval yāṉ;</l>
+                <l>kāyēm;</l>
+                <l>maṭakkuṟu mākkaḷō ṭōrai yayaru</l>
+                <l>maṭakkamil pōḻtiṉkaṭ ṭantai kāmuṟṟa</l>
+                <l>toṭakkattut tāyuḻaip pukkāṟ kavaḷum</l>
+                <l>maruppuppūṇ kaiyuṟai yāka vaṇintu</l>
+                <l>perumā nakaimukaṅ kāṭṭeṉpāḷ kaṇṇīr</l>
+                <l>corimuttaṅ kāḻcōrva pōṉṟaṉa maṟṟum</l>
+                <l>vaḻimuṟait tāyuḻaip pukkāṟ kavaḷu</l>
+                <l>mayaṅkunōy tāṅki makaṉetir vantu</l>
+                <l>muyaṅkiṉaṇ muttiṉa ṇōkki niṉaintē</l>
+                <l>niṉakkiyām yārē mākutu meṉṟu</l>
+                <l>vaṉappuṟak koḷvaṉa nāṭi yaṇintaṉa</l>
+                <l>ḷāṅkē, yarimata ruṇkaṇ pacappa nōyceyyum</l>
+                <l>perumāṉ parattaimai yovvāti yeṉṟā</l>
+                <l>ḷavaṭkiṉi tāki viṭuttaṉaṉ pōkit</l>
+                <l>talaikkoṇṭu nammoṭu kāyumaṟ ṟītōr</l>
+                <l>pulattakaip puttēḷil pukkā ṉalaikkoru</l>
+                <l>kōṟṟā niṉakkavaḷ yārāku mellā</l>
+                <l>varuntiyām nōykūra nuntaiyai yeṉṟum</l>
+                <l>parunteṟin taṟṟākak koḷḷuṅkoṇ ṭāṅkē</l>
+                <l>toṭiyu mukirum paṭaiyāka nuntai</l>
+                <l>kaṭiyuṭai mārpiṟ ciṟukaṇṇu muṭkāḷ</l>
+                <l>vaṭuvuṅ kuṟittāṅkē ceyyum viṭuviṉi</l>
+                <l>yaṉṉa piṟavum perumā ṉavaḷvayiṟ</l>
+                <l>ṟuṉṉuta lōmpit tuṟavataṉ muṉṉiṉi</l>
+                <l>yaiyamil lātava rilloḻiya vempōlak</l>
+                <l>kaiyā ṟuṭaiyava rillallāṟ cella</l>
+                <l>lamainta tiṉiniṉ ṟoḻil.</l>
+            </lg>
+            <lg type="translation" xml:lang="en">
+                <l>“While our breasts, like clouds that appeared in time,</l>
+                <l>rising to the east in order to rain so that the world’s drought ends,</l>
+                <l>are swelling with milk you have been [away] for a very long [time].</l>
+                <l>Tell me all about the way [you] entered</l>
+                <l>together with him, making a clockwise [circumambulation] of the gods’ temple.”</l>
+                <l>“I will speak; [and] I want [you] to ask like one who wishes</l> 
+                <l>[to hear and] afterwards is not angry.”</l>
+                <l>“We won’t be angry.”</l>
+                <l>“To him who entered at the mother’s of the beginning,</l>
+                <l>who was desired by the father in the times without restraint</l>
+                <l>when she was engaged in the Ōrai game with innocent little children,</l>
+                <l>she said ‘o great one, show [me your] smiling face’,</l>
+                <l>adorning [him] with a tusk ornament as a gift,</l>
+                <l>and [her] tears fell like pearls gliding from a string. Then again,</l>
+                <l>to the one who afterwards entered at [another] mother, she too,</l>
+                <l>enduring confusing pain, coming towards [your] son,</l>
+                <l>embraced [him], kissed [him and], thinking for a long time:</l>
+                <l>‘who can we be to you?’</l>
+                <l>examining the things to be taken for beauty [and] adorned [him].</l>
+                <l>Then she said: ‘don’t be equal in philandering to the great man</l>
+                <l>who cause pain so that proud red-streaked kajal eyes fade.’</l>
+                <l>As one who pleasantly takes leave of her he [then] went,</l>
+                <l>approached [and] entered [another] house, this one temple</l>
+                <l>again fit for sulking where [she] is angry with us.”</l>
+                <l rend="indent5">“Give [me]</l>
+                <l>a stick for beating [him]. What is she to you, friend?</l>
+                <l>While we suffer [and] are full of pain, she will always</l>
+                <l>take your father like a kite attacking, and, thus taking [him],</l>
+                <l>with bangles and nails as weapons, she not being one who dreads</l>
+                <l>[to leave] little marks on your father’s protected chest,</l>
+                <l>as if by intention she makes wounds [there]. Let go [of that] now.</l>
+                <l>Before [our] great man abandoning those and others,</l>
+                <l>bewaring of nearing her, now</l>
+                <l>your task now is to be content</l>
+                <l>with going [nowhere] except to the house of those who possess desolation</l>
+                <l>like us, while the house of those who do not possess doubt stay behind.”</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+COPY STANDOFF FROM INTERFACE HERE
+</TEI>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Kalittokai</title> 66. 
+            <persName xml:lang="ta"></persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+        <!--listWit n="1"></listWit>
+        <listWit n="2"></listWit-->
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+
+        <div xml:id="Kali66-kilavi">
+          <p type="edition">itu parattaiyiṟ pirintu vanta talaivaṉ taṉatu āṟṟāmaiyē vāyilākat 
+            talaiviyuḻaic ceṉṟāṟku, avaṉ muṉpu vatuvai-yayarntatūum appoḻutu puṉalāṭiyatūum 
+            ippoḻutu tuṇaṅkai-yāṭiyatūuṅ kūṟip pulantāḷ talaivi, avaḷ pulantavāṟu kaṇṭu ceṉṟu 
+            cārnta talaimakaṉuṭaṉ ūṭal tīrkiṉṟāḷ kūṟiyatu.</p>
+          <p type="translation" xml:lang="en"></p>
+        </div>
+        <div xml:id="Kali66">
+            <lg type="edition">
+                <l>vīṅkunī raviḻnīlam pakarpavar vayaṟkoṇṭa</l>
+                <l>ñāṅkar malarcūḻtan tūrpukunta varivaṇ</l>
+                <l>ṭōṅkuya reḻilyāṉaik kaṉaikaṭāṅ kamaḻnāṟṟa</l>
+                <l>māṅkavai viruntāṟṟap pakalalkik kaṅkulāṉ</l>
+                <l>vīṅkiṟai vaṭukkoḷa vīḻunarp puṇarntavar</l>
+                <l>tēṅkamaḻ katuppiṉu ḷarumpaviḻ naṟumullaip</l>
+                <l>pāyntūtip paṭartīrntu paṇṭutā marīiya</l>
+                <l>pūmpoykai maṟantuḷḷāp puṉalaṇi nallūra;</l>
+                <l>aṇaimeṉṟōḷ yāmvāṭa vamartuṇaip puṇarntunī</l>
+                <l>maṇamaṉaiyā yeṉavanta mallaliṉ māṇpaṉṟō</l>
+                <l>potukkoṇṭa kavvaiyiṟ pūvaṇip polintaniṉ</l>
+                <l>vatuvaiyaṅ kamaḻnāṟṟam vaikaṟaip peṟṟatai;</l>
+                <l>kaṉalunōyt talaiyunī kaṉaṅkuḻai yavaroṭu</l>
+                <l>puṉaluḷā yeṉavanta pūcaliṟ peritaṉṟō</l>
+                <l>tārkoṇṭā ṭalaikkōtai taṭumāṟip pūṇṭaniṉ</l>
+                <l>ṉīraṇi citaiyātem milvantu niṉṟatai;</l>
+                <l>taṇantataṉ ṟalaiyunī taḷariya lavaroṭu</l>
+                <l>tuṇaṅkaiyā yeṉavanta kavvaiyiṟ kaṭappaṉṟō</l>
+                <l>voḷipūtta nutalārō ṭōraṇip polintaniṉ</l>
+                <l>kaḷitaṭpa vantavik kaviṉkāṇa viyaintatai;</l>
+                <l>eṉavāṅku,</l>
+                <l>aḷipeṟṟē memmainī yaruḷiṉai viḷiyātu</l>
+                <l>vēṭṭōr tiṟattu virumpiyaniṉ pākaṉu</l>
+                <l>nīṭṭittā yeṉṟu kaṭāaṅkaṭun tiṇṭēr</l>
+                <l>pūṭṭu viṭāa niṟuttu.</l>
+            </lg>
+            <lg type="translation" xml:lang="en">
+                <l></l>
+            </lg>
+        </div>
+    </body>
+  </text>
+COPY STANDOFF FROM INTERFACE HERE
+</TEI>
