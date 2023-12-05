@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Kalittokai</title> 87. 
+            <persName xml:lang="ta"></persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+        <!--listWit n="1"></listWit>
+        <listWit n="2"></listWit-->
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+
+        <div xml:id="Kali87-kilavi">
+          <p type="edition">itu parattaiyarcēri ceṉṟamai aṟintilaḷeṉat talaivimāṭṭuc ceṉṟavaṉōṭu ivaḷ ūṭi 
+            uṟaḻntu kūṟit tōḻi vāyilāka ūṭa-ṟīrvāḷ taṉ neñcoṭu kūṟiyatu.</p>
+          <p type="translation" xml:lang="en"></p>
+        </div>
+        <div xml:id="Kali87">
+            <lg type="edition">
+                <l>orūunī yeṅkūntal koḷḷalyām niṉṉai</l>
+                <l>verūutuṅ kāṇuṅ kaṭai;</l>
+                <l>teriyiḻāy! ceytava ṟilvaḻi yāṅkuc ciṉavuvāy</l>
+                <l>meypirin taṉṉavar māṭṭu;</l>
+                <l>ēṭā, niṉakkut tavaṟuṇṭō nīvīṭu peṟṟā</l>
+                <l>yimaippi ṉitaḻmaṟai pāṅkē keṭuti</l>
+                <l>nilaippā laṟiyiṉu niṉṉontu niṉṉaip</l>
+                <l>pulappā ruṭaiyar tavaṟu;</l>
+                <l>aṇaittōḷāy, tīyāraip pōlat tiṟaṉiṉ ṟuṭaṟṟuti</l>
+                <l>kāyun tavaṟilēṉ yāṉ;</l>
+                <l>māṉōkki nīyaḻa nīttava ṉāṉātu</l>
+                <l>nāṇila ṉāyi ṉalitan tavaṉvayi</l>
+                <l>ṉūṭuta leṉṉō viṉi;</l>
+                <l>iṉi, yātumīk kūṟṟum yāmila maṉṟa</l>
+                <l>takaiyatu kāṇṭaippāy neñcē paṉiyāṉāp</l>
+                <l>pāṭilkaṇ pāyal koḷa.</l>
+            </lg>
+            <lg type="translation" xml:lang="en">
+                <l></l>
+            </lg>
+        </div>
+    </body>
+  </text>
+COPY STANDOFF FROM INTERFACE HERE
+</TEI>

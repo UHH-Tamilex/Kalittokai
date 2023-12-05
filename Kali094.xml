@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Kalittokai</title> 94. 
+            <persName xml:lang="ta"></persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+        <!--listWit n="1"></listWit>
+        <listWit n="2"></listWit-->
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+
+        <div xml:id="Kali94-kilavi">
+          <p type="edition">iḵtu “aṭiyōr pāṅkiṉum viṉaivalar pāṅkiṉum – kaṭivarai yilapuṟat teṉmaṉār pulavar” (to.po.23) 
+            eṉpataṉāl aṭiyō-rākiya kūṉuṅ kuṟaḷum uṟaḻntu kūṭik kūṟiyatu.</p>
+          <p type="translation" xml:lang="en"></p>
+        </div>
+        <div xml:id="Kali94">
+            <lg type="edition">
+                <l>eṉṉōṟ ṟaṉaikollō</l>
+                <l>nīru ṇiḻaṟpō ṉuṭaṅkiya meṉcāya</l>
+                <l>līṅkuc curuṅki</l>
+                <l>yiyaluvāy niṉṉō ṭucāvuve ṉiṉṟīttai;</l>
+                <l>aṉṉaiyō, kāṇṭakai yillāk kuṟaṇāḻip pōtiṉā</l>
+                <l>ṉāṇṭalaik kīṉṟa paṟaḻmakaṉē nīyemmai</l>
+                <l>vēṇṭuva leṉṟu vilakkiṉai niṉpōlvār</l>
+                <l>tīṇṭap peṟupavō maṟṟu;</l>
+                <l>māṇṭai, eṟitta paṭaipōṉ muṭaṅki maṭaṅki</l>
+                <l>neṟittuviṭ ṭaṉṉa niṟaiyērā leṉṉaip</l>
+                <l>poṟukkallā nōyceytāy pōṟi niṟukkallē</l>
+                <l>ṉīnalki ṉuṇṭeṉ ṉuyir;</l>
+                <l>kuṟippukkāṇ vallup palakai yeṭuttu niṟuttaṉṉa</l>
+                <l>kallāk kuṟaḷa kaṭumpakal vantemmai</l>
+                <l>yillattu vāveṉa meykoḷīi yellāniṉ</l>
+                <l>peṇṭiruḷar maṉṉō kūṟu;</l>
+                <l>nallāykēḷ, ukkattu mēlu naṭuvuyarntu vāḷvāya</l>
+                <l>kokkurit taṉṉa koṭumaṭāy niṉṉaiyāṉ</l>
+                <l>pukkakalam pulliṉeñ cūṉṟum puṟampulli</l>
+                <l>ṉakkuḷuttup pullalu māṟṟē ṉaruḷīmō</l>
+                <l>pakkattup pullal ciṟitu;</l>
+                <l>pōcīttai,</l>
+                <l>makkaṇ muriyēnī māṟiṉit tokka</l>
+                <l>marakkōṭṭañ cērnteḻunta pūṅkoṭi pōla</l>
+                <l>nirappamil yākkai taḻīiya remmaip</l>
+                <l>purappēmeṉ pārum palarāṟ parattaiyeṉ</l>
+                <l>pakkattup pullīyā yeṉṉumāṟ ṟokka</l>
+                <l>vuḻuntiṉun tuvvāk kuṟuvaṭṭā niṉṉi</l>
+                <l>ṉiḻintatō kūṉiṉ piṟappu;</l>
+                <l>kaḻintāṅkē,</l>
+                <l>yāmvīḻtu meṉṟutaṉ piṉcelavu muṟṟīyāk</l>
+                <l>kūṉikuḻai yuṅkuḻaivu kāṇ;</l>
+                <l>yāmai, yeṭuttu niṟuttaṟṟāṟ ṟōḷiraṇṭum vīci</l>
+                <l>yāmvēṇṭē meṉṟu vilakkavu memvīḻuṅ</l>
+                <l>kāmar naṭakku naṭaikāṇ kavarkaṇaic</l>
+                <l>cāmaṉār tammuṉ celavu kāṇka;</l>
+                <l>ōokāṇ, nammu ṇakutaṟ ṟoṭīiyar nammuṇā</l>
+                <l>mucāaṅ kōṉaṭitoṭ ṭēṉ;</l>
+                <l>āṅkāka, cāyaliṉ mārpa vaṭaṅkiṉēṉ ēe</l>
+                <l>pēyum pēyun tuḷḷa luṟumeṉak</l>
+                <l>kōyiluṭ kaṇṭār nakāmai vēṇṭuval</l>
+                <l>taṇṭāt takaṭuruva vēṟākak kāviṉkīḻp</l>
+                <l>pōta rakaṭārap pulli muyaṅkuvēn</l>
+                <l>tukaṭīrpu kāṭci yavaiyattā rōlai</l>
+                <l>mukaṭukāp piyāttuviṭ ṭāṅku.</l>
+            </lg>
+            <lg type="translation" xml:lang="en">
+                <l>What penance have you done?</l>
+                <l>With a soft grace that sways like a shadow in water,</l>
+                <l>shrinking here,</l>
+                <l>you move forward. Let me ask [something] from you, stand!</l>
+                <l>Mother, dwarf not fit to be seen, chick brought forth by an man-head bird,</l> 
+                <l>in the time of one Nāḻi, son, saying you want us</l> 
+                <l>you have blocked [our way]. Do the likes of you</l>
+                <l>get to touch [me]?</l>
+                <l>You glorious one, [your] full beauty, like a weapon</l>
+                <l>that has been bent, folded [and] compressed, you</l>
+                <l>cause me pain I have not learned to bear. Bearing it I do not weigh.</l>
+                <l>If you grant [it, it] is my life.</l>
+                <l>See [that] intention! Like a gambling board lifted [and] balanced [on edge],</l>
+                <l>uneducated dwarf, coming in bright daylight, taking hold of my body,</l>
+                <l>saying [to us] “come to [my] house”, will all your</l>
+                <l>women be there [too], tell [me]?</l>
+                <l>Good girl, listen, being high in the middle all above the waist, with a sword mouth, there being a deep hole crooked like a skinned mango, if I enter you</l> 
+                <l>[and] embrace your bosom/body, [my] heart leans on [it]. If I embrace [your] back, being tickled I cannot, as soon as I embrace. Grace [me]</l>
+                <l>with embracing from the side, a little bit.</l>
+                <l>Go, wretch.</l>
+                <l>Piece of a person, you get lost now. Many indeed will be those who say</l>
+                <l>of us we hold with embracing a body without fullness,</l>
+                <l>like a flower creeper that rises joining a bend of formed wood.</l>
+                <l>A courtesan! “Embrace my side”, he is saying indeed.</l>
+                <l>You more base than accumulated black gram, you short pawn,</l>
+                <l>is a hunchback birth as low as yours?</l>
+                <l>Hunchback woman</l>
+                <l>who does not suffer [our] going after her,</l>
+                <l>saying passing like that we would fall,</l>
+                <l>see [your way to] softening tenderness.</l>
+                <l>It is like lifting [and] balancing a tortoise.</l>
+                <l>See the gait with which the lecher walks</l>
+                <l>who falls on us although we obstruct [him],</l>
+                <l>flinging our two arms [and] saying “we don’t want [you].</l>
+                <l>Let us see the going of the elder brother of Śyāma with seizing arrows.</l>
+                <l>Oh, look: let [your] smiling touch our heart. We won’t</l>
+                <l>inquire with our heart. I have touched the feet of the king.</l>
+                <l>As it is thus, oh you with a chest pleasing in grace, I yield forthwith.</l>
+                <l>I want that those who see [us?] in the temple won’t smile,</l>
+                <l>saying “there is a demon leaping about with a demon.”</l>
+                <l>You of the form of an unattached metal plate, otherwise</l>
+                <l>come under the shelter! Inside we shall entwine [and] embrace fully,</l>
+                <l>like a palm-leaf of the insight[ful scholars] of the assembly,</l>
+                <l>firmly tied with the top protection after the dust is wiped off.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+COPY STANDOFF FROM INTERFACE HERE
+</TEI>

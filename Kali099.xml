@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Kalittokai</title> 99. 
+            <persName xml:lang="ta"></persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+        <!--listWit n="1"></listWit>
+        <listWit n="2"></listWit-->
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+
+        <div xml:id="Kali99-kilavi">
+          <p type="edition">iḵtu aracaṉ talaivaṉāy avaṉ talaiviyai nīṅki iruntataṟkut talaivi pulavi 
+            nīṭṭittu āṟṟāḷāya vaḻi avaṭku nikaḻnta kāmattu miku tiṟattai avvaracaṉai nōkkic cāṉṟōr kūṟiyatu. 
+            itu peruntiṇai.</p>
+          <p type="translation" xml:lang="en"></p>
+        </div>
+        <div xml:id="Kali99">
+            <lg type="edition">
+                <l>naṟaviṉai varaintārkkum varaiyārkku mavaiyeṭut</l>
+                <l>taṟaviṉai yiṉpuṟūu mantaṇa riruvarun</l>
+                <l>tiṟamvēṟu ceytiyi ṉūṉeṟi piḻaiyātu</l>
+                <l>kuḻaviyaip pārttuṟūun tāypō lulakattu</l>
+                <l>maḻaicuran taḷittōmpu nallūḻi yāvarkkum</l>
+                <l>piḻaiyātu varutaṉiṉ cemmaiyiṟ ṟaravāynta</l>
+                <l>viḻaiyaṇi koṭittiṇṭē riṉamaṇi yāṉaiyāy;</l>
+                <l>aṟaṉiḻa leṉakkoṇṭā yāykuṭai yakkuṭaip</l>
+                <l>puṟaniḻaṟkīḻp paṭṭāḷō vivaḷivaṭ kāṇṭikā</l>
+                <l>piṟainutal pacappūrap peruvitup puṟṟāḷai;</l>
+                <l>poyyāmai nuvaluniṉ ceṅkōlaic ceṅkōliṉ</l>
+                <l>ceytoḻiṟkīḻp paṭṭāḷō vivaḷivaṭ kāṇṭikā</l>
+                <l>kāmanōy kaṭaikkūṭṭa vāḻunāṇ muṉintāḷai;</l>
+                <l>ēmameṉ ṟiraṅkuniṉ ṉeṟimuraca mammuraci</l>
+                <l>ṉēmat tikantāḷō vivaḷivaṭ kāṇṭikā</l>
+                <l>vēynala miḻantatōḷ kaviṉvāṭa viḻappāḷai;</l>
+                <l>āṅku,</l>
+                <l>neṭitucē ṇikantavai kāṇiṉun tāṉuṟṟa</l>
+                <l>vaṭukkāṭṭak kaṇkāṇā taṟṟāka veṉṟōḻi</l>
+                <l>toṭikoṭpa nītta koṭumaiyaik</l>
+                <l>kaṭiteṉa vuṇarāmai kaṭintatō niṉakkē.</l>
+            </lg>
+            <lg type="translation" xml:lang="en">
+                <l></l>
+            </lg>
+        </div>
+    </body>
+  </text>
+COPY STANDOFF FROM INTERFACE HERE
+</TEI>

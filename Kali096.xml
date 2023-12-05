@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Kalittokai</title> 96. 
+            <persName xml:lang="ta"></persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+        <!--listWit n="1"></listWit>
+        <listWit n="2"></listWit-->
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+
+        <div xml:id="Kali96-kilavi">
+          <p type="edition">itu “koṭiyōr koṭumai cuṭumeṉa ... pakutiyi ṉīṅkiya takutikkaṭ” (to.po.147) ṭalaivi 
+            parattaiyaraik kutiraiyākkik kūṟiyatu.</p>
+          <p type="translation" xml:lang="en">This is spoken by HER, making the other woman a horse [in view of] 
+            “propriety that departs from [actual] fact in the thought that the cruelty of cruel people burns (TP 147).</p>
+        </div>
+        <div xml:id="Kali96">
+            <lg type="edition">
+                <l>ēnteḻiṉ mārpa vetiralla niṉvāyccoṟ</l>
+                <l>pāyntāynta tāṉaip parintāṉā maintiṉai</l>
+                <l>cāntaḻi vērai cuvaṟṟāḻnta kaṇṇiyai</l>
+                <l>yāṅkucceṉ ṟīṅkuvan tīttantāy kēḷiṉi;</l>
+                <l>ēnti, etiritaḻ nīlam piṇaintaṉṉa kaṇṇāy</l>
+                <l>kutirai vaḻaṅkivaru val;</l>
+                <l>aṟintēṉ kutirai tāṉ,</l>
+                <l>pālpiriyā vaiṅkūntaṟ paṉmayirk koycuvaṉ</l>
+                <l>mēlvirit tiyātta cikaḻikaic cevvuḷai</l>
+                <l>nīla maṇikkaṭikai vallikai yāppiṉkīḻ</l>
+                <l>ñāliyaṉ meṉkātiṟ pullikaic cāmarai</l>
+                <l>mattikaik kaṇṇuṟai yākak kaviṉpeṟṟa</l>
+                <l>vutti yorukāḻnū luttiriyat tiṇpiṭi</l>
+                <l>nērmaṇi nērmukkāḻp palpala kaṇṭikait</l>
+                <l>tārmaṇi pūṇṭa tamaṉiya mēkalai</l>
+                <l>nūpurap puṭṭi laṭiyō ṭamaittiyātta</l>
+                <l>vārpolaṅ kiṇkiṇi yārppap payiṟṟinī</l>
+                <l>kātalit tūrntaniṉ kāmak kutiraiyai</l>
+                <l>yāycutai māṭat taṇinilā muṟṟattu</l>
+                <l>ḷātik koḷīiya vacaiyiṉai yākuvai</l>
+                <l>vātuvaṉ vāḻiya nī;</l>
+                <l>cēkā, katirviri vaikaliṟ kaivārūuk koṇṭa</l>
+                <l>maturaip perumuṟṟam pōlaniṉ meykkaṭ</l>
+                <l>kutiraiyō vīṟi yatu;</l>
+                <l>kūrukir māṇṭa kuḷampi ṉatuvaṉṟē</l>
+                <l>kōramē vāḻikuti rai;</l>
+                <l>vetiruḻakku nāḻiyāṟ cētikaik kuttik</l>
+                <l>kutirai yuṭalaṇi pōlaniṉ meykkaṭ</l>
+                <l>kutiraiyō kavvi yatu;</l>
+                <l>cīttai, payamiṉṟi yīṅkuk kaṭittatu naṉṟē</l>
+                <l>viyamamē vāḻikuti rai;</l>
+                <l>mikanaṉ, ṟiṉiyaṟintē ṉiṉṟunī yūrnta kutirai</l>
+                <l>perumaṇam paṇṇi yaṟattiṉiṟ koṇṭa</l>
+                <l>parumak kutiraiyō vaṉṟu perumaniṉ</l>
+                <l>ṉētil perumpāṇaṉ ṟūtāṭa vāṅkēyōr</l>
+                <l>vātattāṉ vanta vaḷikkutirai yāti</l>
+                <l>yuruvaḻikku makkutirai yūraṉī yūriṟ</l>
+                <l>parattai pariyāka vātuvaṉāy maṟṟaccāt</l>
+                <l>tirikutirai yēṟiya cel.</l>
+            </lg>
+            <lg type="translation" xml:lang="en">
+                <l>“Oh man with an eminently handsome chest, your truthful words are without match.</l> 
+                <l>Mighty one who does not stop running, with a cloth that has chosen to unfold,</l>
+                <l>you perspiring so that the sandal paste is destroyed, you with the chaplet hanging from [your] neck,</l>
+                <l>having gone where do you deign to come back? Now listen:”</l>
+                <l>“You with eyes that are eminently like [two] joined blue lotuses with contrasting petal,</l>
+                <l>I come from roaming with [my] horse.”</l>
+                <l>“I know that horse.</l>
+                <l>A plucked nape with much hair in five shocks that are not parted into strands,</l>
+                <l>a straight mane with a top knot that is tied to unfold on top,</l>
+                <l>beneath the tie of the halter a necklace of blue gems,</l>
+                <l>as an ear ornament a tassel of the hanging type on the soft ears,</l>
+                <l>as blinkers a garland, as head ornament one pearl string</l>
+                <l>that beautifies, a string as a firm hold on the upper garment</l>
+                <l>a necklace with many many triple matching pearl string with matching gems,</l>
+                <l>a golden belt to which are fixed bells/gems in a garland,</l>
+                <l>high-rising tinkling anklets that are fashioned [and] tied</l>
+                <l>to the feet as rattling horse anklets – while they rattle, you</l>
+                <l>are one who moved in order to cause running,</l>
+                <l>in the frontyard in ornate moonlight of a choice, white-washed building,</l>
+                <l>your passion horse which repeatedly you mounted in love.</l>
+                <l>May you live as a groom.</l>
+                <l>Soldier, on your body, like in the big courtyard in Maturai</l>
+                <l>that is swept by hand in the day when the rays expand,</l>
+                <l>is it the horse that scratched [you]?</l>
+                <l>It has hooves famous for [their] sharp nails, hasn’t it?</l>
+                <l>Awesome [it is], may it live, the horse.</l>
+                <l>On your body, like the decorations on the body of a horse</l>
+                <l>with coloured dots by a bamboo Uḻakku tube,</l>
+                <l>is it the horse that bit [you]?</l>
+                <l>Wretch, without profit here it has well bitten you,</l>
+                <l>amazing [it is], may it live, the horse.</l>
+                <l>Very well, now I know the horse that you mounted today.</l>
+                <l>Is it not a horse with a seat you have taken by virtue,</l>
+                <l>having arranged a great marriage, oh great man?</l>
+                <l>The running of the horse [is like] the wind, come about thus through</l> 
+                <l>one discourse, while you strange great bard plays the messenger.</l>
+                <l>Don’t mount that horse which will destroy [your] beauty. If you mount it,</l>
+                <l>walk to that death as a groom while the courtesan is the horse.</l>
+                <l>Go ride [your] horse.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+COPY STANDOFF FROM INTERFACE HERE
+</TEI>

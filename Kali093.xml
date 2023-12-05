@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Kalittokai</title> 93. 
+            <persName xml:lang="ta"></persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+        <!--listWit n="1"></listWit>
+        <listWit n="2"></listWit-->
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+
+        <div xml:id="Kali93-kilavi">
+          <p type="edition">itu “kāvaṟ pāṅki ṉāṅkōr pakkamum” (to.po.41) eṉpuḻi āṅkōr pakkamāṉa kaṭavuḷaraik 
+            kaṇṭu taṅkiṉēṉeṉṟa talaivaṟku nī kaṇṭa kaṭavuḷar ivareṉak kūṟip pulantatu.</p>
+          <p type="translation" xml:lang="en"></p>
+        </div>
+        <div xml:id="Kali93">
+            <lg type="edition">
+                <l>vaṇṭūtu cāntam vaṭukkoḷa nīviya</l>
+                <l>taṇṭāttīñ cāyaṟ parattai viyaṉmārpa</l>
+                <l>paṇṭiṉṉai yallaimaṉ ṉīṅkelli vantīyak</l>
+                <l>kaṇṭa tevaṉmaṟ ṟurai;</l>
+                <l>naṉṟum, taṭaiiya meṉṟōḷāy kēṭṭīvā yāyi</l>
+                <l>ṉuṭaṉuṟai vāḻkkaik kutavi yuṟaiyuṅ</l>
+                <l>kaṭavuḷar kaṭṭaṅki ṉēṉ;</l>
+                <l>cōlai, malarvēynta māṉpiṇai yaṉṉār palarnī</l>
+                <l>kaṭavuṇmai koṇṭoḻuku vār;</l>
+                <l>avaruḷ, ekkaṭavuḷ maṟṟak kaṭavuḷaic ceppīmaṉ;</l>
+                <l>muttēr muṟuvalāy nāmaṇam pukkakkā</l>
+                <l>lippoḻutu poḻuteṉ ṟatuvāyppak kūṟiya</l>
+                <l>vekkaṭavuḷ maṟṟak kaṭavuḷ; atuvokkum;</l>
+                <l>nāvu ḷaḻuntu talaicāyttu nīkūṟu</l>
+                <l>māyamō kaippaṭukkap paṭṭāynī kaṇṭārai</l>
+                <l>vāyāka yāṅkūṟa vēṭṭīvāy kēḷiṉi;</l>
+                <l>peṟaṉacai vēṭkaiyi ṉiṉkuṟi vāyppap</l>
+                <l>paṟimuṟai nērnta nakaiyārāyk kaṇṭārk</l>
+                <l>kiṟumuṟai ceyyu muruvoṭu nummiṟ</l>
+                <l>ceṟimuṟai vanta kaṭavuḷaik kaṇṭāyō;</l>
+                <l>naṟuntaṇ ṭakaramu nāṉamu nāṟu</l>
+                <l>neṟinta kuraṟkūnta ṉāḷaṇik koppa</l>
+                <l>nōkkiṟ piṇikoḷḷuṅ kaṇṇoṭu mēṉāṇī</l>
+                <l>pūppali viṭṭa kaṭavuḷaik kaṇṭāyō;</l>
+                <l>īraṇik kēṟṟa voṭiyāp paṭivattuc</l>
+                <l>cūrkoṉṟa cevvēlāṟ pāṭip palanāḷu</l>
+                <l>mārāk kaṉaikāmaṅ kuṉṟattu niṉṉoṭu</l>
+                <l>māri yiṟutta kaṭavuḷaik kaṇṭāyō;</l>
+                <l>kaṇṭa kaṭavuḷar tammuḷu niṉṉai</l>
+                <l>veṟikoḷ viyaṉmārpu vēṟākac ceytu</l>
+                <l>kuṟikoḷac ceytāryār ceppumaṟ ṟiyāruñ</l>
+                <l>ciṟuvarait taṅkiṉ vekuḷvar ceṟuttakkāy</l>
+                <l>tēṟiṉeṉ ceṉṟīnī cellā viṭuvāyēl</l>
+                <l>naṟṟā rakalattuk korucār mēviya</l>
+                <l>neṭṭiruṅ kūntaṟ kaṭavuḷa rellārkku</l>
+                <l>muṭṭuppā ṭākalu muṇṭu.</l>
+            </lg>
+            <lg type="translation" xml:lang="en">
+                <l>“You with a chest for other women with unrestrained sweet grace</l>
+                <l>that is smeared so that it take marks with sandal paste on which bees feed,</l>
+                <l>formerly you were not like this. As you come here at night,</l>
+                <l>tell [me] just what you have seen.”</l>
+                <l>“Ok. You with broad soft shoulders, if you deign to listen</l>
+                <l>I have stayed at the deities</l>
+                <l>who keep helping for the staying-together life.”</l>
+                <l>“The are many doe-like women covered with blossoms from the grove</l>
+                <l>who are being taken as godliness by you.</l>
+                <l>Among them, which deity again [is the one], about that deity speak!”</l>
+                <l>“Oh you with a pearl-like smile, which deity [it is],</l>
+                <l>is that deity which appropriately told that this time</l>
+                <l>[was] the [right] time when we entered marriage.” “That is likely!”</l>
+                <l>“Pressing down [your] tongue, bowing [your] head, as for</l>
+                <l>the fables you talk you are caught out. You who deign to want us</l>
+                <l>to say truthfully whom you have seen, listen now:</l>
+                <l>While your tryst took place out of longing desire to obtain,</l>
+                <l>the being ones with smiles that conform to ???</l>
+                <l>see the deities that have come ???</l>
+                <l>to your house with a form that does ???.</l>
+                <l>See the deities to whom you made flower offerings</l>
+                <l>the former day, with eyes that captivate by a glance,</l>
+                <l>equal to the fresh ornaments of curly tresses</l>
+                <l>that are fragrant of fragrant cool Takaram and civet.</l>
+                <l>See the deities that break the showers</l>
+                <l>with you on the hill of insatiable intense passion</l>
+                <l>for many days, singing the one with the red spear who killed Cūr,</l>
+                <l>of a form/austerity that does not break, who is suited for two ornaments.</l>
+                <l>Who are the deities [you] have seen that made you</l>
+                <l>so that [you] perfumed broad chest become different</l>
+                <l>[and] made [it] take [their] marks? Tell [me]. Everyone,</l>
+                <l>if you stay on the little mountain(?) will be angry. You are irritating.</l>
+                <l>I don’t believe [it]. Go. If you don’t go,</l>
+                <l>there will be shortage</l>
+                <l>for all the deities with long dark hair</l>
+                <l>who are attached to one side of [your] chest with a good garland.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+COPY STANDOFF FROM INTERFACE HERE
+</TEI>

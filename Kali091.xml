@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Kalittokai</title> 91. 
+            <persName xml:lang="ta"></persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+        <!--listWit n="1"></listWit>
+        <listWit n="2"></listWit-->
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+
+        <div xml:id="Kali91-kilavi">
+          <p type="edition">ituvumatu.</p>
+          <p type="translation" xml:lang="en"></p>
+        </div>
+        <div xml:id="Kali91">
+            <lg type="edition">
+                <l>arinī raviḻnīla malli yaṉiccam</l>
+                <l>purinekiḻ mullai naṟavō ṭamainta</l>
+                <l>terimalark kaṇṇiyun tāru nayantār</l>
+                <l>porumuraṇ cīṟac citaintu nerunaiyi</l>
+                <l>ṉiṉṟunaṉ ṟeṉṉai yaṇi;</l>
+                <l>aṇaimeṉṟōḷāy, ceyyāta collic ciṉavuva tīṅkeva</l>
+                <l>ṉaiyattā leṉṉaik katiyāti tītiṉmai</l>
+                <l>teyvattāṟ kaṇṭī teḷikku;</l>
+                <l>maṟṟatu, aṟivalyā ṉiṉcū ḷaṉaittāka nallār</l>
+                <l>ceṟitoṭi yuṟṟa vaṭuvuṅ kuṟipoyttār</l>
+                <l>kūrukir cāṭiya mārpuṅ kuḻaintaniṉ</l>
+                <l>ṟārun tatarpaṭṭa cāntamuñ cēri</l>
+                <l>yarimata ruṇkaṇṇā rārāk kavaviṟ</l>
+                <l>paricaḻin tiyāḻaniṉ mēṉikaṇ ṭiyāṉuñ</l>
+                <l>ceruvoḻintēṉ ceṉṟī yiṉi;</l>
+                <l>teriyiḻāy, tēṟṟāy civantaṉai kāṇpāynī tītiṉmai</l>
+                <l>yāṟṟi ṉiṟuppal paṇintu;</l>
+                <l>aṉṉatē yāṟṟalkāṇ</l>
+                <l>vēṟupaṭ ṭāṅkē kaluḻti yakappaṭiṉ</l>
+                <l>māṟupaṭ ṭāṅkē mayaṅkuti yātoṉṟuṅ</l>
+                <l>kūṟi yuṇarttalum vēṇṭātu maṟṟunī</l>
+                <l>māṇā ceyiṉu maṟuttāṅkē niṉvayiṟ</l>
+                <l>kāṇi ṉekiḻumeṉ ṉeñcāyi ṉeṉṉuṟṟāy</l>
+                <l>pēṇāynī peṭpac ceyal.</l>
+            </lg>
+            <lg type="translation" xml:lang="en">
+                <l></l>
+            </lg>
+        </div>
+    </body>
+  </text>
+COPY STANDOFF FROM INTERFACE HERE
+</TEI>

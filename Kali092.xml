@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Kalittokai</title> 92. 
+            <persName xml:lang="ta"></persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+        <!--listWit n="1"></listWit>
+        <listWit n="2"></listWit-->
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+
+        <div xml:id="Kali92-kilavi">
+          <p type="edition">itu parattaiyiṟ pirintu vanta talaivaṉ vāyilpeṟātu āṟṟāmai vāyilākap 
+            pukkut talaiviyai nayappittal kāraṇamākat teyvamakaḷir poytalāṭuvatoru kaṉākkaṇṭēṉ, 
+            atu naṉvāyp paruvam vantu iṟuttatu pārāyeṉa ūṭaṟīrvatu payaṉākat talaivikkuk kūṟiyatu.</p>
+          <p type="translation" xml:lang="en"></p>
+        </div>
+        <div xml:id="Kali92">
+            <lg type="edition">
+                <l>puṉavaḷar pūṅkoṭi yaṉṉāy kaḻiyak</l>
+                <l>kaṉaveṉap paṭṭatōr kārikai nīrttē</l>
+                <l>muyaṅkiya nallār mulaiyiṭai mūḻki</l>
+                <l>mayaṅkimaṟ ṟāṇṭāṇṭuc cēṟaluñ cellā</l>
+                <l>tuyaṅki yiruntārk kuyarnta poruḷu</l>
+                <l>mariti ṉaṟañceyyā vāṉṟō rulaku</l>
+                <l>muriti ṉorutalai yeytalum vīḻvārp</l>
+                <l>piritalu māṅkē puṇartalun tammiṟ</l>
+                <l>ṟaruta ṟakaiyātāṉ maṟṟu;</l>
+                <l>naṉaviṉāṟ pōlu naṟunutā lalkaṟ</l>
+                <l>kaṉaviṉāṟ ceṉṟēṉ kalikeḻu kūṭal</l>
+                <l>varaiyuṟaḻ nīṇmatil vāycūḻnta vaiyaik</l>
+                <l>karaiyaṇi kāvi ṉakattu;</l>
+                <l>uraiyiṉi, taṇṭāttīñ cāya ṉeṭuntakā yavvaḻik</l>
+                <l>kaṇṭa tevaṉmaṟṟu nī;</l>
+                <l>kaṇṭatu, uṭaṉama rāyamō ṭavvicum pāyu</l>
+                <l>maṭanaṭai māyiṉa manti yamaiyat</l>
+                <l>tiṭaṉviṭ ṭiyaṅkā vimaiyat torupā</l>
+                <l>liṟaikoṇ ṭiruntaṉṉa nallāraik kaṇṭēṉ</l>
+                <l>ṟuṟaikoṇ ṭuyarmaṇaṉmēl oṉṟi niṟaivatai;</l>
+                <l>ōrtta ticaikkum paṟaipōṉiṉ ṉeñcattu</l>
+                <l>vēṭṭatē kaṇṭāy kaṉā;</l>
+                <l>kēṭṭai, viraiyaṉī maṟṟu vekuḷvā yuraiyāṇ</l>
+                <l>ṭituvāku miṉṉakai nallāy potuvākat</l>
+                <l>tāṅkoṭi yaṉṉa takaiyā reḻuntatōr</l>
+                <l>pūṅkoṭi vāṅki yiṇarkoyya vāṅkē</l>
+                <l>ciṉaiyalar vēmpiṉ poruppaṉ poruta</l>
+                <l>muṉaiyaraṇ pōla vuṭaintaṉṟak kāviṟ</l>
+                <l>ṟuṉaivari vaṇṭi ṉiṉam;</l>
+                <l>maṟṟāṅkē, nēriṇar mūciya vaṇṭellā mavvaḻik</l>
+                <l>kārikai nallār nalaṅkavarn tuṇpapō lōrāṅku mūca</l>
+                <l>vavaruḷ,</l>
+                <l>orutti, ceyalamai kōtai nakai</l>
+                <l>orutti, yikalār ceruviṟ ṟoṭiyoṭu taṭpa</l>
+                <l>orutti, terimuttañ cērnta tilakam</l>
+                <l>orutti, yarimā ṇavirkuḻai yāykātu vāṅka</l>
+                <l>orutti, variyā rakalalkuṟ kāḻakam</l>
+                <l>orutti, yariyār ñekiḻat taṇicuṟāt taṭpa</l>
+                <l>orutti, pulaviyāṟ pullā tiruntā ḷalavuṟṟu</l>
+                <l>vaṇṭiṉa mārppa viṭaiviṭṭuk kātalaṉ</l>
+                <l>ṟaṇṭā rakalam pukum;</l>
+                <l>orutti, yaṭitāḻ kaliṅkan taḻīi yorukai</l>
+                <l>muṭitā ḻiruṅkūntal paṟṟippū vēynta</l>
+                <l>kaṭikayam pāyu malantu;</l>
+                <l>orutti, kaṇaṅkoṇ ṭavaimūcak kaiyāṟṟāḷ pūṇṭa</l>
+                <l>maṇaṅkamaḻ kōtai paripukoṇ ṭōcci</l>
+                <l>vaṇaṅkukāḻ vaṅkam pukum;</l>
+                <l>orutti, yiṟanta kaḷiyā ṉitaḻmaṟainta kaṇṇaḷ</l>
+                <l>paṟantavai mūcak kaṭivāḷ kaṭiyu</l>
+                <l>miṭantēṟṟāḷ cōrntaṉaḷ kai;</l>
+                <l>āṅka, kaṭikāviṟ kāloṟṟa volki yociyāk</l>
+                <l>koṭikoṭi tammiṟ piṇaṅki yavaipōṟ</l>
+                <l>ṟeriyiḻai yārppa mayaṅki yirivuṟṟār vaṇṭiṟku</l>
+                <l>vaṇṭalvarak kaṇṭēṉ yāṉ;</l>
+                <l>niṉṉainiṉ peṇṭir pulantaṉavu nīyavar</l>
+                <l>muṉṉaṭi yolki yuṇarttiṉavum paṉmāṇ</l>
+                <l>kaṉaviṉ ṟalaiyiṭ ṭuraiyal ciṉaiiyāṉ</l>
+                <l>ceyvati leṉpatō kūṟu;</l>
+                <l>poykūṟēṉ, aṉṉavakai yālyāṉ kaṇṭa kaṉavutā</l>
+                <l>ṉaṉavākak kāṇṭai naṟunutāl paṉmāṇuṅ</l>
+                <l>kūṭip puṇarntīr piriyaṉmi ṉīṭip</l>
+                <l>pirintīr puṇartammi ṉeṉpaṉa pōla</l>
+                <l>varumpaviḻ pūñciṉai tōṟu miruṅkuyi</l>
+                <l>lāṉā takavum poḻutiṉāṉ mēvara</l>
+                <l>nāṉmāṭak kūṭaṉ makaḷiru maintarun</l>
+                <l>tēṉimir kāviṟ puṇarntirun tāṭumā</l>
+                <l>rāṉā viruppō ṭaṇiyayarpa kāmaṟku</l>
+                <l>vēṉil viruntetir koṇṭu.</l>
+            </lg>
+            <lg type="translation" xml:lang="en">
+                <l>HE</l>
+                <l>You who are like a flower creeper growing in the field, a</l>
+                <l>thing of very beautiful nature happened as a dream.</l>
+                <l>It did not stop giving them [three things, namely]</l>
+                <l>rightfully [and] with certainty attaining</l>
+                <l>the high wealth for those who remain exhausted</l>
+                <l>without being able to go only there, in confusion,</l>
+                <l>sinking between the breasts of good women they embrace,</l>
+                <l>and the world of the noble ones who do not follow dharma with difficulty,</l>
+                <l>as well as separating from those one desires and [re-]uniting [with them] there</l>
+                <l>Like in reality, you with fragrant forehead, in a dream</l>
+                <l>at night I went into a grove adorning the shore</l>
+                <l>of the Vaiyai that surrounds the region of the mountain-like</l>
+                <l>high fortification of bustling Maturai.</l>
+                    
+                <l>SHE</l>
+                <l>Talk now, [my] paragon of irrepressible sweet grace, that way</l>
+                <l>what did you see?</l>
+                    
+                <l>HE</l>
+                <l>What [I] saw, good women who sat like a large group</l>
+                <l>[of geese] with youthful gait who search that sky,</l>
+                <l>after taking a seat on one side of the Himalaya, which does not move from [its] place,</l>
+                <l>in the time of twilight, I saw,</l>
+                <l>[and] the becoming full in one one the high sand, reaching the ghat.</l>
+                    
+                <l>SHE</l>
+                <l>[Then] in a dream you have seen what you wanted [to see],</l>
+                <l>with your heart [going] like a drum that repeats what it perceived.</l>
+                    
+                <l>HE</l>
+                <l>Listen, don’t you be hasty. You who are angry, tell [me]. There</l>
+                <l>it is this, you good one with a sweet smile. When together</l>
+                <l>those who have beauty like a creeper pulled the flower creepers</l>
+                <l>that had risen [there] and plucked the clusters, there</l>
+                <l>broke [loose] a swarm of hasty striped bees</l>
+                <l>in that grove, like in a fortress on the frontier</l>
+                <l>that is attacked by the Pāṇṭiya king with Neem that blossoms on branches.</l>
+                <l>Then again, when all the bees that had swarmed the fine clusters that way</l>
+                <l>swarmed there like one as if to seize [and] consume the beauty of [those] good women,</l>
+                <l>among them,</l>
+                <l>one, with a garland [and] pearls suited for [their] workmanship</l>
+                <l>hindered another with bangles as if in a hostile quarrel,</l>
+                <l>one with a Tilakam in which a clear pearl was joined</l>
+                <l>dragged another with choice ears with a beautiful glorious shining earrings,</l>
+                <l>one with a cloth on [her] wide hips full of lines</l>
+                <l>hindered another with sharks decorating [her] beautiful toe rings,</l>
+                <l>[and] one who had remained unembracing because of a sulk, feeling suffering</l>
+                <l>when the swarm of bees hummed [close] left the place [and] threw herself</l>
+                <l>upon of the cool garlanded chest of [her] lover.</l>
+                <l>One, holding the fine cloth that fell to [her] feet with one hand</l>
+                <l>gripped [her] dark tresses hanging down in a knot [and] jumped</l>
+                <l>for suffering into a fragrant pool that was covered by flowers.</l>
+                <l>One, when those [bees] swarmed coming in a group could not [chase them] by hand,</l>
+                <l>wielded in running the garland fragrant with scent which she had worn</l>
+                <l>[and] entered a boat with curved oars.</l>
+                <l>One who has hidden [her] eyes behind [her] lids because of excessive intoxication</l>
+                <l>chased the flying ones when they swarmed [around her], [but] although she chased</l>
+                <l>she did not make out the place [and] her hand sank.</l>
+                <l>thus, I have see a Vaṇṭal game come</l>
+                <l>for the bees with those who had to retreat in confusion, while [their] clear jewels tinkled,</l>
+                <l>like creeper intertwined with creeper without breaking,</l>
+                <l>moving when the wind presses [them] in the fragrant grove.</l>
+                    
+                <l>SHE</l>
+                <l>Don’t talk putting forth a dream many times</l>
+                <l>about the sulking acts of your women against you</l>
+                <l>and your weak attempts at reconciling in front of their feet.</l>
+                <l>Will it be so that I don’t act in anger? Speak.</l>
+                    
+                <l>HE</l>
+                <l>I don’t speak lies; the dream I have seen in such manner,</l>
+                <l>see it as reality, you with fragrant forehead. At the time</l>
+                <l>when unendingly dark coels call on every flower branch</l>
+                <l>that opens [its] buds, as if to say “you who have engaged</l>
+                <l>in union many times too, don’t part, you who delay [and]</l>
+                <l>part from those you are united with.” Suitably</l>
+                <l>will women and men in Kūṭal with four storied mansions</l>
+                <l>remain united in the bee-humming groves [and] bathe,</l>
+                <l>engaged in adorning [themselves] with unending desire</l>
+                <l>[and] welcoming Kāma’s summer feast.</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+COPY STANDOFF FROM INTERFACE HERE
+</TEI>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Kalittokai</title> 97. 
+            <persName xml:lang="ta"></persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+        <!--listWit n="1"></listWit>
+        <listWit n="2"></listWit-->
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+
+  </teiHeader>
+  <text xml:lang="ta" type="edition">
+    <body>
+
+        <div xml:id="Kali97-kilavi">
+          <p type="edition">itu “koṭiyōr koṭumai cuṭumeṉa ... pakutiyi ṉīṅkiya takutikkaṭ” ṭalaivi 
+            parattaiyarai yāṉaiyākak kūṟip pulantatu.</p>
+          <p type="translation" xml:lang="en"></p>
+        </div>
+        <div xml:id="Kali97">
+            <lg type="edition">
+                <l>aṉṉai kaṭuñco laṟiyātāy pōlanī</l>
+                <l>yeṉṉaip pulappa toṟukkuveṉ maṉyāṉ</l>
+                <l>ciṟukālai yiṟkaṭai vantu kuṟiceyta</l>
+                <l>vavvaḻi yeṉṟumyāṉ kāṇēṉ ṟiritara</l>
+                <l>vevvaḻip paṭṭāy camaṉāka vivveḷḷal;</l>
+                <l>muttēr muṟuvalāy namvalaip paṭṭatōr</l>
+                <l>puttiyāṉai vantatu kāṇpāṉyāṉ ṟaṅkiṉēṉ;</l>
+                <l>okkum;</l>
+                <l>avviyāṉai vaṉappuṭait tākaluṅ kēṭṭēṉ;</l>
+                <l>avviyāṉaitāṉ, cuṇṇanī ṟāṭi naṟunaṟā nīruṇ</l>
+                <l>ṭoṇṇutal yātta tilaka vavirōṭait</l>
+                <l>toyyil poṟitta vaṉamulai vāṉkōṭṭut</l>
+                <l>toyyakat tōṭṭi kuḻaitāḻ vaṭimaṇi</l>
+                <l>yutti poṟitta puṉaipūṇ parumattu</l>
+                <l>muttēyk kumveṇ paṉṉakai tiṟantu</l>
+                <l>naṉṉakar vāyiṟ katava veḷilcārntut</l>
+                <l>taṉṉalaṅ kāṭṭit takaiyiṉāṟ kāṟaṭṭi vīḻkkun</l>
+                <l>toṭartoṭa rāka valantu paṭarceyyu</l>
+                <l>meṉṟōṭ ṭaṭakkaiyiṉ vāṅkit taṟkaṇṭār</l>
+                <l>nalaṅkavaḷaṅ koḷḷu nakaimuka vēḻattai</l>
+                <l>yiṉṟukaṇ ṭāypō levaṉemmaip poyppatunī;</l>
+                <l>ellā, keḻīit toṭiceṟitta tōḷiṇai tāṅkit</l>
+                <l>taḻīikkoṇ ṭūrntāyu nī;</l>
+                <l>kuḻīi, avāviṉāṟ ṟēmpuvā riṟkaṭai yāṟā</l>
+                <l>vuvāvaṇi yūrntāyu nī;</l>
+                <l>mikātu, cīrppaṭa vuṇṭa ciṟukaḷi yēruṇka</l>
+                <l>ṇīrkkuviṭ ṭūrntāyu nī;</l>
+                <l>cāarccār, neṟitā ḻiruṅkūnta ṉiṉpeṇṭi rellāñ</l>
+                <l>ciṟupāka rākac ciraṟṟātu mella</l>
+                <l>viṭāatu nīyemmil vantāyav viyāṉai</l>
+                <l>kaṭāam paṭumiṭat tōmpu.</l>
+            </lg>
+            <lg type="translation" xml:lang="en">
+                <l>“You are like that, as if you didn’t know harsh words.</l>
+                <l>I dislike [your] sulking with me.”</l>
+                <l>“Coming to the house gate in the early morning, I have never</l>
+                <l>seen that way in which marks are left [on you]. When you were about,</l>
+                <l>how did this ridiculous thing happen to you while nearby?”</l>
+                <l>“You with pearl-like teeth, I stayed on order to see</l>
+                <l>a new elephant come that had fallen into our net.”</l>
+                <l>“Typical.</l>
+                <l>I have heard that that elephant is beautiful, too.</l>
+                <l>That elephant, bathing in powdery dust, drinking water with fragrant toddy,</l>
+                <l>[its] shining [head] badge with a tilakam applied to the forehead,</l>
+                <l>with white tusks [that are] soft breasts imprinted with sandal paste,</l>
+                <l>the goad a head ornament, shapely gems hanging from the earrings,</l>
+                <l>decoration impressed on the head ornament, with an ornate waist-band/cushion,</l>
+                <l>a smile opening on white teeth that resemble pearls,</l>
+                <l>approaching the post at the entry gate of the good mansion,</l>
+                <l>the elephant bull with a smiling face that takes a rice ball of beauty</l>
+                <l>from those who see it, flexing [its] broad hand, the soft shoulders</l>
+                <l>that cause affliction when they become all chains,</l>
+                <l>which bring to fall by knocking [you] off [your] feet through loveliness, showing its/her beauty,</l>
+                <l>what [is the point] of you lying to us, as if you had seen [it] today?</l>
+                <l>Hey, you are the one who mounted, taking in an embrace</l>
+                <l>[and] enduring the arm pair with tight bracelets in union,</l>
+                <l>and you are the one who mounted the ornament [that is] a young lady/an elephant</l>
+                <l>while those who wither from longing are unappeased at the house gate, crowding,</l>
+                <l>and you are the one who mounted, leaving to the water</l>
+                <l>the beautiful kajal eyes [after] a little delight that was enjoyed excellently, without increasing.</l>
+                <l>You who have quietly come to our house,</l>
+                <l>without all your women with curly hanging dark tresses [who are] on all sides</l>
+                <l>being angry, as an under-mahout, without giving [them] up,</l>
+                <l>beware [the time] when that elephant undergoes rut.”</l>
+            </lg>
+        </div>
+    </body>
+  </text>
+COPY STANDOFF FROM INTERFACE HERE
+</TEI>
