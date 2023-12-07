@@ -3,7 +3,7 @@ import needlemanWunsch from './needlemanwunsch.mjs';
 const CONCATRIGHT = Symbol.for('concatright');
 const CONCATLEFT = Symbol.for('concatleft');
 
-const particlebare = ['amma','arō','ā','ār','āl','ālamma','āṟṟilla','ikā','um','ē','ō','kol','kollō','kollē','koṉ','tilla','tillamma','teyya','maṟṟu','maṟṟu-','maṟṟē','ōmaṟṟē','maṟṟilla','maṉ','maṉṟa','maṉṟilla','maṉṉō','maṉṉē','maṉṟa','maṉṟamma','mātu','mātō','māḷa','yāḻa','yāḻa-'];
+const particlebare = ['amma','amma-','arō','ā','ār','āl','ālamma','āṟṟilla','ikā','um','ē','ō','kol','kollō','kollē','koṉ','koṉ-','tilla','tillamma','teyya','maṟṟu','maṟṟu-','maṟṟē','ōmaṟṟē','maṟṟilla','maṉ','maṉṟa','maṉṟilla','maṉṉō','maṉṉē','maṉṟa','maṉṟamma','mātu','mātō','māḷa','yāḻa','yāḻa-'];
 particlebare.sort((a,b) => b.length - a.length);
 
 const particles = particlebare.map(a => {
@@ -244,7 +244,7 @@ const makeEntries = (arr) => {
     const formatWord = (w) => {
         return w.replace(/([~+()])/g,'<pc>$1</pc>')
                 //.replace(/['’*]$/,'<pc type="ignored">(</pc>u<pc type="ignored">)</pc>')
-                .replace(/['’*]/,'<pc type="ignored">(</pc>u<pc type="ignored">)</pc>')
+                .replaceAll(/['’*]/g,'<pc type="ignored">(</pc>u<pc type="ignored">)</pc>')
                 .replaceAll(/\[(.+?)\]/g,'<supplied>$1</supplied>');
                 //.replaceAll(/\[(.+?)\]/g,'$1');
     };
@@ -275,7 +275,7 @@ const makeEntries = (arr) => {
 
 const cleanBare = (str) => {
     //str = str.replaceAll(/[~+-.]/g,'').replace(/['’*]$/,'u');
-    str = str.replaceAll(/[\[\]~+.]/g,'').replace(/-$|^-/,'').replace(/['’*]/,'u');
+    str = str.replaceAll(/[\[\]~+.]/g,'').replace(/-$|^-/,'').replaceAll(/['’*]/g,'u');
     /*
     if(str.match(/[iīeē]y$/))
         return str.slice(0,-1); // inserted glide
