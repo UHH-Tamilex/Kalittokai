@@ -3,7 +3,7 @@ import needlemanWunsch from './needlemanwunsch.mjs';
 const CONCATRIGHT = Symbol.for('concatright');
 const CONCATLEFT = Symbol.for('concatleft');
 
-const particlebare = ['amma','amma-','arō','ā','ār','āl','ālamma','āṟṟilla','ikā','um','umār','ē','ō','kol','kollō','kollē','koṉ','koṉ-','tilla','tillamma','teyya','maṟṟu','maṟṟu-','maṟṟē','ōmaṟṟē','maṟṟilla','maṉ','maṉṟa','maṉṟilla','maṉṉō','maṉṉē','maṉṟa','maṉṟamma','mātu','mātō','māḷa','yāḻa','yāḻa-'];
+const particlebare = ['amma','amma-','arō','ā','ār','āl','ālamma','āṟṟilla','ikā','um','umār','ē','ō','kol','kollō','kollē','koṉ','koṉ-','tilla','tillamma','teyya','maṟṟu','maṟṟu-','maṟṟē','ōmaṟṟē','maṟṟilla','maṉ','maṉṟa','maṉṟilla','maṉṉō','maṉṉē','maṉṉum','maṉṟa','maṉṟamma','mātu','mātō','māḷa','yāḻa','yāḻa-'];
 particlebare.sort((a,b) => b.length - a.length);
 
 const particles = particlebare.map(a => {
@@ -128,6 +128,7 @@ const gramAbbreviations = [
     ['(f.sg.)','feminine singular'],
     ['(pl.obl.)','plural oblique'],
     ['(sg.dat.)','singular dative'],
+    ['(sub.pl.)','plural subjunctive'],
     ['(pl.sub.)','plural subjunctive'],
     ['(pron.n.)','pronominalised noun'],
     ['(pron.n.n.sg.)','pronominalised noun neuter singular'],
