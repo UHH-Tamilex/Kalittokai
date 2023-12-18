@@ -15,7 +15,6 @@
 <xsl:output method="html" encoding="UTF-8" omit-xml-declaration="yes" indent="no"/>
 
 <xsl:param name="root">./lib/</xsl:param>
-<xsl:param name="debugging">false</xsl:param>
 
 <xsl:template match="x:TEI">
     <xsl:call-template name="TEI"/>
@@ -63,12 +62,6 @@
                 <xsl:attribute name="rel">stylesheet</xsl:attribute>
                 <xsl:attribute name="href"><xsl:value-of select="$root"/>css/apparatus.css</xsl:attribute>
             </xsl:element>
-            <xsl:if test="$debugging = 'true'">
-                <xsl:element name="link">
-                    <xsl:attribute name="rel">stylesheet</xsl:attribute>
-                    <xsl:attribute name="href">debugging/prism.css</xsl:attribute>
-                </xsl:element>
-            </xsl:if>
             <xsl:element name="link">
                 <xsl:attribute name="rel">stylesheet</xsl:attribute>
                 <xsl:attribute name="href">edition.css</xsl:attribute>
@@ -85,7 +78,6 @@
                 <xsl:attribute name="type">module</xsl:attribute>
                 <xsl:attribute name="src">edition.mjs</xsl:attribute>
                 <xsl:attribute name="id">editionscript</xsl:attribute>
-                <xsl:attribute name="data-debugging"><xsl:value-of select="$debugging"/></xsl:attribute>
             </xsl:element>
             <xsl:element name="script">
                 <xsl:attribute name="src">raphael-min.js</xsl:attribute>
