@@ -1,6 +1,6 @@
 import Fs from 'fs';
 import Jsdom from 'jsdom';
-import {tamilSplit} from '../debugging/aligner.mjs';
+import {tamilSplit} from '../lib/debugging/aligner.mjs';
 
 const template = Fs.readFileSync('wordlist-template.xml',{encoding: 'UTF-8'});
 

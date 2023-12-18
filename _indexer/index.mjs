@@ -536,6 +536,7 @@ const clipWord = (wordsplitarr, textarr, start, end) => {
     const word = wordsplitarr.slice(newstart,newend).join('');
 
     return word//.replaceAll(/[.-]/g,'')
+               .replace(/^-/,'')
                .replaceAll("'",'u')
                .replaceAll('(i)','u');
 };
