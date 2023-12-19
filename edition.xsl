@@ -65,7 +65,7 @@
         <xsl:if test="$debugging = 'true'">
             <xsl:element name="link">
                 <xsl:attribute name="rel">stylesheet</xsl:attribute>
-                <xsl:attribute name="href">debugging/prism.css</xsl:attribute>
+                <xsl:attribute name="href"><xsl:value-of select="$root"/>debugging/prism.css</xsl:attribute>
             </xsl:element>
         </xsl:if>
         <xsl:element name="link">
@@ -75,13 +75,13 @@
         <xsl:if test="$debugging = 'true'">
             <xsl:element name="link">
                 <xsl:attribute name="rel">stylesheet</xsl:attribute>
-                <xsl:attribute name="href">debugging/debugging.css</xsl:attribute>
+                <xsl:attribute name="href"><xsl:value-of select="$root"/>debugging/debugging.css</xsl:attribute>
             </xsl:element>
             <!--xsl:element name="script">
                 <xsl:attribute name="src">debugging/papaparse.min.js</xsl:attribute>
             </xsl:element-->
             <xsl:element name="script">
-                <xsl:attribute name="src">debugging/prism.js</xsl:attribute>
+                <xsl:attribute name="src"><xsl:value-of select="$root"/>debugging/prism.js</xsl:attribute>
                 <xsl:attribute name="data-manual"/>
             </xsl:element>
         </xsl:if>
@@ -154,7 +154,52 @@
                 </xsl:element>
             </xsl:if>
             <xsl:if test="$debugging = 'true'">
-                <div id="blackout"><div class="popup"><select name="edblock"></select><div class="boxen"><div><label>Tamil wordsplit</label><textarea></textarea></div><div><label>Word-by-word translation</label><textarea></textarea></div></div><button type="button">Align</button><div id="output-boxen"><div id="popup-output"></div><div id="popup-warnings"></div></div></div></div>
+                <div id="blackout">
+                    <div class="popup" id="splits-popup">
+                        <div class="popup-options">
+                            <select name="edblock"></select>
+                            <div>
+                                <input name="lookup" type="checkbox"/>
+                                <label for="lookup">Grammar lookup</label>
+                            </div>
+                        </div>
+                        <div class="boxen">
+                            <div>
+                                <label>Tamil wordsplit</label><textarea></textarea>
+                            </div>
+                            <div>
+                                <label>Word-by-word translation</label><textarea></textarea>
+                            </div>
+                        </div>
+                        <button type="button">Align</button>
+                        <div class="output-boxen">
+                            <div class="popup-output"></div>
+                            <div class="popup-warnings"></div>
+                        </div>
+                    </div>
+                    <div class="popup" id="variants-popup">
+                        <div class="popup-options">
+                            <select name="edblock"></select>
+                            <div>
+                                <input type="checkbox" id="normlem" checked="true"/>
+                                <label>Use normalized readings</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="mergerdgs" checked="true"/>
+                                <label>Merge groups</label>
+                            </div>
+                            <div>
+                                <label for="teifile">Select alignment file... </label>
+                                <input type="file" autocomplete="off" id="teifile" name="teifile" accept=".xml"/>
+                            </div>
+                        </div>
+                        <!--div class="boxen">
+                        </div-->
+                        <div class="output-boxen">
+                            <div class="popup-output"></div>
+                        </div>
+                    </div>
+                </div>
             </xsl:if>
         </xsl:element>
     </xsl:element>
