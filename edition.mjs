@@ -1,8 +1,9 @@
 import { Transliterate } from './lib/js/transliterate.mjs';
 import { GitHubFunctions } from './lib/js/githubfunctions.mjs';
 import { ApparatusViewer } from './lib/js/apparatus.mjs';
-import Splitter from './debugging/splits.mjs';
-import { addVariants } from './debugging/variants.mjs';
+import { AlignmentViewer } from './lib/js/alignment.mjs';
+import Splitter from './lib/debugging/splits.mjs';
+import { addVariants } from './lib/debugging/variants.mjs';
 import { Sanscript } from './lib/js/sanscript.mjs';
 import './lib/js/tooltip.mjs';
 //import { tamilize, iastToTamil } from './transliterate.mjs';
@@ -13,6 +14,13 @@ const cachedContent = new Map();
 
 const lookup = (e) => {
 //if(e.target.nodeName === 'RT' || e.target.classList?.contains('word')) {
+    const apointer = e.target.closest('.alignment-pointer');
+    if(apointer) {
+        e.preventDefault();
+        AlignmentViewer.viewer(apointer.href);
+        return;
+    }
+
     const word = e.target.closest('.word');
     if(word) {
         //const clean = e.target.dataset.norm.trim();
@@ -217,7 +225,7 @@ const makeWord = (entry) => {
     const translation = entry.querySelector('.f[data-name="translation"]');
     const affix = entry.querySelector('.f[data-name="affix"]');
     const particles = entry.querySelectorAll('.f[data-name="particle"]');
-    const role = entry.querySelector(':scope > .f[data-name="role"], :scope > .f[data-name=""] > .f[data-name="role"]');
+    const roles = entry.querySelectorAll(':scope > .f[data-name="role"], :scope > .f[data-name=""] > .f[data-name="role"]');
     const cleanlemma = entry.querySelector('.f[data-name="simple"]');
     if(cleanlemma) span.dataset.clean = cleanlemma.textContent;
     if(translation || affix) {
@@ -227,8 +235,8 @@ const makeWord = (entry) => {
         annoel.lang = 'en';
         if(translation) annoel.append(translation.textContent);
         let annohtml = translation ? translation.textContent : '';
-        if(role)
-            annohtml = annohtml + ` (${role.textContent})`;
+        if(roles.length > 0)
+            annohtml = annohtml + ` (${[...roles].map(r => r.textContent).join(' ')})`;
         if(affix) {
             const affixrole = affix.querySelector('[data-name="role"]')?.textContent || 'suffix';
             const form = affix.querySelector('[data-name="lemma"]');
@@ -248,6 +256,7 @@ const makeWord = (entry) => {
         noteel.dataset.anno = '';
         noteel.append('†');
         const annoel = document.createElement('span');
+        annoel.lang = note.lang;
         annoel.className = 'anno-inline';
         annoel.innerHTML = note.innerHTML;
         noteel.appendChild(annoel);
