@@ -26,8 +26,10 @@ jobs:
       - name: build word index
         run: |
           cd _indexer
+          yarn install
           yarn pageindex
           cd ../wordindex/_src
+          yarn install
           yarn todb
           yarn dbtohtml
           git pull
