@@ -8,6 +8,8 @@ const init = () => {
         const details = document.querySelector(`details[data-entry='${word}']`);
         details.scrollIntoView({behavior: 'smooth', block: 'center'});
         details.open = true;
+        pardetails = details.parentNode.closest('details');
+        if(pardetails) pardetails.open = true;
         docClick({target: details});
     }
 };
