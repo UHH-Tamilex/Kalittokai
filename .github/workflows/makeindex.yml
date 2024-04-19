@@ -25,13 +25,11 @@ jobs:
 
       - name: build word index
         run: |
-          cd _indexer
+          cd lib/_indexer
           yarn install
-          yarn pageindex
-          cd ../wordindex/_src
-          yarn install
-          yarn todb
-          yarn dbtohtml
+          yarn pageindex Kali Kalittokai
+          yarn todb Kali
+          yarn dbtohtml Kalittokai
           git pull
 
       - uses: stefanzweifel/git-auto-commit-action@v4
