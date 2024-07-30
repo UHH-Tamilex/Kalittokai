@@ -72,7 +72,7 @@
         </div>
     </body>
   </text>
-  <standOff type="wordsplit" corresp="#Kali61"><interp type="alignment" select="0">8MG92MG33MG11ML3MGM2G3ML87MG18MG2MG19MG3MG29MG3MG19MG9M2G9ML18M2G66MG5MG20ML38MG7MG13MG35MG4MG19MG28MG5MG33MG10ML38MG27ML5MGMR67M,183MG6MG80MG6MG21MG7MG53MG10MG49MG5MG84MG8MG64MG6MG18MG6MG203MG</interp>
+  <standOff type="wordsplit" corresp="#Kali61"><interp type="alignment" select="0">8MG92MG33MG11ML3MGM2G3ML87MG18MG2MG19MG32MG3MG19MG9M2G9ML18M2G66MG5MG20ML38MG7MG13MG35MG4MG19MG28MG38MG10ML38MG27ML6MR67M,183MG6MG80MG6MG20MG7MG53MG10MG49MG5MG84MG8MG64MG6MG18MG6MG201MG</interp>
 <entry>
 <form>ellā</form>
 <def>friend</def>
@@ -284,10 +284,10 @@
 <def>speak-if</def>
 </entry>
 <entry>
-<form>maṟātīvāḷ-maṉ-<pc>+</pc>ō</form>
+<form>maṟātīvāḷ-maṉṉō</form>
 <def>refuse-not-shemaṉṉ</def>
-<form type="simple">maṟātīvāḷ-maṉ</form>
-<gramGrp type="particle"><m>ō</m></gramGrp>
+<form type="simple">maṟātīvāḷ</form>
+<gramGrp type="particle"><m>maṉṉō</m></gramGrp>
 </entry>
 <entry>
 <form><pc>~</pc>ivaḷ</form>
@@ -493,7 +493,7 @@
 </entry>
 <entry>
 <form>evaṉ-kolō</form>
-<def>whatkol</def>
+<def>what</def>
 </entry>
 <entry>
 <form>oḷ</form>
@@ -536,8 +536,13 @@
 <def>laughed</def>
 </entry>
 <entry>
-<form>eḷḷa<pc>+</pc>-paṭu</form>
-<def>reproach(inf.)-happen-</def>
+<form>eḷḷa<pc>+</pc></form>
+<def>reproach</def>
+<gramGrp><gram type="role">infinitive</gram>
+</gramGrp></entry>
+<entry>
+<form>paṭu</form>
+<def>happen-</def>
 </entry>
 <entry>
 <form>maṭal</form>
@@ -637,12 +642,8 @@
 <def>be-similar-</def>
 </entry>
 <entry>
-<form>nōkkiṉ-um</form>
+<form>nōkkiṉum</form>
 <def>look-if-even</def>
-<form type="simple">nōkkiṉ</form>
-<gramGrp><gram type="role">concessive</gram>
-<gram type="role">conditional</gram>
-</gramGrp><gramGrp type="particle"><m>um</m></gramGrp>
 </entry>
 <entry>
 <form>nōkkum</form>
