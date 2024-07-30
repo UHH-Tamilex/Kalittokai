@@ -91,7 +91,7 @@
         </div>
     </body>
   </text>
-  <standOff type="wordsplit" corresp="#Kali62"><interp type="alignment" select="0">6MG5ML18MG7MG20ML4MG2ML9MG12MR14MG55MG4MG24MG4MG18MG15MG2MGMG54MG8MG4MG15MG4MG3MG4MG19MG19MG28MG25ML20MG23MG12MG27ML3MG16MG10MG3MG3M2G12MG3M2G5M2G9M,243MG11MG93MG121MG120MG</interp>
+  <standOff type="wordsplit" corresp="#Kali62"><interp type="alignment" select="0">6MG5ML18MG7MG20ML6ML9MG12MR14MG55MG4MG24MG4MG18MG15MG2MG55MG8MG4MG15MG4MG3MG4MG19MG19MG28MG25ML20MG23MG12MG27ML3MG16MG10MG3MG3M2G12MG3M2G5M2G9M,241MG11MG93MG121MG120MG</interp>
 <entry>
 <form>ēe</form>
 <def>eh</def>
@@ -147,12 +147,8 @@
 <def>seizes</def>
 </entry>
 <entry>
-<form>mēviṉ-um</form>
+<form>mēviṉum</form>
 <def>attached-if-even</def>
-<form type="simple">mēviṉ</form>
-<gramGrp><gram type="role">concessive</gram>
-<gram type="role">conditional</gram>
-</gramGrp><gramGrp type="particle"><m>um</m></gramGrp>
 </entry>
 <entry>
 <form>mēvā<pc>+</pc></form>
@@ -287,10 +283,10 @@
 <def>good-it</def>
 </entry>
 <entry>
-<form>ām-ō-maṟṟu</form>
-<def>becomesō-</def>
-<form type="simple">ām-ō</form>
-<gramGrp type="particle"><m>maṟṟu</m></gramGrp>
+<form>ām-ōmaṟṟu</form>
+<form type="simple">ām</form>
+<gramGrp type="particle"><m>ōmaṟṟu</m></gramGrp>
+<def>becomes</def>
 </entry>
 <entry>
 <form>cuṭar<pc>+</pc></form>
@@ -343,12 +339,19 @@
 <form>allatu</form>
 <def>besides</def>
 </entry>
-<entry>
+<superEntry type="ambiguous">
+<entry><entry>
 <form>nīrkk<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
-<def>you(pl.dat.)/water(dat.)</def>
+<def>you</def>
 <gramGrp><gram type="role">dative</gram>
 <gram type="role">plural</gram>
-</gramGrp></entry>
+</gramGrp></entry></entry>
+<entry><entry>
+<form>nīrkk<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
+<def>water</def>
+<gramGrp><gram type="role">dative</gram>
+</gramGrp></entry></entry>
+</superEntry>
 <entry>
 <form>iṉit<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
 <def>pleasing-it</def>
@@ -386,7 +389,9 @@
 </entry>
 <entry>
 <form>ceyvēṉ-kolō</form>
-<def>do-Ikol</def>
+<form type="simple">ceyvēṉ</form>
+<gramGrp type="particle"><m>kolō</m></gramGrp>
+<def>do-I</def>
 </entry>
 <entry>
 <form>ai</form>
