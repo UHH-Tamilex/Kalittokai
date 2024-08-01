@@ -72,7 +72,7 @@
         </div>
     </body>
   </text>
-  <standOff type="wordsplit" corresp="#Kali61"><interp type="alignment" select="0">8MG92MG33MG11ML3MGM2G3ML87MG18MG2MG19MG32MG3MG19MG9M2G9ML18M2G66MG5MG20ML38MG7MG13MG35MG4MG19MG28MG38MG10ML38MG27ML6MR67M,183MG6MG80MG6MG20MG7MG53MG10MG49MG5MG84MG8MG64MG6MG18MG6MG201MG</interp>
+  <standOff type="wordsplit" corresp="#Kali61"><interp type="alignment" select="0">8MG92MG33MG11ML3MGM2G3ML87MG18MG2MG19MG32MG3MG19MG9M2G9ML18M2G66MG5MG20ML38MG7MG13MG35MG4MG19MG28MG38MG10ML38MG27ML5MGMR67M,183MG6MG80MG6MG20MG7MG53MG10MG49MG5MG84MG8MG64MG6MG18MG6MG202MG</interp>
 <entry>
 <form>ellā</form>
 <def>friend</def>
@@ -494,6 +494,8 @@
 <entry>
 <form>evaṉ-kolō</form>
 <def>what</def>
+<form type="simple">evaṉ</form>
+<gramGrp type="particle"><m>kolō</m></gramGrp>
 </entry>
 <entry>
 <form>oḷ</form>
@@ -642,8 +644,12 @@
 <def>be-similar-</def>
 </entry>
 <entry>
-<form>nōkkiṉum</form>
+<form>nōkkiṉ-um</form>
 <def>look-if-even</def>
+<form type="simple">nōkkiṉ</form>
+<gramGrp><gram type="role">concessive</gram>
+<gram type="role">conditional</gram>
+</gramGrp><gramGrp type="particle"><m>um</m></gramGrp>
 </entry>
 <entry>
 <form>nōkkum</form>
