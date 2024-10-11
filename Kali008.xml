@@ -70,7 +70,7 @@
   <standOff type="wordsplit" corresp="#Kali8"><interp type="alignment" select="0">5MG5MG30MG80MG39MG34MG17MG19MG16MG17M2G15MG21MG13MG30MG10MGMR8MG9MG2MR7MG59MG10ML11MGMR8MG9MG2MR7MG18ML14ML15MG25MG17MGMR8MG9MG2MR7MG38MG55MG47MG10MG2M,278MG122MG114MG125MG8MG143MG</interp>
 <entry>
 <form>naṭuv<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
-<def>middle</def>
+<def>impartiality</def>
 <gramGrp><gram type="role">noun</gram>
 </gramGrp></entry>
 <entry>
@@ -153,7 +153,7 @@
 </gramGrp></entry>
 <entry>
 <form>kāy</form>
-<def>glow</def>
+<def>burn</def>
 <gramGrp><gram type="role">verbal root</gram>
 </gramGrp></entry>
 <entry>
@@ -301,7 +301,7 @@
 <entry>
 <form>oru</form>
 <def>one</def>
-</entry>
+<gramGrp/></entry>
 <entry>
 <form>poruḷ</form>
 <def>wealth</def>
@@ -376,7 +376,7 @@
 <form>ēḻ-um</form>
 <def>seven</def>
 <form type="simple">ēḻ</form>
-<gramGrp type="particle"><m>um</m></gramGrp>
+<gramGrp/><gramGrp type="particle"><m>um</m></gramGrp>
 </entry>
 <entry>
 <form>tam</form>
@@ -420,12 +420,12 @@
 <form>yāḻiṉ-um</form>
 <def>lute</def>
 <form type="simple">yāḻiṉ</form>
-<gramGrp><gram type="role">oblique</gram>
+<gramGrp><gram type="role">comparative</gram>
 </gramGrp><gramGrp type="particle"><m>um</m></gramGrp>
 </entry>
 <entry>
 <form>nilai</form>
-<def>state</def>
+<def>stability</def>
 <gramGrp><gram type="role">noun</gram>
 </gramGrp></entry>
 <entry>
@@ -529,14 +529,14 @@
 </entry>
 <entry>
 <form>tiruviṉ-um</form>
-<def>Śrī</def>
+<def>fortune</def>
 <form type="simple">tiruviṉ</form>
-<gramGrp><gram type="role">oblique</gram>
+<gramGrp><gram type="role">comparative</gram>
 </gramGrp><gramGrp type="particle"><m>um</m></gramGrp>
 </entry>
 <entry>
 <form>nilai</form>
-<def>state</def>
+<def>stability</def>
 <gramGrp><gram type="role">noun</gram>
 </gramGrp></entry>
 <entry>
@@ -625,13 +625,8 @@
 <gramGrp><gram type="role">oblique</gram>
 </gramGrp></entry>
 <entry>
-<form>kaṇ</form>
-<def>eye</def>
-<gramGrp><gram type="role">noun</gram>
-</gramGrp></entry>
-<entry>
-<form><pc>+</pc>ōṭāt<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
-<def>run-not</def>
+<form>kaṇṇōṭāt<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
+<def>feel-pity-not</def>
 <gramGrp><gram type="role">absolutive</gram>
 <gram type="role">negative</gram>
 </gramGrp></entry>
@@ -649,12 +644,12 @@
 <form>araiciṉ-um</form>
 <def>king</def>
 <form type="simple">araiciṉ</form>
-<gramGrp><gram type="role">oblique</gram>
+<gramGrp><gram type="role">comparative</gram>
 </gramGrp><gramGrp type="particle"><m>um</m></gramGrp>
 </entry>
 <entry>
 <form>nilai</form>
-<def>state</def>
+<def>stability</def>
 <gramGrp><gram type="role">noun</gram>
 </gramGrp></entry>
 <entry>
@@ -734,8 +729,8 @@
 </gramGrp></entry>
 <entry>
 <form><pc>~</pc>iṉṟu</form>
-<def>besides</def>
-<gramGrp><gram type="role">postposition</gram>
+<def>not-it</def>
+<gramGrp><gram type="role">neuter singular</gram>
 </gramGrp></entry>
 <entry>
 <form>maṉṉavaṉ</form>
@@ -772,7 +767,7 @@
 </gramGrp></entry>
 <entry>
 <form>nakar</form>
-<def>mansion/city</def>
+<def>city</def>
 <gramGrp><gram type="role">noun</gram>
 </gramGrp></entry>
 <entry>
