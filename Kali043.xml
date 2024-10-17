@@ -76,7 +76,7 @@
         </div>
     </body>
   </text>
-  <standOff type="wordsplit" corresp="#Kali43"><interp type="alignment" select="0">30MG15M3G4MG5MG10ML51MG52ML26MR84MG50MG4ML22ML3MG12MG4MG27ML91MG11M2G9MG9MG20ML35MG6MG15MG32MG15ML15MR20MG54MG38MG17MG72MG12MG17MG7M2G2M,206MG124MG128MG114MG144MG121MG8MG82MG</interp>
+  <standOff type="wordsplit" corresp="#Kali43"><interp type="alignment" select="0">30MG15M3G4MG5MG10ML51MG52ML26MR84MG50MG4ML22ML3MG12MG4MG27ML91MG11M2G9MG9MG20ML35MG6MG15MG32MG15ML15MR20MG92MG17MG72MG12MG17MG7M2G2M,206MG124MG128MG114MG144MG120MG8MG82MG</interp>
 <entry>
 <form>vēṅkai</form>
 <def>tiger</def>
@@ -420,7 +420,7 @@
 </entry>
 <entry>
 <form>pāṭittai</form>
-<def>may-sing(opt.?)</def>
+<def>may-sing(opt.?)(opt.)</def>
 <gramGrp><gram type="role">optative</gram>
 </gramGrp></entry>
 <entry>
@@ -622,7 +622,7 @@
 </entry>
 <entry>
 <form>pāṭittai</form>
-<def>may-sing(opt.?)</def>
+<def>may-sing(opt.?)(opt.)</def>
 <gramGrp><gram type="role">optative</gram>
 </gramGrp></entry>
 <entry>
@@ -660,9 +660,14 @@
 <def>unripe-fruit</def>
 </entry>
 <entry>
-<form>kulai-toṟūum</form>
-<def>bunch-ever</def>
+<form>kulai</form>
+<def>bunch</def>
 </entry>
+<entry>
+<form>toṟūum</form>
+<def>ever</def>
+<gramGrp><gram type="role">postposition</gram>
+</gramGrp></entry>
 <entry>
 <form>tūṅkum</form>
 <def>hanging-</def>
@@ -678,7 +683,7 @@
 </entry>
 <entry>
 <form><pc>~</pc>uraittārkk<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
-<def>talked-they()</def>
+<def>talked-they</def>
 </entry>
 <entry>
 <form>atu</form>

@@ -65,7 +65,7 @@
         </div>
     </body>
   </text>
-  <standOff type="wordsplit" corresp="#Kali30"><interp type="alignment" select="0">40MG9MG15MG6MG10MG25MG2MG3MG47MR40MG10MG9MG53MG23M2G38ML18MG9MG3MG16MG7MG29MG26MGMG28MG31MG3MG25MG17MG19MG41MG14ML70ML7ML14M2G2M,153MG147MG307MG8MG126MG</interp>
+  <standOff type="wordsplit" corresp="#Kali30"><interp type="alignment" select="0">40MG24MG6MG10MG25MG2MG3MG47MR40MG10MG9MG53MG23M2G38ML18MG9MG3MG16MG7MG29MG26MGMG28MG31MG3MG25MG17MG19MG41MG14ML70ML7ML14M2G2M,152MG147MG307MG8MG126MG</interp>
 <entry>
 <form>arum</form>
 <def>difficult</def>
@@ -105,9 +105,14 @@
 <def>end-not-</def>
 </entry>
 <entry>
-<form>ciṉai-toṟūum</form>
-<def>branch-ever</def>
+<form>ciṉai</form>
+<def>branch</def>
 </entry>
+<entry>
+<form>toṟūum</form>
+<def>ever</def>
+<gramGrp><gram type="role">postposition</gram>
+</gramGrp></entry>
 <entry>
 <form>vēṇṭum</form>
 <def>needing-</def>
@@ -134,7 +139,7 @@
 </entry>
 <entry>
 <form>vaṇṭoṭu</form>
-<def>bee()</def>
+<def>bee</def>
 </entry>
 <entry>
 <form>pulampu</form>
@@ -413,11 +418,11 @@
 <def>if</def>
 </entry>
 <entry>
-<form>uṟal<pc>(</pc>i<pc>)</pc></form>
+<form>uṟal</form>
 <def>having</def>
 </entry>
 <entry>
-<form>yām</form>
+<form><pc>(</pc>i<pc>)</pc>yām</form>
 <def>we</def>
 </entry>
 <entry>
