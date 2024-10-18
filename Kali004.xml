@@ -883,7 +883,6 @@
 <form>vayiṉ</form>
 <def>side</def>
 <gramGrp><gram type="role">postposition</gram>
-<gram type="role">locative</gram>
 </gramGrp></entry>
 <entry>
 <form>pirivēṉ</form>
@@ -981,5 +980,8 @@
 </gramGrp></entry>
 <entry>
 <form>kūṟiyatu</form>
-<def>talked-it(part.n.p.a.n.sg</def>
-</entry></standOff></TEI>
+<def>talked-it</def>
+<gramGrp><gram type="role">participial noun</gram>
+<gram type="role">neuter singular</gram>
+<gram type="role">perfective aspect</gram>
+</gramGrp></entry></standOff></TEI>
