@@ -181,8 +181,8 @@
 </gramGrp></entry>
 <entry>
 <form>vīḻ</form>
-<def>descend</def>
-<gramGrp><gram type="role">verbal root</gram>
+<def>desire</def>
+<gramGrp><gram type="role">noun</gram>
 </gramGrp></entry>
 <entry>
 <form>vār</form>
@@ -231,8 +231,8 @@
 </gramGrp></entry>
 <entry>
 <form>vīḻ</form>
-<def>fall</def>
-<gramGrp><gram type="role">verbal root</gram>
+<def>desire</def>
+<gramGrp><gram type="role">noun</gram>
 </gramGrp></entry>
 <entry>
 <form>irum</form>
@@ -292,9 +292,9 @@
 </gramGrp></entry>
 <entry>
 <form>ceyyāy-ō</form>
-<def>make-not-you</def>
+<def>red-you</def>
 <form type="simple">ceyyāy</form>
-<gramGrp><gram type="role">negative</gram>
+<gramGrp><gram type="role">pronominalised noun</gram>
 <gram type="role">singular</gram>
 <gram type="role">second person</gram>
 </gramGrp><gramGrp type="particle"><m>ō</m></gramGrp>
@@ -557,7 +557,8 @@
 <entry>
 <form>a<pc>+</pc></form>
 <def>that-</def>
-</entry>
+<gramGrp><gram type="role">sandhi</gram>
+</gramGrp></entry>
 <entry>
 <form>poruḷ</form>
 <def>wealth</def>
