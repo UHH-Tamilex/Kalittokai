@@ -70,7 +70,7 @@
         </div>
     </body>
   </text>
-  <standOff type="wordsplit" corresp="#Kali15"><interp type="alignment" select="0">3MG80MG4MG55MG53MG41MG9ML32ML8MG10MG38M2G26ML121M2G59MG89M2G36MG16MG73MG8MG11ML3M2G28MG7MG12MG10M2G11MG3M,270MG151MG149MG151MG8MG142MG</interp>
+  <standOff type="wordsplit" corresp="#Kali15"><interp type="alignment" select="0">3MG80MG4MG55MG53MG41MG49MG10MG38M2G26ML121M2G59MG89M2G36MG16MG73MG8MG11ML3M2G28MG7MG12MG10M2G11MG3M,269MG150MG149MG151MG8MG142MG</interp>
 <entry>
 <form>ari-māṉ</form>
 <def>lion</def>
@@ -119,7 +119,7 @@
 </gramGrp></entry>
 <entry>
 <form>puṟam</form>
-<def>back</def>
+<def>outside</def>
 <gramGrp><gram type="role">noun</gram>
 </gramGrp></entry>
 <entry>
@@ -244,7 +244,7 @@
 </gramGrp></entry>
 <entry>
 <form><pc>~</pc>urutta</form>
-<def>taken-shape</def>
+<def>been-furious</def>
 <gramGrp><gram type="role">perfective aspect</gram>
 <gram type="role">peyareccam</gram>
 </gramGrp></entry>
@@ -307,13 +307,8 @@
 <gramGrp><gram type="role">noun</gram>
 </gramGrp></entry>
 <entry>
-<form>puṟam</form>
-<def>back</def>
-<gramGrp><gram type="role">noun</gram>
-</gramGrp></entry>
-<entry>
-<form>māṟiya</form>
-<def>changed</def>
+<form>puṟamāṟiya</form>
+<def>outside-changed</def>
 <gramGrp><gram type="role">perfective aspect</gram>
 <gram type="role">peyareccam</gram>
 </gramGrp></entry>
@@ -334,7 +329,7 @@
 </gramGrp></entry>
 <entry>
 <form>puripu</form>
-<def>making</def>
+<def>acted</def>
 <gramGrp><gram type="role">noun</gram>
 </gramGrp></entry>
 <entry>
@@ -344,13 +339,8 @@
 <gram type="role">second person</gram>
 </gramGrp></entry>
 <entry>
-<form>puṟam</form>
-<def>back</def>
-<gramGrp><gram type="role">noun</gram>
-</gramGrp></entry>
-<entry>
-<form>māṟi<pc>+</pc></form>
-<def>changed</def>
+<form>puṟamāṟi<pc>+</pc></form>
+<def>outside-changed</def>
 <gramGrp><gram type="role">absolutive</gram>
 </gramGrp></entry>
 <entry>
@@ -388,7 +378,7 @@
 </gramGrp></entry>
 <entry>
 <form>peyar<pc>+</pc></form>
-<def>move</def>
+<def>return</def>
 <gramGrp><gram type="role">verbal noun</gram>
 </gramGrp></entry>
 <entry>
@@ -437,7 +427,8 @@
 <entry>
 <form>a<pc>+</pc></form>
 <def>that-</def>
-</entry>
+<gramGrp><gram type="role">sandhi</gram>
+</gramGrp></entry>
 <entry>
 <form>nalam</form>
 <def>goodness</def>
@@ -460,12 +451,12 @@
 </gramGrp></entry>
 <entry>
 <form>paṇṭai</form>
-<def>formerly</def>
-<gramGrp><gram type="role">adverb</gram>
+<def>former</def>
+<gramGrp><gram type="role">adjective</gram>
 </gramGrp></entry>
 <entry>
 <form>nīr</form>
-<def>water</def>
+<def>disposition</def>
 <gramGrp><gram type="role">noun</gram>
 </gramGrp></entry>
 <entry>
@@ -574,7 +565,8 @@
 <entry>
 <form>a<pc>+</pc></form>
 <def>that-</def>
-</entry>
+<gramGrp><gram type="role">sandhi</gram>
+</gramGrp></entry>
 <entry>
 <form>mukam</form>
 <def>face</def>
@@ -619,7 +611,8 @@
 <entry>
 <form>kāl</form>
 <def>time</def>
-</entry>
+<gramGrp><gram type="role">noun</gram>
+</gramGrp></entry>
 <entry>
 <form>piṉṉiya</form>
 <def>braided</def>
@@ -730,8 +723,8 @@
 </gramGrp></entry>
 <entry>
 <form>tiri</form>
-<def>turn</def>
-<gramGrp><gram type="role">verbal root</gram>
+<def>wick</def>
+<gramGrp><gram type="role">noun</gram>
 </gramGrp></entry>
 <entry>
 <form><pc>~</pc>umiḻ</form>
@@ -769,11 +762,14 @@
 <entry>
 <form>kāl</form>
 <def>time</def>
-</entry>
+<gramGrp><gram type="role">noun</gram>
+</gramGrp></entry>
 <entry>
 <form>eṉavāṅku</form>
-<def>say(inf.)-thus(conj.)</def>
-<gramGrp><gram type="role">infinitive</gram>
+<def>say(inf.)-thus(conj.)(inf.)(conj.inf.f.)</def>
+<gramGrp><gram type="role">conjunction</gram>
+<gram type="role">infinitive</gram>
+<gram type="role">feminine</gram>
 </gramGrp></entry>
 <entry>
 <form>aṉaiyavai</form>
