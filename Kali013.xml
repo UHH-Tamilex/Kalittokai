@@ -201,12 +201,18 @@
 <def>bull</def>
 <gramGrp><gram type="role">sociative</gram>
 </gramGrp></entry>
-<entry>
+<superEntry type="ambiguous">
+<entry><entry>
 <form>tēr</form>
-<def>search(v.r.)/mirage(n.)</def>
-<gramGrp><gram type="role">genitive</gram>
-<gram type="role">verbal root</gram>
-</gramGrp></entry>
+<def>search</def>
+<gramGrp><gram type="role">verbal root</gram>
+</gramGrp></entry></entry>
+<entry><entry>
+<form>tēr</form>
+<def>mirage</def>
+<gramGrp><gram type="role">noun</gram>
+</gramGrp></entry></entry>
+</superEntry>
 <entry>
 <form>aṟaṟkk<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
 <def>water</def>
@@ -492,7 +498,7 @@
 <entry>
 <form>a<pc>+</pc></form>
 <def>that-</def>
-<gramGrp/></entry>
+</entry>
 <entry>
 <form><pc>~</pc>aṭi</form>
 <def>foot</def>
@@ -788,7 +794,7 @@
 <entry>
 <form>a<pc>+</pc></form>
 <def>that-</def>
-<gramGrp/></entry>
+</entry>
 <entry>
 <form><pc>~</pc>eḻil</form>
 <def>grace</def>
@@ -811,8 +817,9 @@
 </entry>
 <entry>
 <form>eṉavāṅku</form>
-<def>say(inf.)-thus(comp.)</def>
+<def>say(inf.)-thus(comp.)(comp.|inf.)</def>
 <gramGrp><gram type="role">comparative</gram>
+<gram type="role">infinitive</gram>
 <gram type="role">infinitive</gram>
 </gramGrp></entry>
 <entry>
@@ -866,7 +873,7 @@
 <entry>
 <form>aḻiyāti</form>
 <def>perish-not-you</def>
-<gramGrp><gram type="role">subjunctive</gram>
+<gramGrp><gram type="role">subjuntive</gram>
 <gram type="role">singular</gram>
 <gram type="role">second person</gram>
 </gramGrp></entry>
