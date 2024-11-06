@@ -69,7 +69,7 @@
         </div>
     </body>
   </text>
-  <standOff type="wordsplit" corresp="#Kali49"><interp type="alignment" select="0">4MG78MG39MG47ML31MG19ML24MR19MG43M2G11M2G5M2G41MG72M2G11M2G5M2G23MG16MG5MG77M2G11M2G5M2G39MG5MG80MG14ML9MG2M,264MG135MG143MG139MG6MG77MG</interp>
+  <standOff type="wordsplit" corresp="#Kali49"><interp type="alignment" select="0">4MG78MG39MG47ML31MG19ML24MR19MG43M2G11M2G5M2G41M2G72M2G11M2G5M2G23MG16MG5MG77M2G11M2G5M2G39MG5MG80MG14ML9MG2M,264MG136MG143MG139MG6MG77MG</interp>
 <entry>
 <form>koṭu-vari</form>
 <def>curved-stripe</def>
@@ -223,9 +223,9 @@
 </gramGrp></entry>
 <entry>
 <form>pēṇā</form>
-<def>esteem-not</def>
-<gramGrp><gram type="role">absolutive</gram>
-<gram type="role">negative</gram>
+<def>honour-not</def>
+<gramGrp><gram type="role">negative</gram>
+<gram type="role">peyareccam</gram>
 </gramGrp></entry>
 <entry>
 <form>muṉpiṉ</form>
@@ -434,14 +434,10 @@
 <gram type="role">second person</gram>
 </gramGrp></entry>
 <entry>
-<form>iṉṉat<c type="elided">u</c></form>
-<def>like-this-it</def>
+<form>iṉṉat<c type="elided">u</c>-ōr</form>
+<def>like-this-it(n.sg.)-one(rel.)</def>
 <gramGrp><gram type="role">neuter singular</gram>
-</gramGrp></entry>
-<entry>
-<form>ōr</form>
-<def>one</def>
-<gramGrp><gram type="role">sandhi</gram>
+<gram type="role">relative</gram>
 </gramGrp></entry>
 <entry>
 <form>ār</form>
@@ -481,7 +477,8 @@
 <entry>
 <form><c type="glide">v</c>aḷittaṉai</form>
 <def>you provided</def>
-<gramGrp><gram type="role">perfective aspect</gram>
+<gramGrp><gram type="role">muṟṟeccam</gram>
+<gram type="role">perfective aspect</gram>
 <gram type="role">singular</gram>
 <gram type="role">second person</gram>
 </gramGrp></entry>
