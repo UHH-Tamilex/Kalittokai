@@ -73,7 +73,7 @@
         </div>
     </body>
   </text>
-  <standOff type="wordsplit" corresp="#Kali55"><interp type="alignment" select="0">30MG37MG49MG10ML24ML5MG33ML5M2G11MG2ML4MG5MG5MG7MG5MG2MR30MG23MG24MG24MG19ML4MG23MG115ML10MG14MG32MG39MG13M,178MG233MG8MG210MG</interp>
+  <standOff type="wordsplit" corresp="#Kali55"><interp type="alignment" select="0">30MG37MG49MG10ML24ML5MG33ML5M2G11MG2ML4MG5MG5MG7MG5MG2MR30MG23MG24MG24MG19ML4MG23MG115ML10MG14MG32MG9M2G6M2G24MG13M,178MG233MG8MG214MG</interp>
 <entry>
 <form>miṉ</form>
 <def>flash</def>
@@ -106,7 +106,7 @@
 </gramGrp></entry>
 <entry>
 <form>peyal-ē</form>
-<def>raining</def>
+<def>cloud</def>
 <form type="simple">peyal</form>
 <gramGrp><gram type="role">verbal noun</gram>
 </gramGrp><gramGrp type="particle"><m>ē</m></gramGrp>
@@ -496,8 +496,9 @@
 </gramGrp></entry>
 <entry>
 <form>eṉavāṅku</form>
-<def>say(inf.)-thus(comp.)</def>
+<def>say(inf.)-thus(comp.)(comp.|inf.)</def>
 <gramGrp><gram type="role">comparative</gram>
+<gram type="role">infinitive</gram>
 <gram type="role">infinitive</gram>
 </gramGrp></entry>
 <entry>
@@ -654,17 +655,21 @@
 <gramGrp><gram type="role">masculine singular</gram>
 </gramGrp></entry>
 <entry>
-<form>toḻūum</form>
-<def>worshipping-</def>
-<gramGrp><gram type="role">metrical lengthening</gram>
-<gram type="role">peyareccam</gram>
-</gramGrp></entry>
+<form>toḻū<c type="elided">u</c>-um</form>
+<def>worshipped</def>
+<form type="simple">toḻūu</form>
+<gramGrp><gram type="role">concessive</gram>
+<gram type="role">absolutive</gram>
+</gramGrp><gramGrp type="particle"><m>um</m></gramGrp>
+</entry>
 <entry>
-<form>toṭūum</form>
-<def>linking-</def>
-<gramGrp><gram type="role">metrical lengthening</gram>
-<gram type="role">peyareccam</gram>
-</gramGrp></entry>
+<form>toṭū<c type="elided">u</c>-um</form>
+<def>touched</def>
+<form type="simple">toṭūu</form>
+<gramGrp><gram type="role">concessive</gram>
+<gram type="role">absolutive</gram>
+</gramGrp><gramGrp type="particle"><m>um</m></gramGrp>
+</entry>
 <entry>
 <form>avaṉ</form>
 <def>that-one</def>
