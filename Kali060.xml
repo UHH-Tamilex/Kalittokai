@@ -75,7 +75,7 @@
         </div>
     </body>
   </text>
-  <standOff type="wordsplit" corresp="#Kali60"><interp type="alignment" select="0">6MG8ML61ML5MG38MG72MG73M2G5MG2MR31MG9MG20MG125MG83ML3M2G10ML5MG26ML14MG2ML24MG14MGMG3M2G13MG12MG42ML3MG25MG8MG15MG4MR16MG4MG5M2G10MG3M2G25MG6MGMR5MG2MR6MG8MG9MR13ML21MG43MG3M2G2M,155MG74MG41MG110MG10MG78MG113MG116MG9MG85MG6MG22MG12MG154MG</interp>
+  <standOff type="wordsplit" corresp="#Kali60"><interp type="alignment" select="0">6MG8ML61ML5MG38MG72MG73M2G5MG2MR31MG9MG20MG125MG83ML3M2G10ML5MG26ML16ML24MG14MGMG3M2G13MG12MG42ML3MG25MG8MG15MG4MR16MG4MG5M2G10MG3M2G25MG6MGMR5MG2MR6MG8MG9MR13ML21MG43MG3M2G2M,155MG74MG41MG110MG10MG78MG113MG115MG9MG85MG6MG22MG12MG154MG</interp>
 <entry>
 <form>cuṇaṅk<c type="elided">u</c></form>
 <def>beauty spot</def>
@@ -723,12 +723,11 @@
 <gram type="role">first person</gram>
 </gramGrp></entry>
 <entry>
-<form>eṉṉum-āl</form>
+<form>eṉṉumāl</form>
 <def>says</def>
-<form type="simple">eṉṉum</form>
 <gramGrp><gram type="role">habitual future</gram>
-</gramGrp><gramGrp type="particle"><m>āl</m></gramGrp>
-</entry>
+<gram type="role">conditional</gram>
+</gramGrp></entry>
 <entry>
 <form>niṉ</form>
 <def>your</def>
@@ -998,8 +997,9 @@
 </gramGrp></entry>
 <entry>
 <form>alariṉ</form>
-<def>blossom-if</def>
-<gramGrp><gram type="role">conditional</gram>
+<def>blossom</def>
+<gramGrp><gram type="role">comparative</gram>
+<gram type="role">oblique</gram>
 </gramGrp></entry>
 <entry>
 <form>alark<c type="uncertain">a</c></form>
@@ -1134,8 +1134,9 @@
 </gramGrp></entry>
 <entry>
 <form>iṉṟ<c type="elided">u</c>-ē</form>
-<def>today</def>
+<def>not-it</def>
 <form type="simple">iṉṟu</form>
-<gramGrp type="particle"><m>ē</m></gramGrp>
+<gramGrp><gram type="role">neuter singular</gram>
+</gramGrp><gramGrp type="particle"><m>ē</m></gramGrp>
 </entry></standOff>
 </TEI>
