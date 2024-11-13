@@ -75,7 +75,7 @@
         </div>
     </body>
   </text>
-  <standOff type="wordsplit" corresp="#Kali64"><interp type="alignment" select="0">8ML30ML8ML115MG3MG12MG74MG44MG7MG18MG20MGM2G2ML8MG21M2G3M2G7MG4MR8MG3M2G7M2G36MG2MR8MG3M2G54M2G42MG4ML4ML18MG18M2G19MG28M2G51MG32MG15MG15MG27MG5MG46M,229MG2MG4MG76MG6MG220MG4MG111MG15MG52MG7MG140MG</interp>
+  <standOff type="wordsplit" corresp="#Kali64"><interp type="alignment" select="0">8ML30ML8ML13MG105MG12MG74MG44MG7MG18MG20MGM2G2ML8MG21M2G3M2G7MG4MR8MG3M2G7M2G36MG2MR8MG3M2G54M2G42MG4ML4ML18MG18M2G19MG28M2G51MG32MG15MG15MG25MG7MG46M,229MG2MG4MG76MG6MG220MG4MG111MG15MG52MG7MG140MG</interp>
 <entry>
 <form>aṇi</form>
 <def>be-adorned</def>
@@ -144,24 +144,24 @@
 <gram type="role">second person</gram>
 </gramGrp></entry>
 <entry>
-<form>piṉ</form>
-<def>after</def>
-<gramGrp><gram type="role">adverb</gram>
+<form>piṉṉ<c type="elided">u</c></form>
+<def>braid</def>
+<gramGrp><gram type="role">noun</gram>
 </gramGrp></entry>
 <entry>
-<form><c type="geminated">ṉ</c>oppa<c type="geminated">p</c></form>
+<form>oppa<c type="geminated">p</c></form>
 <def>be-equal</def>
 <gramGrp><gram type="role">infinitive</gram>
 </gramGrp></entry>
 <entry>
 <form>piṉṉiṉ</form>
-<def>after</def>
+<def>braid</def>
 <gramGrp><gram type="role">oblique</gram>
 </gramGrp></entry>
 <entry>
 <form>kaṇ</form>
-<def>eye</def>
-<gramGrp><gram type="role">noun</gram>
+<def>place</def>
+<gramGrp><gram type="role">postposition</gram>
 </gramGrp></entry>
 <entry>
 <form>viri</form>
@@ -259,14 +259,10 @@
 <gram type="role">third person</gram>
 </gramGrp></entry>
 <entry>
-<form>ceyt<c type="elided">u</c></form>
-<def>made</def>
-<gramGrp><gram type="role">absolutive</gram>
-</gramGrp></entry>
-<entry>
-<form>āṅk<c type="elided">u</c></form>
-<def>thus</def>
+<form>ceytāṅk<c type="elided">u</c></form>
+<def>made-thus</def>
 <gramGrp><gram type="role">comparative</gram>
+<gram type="role">absolutive</gram>
 </gramGrp></entry>
 <entry>
 <form>iyalum</form>
@@ -292,11 +288,8 @@
 </gramGrp></entry>
 <entry>
 <form>kaṇṭai</form>
-<def>seen-you</def>
-<gramGrp><gram type="role">participial noun</gram>
-<gram type="role">perfective aspect</gram>
-<gram type="role">singular</gram>
-<gram type="role">second person</gram>
+<def>see</def>
+<gramGrp><gram type="role">imperative</gram>
 </gramGrp></entry>
 <entry>
 <form><c type="glide">y</c>emakku<c type="geminated">p</c></form>
@@ -312,7 +305,7 @@
 </gramGrp></entry>
 <entry>
 <form>poṉ</form>
-<def>gold</def>
+<def>nothing</def>
 <gramGrp><gram type="role">noun</gram>
 </gramGrp></entry>
 <entry>
@@ -345,11 +338,8 @@
 </gramGrp></entry>
 <entry>
 <form>kaṇṭai</form>
-<def>seen-you</def>
-<gramGrp><gram type="role">participial noun</gram>
-<gram type="role">perfective aspect</gram>
-<gram type="role">singular</gram>
-<gram type="role">second person</gram>
+<def>see</def>
+<gramGrp><gram type="role">imperative</gram>
 </gramGrp></entry>
 <entry>
 <form><c type="glide">y</c>iḵt<c type="elided">u</c></form>
@@ -419,9 +409,8 @@
 </gramGrp></entry>
 <entry>
 <form>uḻutāy</form>
-<def>ploughed-you</def>
-<gramGrp><gram type="role">participial noun</gram>
-<gram type="role">perfective aspect</gram>
+<def>you ploughed</def>
+<gramGrp><gram type="role">perfective aspect</gram>
 <gram type="role">singular</gram>
 <gram type="role">second person</gram>
 </gramGrp></entry>
@@ -493,7 +482,7 @@
 </gramGrp></entry>
 <entry>
 <form>iḻaitta</form>
-<def>made-they</def>
+<def>fashioned-they</def>
 <gramGrp><gram type="role">participial noun</gram>
 <gram type="role">neuter plural</gram>
 <gram type="role">perfective aspect</gram>
@@ -957,12 +946,15 @@
 <gram type="role">second person</gram>
 </gramGrp></entry>
 <entry>
-<form>ceṉṟīm-ō</form>
-<def>go</def>
-<form type="simple">ceṉṟīm</form>
+<form>ceṉṟ<c type="elided">u</c></form>
+<def>gone</def>
+<gramGrp><gram type="role">absolutive</gram>
+</gramGrp></entry>
+<entry>
+<form>īmō</form>
+<def>give</def>
 <gramGrp><gram type="role">imperative</gram>
-</gramGrp><gramGrp type="particle"><m>ō</m></gramGrp>
-</entry>
+</gramGrp></entry>
 <entry>
 <form>mutt<c type="elided">u</c></form>
 <def>pearl</def>
