@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -68,7 +70,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali78">
-<interp type="alignment" select="0">21MG25MG60MG8MG41MG5MG35MG24M2G16MG74ML8MG27MG18ML16ML44MG4ML14MG18MG43MG32MG3M2G12ML29ML14MG65MG20ML42ML30MG59MG34MG6MG17MG8MG5MG43M2G21M,382MG152MG161MG154MG4MG120MG</interp>
+<interp type="alignment" select="0">21MG25MG60MG8MG41MG5MG35MG24M2G16MG74ML8MG27MG18ML16ML44MG4ML14MG18MG43MG35M2G12ML29ML14MG65MG20ML42ML30MG59MG34MG6MG17MG8MG5MG43M2G21M,382MG152MG160MG154MG4MG120MG</interp>
 <entry>
 <form>pal</form>
 <def>many</def>
@@ -704,7 +706,7 @@
 </entry>
 <entry>
 <form>nalam</form>
-<def>goodness</def>
+<def>beauty</def>
 <form type="sandhi">ṇalam</form>
 <gramGrp>
   <gram type="role">noun</gram>
@@ -760,7 +762,7 @@
 </entry>
 <entry>
 <form>uka</form>
-<def>be-shed</def>
+<def>shed</def>
 <gramGrp>
   <gram type="role">infinitive</gram>
 </gramGrp>
@@ -853,20 +855,13 @@
 </gramGrp>
 </entry>
 <entry>
-<form>malarnt<c type="elided">u</c></form>
-<def>blossomed</def>
-<form type="sandhi">malarnt</form>
-<gramGrp>
-  <gram type="role">absolutive</gram>
-</gramGrp>
-</entry>
-<entry>
-<form>āṅk<c type="elided">u</c>-ē</form>
-<def>thus</def>
-<form type="simple">āṅku</form>
-<form type="sandhi">āṅk</form>
+<form>malarntāṅk<c type="elided">u</c>-ē</form>
+<def>blossomed-like</def>
+<form type="simple">malarntāṅku</form>
+<form type="sandhi">malarntāṅk</form>
 <gramGrp>
   <gram type="role">comparative</gram>
+  <gram type="role">absolutive</gram>
 </gramGrp>
 <gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
 </entry>
@@ -911,7 +906,7 @@
 </entry>
 <entry>
 <form>toṭar</form>
-<def>chain</def>
+<def>connection</def>
 <form type="sandhi">ṟoṭar</form>
 <gramGrp>
   <gram type="role">root noun</gram>
@@ -928,10 +923,10 @@
 </entry>
 <entry>
 <form>tokum</form>
-<def>gathering-</def>
+<def>gathers</def>
 <form type="sandhi">ṟokum</form>
 <gramGrp>
-  <gram type="role">peyareccam</gram>
+  <gram type="role">habitual future</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -944,7 +939,7 @@
 </entry>
 <entry>
 <form>nalam</form>
-<def>goodness</def>
+<def>beauty</def>
 <form type="sandhi">ṇalam</form>
 <gramGrp>
   <gram type="role">noun</gram>
@@ -1160,7 +1155,7 @@
 </entry>
 <entry>
 <form>ceṟiṉ</form>
-<def>subdue-if</def>
+<def>be-close-if</def>
 <form type="sandhi">ceṟiṟ</form>
 <gramGrp>
   <gram type="role">conditional</gram>
@@ -1168,9 +1163,9 @@
 </entry>
 <entry>
 <form>cāmpum</form>
-<def>withering-</def>
+<def>whithers</def>
 <gramGrp>
-  <gram type="role">peyareccam</gram>
+  <gram type="role">habitual future</gram>
 </gramGrp>
 </entry>
 <entry>
