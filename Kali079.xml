@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -65,7 +67,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali79">
-<interp type="alignment" select="0">66MG151MG3MG42MG5MR42MR34MG30ML18MG23MG13MR58MG6M2G34MG31ML16MG14MR34MG75M2G32MG19M,206MG144MG146MG141MG8MG117MG</interp>
+<interp type="alignment" select="0">217MG3MG42MG5MR42MR34MG30ML18MG23MG13MR58MG6M2G34MG31ML16MG14MR34MG75M2G32MG19M,205MG144MG146MG141MG8MG117MG</interp>
 <entry>
 <form>puḷ</form>
 <def>bird</def>
@@ -167,18 +169,13 @@
 </gramGrp>
 </entry>
 <entry>
-<form>cāytt<c type="elided">u</c></form>
-<def>bent</def>
-<form type="sandhi">cāytt</form>
+<form>cāyttataṉ</form>
+<def>bent-it</def>
 <gramGrp>
-  <gram type="role">absolutive</gram>
-</gramGrp>
-</entry>
-<entry>
-<form>ataṉ</form>
-<def>that</def>
-<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter singular</gram>
   <gram type="role">oblique</gram>
+  <gram type="role">perfective aspect</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -481,10 +478,9 @@
 </entry>
 <entry>
 <form>naṉaippavāṉ</form>
-<def>wet-he</def>
+<def>he makes wet</def>
 <form type="sandhi">naṉaippavāṟ</form>
 <gramGrp>
-  <gram type="role">participial noun</gram>
   <gram type="role">masculine singular</gram>
   <gram type="role">imperfect aspect</gram>
 </gramGrp>
@@ -1078,12 +1074,9 @@
 </entry>
 <entry>
 <form><c type="glide">y</c>āṅk<c type="elided">u</c>-ē</form>
-<def>thus</def>
+<def>there</def>
 <form type="simple">āṅku</form>
 <form type="sandhi"><c type="glide">y</c>āṅk</form>
-<gramGrp>
-  <gram type="role">comparative</gram>
-</gramGrp>
 <gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
 </entry>
 <entry>
@@ -1120,8 +1113,9 @@
 </entry>
 <entry>
 <form>citaippāṉ</form>
-<def>he will spoil</def>
+<def>spoil-he</def>
 <gramGrp>
+  <gram type="role">participial noun</gram>
   <gram type="role">masculine singular</gram>
   <gram type="role">imperfect aspect</gram>
 </gramGrp>
