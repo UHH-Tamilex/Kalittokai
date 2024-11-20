@@ -184,8 +184,6 @@
 <entry>
 <form>pāloṭu</form>
 <def>milk</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>vīṅka<c type="geminated">t</c></form>
@@ -231,8 +229,6 @@
 <entry>
 <form>ivaṉoṭu</form>
 <def>he</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>pukka</form>
@@ -307,8 +303,6 @@
 <form>mākkaḷōṭ<c type="elided">u</c></form>
 <def>people</def>
 <form type="sandhi">mākkaḷōṭ</form>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>ōrai</form>
@@ -504,8 +498,6 @@
 <entry>
 <form>vantu</form>
 <def>come</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>muyaṅkiṉaḷ</form>
@@ -660,8 +652,6 @@
 <entry>
 <form>āki</form>
 <def>become</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>viṭuttaṉaṉ</form>
@@ -826,7 +816,9 @@
 <def>taken</def>
 <form type="simple">koṇṭāṅku</form>
 <form type="sandhi">koṇṭāṅk</form>
-<gramGrp type="affix"><m>āṅku</m><gramGrp><gram type="role">comparative</gram></gramGrp></gramGrp>
+<gramGrp>
+  <gram type="role">comparative</gram>
+</gramGrp>
 <gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
 </entry>
 <entry>
@@ -897,7 +889,9 @@
 <def>intended</def>
 <form type="simple">kuṟittāṅku</form>
 <form type="sandhi">kuṟittāṅk</form>
-<gramGrp type="affix"><m>āṅku</m><gramGrp><gram type="role">comparative</gram></gramGrp></gramGrp>
+<gramGrp>
+  <gram type="role">comparative</gram>
+</gramGrp>
 <gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
 </entry>
 <entry>

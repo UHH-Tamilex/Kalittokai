@@ -101,8 +101,6 @@
 <form>pukutar-vāy</form>
 <def>enter-not-they</def>
 <form type="sandhi">pukutarvāy</form>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>ōrum</form>
@@ -162,8 +160,6 @@
 <entry>
 <form><c type="glide">y</c>āy</form>
 <def>become</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>māṭṭu</form>
@@ -177,8 +173,6 @@
 <entry>
 <form>ōṭi</form>
 <def>run</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>makaḷir<c type="geminated">t</c></form>
@@ -621,8 +615,6 @@
 <form>kātalōṭ<c type="elided">u</c></form>
 <def>love</def>
 <form type="sandhi">kātalōṭ</form>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>a<c type="geminated">p</c></form>
@@ -686,7 +678,9 @@
 <def>bathed</def>
 <form type="simple">kuḷittāṅku</form>
 <form type="sandhi">kuḷittāṅk</form>
-<gramGrp type="affix"><m>āṅku</m><gramGrp><gram type="role">comparative</gram></gramGrp></gramGrp>
+<gramGrp>
+  <gram type="role">comparative</gram>
+</gramGrp>
 <gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
 </entry>
 <entry>
@@ -1081,8 +1075,6 @@
 <form>tērōṭ<c type="elided">u</c></form>
 <def>chariot</def>
 <form type="sandhi">tērōṭ</form>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>iḷa</form>
@@ -1119,8 +1111,6 @@
 <form>muṟuvalārkk<c type="elided">u</c></form>
 <def>smile-they</def>
 <form type="sandhi">muṟuvalārkk</form>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>ōr</form>

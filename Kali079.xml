@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -403,7 +401,7 @@
 <form>em</form>
 <def>our</def>
 <gramGrp>
-  <gram type="role">personal pronoun</gram>
+  <gram type="role">pronoun</gram>
   <gram type="role">oblique</gram>
   <gram type="role">plural</gram>
   <gram type="role">first person</gram>
@@ -516,7 +514,7 @@
 <form>yāṉ</form>
 <def>I</def>
 <gramGrp>
-  <gram type="role">personal pronoun</gram>
+  <gram type="role">pronoun</gram>
   <gram type="role">singular</gram>
   <gram type="role">first person</gram>
 </gramGrp>
@@ -598,7 +596,7 @@
 <form>em</form>
 <def>our</def>
 <gramGrp>
-  <gram type="role">personal pronoun</gram>
+  <gram type="role">pronoun</gram>
   <gram type="role">oblique</gram>
   <gram type="role">plural</gram>
   <gram type="role">first person</gram>
@@ -810,7 +808,7 @@
 <form><c type="glide">y</c>em</form>
 <def>our</def>
 <gramGrp>
-  <gram type="role">personal pronoun</gram>
+  <gram type="role">pronoun</gram>
   <gram type="role">oblique</gram>
   <gram type="role">plural</gram>
   <gram type="role">first person</gram>
@@ -1137,7 +1135,7 @@
 <form>em</form>
 <def>our</def>
 <gramGrp>
-  <gram type="role">personal pronoun</gram>
+  <gram type="role">pronoun</gram>
   <gram type="role">oblique</gram>
   <gram type="role">plural</gram>
   <gram type="role">first person</gram>
