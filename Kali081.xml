@@ -82,7 +82,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali81">
-<interp type="alignment" select="0">60ML96MG45MG18MG34ML100MG76MG10MG15M2G7MG53MG3M2G24MG17ML5MG16MG5MG5MG5MG11MG25MG2ML3M2G17MG13MG64MG14MG81ML27MG7MG10MG106MG15MG14MG3M2G17MG60MG27M,328MG6MG149MG7MG188MG81MG111MG115MG11MG145MG</interp>
+<interp type="alignment" select="0">60ML96MG45MG18MG34ML100MG76MG10MG15M2G7MG56M2G24MG17ML5MG16MG5MG5MG16MG25MG2ML3M2G17MG13MG64MG14MG81ML27MG7MG10MG106MG15MG14MG3M2G17MG60MG27M,328MG6MG149MG7MG186MG81MG111MG115MG11MG145MG</interp>
 <entry>
 <form>mai</form>
 <def>blemish</def>
@@ -404,9 +404,9 @@
 </entry>
 <entry>
 <form>taṭpa<c type="geminated">p</c></form>
-<def>coolness</def>
+<def>stumble</def>
 <gramGrp>
-  <gram type="role">noun</gram>
+  <gram type="role">infinitive</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -596,7 +596,7 @@
 </entry>
 <entry>
 <form>kaitūvā</form>
-<def>rest-not</def>
+<def>have-rest-not</def>
 <gramGrp>
   <gram type="role">negative</gram>
   <gram type="role">peyareccam</gram>
@@ -813,7 +813,7 @@
 </entry>
 <entry>
 <form>koṇarnta</form>
-<def>brought</def>
+<def>fetched</def>
 <gramGrp>
   <gram type="role">perfective aspect</gram>
   <gram type="role">peyareccam</gram>
@@ -828,18 +828,14 @@
 </gramGrp>
 </entry>
 <entry>
-<form>citaint<c type="elided">u</c></form>
-<def>wasted</def>
-<form type="sandhi">citaint</form>
+<form>citaintāṅk<c type="elided">u</c>-ē</form>
+<def>wasted-like</def>
+<form type="simple">citaintāṅku</form>
+<form type="sandhi">citaintāṅk</form>
 <gramGrp>
+  <gram type="role">comparative</gram>
   <gram type="role">absolutive</gram>
 </gramGrp>
-</entry>
-<entry>
-<form>āṅk<c type="elided">u</c>-ē</form>
-<def>there</def>
-<form type="simple">āṅku</form>
-<form type="sandhi">āṅk</form>
 <gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
 </entry>
 <entry>
@@ -950,18 +946,10 @@
 </gramGrp>
 </entry>
 <entry>
-<form>atatt<c type="elided">u</c></form>
-<def>road</def>
-<form type="sandhi">atatt</form>
+<form>atattā</form>
+<def>daddy-daddy</def>
 <gramGrp>
-  <gram type="role">oblique</gram>
-</gramGrp>
-</entry>
-<entry>
-<form>ā</form>
-<def>become</def>
-<gramGrp>
-  <gram type="role">verbal root</gram>
+  <gram type="role">vocative</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -1117,9 +1105,9 @@
 </entry>
 <entry>
 <form>tantatu</form>
-<def>given-it</def>
+<def>giving</def>
 <gramGrp>
-  <gram type="role">participial noun</gram>
+  <gram type="role">verbal noun</gram>
   <gram type="role">neuter singular</gram>
   <gram type="role">perfective aspect</gram>
 </gramGrp>
@@ -1151,14 +1139,14 @@
 </entry>
 <entry>
 <form><c type="glide">y</c>eḷḷumār</form>
-<def>reproach</def>
+<def>taunt</def>
 <gramGrp>
   <gram type="role">infinitive</gram>
 </gramGrp>
 </entry>
 <entry>
 <form>vantār-ē</form>
-<def>they came</def>
+<def>he came</def>
 <form type="simple">vantār</form>
 <gramGrp>
   <gram type="role">perfective aspect</gram>
@@ -1284,10 +1272,11 @@
 </entry>
 <entry>
 <form>ciṉaval</form>
-<def>being-angry</def>
+<def>don't be angry</def>
 <form type="sandhi">ciṉavaṉ</form>
 <gramGrp>
-  <gram type="role">verbal noun</gram>
+  <gram type="role">imperative</gram>
+  <gram type="role">negative</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -1446,7 +1435,7 @@
 </entry>
 <entry>
 <form>tukaḷ</form>
-<def>dust</def>
+<def>powder</def>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
@@ -1477,7 +1466,7 @@
 </entry>
 <entry>
 <form><c type="glide">y</c>olippa</form>
-<def>sound</def>
+<def>thrive</def>
 <gramGrp>
   <gram type="role">infinitive</gram>
 </gramGrp>
