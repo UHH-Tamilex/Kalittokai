@@ -332,7 +332,7 @@
 </gramGrp>
 </entry>
 <entry>
-<form>ellām</form>
+<form>ellā<c type="uncertain">m</c></form>
 <def>all</def>
 <form type="sandhi">ellān</form>
 <gramGrp>
@@ -357,11 +357,17 @@
 <entry>
 <form>eṉ</form>
 <def>what</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>kēṭṭ<c type="elided">u</c></form>
 <def>listened</def>
 <form type="sandhi">kēṭṭ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>ī</form>
@@ -401,7 +407,7 @@
 </entry>
 <entry>
 <form>tōṭṭu<c type="geminated">p</c></form>
-<def>petal</def>
+<def>frond</def>
 <gramGrp>
   <gram type="role">oblique</gram>
 </gramGrp>
@@ -733,7 +739,7 @@
 </entry>
 <entry>
 <form>ūkki<c type="geminated">k</c></form>
-<def>swung</def>
+<def>made-an-effort</def>
 <gramGrp>
   <gram type="role">absolutive</gram>
 </gramGrp>
@@ -1111,7 +1117,7 @@
 </entry>
 <entry>
 <form>taṅkiyat<c type="elided">u</c></form>
-<def>enduring</def>
+<def>staying</def>
 <form type="sandhi">ṟaṅkiyat</form>
 <gramGrp>
   <gram type="role">neuter singular</gram>
