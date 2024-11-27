@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -71,16 +73,30 @@
 </entry>
 <entry>
 <form>em</form>
-<def>our-</def>
+<def>our</def>
 <form type="sandhi">eṅ</form>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>kūntal</form>
 <def>tresses</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>koḷvāṉ</form>
 <def>take-he</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">masculine singular</gram>
+  <gram type="role">imperfect aspect</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>itu-<c type="glide">v</c>um</form>
@@ -95,6 +111,9 @@
 <entry>
 <form>ūr</form>
 <def>village</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>āṇmaikk<c type="elided">u</c></form>
@@ -106,25 +125,44 @@
 </entry>
 <entry>
 <form>otta</form>
-<def>was-equal-</def>
+<def>been-equal</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>paṭiṟ<c type="elided">u</c></form>
 <def>mischief</def>
 <form type="sandhi">paṭiṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>uṭaitt<c type="elided">u</c></form>
 <def>possess-it</def>
 <form type="sandhi">uṭaitt</form>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>em</form>
-<def>our-</def>
+<def>our</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>maṉai</form>
 <def>house</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>vāral</form>
@@ -132,30 +170,43 @@
 <form type="sandhi">vāraṉ</form>
 <gramGrp>
   <gram type="role">imperative</gram>
+  <gram type="role">negative</gram>
 </gramGrp>
 </entry>
 <entry>
 <form>nī</form>
 <def>you</def>
 <form type="sandhi">ṉī</form>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>vantāṅk<c type="elided">u</c>-ē</form>
-<def>come</def>
+<def>come-like</def>
 <form type="simple">vantāṅku</form>
 <form type="sandhi">vantāṅk</form>
 <gramGrp>
   <gram type="role">comparative</gram>
+  <gram type="role">absolutive</gram>
 </gramGrp>
 <gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
 </entry>
 <entry>
 <form>māṟu</form>
-<def>???</def>
+<def>enmity</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>eṉ</form>
 <def>what</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+</gramGrp>
 </entry>
 <entry>
 <form><c type="geminated">ṉ</c>ivai</form>
@@ -171,11 +222,15 @@
 <entry>
 <form>uyir<c type="geminated">p</c></form>
 <def>life</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>puḷḷiṉ</form>
 <def>bird</def>
 <gramGrp>
+  <gram type="role">comparative</gram>
   <gram type="role">oblique</gram>
 </gramGrp>
 </entry>
@@ -186,62 +241,113 @@
 <entry>
 <form>talai</form>
 <def>head</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
 </entry>
 <entry>
 <form><c type="glide">y</c>uḷ</form>
 <def>inside</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
 </entry>
 <entry>
 <form><c type="geminated">ḷ</c>oṉṟu</form>
 <def>one-it</def>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>pōr</form>
 <def>battle</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>etirntaṟṟ<c type="elided">u</c></form>
 <def>faced-it</def>
 <form type="sandhi">etirntaṟṟ</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>ā<c type="geminated">p</c></form>
-<def>become-</def>
+<def>become</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>pulaval</form>
-<def>vexed-I</def>
+<def>I am vexed</def>
 <form type="sandhi">pulavaṉ</form>
+<gramGrp>
+  <gram type="role">imperfect aspect</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>nī</form>
 <def>you</def>
 <form type="sandhi">ṉī</form>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>kūṟi</form>
 <def>talked</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
 </entry>
 <entry>
 <form><c type="glide">y</c>eṉ</form>
-<def>my-</def>
+<def>my</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
 </entry>
 <entry>
 <form><c type="geminated">ṉ</c>ār</form>
 <def>precious</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>uyir</form>
 <def>life</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>niṟkum</form>
-<def>standing-</def>
+<def>standing</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>āṟ(i)</form>
 <def>way</def>
 <form type="sandhi">āṟi</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>yātu</form>
@@ -249,28 +355,53 @@
 </entry>
 <entry>
 <form>ēe</form>
-<def>ēe</def>
+<def>ēe(excl.)</def>
+<gramGrp>
+</gramGrp>
 </entry>
 <entry>
 <form>teḷintēm</form>
 <def>understood-we</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>yām</form>
 <def>we</def>
 <form type="sandhi">yāṅ</form>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>kāyāti</form>
-<def>be-angry-not-you/sub.)</def>
+<def>be-angry-not-you</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">subjuntive</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
 </entry>
 <entry>
 <form><c type="glide">y</c>ellām</form>
 <def>all</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>val</form>
 <def>strong</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
 </entry>
 <entry>
 <form><c type="geminated">l</c>ellā</form>
@@ -283,27 +414,38 @@
 <form>perum</form>
 <def>big</def>
 <form type="sandhi">peruṅ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>kāṭṭu<c type="geminated">k</c></form>
-<def>wilderness-</def>
+<def>wilderness</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>koṟṟikku<c type="geminated">p</c></form>
 <def>Koṟṟi</def>
 <gramGrp>
   <gram type="role">dative</gram>
+  <gram type="role">proper name</gram>
 </gramGrp>
 </entry>
 <entry>
 <form>pēy</form>
 <def>demoness</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>noṭittāṅku</form>
-<def>snapped-fingers</def>
+<def>snapped-fingers-like</def>
 <gramGrp>
   <gram type="role">comparative</gram>
+  <gram type="role">absolutive</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -312,101 +454,169 @@
 <form type="sandhi">varuntaṉ</form>
 <gramGrp>
   <gram type="role">imperative</gram>
+  <gram type="role">negative</gram>
 </gramGrp>
 </entry>
 <entry>
 <form>niṉ</form>
-<def>your-</def>
+<def>your</def>
 <form type="sandhi">ṉiṉ</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>vañcam</form>
 <def>fraud</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>uraittu</form>
-<def>possess-it</def>
+<def>talked</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>marunt<c type="elided">u</c></form>
 <def>remedy</def>
 <form type="sandhi">marunt</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>iṉṟu</form>
 <def>not-it</def>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>maṉṉavaṉ</form>
 <def>king</def>
+<gramGrp>
+  <gram type="role">masculine singular</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>cīṟiṉ</form>
 <def>be-angry-if</def>
 <form type="sandhi">cīṟiṟ</form>
+<gramGrp>
+  <gram type="role">conditional</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>tavaṟ<c type="elided">u</c></form>
 <def>mistake</def>
 <form type="sandhi">ṟavaṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>uṇṭ<c type="elided">u</c>-ō</form>
-<def>is</def>
+<def>it is</def>
 <form type="simple">uṇṭu</form>
 <form type="sandhi">uṇṭ</form>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
 <gramGrp type="particle"><m type="enclitic">ō</m></gramGrp>
 </entry>
 <entry>
 <form>nī</form>
 <def>you</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>nayanta</form>
-<def>longed-for-</def>
+<def>longed-for</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
 </entry>
 <entry>
 <form><c type="glide">v</c>iṉ</form>
 <def>pleasing</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>nakai</form>
 <def>smile</def>
 <form type="sandhi">ṉakai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>tīt<c type="elided">u</c>-ō</form>
 <def>evil-it</def>
 <form type="simple">tītu</form>
 <form type="sandhi">tīt</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
 <gramGrp type="particle"><m type="enclitic">ō</m></gramGrp>
 </entry>
 <entry>
 <form><c type="glide">v</c>ilēṉ</form>
 <def>not-I</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>māṇam</form>
 <def>glory</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>maṟant<c type="elided">u</c></form>
 <def>forgotten</def>
 <form type="sandhi">maṟant</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>uḷḷā</form>
 <def>remember-not</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>nāṇ</form>
 <def>shame</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>ilikk<c type="elided">u</c></form>
 <def>not-he</def>
 <form type="sandhi">ilikk</form>
 <gramGrp>
+  <gram type="role">masculine singular</gram>
   <gram type="role">dative</gram>
 </gramGrp>
 </entry>
@@ -417,15 +627,24 @@
 <entry>
 <form>pōr</form>
 <def>battle</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>puṟam</form>
 <def>back</def>
 <form type="sandhi">puṟañ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>cāyntu</form>
 <def>bent</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>kaṇṭaippāy</form>
@@ -439,12 +658,18 @@
 <def>heart</def>
 <form type="simple">neñcu</form>
 <form type="sandhi">neñc</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
 <gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
 </entry>
 <entry>
 <form><c type="glide">y</c>uṟaḻnt<c type="elided">u</c></form>
 <def>been-close</def>
 <form type="sandhi"><c type="glide">y</c>uṟaḻnt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>ivaṉai<c type="geminated">p</c></form>
@@ -464,10 +689,15 @@
 <entry>
 <form>viṭēem</form>
 <def>let-go-not-I</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>eṉa</form>
-<def>day</def>
+<def>say</def>
 <gramGrp>
   <gram type="role">infinitive</gram>
 </gramGrp>
@@ -476,30 +706,50 @@
 <form>neruṅkiṉ</form>
 <def>rebuke-if</def>
 <form type="sandhi">neruṅkiṟ</form>
+<gramGrp>
+  <gram type="role">conditional</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>tappiṉeṉ</form>
-<def>failed-I</def>
+<def>I failed</def>
 <form type="sandhi">ṟappiṉeṉ</form>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>eṉṟ<c type="elided">u</c></form>
 <def>said</def>
 <form type="sandhi">eṉṟ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>aṭi</form>
 <def>foot</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>cērtal-um</form>
 <def>joining</def>
 <form type="simple">cērtal</form>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
 <gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
 </entry>
 <entry>
 <form>uṇṭu</form>
-<def>is</def>
+<def>it is</def>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
 </entry>
 </standOff>
 </TEI>
