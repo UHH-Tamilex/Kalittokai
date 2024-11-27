@@ -38,7 +38,7 @@
             <lg type="edition">
                 <l>orūunī yeṅkūntal koḷḷalyām niṉṉai</l>
                 <l>verūutuṅ kāṇuṅ kaṭai;</l>
-                <l rend="space">teriyiḻāy ceytava ṟilvaḻi yāṅkuc ciṉavuvāy</l>
+                <l rend="space">teriyiḻāy! ceytava ṟilvaḻi yāṅkuc ciṉavuvāy</l>
                 <l>meypirin taṉṉavar māṭṭu;</l>
                 <l rend="space">ēṭā, niṉakkut tavaṟuṇṭō nīvīṭu peṟṟā</l>
                 <l>yimaippi ṉitaḻmaṟai pāṅkē keṭuti</l>
@@ -60,7 +60,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali87">
-<interp type="alignment" select="0">67MG60MG3M2G31MG3M2G22MGMR69MG18MG11ML34ML7MG17MG14M2G2ML15M2G27M2G13MG15M,48MG9MG51MG3MG117MG10MG48MG71MG3MG82MG</interp>
+<interp type="alignment" select="0">67MG60MG3M2G31MG3M2G22MGMR69MG18MG11ML34ML7MG17MG14M2G2ML6M2G9M2G27M2G13MG15M,48MG9MG51MG3MG117MG10MG48MG71MG3MG84MG</interp>
 <entry>
 <form>orūu</form>
 <def>renounced</def>
@@ -288,9 +288,9 @@
 </entry>
 <entry>
 <form>imaippiṉ</form>
-<def>blink-if</def>
+<def>blink</def>
 <gramGrp>
-  <gram type="role">conditional</gram>
+  <gram type="role">oblique</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -338,7 +338,7 @@
 <form>pāl</form>
 <def>part</def>
 <gramGrp>
-  <gram type="role">noun</gram>
+  <gram type="role">postposition</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -625,11 +625,14 @@
 <gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
 </entry>
 <entry>
-<form>mīkkūṟṟum</form>
-<def>praises</def>
+<form>mīkkūṟṟ<c type="elided">u</c>-um</form>
+<def>praise</def>
+<form type="simple">mīkkūṟṟu</form>
+<form type="sandhi">mīkkūṟṟ</form>
 <gramGrp>
-  <gram type="role">habitual future</gram>
+  <gram type="role">noun</gram>
 </gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
 </entry>
 <entry>
 <form>yām</form>
