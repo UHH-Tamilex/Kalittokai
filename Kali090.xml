@@ -627,9 +627,10 @@
 </entry>
 <entry>
 <form>kēḷā</form>
-<def>heard</def>
+<def>hear-not</def>
 <gramGrp>
   <gram type="role">absolutive</gram>
+  <gram type="role">negative</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -645,7 +646,7 @@
 </entry>
 <entry>
 <form>tāḻāt<c type="elided">u</c></form>
-<def>go-down-not</def>
+<def>hang-down-not</def>
 <form type="sandhi">tāḻāt</form>
 <gramGrp>
   <gram type="role">absolutive</gram>
@@ -786,7 +787,7 @@
 </entry>
 <entry>
 <form>tēṟi</form>
-<def>understood</def>
+<def>believed</def>
 <gramGrp>
   <gram type="role">absolutive</gram>
 </gramGrp>
@@ -850,9 +851,10 @@
 </entry>
 <entry>
 <form>tōyā</form>
-<def>touched</def>
+<def>touch-not</def>
 <gramGrp>
-  <gram type="role">absolutive</gram>
+  <gram type="role">negative</gram>
+  <gram type="role">peyareccam</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -1143,7 +1145,10 @@
 </entry>
 <entry>
 <form>ellā</form>
-<def>all</def>
+<def>friend</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>niṉṟāy</form>
