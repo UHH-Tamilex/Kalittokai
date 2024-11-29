@@ -414,10 +414,9 @@
 </entry>
 <entry>
 <form><c type="glide">v</c>illai</form>
-<def>not-you</def>
+<def>not</def>
 <gramGrp>
-  <gram type="role">singular</gram>
-  <gram type="role">second person</gram>
+  <gram type="role">finite verb</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -577,7 +576,7 @@
 </entry>
 <entry>
 <form>ikutta</form>
-<def>poured</def>
+<def>played</def>
 <gramGrp>
   <gram type="role">perfective aspect</gram>
   <gram type="role">peyareccam</gram>
@@ -776,14 +775,14 @@
 </entry>
 <entry>
 <form>piṭi</form>
-<def>fetter</def>
+<def>clutch</def>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
 </entry>
 <entry>
 <form>māṇṭu</form>
-<def>been-glorious</def>
+<def>been-spent</def>
 <gramGrp>
   <gram type="role">absolutive</gram>
 </gramGrp>
@@ -816,7 +815,7 @@
 <form>pōkātu</form>
 <def>go-not</def>
 <gramGrp>
-  <gram type="role">absolutive</gram>
+  <gram type="role">neuter singular</gram>
   <gram type="role">negative</gram>
 </gramGrp>
 </entry>
@@ -917,9 +916,8 @@
 </entry>
 <entry>
 <form>viṭṭaṉa</form>
-<def>let-go-they</def>
+<def>they let go</def>
 <gramGrp>
-  <gram type="role">participial noun</gram>
   <gram type="role">neuter plural</gram>
   <gram type="role">perfective aspect</gram>
 </gramGrp>
@@ -1007,7 +1005,7 @@
 </entry>
 <entry>
 <form>vellātu</form>
-<def>conquer-not</def>
+<def>conquer-not-it</def>
 </entry>
 <entry>
 <form>koṇṭ<c type="elided">u</c></form>
@@ -1026,7 +1024,7 @@
 </entry>
 <entry>
 <form>oṭṭiya</form>
-<def>wagered</def>
+<def>stuck</def>
 <gramGrp>
   <gram type="role">perfective aspect</gram>
   <gram type="role">peyareccam</gram>
@@ -1140,7 +1138,7 @@
 </entry>
 <entry>
 <form>āṅk<c type="elided">u</c></form>
-<def>thus</def>
+<def>there</def>
 <form type="sandhi">āṅk</form>
 <gramGrp>
   <gram type="role">comparative</gram>
@@ -1156,7 +1154,7 @@
 </entry>
 <entry>
 <form>pōṟṟiya</form>
-<def>paid-attention</def>
+<def>cherished</def>
 <gramGrp>
   <gram type="role">perfective aspect</gram>
   <gram type="role">peyareccam</gram>
