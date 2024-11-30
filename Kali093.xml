@@ -115,7 +115,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali93">
-<interp type="alignment" select="0">4MG60MG11MG7MG8MG10MG8M2G9M2G23MG25MG86MG29M2G17MG8MG14ML26MG3MG30M2G53MG46MG16ML13ML47MG24MG33MG17MGMR5MGMR4MR18ML7MG30ML2ML29MG9MG49MG58MG22MGMR26MG37MG3MG48MG15MG18MG16MG26M2G2ML8MG4MG7M,120MG8MG80MG5MG55MG6MG36MG92MG9MG91MG128MG123MG118MG244MG</interp>
+<interp type="alignment" select="0">4MG60MG11MG7MG8MG10MG8M2G9M2G23MG25MG86MG29M2G16MGMG8MG14ML26MG3MG30M2G53MG46MG16ML13ML47MG24MG33MG17MGMR5MGMR4MR18ML7MG30ML2ML29MG9MG49MG58MG22MGMR26MG37MG3MG48MG15MG18MG16MG26M2G2ML8MG4MG7M,120MG8MG80MG5MG55MG6MG37MG92MG9MG91MG128MG123MG118MG244MG</interp>
 <entry>
 <form>vaṇṭ<c type="elided">u</c></form>
 <def>bee</def>
@@ -538,9 +538,16 @@
 </gramGrp>
 </entry>
 <entry>
-<form>ceppī-maṉ</form>
-<def>say</def>
-<form type="simple">ceppī</form>
+<form>cepp<c type="inserted">i</c></form>
+<def>said</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ī-maṉ</form>
+<def>give</def>
+<form type="simple">ī</form>
 <gramGrp>
   <gram type="role">imperative</gram>
 </gramGrp>
