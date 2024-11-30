@@ -82,7 +82,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali98">
-<interp type="alignment" select="0">25MG22M2G4MG16MG9MG22MG48MG9MG59MG8M2G8MG28MG67MG18MG22MG17M2G4ML81MG101MG11MG48MG11MG18M2G37MG10ML39ML10MG4MG40ML60M2G114MG18MG51MG11MG17MG22MG38MG13M,249MG113MG2MG210MG5MG220MG7MG84MG10MG120MG8MG142MG</interp>
+<interp type="alignment" select="0">25MG22M2G4MG16MG9MG22MG48MG9MG59MG8M2G8MG28MG67MG18MG22MG17M2G4ML81MG101MG11MG48MG11MG15MG3M2G37MG10ML39ML10MG4MG40ML60M2G114MG18MG51MG11MG17MG22MG38MG13M,249MG113MG2MG210MG5MG221MG7MG84MG10MG120MG8MG142MG</interp>
 <entry>
 <form>yārai</form>
 <def>who-you</def>
@@ -1058,14 +1058,18 @@
 </gramGrp>
 </entry>
 <entry>
-<form>kuḷittāṅk<c type="elided">u</c>-ē</form>
-<def>bathed-like</def>
-<form type="simple">kuḷittāṅku</form>
-<form type="sandhi">kuḷittāṅk</form>
+<form>kuḷitt<c type="elided">u</c></form>
+<def>bathed</def>
+<form type="sandhi">kuḷitt</form>
 <gramGrp>
-  <gram type="role">comparative</gram>
   <gram type="role">absolutive</gram>
 </gramGrp>
+</entry>
+<entry>
+<form>āṅk<c type="elided">u</c>-ē</form>
+<def>thus</def>
+<form type="simple">āṅku</form>
+<form type="sandhi">āṅk</form>
 <gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
 </entry>
 <entry>
@@ -1146,9 +1150,9 @@
 </entry>
 <entry>
 <form>taṭpa<c type="geminated">c</c></form>
-<def>coolness</def>
+<def>stumble</def>
 <gramGrp>
-  <gram type="role">noun</gram>
+  <gram type="role">infinitive</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -1280,7 +1284,7 @@
 </entry>
 <entry>
 <form>nīr</form>
-<def>water</def>
+<def>disposition</def>
 <form type="sandhi">ṉīr</form>
 <gramGrp>
   <gram type="role">noun</gram>
@@ -1288,7 +1292,7 @@
 </entry>
 <entry>
 <form>uḷḷam</form>
-<def>mind</def>
+<def>heart</def>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
@@ -1713,7 +1717,7 @@
 </entry>
 <entry>
 <form>paṭal</form>
-<def>falling</def>
+<def>being-caught</def>
 <gramGrp>
   <gram type="role">verbal noun</gram>
 </gramGrp>
