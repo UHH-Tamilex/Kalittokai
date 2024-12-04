@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -76,7 +78,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali42">
-<interp type="alignment" select="0">49ML7MG43MG36MG28MR4MG51MR78ML17M2G30MG23MG5MG3MG54ML39MG14MG5ML14MR15MG14MG14ML123MG27MG119MG40MG22M,245MG26MG76MG77MG85MG80MG87MG73MG142MG</interp>
+<interp type="alignment" select="0">49ML7MG43MG36MG28MR4MG51MR78ML17M2G30MG23MG5MG3MG54ML39MG19ML14MR15MG14MG14ML123MG27MG119MG40MG22M,245MG26MG76MG77MG84MG80MG87MG73MG142MG</interp>
 <entry>
 <form>maṟam</form>
 <def>boldness</def>
@@ -800,15 +802,19 @@
 </gramGrp>
 </entry>
 <entry>
-<form>koṉ-<c type="geminated">ṉ</c>āḷaṉ</form>
+<form>koṉ</form>
+<def>koṉ</def>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ṉ</c>āḷaṉ</form>
 <def>man</def>
-<form type="simple">āḷaṉ</form>
-<form type="sandhi"><c type="geminated">ṉ</c>āḷaṉ</form>
 <gramGrp>
   <gram type="role">masculine singular</gram>
   <gram type="role">noun</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">koṉ</m></gramGrp>
 </entry>
 <entry>
 <form>nāṭṭu</form>

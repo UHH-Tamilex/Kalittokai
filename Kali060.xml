@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -1042,6 +1044,7 @@
 <form type="simple">ē</form>
 <form type="sandhi"><c type="geminated">ṉ</c>ē</form>
 <gramGrp>
+  <gram type="role">interjection</gram>
   <gram type="role">adverb</gram>
 </gramGrp>
 <gramGrp type="particle"><m type="proclitic">koṉ</m></gramGrp>
