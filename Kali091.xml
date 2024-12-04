@@ -65,7 +65,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali91">
-<interp type="alignment" select="0">49MG22MG6MGMR48MG45MG3MG29MG18MG13MG13ML11MG26MG31M2G16MG18MG39MG10MG15MG18MG43MG11ML20M2G21M2G29M2G13MG3M2G15MG25MG2ML5MG3M2G14ML12MG31M,140MG12MG84MG8MG209MG9MG54MG194MG</interp>
+<interp type="alignment" select="0">49MG22MG6MGMR48MG45MG3MG29MG18MG13MG13ML11MG26MG31M2G16MG18MG39MG25MG18MG43MG11ML20M2G21M2G29M2G13MG3M2G15MG25MG2ML5MG3M2G14ML12MG31M,140MG12MG84MG8MG208MG9MG54MG194MG</interp>
 <entry>
 <form>ari</form>
 <def>beauty</def>
@@ -657,15 +657,20 @@
 </gramGrp>
 </entry>
 <entry>
-<form>yāḻa-niṉ</form>
+<form>yāḻa</form>
+<def>yāḻa</def>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉ</form>
 <def>your</def>
-<form type="simple">niṉ</form>
 <gramGrp>
   <gram type="role">oblique</gram>
   <gram type="role">singular</gram>
   <gram type="role">second person</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">yāḻa</m></gramGrp>
 </entry>
 <entry>
 <form>mēṉi</form>

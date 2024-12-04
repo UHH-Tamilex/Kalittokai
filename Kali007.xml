@@ -65,7 +65,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali7">
-<interp type="alignment" select="0">16MG5MG11ML27MG34MG6M2G15MG24MG11MG26MG7M2G6MG11ML32MG4MG5MG56MG8M2G10ML27MG13MG5MG9MG51MG8M2G7MG29MG19MG26M2G11ML38MG18MG7MG29MG2M,118MG5MG71MG57MG5MG56MG8MG53MG5MG61MG8MG58MG6MG127MG</interp>
+<interp type="alignment" select="0">16MG5MG11ML27MG34MG6M2G15MG24MG37MG7M2G6MG11ML32MG4MG5MG56MG8M2G10ML27MG13MG5MG9MG51MG8M2G7MG29MG19MG26M2G11ML38MG18MG7MG29MG2M,118MG5MG70MG57MG5MG56MG8MG53MG5MG61MG8MG58MG6MG127MG</interp>
 <entry>
 <form>vēṉil</form>
 <def>summer</def>
@@ -292,15 +292,20 @@
 </gramGrp>
 </entry>
 <entry>
-<form>yāḻa-niṉ</form>
+<form>yāḻa</form>
+<def>yāḻa</def>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉ</form>
 <def>your</def>
-<form type="simple">niṉ</form>
 <gramGrp>
   <gram type="role">oblique</gram>
   <gram type="role">singular</gram>
   <gram type="role">second person</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">yāḻa</m></gramGrp>
 </entry>
 <entry>
 <form>kai</form>

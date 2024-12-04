@@ -56,7 +56,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali18">
-<interp type="alignment" select="0">37MG43MG6MG8MG16M2GMR31MG9MG14MG7M2G14MG8MG33MG3M2G10M2G19M2G14MG14MG6MG16MG14M2G23M,372MG</interp>
+<interp type="alignment" select="0">37MG43MG14MG16M2GMR31MG9MG14MG7M2G14MG8MG33MG3M2G10M2G19M2G14MG14MG6MG16MG14M2G23M,371MG</interp>
 <entry>
 <form>arum</form>
 <def>rare</def>
@@ -177,15 +177,20 @@
 <gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
 </entry>
 <entry>
-<form>yāḻa-niṉ</form>
+<form>yāḻa</form>
+<def>yāḻa</def>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉ</form>
 <def>your</def>
-<form type="simple">niṉ</form>
 <gramGrp>
   <gram type="role">oblique</gram>
   <gram type="role">singular</gram>
   <gram type="role">second person</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">yāḻa</m></gramGrp>
 </entry>
 <entry>
 <form>maint<c type="elided">u</c></form>

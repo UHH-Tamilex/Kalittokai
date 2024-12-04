@@ -67,7 +67,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali36">
-<interp type="alignment" select="0">9ML35ML22MG23MG34MG29MG3MG133MG4MG16MG30MG69MG102MG10MG16MG24MG8MG18MG3MG9MG27MG11MG24MG20MG5MG58M2G2M,350MG47MG47MG58MG122MG141MG</interp>
+<interp type="alignment" select="0">9ML35ML22MG23MG34MG29MG3MG133MG4MG16MG30MG69MG102MG10MG16MG24MG8MG18MG3MG9MG27MG35MG20MG5MG58M2G2M,350MG47MG47MG58MG122MG140MG</interp>
 <entry>
 <form>koṭu</form>
 <def>curved</def>
@@ -963,15 +963,20 @@
 </gramGrp>
 </entry>
 <entry>
-<form>yāḻa-niṉ</form>
+<form>yāḻa</form>
+<def>yāḻa</def>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉ</form>
 <def>your</def>
-<form type="simple">niṉ</form>
 <gramGrp>
   <gram type="role">oblique</gram>
   <gram type="role">singular</gram>
   <gram type="role">second person</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">yāḻa</m></gramGrp>
 </entry>
 <entry>
 <form>vāḷ</form>

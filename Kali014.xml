@@ -61,7 +61,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali14">
-<interp type="alignment" select="0">48ML5MG3MG19ML38MR45MG36MG67MG25MG17MG5M2G9MG22ML11MG8MG32MG34MG16MG18MG12MG3ML6MG13MG6MG14MG28ML33MG19MG10MG2M,296MG78MG67MG80MG6MG101MG</interp>
+<interp type="alignment" select="0">48ML5MG3MG19ML38MR45MG36MG67MG25MG17MG5M2G31ML11MG8MG32MG34MG16MG18MG12MG3ML6MG13MG6MG14MG28ML33MG19MG10MG2M,296MG77MG67MG80MG6MG101MG</interp>
 <entry>
 <form>aṇai</form>
 <def>bed</def>
@@ -555,15 +555,20 @@
 </gramGrp>
 </entry>
 <entry>
-<form>yāḻa-niṉ</form>
+<form>yāḻa</form>
+<def>yāḻa</def>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉ</form>
 <def>your</def>
-<form type="simple">niṉ</form>
 <gramGrp>
   <gram type="role">oblique</gram>
   <gram type="role">singular</gram>
   <gram type="role">second person</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">yāḻa</m></gramGrp>
 </entry>
 <entry>
 <form>maruḷi</form>

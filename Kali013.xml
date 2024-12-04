@@ -70,7 +70,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali13">
-<interp type="alignment" select="0">12MG12MG89MG14MG53MG75ML13MG37MG21MG74MG101MG41MG91MG43MG63MG12MG10MG17MG66MG2M,286MG125MG143MG135MG8MG162MG</interp>
+<interp type="alignment" select="0">12MG12MG89MG14MG53MG75ML13MG58MG74MG101MG41MG91MG43MG63MG12MG10MG17MG66MG2M,286MG124MG143MG135MG8MG162MG</interp>
 <entry>
 <form>ceru</form>
 <def>fight</def>
@@ -549,13 +549,18 @@
 </gramGrp>
 </entry>
 <entry>
-<form>yāḻa-niṉ</form>
+<form>yāḻa</form>
+<def>yāḻa</def>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉ</form>
 <def>your</def>
-<form type="simple">niṉ</form>
 <gramGrp>
   <gram type="role">oblique</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">yāḻa</m></gramGrp>
 </entry>
 <entry>
 <form>mel</form>
