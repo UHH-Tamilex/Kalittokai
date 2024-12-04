@@ -101,7 +101,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali2">
-<interp type="alignment" select="0">65MG49MG13MG8MG5MG41MG37MG22MG46MG16MG33M2G12MG13MG3MG11MG40MG17ML66MG3MG11MG39MG43MG48MG3MG11MG40MG11ML4MG21ML54MG14MG14MG3MG3MGMG11MG30MG21MG61MG2M,352MG145MG146MG149MG8MG179MG</interp>
+<interp type="alignment" select="0">65MG49MG13MG8MG5MG41MG37MG22MG46MG16MG33MG12MG13MG3MG11MG40MG17ML66MG3MG11MG39MG43MG48MG3MG11MG40MG11ML4MG21ML54MG14MG14MG3MG15MG30MG21MG61MG2M,351MG145MG146MG149MG8MG177MG</interp>
 <entry>
 <form>toṭaṅkal</form>
 <def>beginning</def>
@@ -550,14 +550,20 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-aiiya</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aiiya</form>
 <def>lord</def>
-<form type="simple">aiiya</form>
 <gramGrp>
   <gram type="role">masculine singular</gram>
   <gram type="role">vocative</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>tolaiv<c type="elided">u</c></form>
@@ -1220,7 +1226,7 @@
 </gramGrp>
 </entry>
 <entry>
-<form>eṉṟ(i)</form>
+<form>eṉṟu</form>
 <def>said</def>
 <form type="sandhi">eṉṟi</form>
 <gramGrp>

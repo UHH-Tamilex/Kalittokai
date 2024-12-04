@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -82,7 +80,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali81">
-<interp type="alignment" select="0">60ML96MG45MG18MG34ML100MG76MG10MG15M2G7MG56M2G24MG17ML5MG16MG5MG5MG16MG25MG2ML3M2G17MG13MG64MG14MG81ML27MG7MG10MG106MG15MG14MG3M2G17MG60MG27M,328MG6MG149MG7MG186MG81MG111MG115MG11MG145MG</interp>
+<interp type="alignment" select="0">60ML96MG45MG18MG34ML100MG76MG10MG15M2G7MG56M2G24MG17ML5MG16MG5MG5MG16MG25MG2ML3MG17MG13MG64MG14MG81ML27MG7MG10MG106MG15MG14MG3M2G17MG60MG27M,328MG6MG149MG7MG185MG81MG111MG115MG11MG145MG</interp>
 <entry>
 <form>mai</form>
 <def>blemish</def>
@@ -1017,13 +1015,19 @@
 <gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-ivaṉ</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ivaṉ</form>
 <def>this-one</def>
-<form type="simple">ivaṉ</form>
 <gramGrp>
   <gram type="role">masculine singular</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>vāy</form>

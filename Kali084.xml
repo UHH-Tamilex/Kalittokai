@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -86,7 +84,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali84">
-<interp type="alignment" select="0">27ML42MG45MG194MR22MG8ML13MG27MG4ML65M2G32MG5MG14MG36MG22MG60MG16MG29MG12MG99MG40MG5MG17M2G11MG27M2G5MG25M2G37MG23MG7MG41MG20MG8MG35MG7MG38ML3M2G25ML5MG26MG6MG8M,260MG5MG316MG9MG49MG8MG174MG16MG121MG8MG79MG6MG173MG</interp>
+<interp type="alignment" select="0">27ML42MG45MG194MR22MG8ML13MG27MG4ML65MG32MG5MG14MG36MG22MG60MG16MG29MG12MG99MG40MG5MG17M2G11MG27M2G5MG25MG37MG23MG7MG41MG20MG8MG35MG7MG38ML3M2G25ML5MG26MG6MG8M,260MG5MG315MG9MG49MG8MG174MG16MG120MG8MG79MG6MG173MG</interp>
 <entry>
 <form>uṟu</form>
 <def>have</def>
@@ -774,14 +772,20 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-avar</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>avar</form>
 <def>those</def>
-<form type="simple">avar</form>
 <gramGrp>
   <gram type="role">honorific</gram>
   <gram type="role">third person</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>tam</form>
@@ -1436,13 +1440,19 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-ivaṉ</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ivaṉ</form>
 <def>maṟṟuthis-one</def>
-<form type="simple">ivaṉ</form>
 <gramGrp>
   <gram type="role">masculine singular</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>taṉ</form>

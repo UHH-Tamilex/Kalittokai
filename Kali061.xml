@@ -70,7 +70,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali61">
-<interp type="alignment" select="0">8MG92MG33MG11ML3MGM2G3ML105MG2MG15MG4MG32MG3MG19MG9M2G9ML18M2G66MG5MG20ML38MG7MG13MG35MG4MG19MG28MG38MG10ML38MG27ML5MGMR67M,183MG6MG79MG6MG21MG7MG53MG10MG49MG5MG84MG8MG64MG6MG18MG6MG202MG</interp>
+<interp type="alignment" select="0">8MG92MG33MG11ML7ML105MG2MG15MG4MG32MG3MG19MG9M2G9ML18M2G66MG5MG20ML38MG7MG13MG35MG4MG19MG28MG38MG10ML38MG27ML5MGMR67M,180MG6MG79MG6MG21MG7MG53MG10MG49MG5MG84MG8MG64MG6MG18MG6MG202MG</interp>
 <entry>
 <form>ellā</form>
 <def>friend</def>
@@ -268,15 +268,21 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ(i)-yāṉ</form>
+<form>maṟṟu</form>
+<def>besides</def>
+<form type="sandhi">maṟṟi</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>yāṉ</form>
 <def>I</def>
-<form type="simple">yāṉ</form>
 <gramGrp>
   <gram type="role">pronoun</gram>
   <gram type="role">singular</gram>
   <gram type="role">first person</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>nōkkiṉ</form>

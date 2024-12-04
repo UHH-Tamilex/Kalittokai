@@ -54,7 +54,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali19">
-<interp type="alignment" select="0">48MG25MG4M2G5M2G9ML64MG45MG29M2G8MG26M2G75MG15MG7M,172MG202MG</interp>
+<interp type="alignment" select="0">48MG25MG4M2G5MG9ML64MG45MG29M2G8MG26M2G75MG15MG7M,171MG202MG</interp>
 <entry>
 <form>cevviya</form>
 <def>straight-they</def>
@@ -156,14 +156,20 @@
 <gramGrp type="particle"><m type="enclitic">ō</m></gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-aiya</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aiya</form>
 <def>lord</def>
-<form type="simple">aiya</form>
 <gramGrp>
   <gram type="role">masculine singular</gram>
   <gram type="role">vocative</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form><c type="glide">v</c>akal</form>

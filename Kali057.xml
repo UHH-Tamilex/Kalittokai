@@ -65,7 +65,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali57">
-<interp type="alignment" select="0">34MG36MG13MG52MG6MG3M2G31MG5MG25ML13ML22MG73MG28MG19MG32M2G128MGMR15MG3M2G33MG57MG15MG17MG8MG9M2G55ML18MG20M2G3M2G20MG39MG10M2G2M,268MG148MG154MG152MG8MG148MG</interp>
+<interp type="alignment" select="0">34MG36MG13MG52MG6MG3M2G31MG5MG25ML13ML22MG73MG28MG19MG32M2G128MGMR15MG3M2G33MG57MG15MG17MG8MG9M2G55ML18MG20MG23MG39MG10M2G2M,268MG148MG154MG152MG8MG145MG</interp>
 <entry>
 <form>vēy</form>
 <def>bamboo</def>
@@ -1242,11 +1242,17 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-āṅk<c type="elided">u</c>-ē</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āṅk<c type="elided">u</c></form>
 <def>thus</def>
-<form type="simple">āṅku-ē</form>
 <form type="sandhi">āṅkē</form>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>tuṇai</form>

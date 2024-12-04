@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -79,7 +77,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali86">
-<interp type="alignment" select="0">22MG79ML29MG43MG112MG22MG3MR15MGMR36MG45MG14M2G20MG25ML66M2G40MG36ML9MG8MG14M2G38ML88M2G8MG36MG3M2G6MG3MG51MG79MG14M,298MG6MG185MG113MG106MG5MG4MG50MG10MG21MG10MG179MG</interp>
+<interp type="alignment" select="0">22MG79ML29MG43MG112MG22MG3MR15MGMR36MG45MG14MG20MG25ML66MG40MG36ML9MG8MG14MG38ML88M2G8MG36MG3M2G6MG3MG51MG79MG14M,298MG6MG184MG112MG105MG5MG4MG50MG10MG21MG10MG179MG</interp>
 <entry>
 <form>mai</form>
 <def>black</def>
@@ -736,16 +734,22 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-ovvāti</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ovvāti</form>
 <def>equal-not-you</def>
-<form type="simple">ovvāti</form>
 <gramGrp>
   <gram type="role">negative</gram>
   <gram type="role">subjuntive</gram>
   <gram type="role">singular</gram>
   <gram type="role">second person</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form><c type="glide">y</c>oṉṟiṉēm</form>
@@ -913,16 +917,22 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-ovvāti</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ovvāti</form>
 <def>congruous-not-you</def>
-<form type="simple">ovvāti</form>
 <gramGrp>
   <gram type="role">negative</gram>
   <gram type="role">subjuntive</gram>
   <gram type="role">singular</gram>
   <gram type="role">second person</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>kāl</form>
@@ -1083,16 +1093,22 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-ovvāti</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ovvāti</form>
 <def>equal-not-you</def>
-<form type="simple">ovvāti</form>
 <gramGrp>
   <gram type="role">negative</gram>
   <gram type="role">subjuntive</gram>
   <gram type="role">singular</gram>
   <gram type="role">second person</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>mātar</form>

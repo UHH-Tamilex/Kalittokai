@@ -70,7 +70,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali13">
-<interp type="alignment" select="0">12MG12MG89MG14MG53MG5MGMG69ML13MG37MG21MG74MG101M2G41MG91MG43MG63MG12MG10MG17MG66MG2M,288MG125MG144MG135MG8MG162MG</interp>
+<interp type="alignment" select="0">12MG12MG89MG14MG53MG75ML13MG37MG21MG74MG101MG41MG91MG43MG63MG12MG10MG17MG66MG2M,286MG125MG143MG135MG8MG162MG</interp>
 <entry>
 <form>ceru</form>
 <def>fight</def>
@@ -353,7 +353,7 @@
 </gramGrp>
 </entry>
 <entry>
-<form>uyaṅk(i)</form>
+<form>uyaṅku</form>
 <def>weaken</def>
 <form type="sandhi">uyaṅki</form>
 <gramGrp>
@@ -854,10 +854,16 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-āṇṭai</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āṇṭai</form>
 <def>there</def>
-<form type="simple">āṇṭai</form>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>vilaṅku</form>

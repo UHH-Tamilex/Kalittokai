@@ -67,7 +67,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali68">
-<interp type="alignment" select="0">15MG9MG93ML20MG28MG13ML5MG14MG8MG17ML24MG14MG45MG8ML5MG21M2G63MG12ML14MG3MG14MG137MG23MR11MG10MG55MG16ML13MG10M2G32MG6MG27MG7M2G22M,164MG227MG147MG144MG8MG154MG</interp>
+<interp type="alignment" select="0">15MG9MG93ML20MG28MG13ML5MG14MG8MG17ML24MG14MG45MG8ML5MG21MG63MG12ML14MG3MG14MG137MG23MR11MG10MG55MG16ML13MG10MG32MG6MG27MG7M2G22M,164MG226MG147MG144MG8MG153MG</interp>
 <entry>
 <form>potu</form>
 <def>common</def>
@@ -619,9 +619,16 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-em</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>em</form>
 <def>our</def>
-<form type="simple">em</form>
 <form type="sandhi">en</form>
 <gramGrp>
   <gram type="role">pronoun</gram>
@@ -629,7 +636,6 @@
   <gram type="role">plural</gram>
   <gram type="role">first person</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>tōḷoṭu</form>
@@ -1184,9 +1190,16 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-em</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>em</form>
 <def>our</def>
-<form type="simple">em</form>
 <form type="sandhi">en</form>
 <gramGrp>
   <gram type="role">pronoun</gram>
@@ -1194,7 +1207,6 @@
   <gram type="role">plural</gram>
   <gram type="role">first person</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>tōḷ</form>

@@ -60,7 +60,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali63">
-<interp type="alignment" select="0">9ML26MG50MG7ML4MG16MG68MG22MG23MG11MG5MG3MG8ML9MG11MG6MR10ML33MG6ML39M2G28MLMG2MR29MG3M2G5M2G21M,121MG15MG121MG7MG54MG5MG52MG17MG83MG</interp>
+<interp type="alignment" select="0">9ML26MG50MG7ML20MG68MG22MG23MG11MG5MG3MG8ML9MG11MG6MR10ML33MG6ML39M2G28MLMG2MR29MG3M2G5MG21M,120MG15MG121MG7MG54MG5MG52MG17MG82MG</interp>
 <entry>
 <form>nōkkum</form>
 <def>looking-at-</def>
@@ -198,16 +198,21 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟu-nām</form>
+<form>maṟṟu</form>
+<def>besides</def>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nām</form>
 <def>we</def>
-<form type="simple">nām</form>
 <form type="sandhi">nāṅ</form>
 <gramGrp>
   <gram type="role">pronoun</gram>
   <gram type="role">plural</gram>
   <gram type="role">first person</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>kākkum</form>
@@ -737,13 +742,19 @@
 <gramGrp type="particle"><m type="enclitic">ō</m></gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-avaṉ</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>avaṉ</form>
 <def>that-one</def>
-<form type="simple">avaṉ</form>
 <gramGrp>
   <gram type="role">masculine singular</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>taṉṉoṭu</form>

@@ -73,7 +73,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali60">
-<interp type="alignment" select="0">6MG8ML61ML5MG38MG72MG73M2G5MG2MR31MG9MG20MG125MG83ML3M2G10ML5MG26ML16ML24MG14MGMG3M2G13MG12MG42ML3MG25MG8MG15MG4MR16MG4MG5M2G10MG3M2G25MG6MGMR5MG2MR6MG8MG9MR13ML21MG43MG3M2G2M,155MG74MG41MG110MG10MG78MG113MG115MG9MG85MG6MG22MG12MG154MG</interp>
+<interp type="alignment" select="0">6MG8ML61ML5MG38MG72MG73M2G5MG2MR31MG9MG20MG125MG83ML3MG10ML5MG26ML16ML24MG18M2G13MG12MG42ML3MG25MG8MG15MG4MR16MG4MG5M2G10MG3M2G25MG6MGMR5MG2MR6MG8MG9MR13ML21MG43MG3M2G2M,155MG74MG41MG110MG10MG78MG112MG113MG9MG85MG6MG22MG12MG154MG</interp>
 <entry>
 <form>cuṇaṅk<c type="elided">u</c></form>
 <def>beauty spot</def>
@@ -896,11 +896,16 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-i<c type="geminated">n</c></form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>i<c type="geminated">n</c></form>
 <def>this-</def>
-<form type="simple">i</form>
-<form type="sandhi">i<c type="geminated">n</c></form>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>nōy</form>
@@ -1049,7 +1054,7 @@
 </gramGrp>
 </entry>
 <entry>
-<form>piṟit(i)</form>
+<form>piṟitu</form>
 <def>other-it</def>
 <form type="sandhi">piṟiti</form>
 <gramGrp>

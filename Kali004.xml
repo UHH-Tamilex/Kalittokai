@@ -66,7 +66,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali4">
-<interp type="alignment" select="0">39MG38MG42MG32MG15MG46ML25MG33ML18MG20MG21MG19M2G17MG34MG5MG18MG2ML19M2G40M2G11MG4MG35MG32MG20ML17M2G11MG4MG41MG6MG42ML7MG21MG6MG28M2G2M,259MG133MG142MG125MG8MG136MG</interp>
+<interp type="alignment" select="0">39MG38MG42MG32MG15MG46ML25MG33ML18MG20MG21MG19MG17MG34MG5MG18MG2ML19M2G40MG11MG4MG35MG32MG20ML17MG11MG4MG41MG6MG42ML7MG21MG6MG28M2G2M,259MG132MG141MG124MG8MG136MG</interp>
 <entry>
 <form>vali</form>
 <def>strength</def>
@@ -566,14 +566,20 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-avar</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>avar</form>
 <def>that-one</def>
-<form type="simple">avar</form>
 <gramGrp>
   <gram type="role">honorific</gram>
   <gram type="role">third person</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>cūḻvatai</form>
@@ -762,14 +768,20 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-avar</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>avar</form>
 <def>that-one</def>
-<form type="simple">avar</form>
 <gramGrp>
   <gram type="role">honorific</gram>
   <gram type="role">third person</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>uḷḷuvat<c type="elided">u</c></form>
@@ -937,13 +949,19 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-avar</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>avar</form>
 <def>that-one</def>
-<form type="simple">avar</form>
 <gramGrp>
   <gram type="role">honorific</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>eṇṇuvat<c type="elided">u</c></form>

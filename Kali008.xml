@@ -65,7 +65,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali8">
-<interp type="alignment" select="0">5MG5MG30MG80MG39MG34MG17MG19MG16MG17M2G15MG21MG13MG30MG10MGMR8MG9MG2MR7MG59MG10ML11MGMR8MG9MG2MR7MG18ML14ML15MG25MG17MGMR8MG9MG2MR7MG38MG55MG47MG10MG2M,278MG122MG114MG125MG8MG143MG</interp>
+<interp type="alignment" select="0">5MG5MG30MG80MG39MG34MG17MG19MG16MG17MG15MG21MG13MG30MG10MGMR8MG9MG2MR7MG59MG10ML11MGMR8MG9MG2MR7MG18ML14ML15MG25MG17MGMR8MG9MG2MR7MG38MG55MG47MG10MG2M,277MG122MG114MG125MG8MG143MG</interp>
 <entry>
 <form>naṭuv<c type="elided">u</c></form>
 <def>impartiality</def>
@@ -435,14 +435,20 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-aiiya</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aiiya</form>
 <def>lord</def>
-<form type="simple">aiiya</form>
 <gramGrp>
   <gram type="role">masculine singular</gram>
   <gram type="role">vocative</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>vīḻunarkk<c type="elided">u</c></form>

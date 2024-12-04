@@ -88,7 +88,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali37">
-<interp type="alignment" select="0">5ML137M2G8MG23MG14MG6MG56MG8ML5MG10M2G14MG5MG3MG11ML5MG19MG16ML29MG11MG12MG30MG26ML3MG3MG52MG10M2G43MG19MG17M2G18MG19ML17M,688MG</interp>
+<interp type="alignment" select="0">5ML137M2G8MG23MG14MG6MG56MG8ML5MG10M2G14MG5MG3MG11ML5MG19MG16ML29MG11MG12MG30MG26ML3MG3MG52MG10M2G43MG19MG17MG18MG19ML17M,687MG</interp>
 <entry>
 <form>kayam</form>
 <def>tank</def>
@@ -1015,15 +1015,21 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-oyyeṉa</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>oyyeṉa</form>
 <def>'oy'-say</def>
-<form type="simple">oyyeṉa</form>
 <gramGrp>
   <gram type="role">adverb</gram>
   <gram type="role">infinitive</gram>
   <gram type="role">ideophone</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form><c type="glide">v</c>oḷ</form>

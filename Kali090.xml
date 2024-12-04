@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -74,7 +72,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali90">
-<interp type="alignment" select="0">6ML12MG31ML19MG26MG4MG19MG6MG32ML7M2G19MG2ML4MG9M2G7MG7MG7MG22MR8MG31MG50ML7MG7MG35MG14MG7MG20M2G10ML2MG20MG7MG24M2G7MG15MG7MG4MG9MG15MG8MG20MG3ML58MG13MG28ML5MG81ML30MG19MG8M,82MG8MG19MG7MG448MG5MG21MG5MG19MG122MG8MG20MG3MG82MG</interp>
+<interp type="alignment" select="0">6ML12MG31ML19MG26MG4MG19MG6MG32ML7M2G19MG2ML4MG9M2G7MG7MG7MG22MR8MG31MG50ML7MG7MG35MG14MG7MG20M2G10ML2MG20MG7MG24MG7MG15MG7MG4MG9MG15MG8MG20MG3ML58MG13MG28ML5MG81ML30MG19MG8M,82MG8MG19MG7MG447MG5MG21MG5MG19MG122MG8MG20MG3MG82MG</interp>
 <entry>
 <form>kaṇṭēṉ</form>
 <def>seen-I</def>
@@ -826,13 +824,19 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-avaḷ</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>avaḷ</form>
 <def>that-one</def>
-<form type="simple">avaḷ</form>
 <gramGrp>
   <gram type="role">feminine singular</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>cīṟ<c type="elided">u</c></form>

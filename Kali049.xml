@@ -67,7 +67,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali49">
-<interp type="alignment" select="0">4MG78MG39MG47ML31MG19ML24MR19MG43M2G11M2G5M2G41M2G72M2G11M2G5M2G23MG16MG5MG77M2G11M2G5M2G39MG5MG80MG14ML9MG2M,264MG136MG143MG139MG6MG77MG</interp>
+<interp type="alignment" select="0">4MG78MG39MG47ML31MG19ML24MR19MG43M2G11MG46M2G72M2G11MG28MG16MG5MG77M2G11MG44MG5MG80MG14ML9MG2M,264MG133MG140MG136MG6MG77MG</interp>
 <entry>
 <form>koṭu-vari</form>
 <def>curved-stripe</def>
@@ -513,15 +513,21 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-iṉṉāt<c type="elided">u</c>-ē</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉṉāt<c type="elided">u</c></form>
 <def>pleasing-not-it</def>
-<form type="simple">iṉṉātu-ē</form>
 <form type="sandhi">iṉṉātē</form>
 <gramGrp>
   <gram type="role">neuter singular</gram>
   <gram type="role">negative</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>miṉ</form>
@@ -710,15 +716,21 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-iṉṉāt<c type="elided">u</c>-ē</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉṉāt<c type="elided">u</c></form>
 <def>pleasing-not-it</def>
-<form type="simple">iṉṉātu-ē</form>
 <form type="sandhi">iṉṉātē</form>
 <gramGrp>
   <gram type="role">neuter singular</gram>
   <gram type="role">negative</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>maṇam</form>
@@ -918,15 +930,21 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-iṉṉāt<c type="elided">u</c>-ē</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉṉāt<c type="elided">u</c></form>
 <def>pleasing-not-it</def>
-<form type="simple">iṉṉātu-ē</form>
 <form type="sandhi">iṉṉātē</form>
 <gramGrp>
   <gram type="role">neuter singular</gram>
   <gram type="role">negative</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>oḷiṟu</form>

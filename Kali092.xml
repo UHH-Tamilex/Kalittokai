@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -193,7 +191,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali92">
-<interp type="alignment" select="0">4MG30MG10MG14M2G42M2G3MG10MG8MG16MG12MG27M2G22MG16MG5M2G9MG15ML7M2G21MR120ML4MG18MG4MG30MG8MG4ML28MG8MG15MG14MG33MG33MG16ML16M2G27MLMG21MG57M2G28M2G55MG31M2G3M2G19MG37MG85M6G117MG35MG11MG8MG147MG48MG206MG58MG2MR29MG25MG22MG7M2G44ML4MG25MG26ML39MG30MG41MG2ML6MG21MG5MG17MG28MG10M,279MG110MG8MG51MG7MG158MG53MG6MG204MG12MG80MG6MG25MG39MG29MG34MG29MG35MG81MG6MG78MG6MG84MG6MG83MG4MG118MG121MG8MG295MG</interp>
+<interp type="alignment" select="0">4MG30MG10MG14M2G42MG3MG10MG8MG16MG12MG27M2G22MG16MG5M2G9MG15ML7M2G21MR120ML4MG18MG4MG30MG8MG4ML28MG8MG15MG14MG33MG33MG16ML16M2G27MLMG21MG57M2G28M2G55MG31MG22MG37MG85M6G117MG35MG11MG8MG147MG48MG206MG58MG2MR29MG25MG22MG7M2G44ML4MG25MG26ML39MG30MG41MG2ML6MG21MG5MG17MG28MG10M,278MG110MG8MG51MG7MG158MG53MG6MG204MG9MG80MG6MG25MG39MG29MG34MG29MG35MG81MG6MG78MG6MG84MG6MG83MG4MG118MG121MG8MG295MG</interp>
 <entry>
 <form>puṉa<c type="uncertain">m</c></form>
 <def>field</def>
@@ -332,11 +330,17 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-āṇṭ<c type="elided">u</c></form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āṇṭ<c type="elided">u</c></form>
 <def>there</def>
-<form type="simple">āṇṭu</form>
 <form type="sandhi">āṇṭ</form>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>āṇṭu<c type="geminated">c</c></form>
@@ -1384,11 +1388,17 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-āṅk<c type="elided">u</c>-ē</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āṅk<c type="elided">u</c></form>
 <def>thus</def>
-<form type="simple">āṅku-ē</form>
 <form type="sandhi">āṅkē</form>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>nēr</form>

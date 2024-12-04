@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -59,7 +57,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali89">
-<interp type="alignment" select="0">24MG14MG9MG6MG12ML8M2G55MG9ML23MGMG80ML22MG23MG3M2G21M2G12ML5MG12MG30M2G8MG41MG9MG7M,85MG7MG82MG2MG88MG11MG53MG124MG</interp>
+<interp type="alignment" select="0">24MG14MG9MG6MG12ML8M2G55MG9ML104ML22MG23MG3M2G21M2G12ML5MG12MG30M2G8MG41MG9MG7M,85MG7MG80MG2MG88MG11MG53MG124MG</interp>
 <entry>
 <form>yār</form>
 <def>who</def>
@@ -342,7 +340,7 @@
 </gramGrp>
 </entry>
 <entry>
-<form>āṟ(i)</form>
+<form>āṟu</form>
 <def>way</def>
 <form type="sandhi">āṟi</form>
 <gramGrp>

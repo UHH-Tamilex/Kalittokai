@@ -68,7 +68,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali15">
-<interp type="alignment" select="0">3MG80MG4MG55MG53MG41MG49MG10MG38M2G26ML121M2G59MG89M2G36MG16MG73MG8MG11ML3M2G28MG7MG12MG10M2G11MG3M,269MG150MG149MG151MG8MG142MG</interp>
+<interp type="alignment" select="0">3MG80MG4MG55MG53MG41MG49MG10MG38M2G26ML121M2G59MG89M2G36MG16MG73MG8MG11ML3MG28MG7MG12MG10M2G11MG3M,269MG150MG149MG151MG8MG141MG</interp>
 <entry>
 <form>ari-māṉ</form>
 <def>lion</def>
@@ -1134,14 +1134,20 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-ivaḷ</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ivaḷ</form>
 <def>this-one</def>
-<form type="simple">ivaḷ</form>
 <form type="sandhi">ivaṇ</form>
 <gramGrp>
   <gram type="role">feminine singular</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>muḷai</form>

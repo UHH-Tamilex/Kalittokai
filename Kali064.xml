@@ -73,7 +73,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali64">
-<interp type="alignment" select="0">8ML30ML8ML13MG105MG12MG74MG44MG7MG18MG20MGM2G2ML8MG21M2G3M2G7MG4MR8MG3M2G7M2G36MG2MR8MG3M2G54M2G42MG4ML4ML18MG18M2G19MG28M2G51MG32MG15MG15MG25MG7MG46M,229MG2MG4MG76MG6MG220MG4MG111MG15MG52MG7MG140MG</interp>
+<interp type="alignment" select="0">8ML30ML8ML13MG105MG12MG74MG44MG7MG18MG20MGM2G2ML8MG21MG10MG4MR8MG3M2G7M2G36MG2MR8MG3M2G54MG42MG4ML4ML18MG18M2G19MG28M2G51MG32MG15MG15MG25MG7MG46M,229MG2MG4MG76MG6MG216MG4MG111MG15MG52MG7MG140MG</interp>
 <entry>
 <form>aṇi</form>
 <def>be-adorned</def>
@@ -652,11 +652,17 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-iḵt<c type="elided">u</c>-ō</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iḵt<c type="elided">u</c></form>
 <def>this</def>
-<form type="simple">iḵtu-ō</form>
 <form type="sandhi">iḵtō</form>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>karump<c type="elided">u</c></form>
@@ -871,10 +877,16 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-iṉi</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉi</form>
 <def>now</def>
-<form type="simple">iṉi</form>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>ellā</form>

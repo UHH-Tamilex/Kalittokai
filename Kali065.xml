@@ -107,7 +107,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali65">
-<interp type="alignment" select="0">6MG17MG25ML8MG8MG16ML95MG12MG50ML40M2G25MG11ML61ML12MG26MG11MG5MG3M2G10ML10MG45MG13MG52MG58MG28M2G6MG12ML12M2G83M2G29MG90M,347MG565MG</interp>
+<interp type="alignment" select="0">6MG17MG25ML8MG8MG16ML95MG12MG50ML40M2G25MG11ML61ML12MG26MG11MG5MG3M2G10ML10MG58MG52MG58MG28M2G6MG12ML12M2G83M2G29MG90M,347MG564MG</interp>
 <entry>
 <form>tirunt<c type="elided">u</c></form>
 <def>be-perfect</def>
@@ -826,15 +826,21 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟu-yāṉ</form>
+<form>maṟṟu</form>
+<def>besides</def>
+<form type="sandhi">maṟṟi</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>yāṉ</form>
 <def>I</def>
-<form type="simple">yāṉ</form>
 <gramGrp>
   <gram type="role">pronoun</gram>
   <gram type="role">singular</gram>
   <gram type="role">first person</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>ēṉai<c type="geminated">p</c></form>

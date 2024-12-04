@@ -63,7 +63,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali22">
-<interp type="alignment" select="0">17MG15MG28MG5MG10M2G12MG11MG3M2G9MG3M2G95MG28MG4MG70M2G27MG58M2G26MG27MG5MG28M2G28MG62MR29M2G5M2G31M,271MG91MG86MG92MG8MG114MG</interp>
+<interp type="alignment" select="0">17MG15MG28MG5MG10M2G12MG11MG3M2G9MG3M2G95MG28MG4MG70MG27MG58MG26MG27MG5MG28MG28MG62MR29M2G5M2G31M,271MG90MG85MG91MG8MG114MG</interp>
 <entry>
 <form>uṇ</form>
 <def>eat</def>
@@ -521,16 +521,22 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-em</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>em</form>
 <def>our</def>
-<form type="simple">em</form>
 <gramGrp>
   <gram type="role">pronoun</gram>
   <gram type="role">oblique</gram>
   <gram type="role">plural</gram>
   <gram type="role">first person</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>palliṉ</form>
@@ -639,9 +645,16 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-em</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>em</form>
 <def>our</def>
-<form type="simple">em</form>
 <form type="sandhi">eṅ</form>
 <gramGrp>
   <gram type="role">pronoun</gram>
@@ -649,7 +662,6 @@
   <gram type="role">plural</gram>
   <gram type="role">first person</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>kūntal</form>
@@ -760,16 +772,22 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-em</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>em</form>
 <def>our</def>
-<form type="simple">em</form>
 <gramGrp>
   <gram type="role">pronoun</gram>
   <gram type="role">oblique</gram>
   <gram type="role">plural</gram>
   <gram type="role">first person</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>mārpiṉ</form>

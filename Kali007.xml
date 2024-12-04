@@ -65,7 +65,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali7">
-<interp type="alignment" select="0">16MG5MG11ML27MG34MG6M2G15MG24MG6MGMG4MG26MG7M2G6MG11ML32MG4MG5MG56MG8M2G10ML27MG13MG5MG9MG51MG8M2G7MG29MG19MG26M2G11ML38M2G18MG7MG29MG2M,118MG5MG73MG57MG5MG56MG8MG53MG5MG61MG8MG58MG6MG128MG</interp>
+<interp type="alignment" select="0">16MG5MG11ML27MG34MG6M2G15MG24MG11MG26MG7M2G6MG11ML32MG4MG5MG56MG8M2G10ML27MG13MG5MG9MG51MG8M2G7MG29MG19MG26M2G11ML38MG18MG7MG29MG2M,118MG5MG71MG57MG5MG56MG8MG53MG5MG61MG8MG58MG6MG127MG</interp>
 <entry>
 <form>vēṉil</form>
 <def>summer</def>
@@ -284,7 +284,7 @@
 </gramGrp>
 </entry>
 <entry>
-<form>ayarnt(i)</form>
+<form>ayarntu</form>
 <def>engaged</def>
 <form type="sandhi">ayarnti</form>
 <gramGrp>
@@ -931,13 +931,19 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-ivaḷ</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ivaḷ</form>
 <def>this-one</def>
-<form type="simple">ivaḷ</form>
 <gramGrp>
   <gram type="role">feminine singular</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>iṉ</form>

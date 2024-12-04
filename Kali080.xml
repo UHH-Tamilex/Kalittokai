@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -69,7 +67,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali80">
-<interp type="alignment" select="0">101MG3MG5MG124MG3M2G34MG47M2G5M2G20MG68MR6ML18M2G5M2G5MG35MR37MG6ML27M2G5M2G19ML73MG99MG11M,261MG127MG4MG118MG4MG113MG151MG</interp>
+<interp type="alignment" select="0">101MG3MG5MG124MG3M2G34MG47MG25MG68MR6ML18MG10MG35MR37MG6ML27MG24ML73MG99MG11M,261MG124MG4MG115MG4MG110MG151MG</interp>
 <entry>
 <form>nayam</form>
 <def>longing</def>
@@ -537,14 +535,20 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-iṉṉāt<c type="elided">u</c>-ē</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉṉāt<c type="elided">u</c></form>
 <def>pleasing-not-it</def>
-<form type="simple">iṉṉātu-ē</form>
 <form type="sandhi">iṉṉātē</form>
 <gramGrp>
   <gram type="role">neuter singular</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form><c type="glide">y</c>uḷam</form>
@@ -714,14 +718,20 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-iṉṉāt<c type="elided">u</c>-ē</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉṉāt<c type="elided">u</c></form>
 <def>pleasing-not-it</def>
-<form type="simple">iṉṉātu-ē</form>
 <form type="sandhi">iṉṉātē</form>
 <gramGrp>
   <gram type="role">neuter singular</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form><c type="glide">y</c>uyv<c type="elided">u</c></form>
@@ -896,14 +906,20 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-iṉṉāt<c type="elided">u</c>-ē</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉṉāt<c type="elided">u</c></form>
 <def>pleasing-not-it</def>
-<form type="simple">iṉṉātu-ē</form>
 <form type="sandhi">iṉṉātē</form>
 <gramGrp>
   <gram type="role">neuter singular</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>nalkātu</form>

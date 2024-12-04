@@ -65,7 +65,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali69">
-<interp type="alignment" select="0">3MG96MG21ML29MG80ML8ML21MG34MG44MG9MG27MG20MG6MG24M2G6MG9ML10MG61MG15MG4MG54MG3M2G66MG14MG4MG40MG25MG28M2G5MG23MG9M,249MG155MG143MG146MG8MG124MG</interp>
+<interp type="alignment" select="0">3MG96MG21ML29MG80ML8ML21MG34MG44MG9MG27MG20MG6MG24M2G6MG9ML10MG61MG15MG4MG54MG3M2G66MG14MG4MG40MG25MG28MG28MG9M,249MG155MG143MG146MG8MG90MGM2G28MG</interp>
 <entry>
 <form>pōt<c type="elided">u</c></form>
 <def>bud</def>
@@ -1180,20 +1180,26 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-emmai-<c type="glide">y</c>um</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>emmai</form>
 <def>us</def>
-<form type="simple">emmai-um</form>
-<form type="sandhi">emmai<c type="glide">y</c>um</form>
 <gramGrp>
   <gram type="role">accusative</gram>
   <gram type="role">plural</gram>
   <gram type="role">first person</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>uḷḷuvāy</form>
 <def>you remember</def>
+<form type="sandhi">umuḷḷuvāy</form>
 <gramGrp>
   <gram type="role">imperfect aspect</gram>
   <gram type="role">singular</gram>

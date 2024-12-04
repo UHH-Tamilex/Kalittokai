@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -118,7 +116,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali82">
-<interp type="alignment" select="0">27MG56MG29MG40MG63MG68MG4MG52MG36MG31MG4MG2ML46ML11M2G32MG28M2G57MG11MG4MG41ML3M2G2MG33MG14MG53MG8MG14MG3M2G5MG7MG39MG12MG12M2G24MG85MG31MG12M,141MG7MG45MG5MG346MG490MG</interp>
+<interp type="alignment" select="0">27MG56MG29MG40MG63MG68MG4MG52MG36MG31MG4MG2ML46ML11M2G32MG28M2G57MG11MG4MG41ML3MG2MG33MG14MG53MG8MG14MG3M2G5MG7MG39MG12MG12M2G24MG85MG31MG12M,141MG7MG45MG5MG346MG489MG</interp>
 <entry>
 <form>ñālam</form>
 <def>world</def>
@@ -1003,11 +1001,17 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-īt<c type="elided">u</c></form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>īt<c type="elided">u</c></form>
 <def>this</def>
-<form type="simple">ītu</form>
 <form type="sandhi">īt</form>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>ōr</form>
