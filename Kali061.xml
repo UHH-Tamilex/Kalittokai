@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -70,7 +72,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali61">
-<interp type="alignment" select="0">8MG92MG33MG11ML7ML105MG2MG15MG4MG32MG3MG19MG9M2G9ML18M2G66MG5MG20ML38MG7MG13MG35MG4MG19MG28MG38MG10ML38MG27ML5MGMR67M,180MG6MG79MG6MG21MG7MG53MG10MG49MG5MG84MG8MG64MG6MG18MG6MG202MG</interp>
+<interp type="alignment" select="0">8MG92MG33MG11ML7ML105MG2MG15MG4MG32MG3MG19MG9ML9ML18M2G66MG5MG20ML38MG7MG13MG35MG4MG19MG28MG38MG10ML38MG27ML5MGMR67M,180MG6MG79MG6MG21MG7MG52MG10MG49MG5MG84MG8MG64MG6MG18MG6MG202MG</interp>
 <entry>
 <form>ellā</form>
 <def>friend</def>
@@ -558,13 +560,18 @@
 </gramGrp>
 </entry>
 <entry>
-<form>ām-maṟṟu</form>
+<form>ām</form>
 <def>becomes</def>
-<form type="simple">ām</form>
 <gramGrp>
   <gram type="role">habitual future</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="enclitic">maṟṟu</m></gramGrp>
+</entry>
+<entry>
+<form>maṟṟu</form>
+<def>besides</def>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>ivaḷ</form>
@@ -675,13 +682,12 @@
 <entry>
 <form>illai-yāḻa</form>
 <def>not</def>
-<form type="simple">illai</form>
+<form type="sandhi">illaiyāḻa</form>
 <gramGrp>
   <gram type="role">negative</gram>
   <gram type="role">plural</gram>
   <gram type="role">singular</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="enclitic">yāḻa</m></gramGrp>
 </entry>
 <entry>
 <form>maruḷi</form>

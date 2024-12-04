@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -415,7 +417,7 @@
 </gramGrp>
 </entry>
 <entry>
-<form>peṟupa-<c type="glide">v</c>ōmaṟṟu</form>
+<form>peṟupa-<c type="glide">v</c>ō</form>
 <def>they-obtain</def>
 <form type="simple">peṟupa</form>
 <gramGrp>
@@ -423,7 +425,14 @@
   <gram type="role">plural</gram>
   <gram type="role">third person</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="enclitic">ōmaṟṟu</m></gramGrp>
+<gramGrp type="particle"><m type="enclitic">ō</m></gramGrp>
+</entry>
+<entry>
+<form>maṟṟu</form>
+<def>besides</def>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>māṇṭai</form>
@@ -1587,8 +1596,9 @@
 </entry>
 <entry>
 <form>ōo</form>
-<def>ooh(excl.)</def>
+<def>ooh</def>
 <gramGrp>
+  <gram type="role">interjection</gram>
 </gramGrp>
 </entry>
 <entry>
