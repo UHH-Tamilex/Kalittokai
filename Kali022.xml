@@ -57,13 +57,34 @@
                 <l>tuvvāmai vantak kaṭai.</l>
             </lg>
             <lg type="translation" xml:lang="en">
-                <l/>
+<l>            That the face will be different at the time of begging, praising the duty</l>
+<l corresp="1f">of eating, from the face at the time of giving what they take </l>
+<l corresp="3">that is the nature of this world of old. Today too, </l>
+<l corresp="4">that is nothing new, you men of wisdom. </l>
+<l corresp="5">Similar to dolls into whom the mothers poured life </l>
+<l corresp="6a-c">there are those who don’t perish on account of words that possess goodness. </l>
+<l corresp="8">What would a stranger say of you desire for wealth </l>
+<l corresp="6d-7">at the time it brings ruin when, like by a bee that searches pollen their beauty is eaten? </l>
+<l rend="space">You praised our teeth for [their] tight order</l>
+<l>that were lined up like fine buds of fragrant jasmine.</l>
+<l>Would you [also] praise [their] crooked order, lord?</l>
+<l rend="space">You praise our tresses for [their] five kinds</l>
+<l>that were as if emitting sapphire light after rubbing oil in.</l>
+<l>Would you [also] praise the work to be done, lord?</l>
+<l rend="space">You praised our chest for [our] young breasts</l>
+<l>that resemble the green buds of the day lotus that adorns the pond.</l>
+<l>Would you [also] praise [our] slackening breasts, lord?</l>
+<l rend="space">That is to say,</l>
+<l rend="space">while that line fades that resembles the sheen of gold plates,</l>
+<l>when we talk to you, who go to the glowing hot desert,</l>
+<l>on our behalf, is there anything that will last</l>
+<l>until [you] come [back], not enjoying while the link is strong? </l>
             </lg>
         </div>
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali22">
-<interp type="alignment" select="0">17MG15MG28MG5MG10M2G12MG11MG3M2G9MG3M2G95MG28MG4MG70M2G27MG58M2G26MG27MG5MG28M2G28MG62MR29M2G5M2G31M,271MG91MG86MG92MG8MG114MG</interp>
+<interp type="alignment" select="0">17MG15MG28MG5MG10M2G12MG11MG3M2G9MG3M2G95MG28MG4MG70MG27MG58MG26MG27MG5MG28MG28MG62MR29M2G5M2G31M,271MG90MG85MG91MG8MG114MG</interp>
 <entry>
 <form>uṇ</form>
 <def>eat</def>
@@ -521,16 +542,22 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-em</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>em</form>
 <def>our</def>
-<form type="simple">em</form>
 <gramGrp>
   <gram type="role">pronoun</gram>
   <gram type="role">oblique</gram>
   <gram type="role">plural</gram>
   <gram type="role">first person</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>palliṉ</form>
@@ -639,9 +666,16 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-em</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>em</form>
 <def>our</def>
-<form type="simple">em</form>
 <form type="sandhi">eṅ</form>
 <gramGrp>
   <gram type="role">pronoun</gram>
@@ -649,7 +683,6 @@
   <gram type="role">plural</gram>
   <gram type="role">first person</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>kūntal</form>
@@ -760,16 +793,22 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-em</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>em</form>
 <def>our</def>
-<form type="simple">em</form>
 <gramGrp>
   <gram type="role">pronoun</gram>
   <gram type="role">oblique</gram>
   <gram type="role">plural</gram>
   <gram type="role">first person</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>mārpiṉ</form>

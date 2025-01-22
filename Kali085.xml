@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -77,13 +75,53 @@
                 <l>taṇṭuveṉ ñāyarmāṭṭaip pāl.</l>
             </lg>
             <lg type="translation" xml:lang="en">
-                <l/>
+<l>            On the feet, along with two suitable toe-rings that curve in burning gold, </l>
+<l>well-crafted tinkling anklets that were brought out of the fire with ashes.</l>
+<l rend="space">The things worn,</l>
+<l>above  golden string made with beads that are luxuriant in handiwork,</l>
+<l>one fold becoming wonderfully loose of fine flower cloth that is fixed</l>
+<l>upon those strands of flawless red coral.</l>
+<l rend="space">On the hand, a few beautiful shining bracelets ???????????</l>
+<l>???????????????????????</l>
+<l rend="space">The things put on, shining ornaments of a bull that shine without flaw,</l>
+<l>from coral the patchy colour of cochineal from a field when it rains</l>
+<l>on which hang down in two places with lumps that are fitted</l>
+<l>with a sword that does not attack and an axe that does not cut.</l>
+<l rend="space">The things worn,</l>
+<l>sapphire-like garlands that send the bees on [their] way,</l>
+<l>so that the choice petals of the blue lotus opening [its] buds are put to shame,</l>
+<l>as surrounding thread for the chaplet on which bees hum,</l>
+<l>above the three[-fold] string made by spinning that are strung all together</l>
+<l>with pearls from the dark sea and likewise(?) many other gems.   </l>
+<l rend="space">Thus, </l>
+<l>gripping with [your] hand the curved branch your the moving firm chariot,</l>
+<l>as a decoration for decoration those and others,</l>
+<l>in your little foot with soft toes that sway gently</l>
+<l>there is some hurting. Please come here to my hand,</l>
+<l>[my] hero, in order to drink your milk.</l>
+<l rend="space">For your father, who moves about </l>
+<l>with [his] drummer skilled in many [things] who put into [his] head rhythms, covering the lies,</l>
+<l>as a fishhook [and] as [his own] task entangling [and] fettering the hearts of those he desires,   </l>
+<l>you will drink a few [drops] of milk,</l>
+<l rend="space">For your mother who does not close [her] eyes,</l>
+<l>while diffuse pain after believing the deceitful vow from the mouth of your father,</l>
+<l>while tears spread in [her] kajal eyes with flower grace,</l>
+<l>you will drink a few [drops] of milk.</l>
+<l rend="space">Mother, ah,</l>
+<l rend="space">while we praise our son, quickly</l>
+<l>come those on his account. Who are those</l>
+<l>who said about him he may come here along with them?</l>
+<l rend="space">Not for my part, you who delight in praise, please absorb(?) the family.</l>
+<l rend="space">What is the part of the other women, a few?</l>
+<l rend="space">Please drink all [milk] together with great songs of regards</l>
+<l>that make elated with joy those who intended a quarrel.</l>
+<l>I gather the milk to the place of your mother.</l>
             </lg>
         </div>
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali85">
-<interp type="alignment" select="0">60MG40MG162MG10MG37ML44MG29MG13MG6MG5MG33MG26MG10MG17MG34MG7MG8MG14MG43MR14MG8MG5MG3MG9MG7ML100ML14MR36ML75MG66MG8MG24MG15MG21MG57MG10MG30M,7MG63MG9MG97MG8MG57MG8MG110MG165MG4MG142MG10MG110MG9MG78MG8MG82MG7MG28MG2MG18MG92MG</interp>
+<interp type="alignment" select="0">60MG40MG162MG10MG37ML44MG15MG14MG13MG6MG5MG33MG26MG10MG17MG34MG7MG8MG14MG43MR14MG8MG5MG3MG9MG7ML100ML14MR36ML75MG66MG8MG24MG15MG21MG57MG10MG30M,7MG63MG9MG97MG8MG57MG8MG110MG6MG159MG4MG142MG10MG110MG9MG78MG8MG82MG7MG28MG2MG18MG92MG</interp>
 <entry>
 <form>kālavai</form>
 <def>leg-they</def>
@@ -631,6 +669,7 @@
 <entry>
 <form>cūṭiṉa</form>
 <def>worn-they</def>
+<form type="sandhi">cūṭiṉai</form>
 <gramGrp>
   <gram type="role">participial noun</gram>
   <gram type="role">neuter plural</gram>
@@ -640,7 +679,7 @@
 <entry>
 <form>irum</form>
 <def>big/dark</def>
-<form type="sandhi">iruṅ</form>
+<form type="sandhi">ruṅ</form>
 <gramGrp>
   <gram type="role">adjective</gram>
 </gramGrp>

@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -122,7 +120,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali96">
-<interp type="alignment" select="0">3MG33MG17MG16MG37MG8MG163MR202MG51MG37MG14MG121MG38M2G6MG81MG47M2G8MG22MG73MG34MG7M2G59ML35M2G26M,134MG4MG51MG17MG427MG4MG81MG48MG80MG6MG51MG7MG242MG</interp>
+<interp type="alignment" select="0">3MG33MG17MG16MG37MG8MG163MR202MG51MG37MG14MG121MG38M2G6MG81MG47M2G8MG22MG73MG34MG7M2G59ML35MG26M,134MG4MG51MG17MG427MG4MG81MG48MG80MG6MG51MG7MG241MG</interp>
 <entry>
 <form>ēnt<c type="elided">u</c></form>
 <def>be-eminent</def>
@@ -1687,11 +1685,16 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-a<c type="geminated">c</c></form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>a<c type="geminated">c</c></form>
 <def>that-</def>
-<form type="simple">a</form>
-<form type="sandhi">a<c type="geminated">c</c></form>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>cā<c type="geminated">t</c></form>

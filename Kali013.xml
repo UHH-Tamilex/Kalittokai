@@ -64,13 +64,40 @@
                 <l>naṭuṅkutal kāṇmār nakaikuṟit taṉarē.</l>
             </lg>
             <lg type="translation" xml:lang="en">
-                <l/>
+<l corresp="9">            To the hot desert difficult to walk when the rain drops have shifted, </l>
+<l>where, </l>
+<l corresp="3">while the innocent deer that are spotted as if spots blossomed [on them] </l>
+<l corresp="4">run to the water [that is] a mirage together with [their] twisted-horned stags </l>
+<l corresp="2">being ones who do not see [it] as they enter the scorched dry soil that was grazed by flames </l>
+<l corresp="1">like a region that was broken in anger by an angry king full og fight, </l>
+<l corresp="5">while the bowstring hemp dies, while the mountain is hot, while the female monkey weakens, </l>
+<l corresp="6">the elephants weakened in body, with mortar-like feet, </l>
+<l corresp="7">not seeing a drinking pond because it might retain oozing water, </l>
+<l corresp="8">taste the mud [and] endure their going lives, </l>
+<l rend="space">[you with] with bright bangles, if you were to come [there] with us,</l>
+<l>with little feet suited to [their] soft nature, like red lotuses</l>
+<l>whose petals joined by inner petals are died with vermillion,</l>
+<l>if they experienced the stones, won’t those feet become dirty ?</l>
+<l rend="space">you with beautiful glowing forehead, if you come with us,</l>
+<l>from the bed soft like shining feathers of shining glory</l>
+<l>you would mount upon swaying elephants. You who rise from sleep,</l>
+<l>if they there hear the lion’s voice, won’t they be frightened?</l>
+<l rend="space">You with parakeet-like speech, if you come with us,</l>
+<l>so that the fitness of [your] body that is graceful like a sprout on which [rain] drops flow,</l>
+<l>if you feel the wind that crossed through roaring fire that buried the dried thicket</l>
+<l>won’t those grace fade?</l>
+<l rend="space">That is to say,</l>
+<l rend="space"> Because lovers tell such things, thinking they will part</l>
+<l>for the sake of work you should not be desolate. Apart from causing a change </l>
+<l>[and] saying that the wildernesses are of fierce difficulty,</l>
+<l>you with curved earrings, not one who abandons [you]</l>
+<l>he intended to see [your] smile when seeing [you] shiver.</l>           
             </lg>
         </div>
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali13">
-<interp type="alignment" select="0">12MG12MG89MG14MG53MG5MGMG69ML13MG37MG21MG74MG101M2G41MG91MG43MG63MG12MG10MG17MG66MG2M,288MG125MG144MG135MG8MG162MG</interp>
+<interp type="alignment" select="0">12MG12MG89MG14MG53MG75ML13MG58MG74MG101MG41MG91MG43MG63MG12MG10MG17MG66MG2M,286MG124MG143MG135MG8MG162MG</interp>
 <entry>
 <form>ceru</form>
 <def>fight</def>
@@ -353,7 +380,7 @@
 </gramGrp>
 </entry>
 <entry>
-<form>uyaṅk(i)</form>
+<form>uyaṅku</form>
 <def>weaken</def>
 <form type="sandhi">uyaṅki</form>
 <gramGrp>
@@ -549,13 +576,18 @@
 </gramGrp>
 </entry>
 <entry>
-<form>yāḻa-niṉ</form>
+<form>yāḻa</form>
+<def>yāḻa</def>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉ</form>
 <def>your</def>
-<form type="simple">niṉ</form>
 <gramGrp>
   <gram type="role">oblique</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">yāḻa</m></gramGrp>
 </entry>
 <entry>
 <form>mel</form>
@@ -854,10 +886,16 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-āṇṭai</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āṇṭai</form>
 <def>there</def>
-<form type="simple">āṇṭai</form>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>vilaṅku</form>

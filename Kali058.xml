@@ -89,7 +89,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali58">
-<interp type="alignment" select="0">14MG9MG9ML35ML72MR19MG46MG5MG4MG30MG42MG17ML18MG37MG20MG5MG7MG10MR29MG17MG5MR13MG38MG19MG4MG9MG9MR9MG18MG12MG22MG36MG50M2G22MG10MG20MG40ML9MG3M,232MG146MG152MG146MG8MG142MG</interp>
+<interp type="alignment" select="0">14MG9MG9ML35ML72MR19MG46MG5MG4MG30MG42MG17ML18MG37MG20MG5MG7MG10MR29MG17MG5MR13MG38MG19MG4MG9MG9MR9MG18MG12MG22MG36MG50MG22MG10MG20MG40ML9MG3M,232MG146MG152MG146MG8MG141MG</interp>
 <entry>
 <form>vār</form>
 <def>combing</def>
@@ -1208,11 +1208,16 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-i<c type="geminated">n</c></form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>i<c type="geminated">n</c></form>
 <def>this-</def>
-<form type="simple">i</form>
-<form type="sandhi">i<c type="geminated">n</c></form>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>nōy</form>

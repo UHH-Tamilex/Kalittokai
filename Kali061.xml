@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -64,13 +66,40 @@
                 <l>ṉuḷḷaṅ kuṟaipaṭā vāṟu.</l>
             </lg>
             <lg type="translation" xml:lang="en">
-                <l/>
+<l>           Friend, one like this, what did he not obtain? See [his] loss.</l>
+<l>Like those who don’t speak when spoken to,</l>
+<l>going near [his] relatives fit to remove the misfortune</l>
+<l>of those worthy, being exhausted when [their] wealth had come to an end</l>
+<l>he comes back many time [and] looks at me. When I it turn look [at him]</l>
+<l>he softly bows [his] head.</l>
+<l rend="space">You, friend, you showed by like one who intends [to communicate] something by gesture.</l>
+<l>You will move like the shadow that does not leave you.</l>
+<l>What is this that you did not get? Speak!</l>
+<l rend="space">If I speak, she will certainly deign not to refuse?</l>
+<l rend="space">Because living is something not possible to those who beg for something being given without refusal,</l>
+<l>dying to becomes possible.</l>
+<l rend="space">Her father will give excellent welalth to anyone out of love.</l>
+<l>What is it that you want?</l>
+<l rend="space">Foolish girl, that is not sorrow here that wants wealth,</l>
+<l>Yours friend with bewildered innocent glance</l>
+<l>I want you to graciously give to me.</l>
+<l rend="space">Mother! What is this dwelling on giving a woman</l>
+<l>to one who is like an elephant bull who gores [and] kills in battle? </l>
+<l rend="space">You with bright bracelets, he is indeed without shame.</l>
+<l rend="space">If [so],</l>
+<l rend="space">Being laughed at [and] mocked by many, mountain the palmyra horse,</l>
+<l>will happen there in the unhappy village. Thinking “if she</l>
+<l>with fragrant forehead neglects [me]” it is the case that he will go.</l>
+<l>Although mocked [and] laughed at, he will come to place after place,</l>
+<l>even if with looks like a robber he will look, he who possesses</l>
+<l>the quality of not going without taking what he intended,</l>
+<l>the way the request does not fall on my father’s heart. </l>
             </lg>
         </div>
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali61">
-<interp type="alignment" select="0">8MG92MG33MG11ML3MGM2G3ML105MG2MG15MG4MG32MG3MG19MG9M2G9ML18M2G66MG5MG20ML38MG7MG13MG35MG4MG19MG28MG38MG10ML38MG27ML5MGMR67M,183MG6MG79MG6MG21MG7MG53MG10MG49MG5MG84MG8MG64MG6MG18MG6MG202MG</interp>
+<interp type="alignment" select="0">8MG92MG33MG11ML7ML105MG2MG15MG4MG32MG3MG19MG9ML9ML18M2G66MG5MG20ML38MG7MG13MG35MG4MG19MG28MG38MG10ML38MG27ML5MGMR67M,180MG6MG79MG6MG21MG7MG52MG10MG49MG5MG84MG8MG64MG6MG18MG6MG202MG</interp>
 <entry>
 <form>ellā</form>
 <def>friend</def>
@@ -268,15 +297,21 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ(i)-yāṉ</form>
+<form>maṟṟu</form>
+<def>besides</def>
+<form type="sandhi">maṟṟi</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>yāṉ</form>
 <def>I</def>
-<form type="simple">yāṉ</form>
 <gramGrp>
   <gram type="role">pronoun</gram>
   <gram type="role">singular</gram>
   <gram type="role">first person</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>nōkkiṉ</form>
@@ -552,13 +587,18 @@
 </gramGrp>
 </entry>
 <entry>
-<form>ām-maṟṟu</form>
+<form>ām</form>
 <def>becomes</def>
-<form type="simple">ām</form>
 <gramGrp>
   <gram type="role">habitual future</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="enclitic">maṟṟu</m></gramGrp>
+</entry>
+<entry>
+<form>maṟṟu</form>
+<def>besides</def>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>ivaḷ</form>
@@ -669,13 +709,12 @@
 <entry>
 <form>illai-yāḻa</form>
 <def>not</def>
-<form type="simple">illai</form>
+<form type="sandhi">illaiyāḻa</form>
 <gramGrp>
   <gram type="role">negative</gram>
   <gram type="role">plural</gram>
   <gram type="role">singular</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="enclitic">yāḻa</m></gramGrp>
 </entry>
 <entry>
 <form>maruḷi</form>

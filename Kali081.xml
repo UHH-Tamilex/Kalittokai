@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -76,13 +74,49 @@
                 <l>māpōṟ paṭartaka nām.</l>
             </lg>
             <lg type="translation" xml:lang="en">
-                <l/>
+<l corresp="9-10a">        Similar to the great victory abounding in adornment of the lord who abides under the Banyan tree, </l>
+<l corresp="8">repeating [his] steps, moving forward with [his] hand the chariot with strong legs </l>
+<l corresp="7">in the front yard, having forgotten the breast that blooms with milk, </l>
+<l corresp="6">while [his] feet stumble as [his] tinkling anklet flourishing with metal pieces does not stop ringing, </l>
+<l corresp="5">the pretty cloth coming loose of [his] garment that shows [his] waist, not staying on [his] form, </l>
+<l corresp="4">while his beautiful fragrant head comes into swinging with a smile,  </l>
+<l corresp="3">with spinning ornaments of artful craft, that hang down in an golden crescent, </l>
+<l corresp="2">while [his] shining ornaements become wet from his untrue prattling </l>
+<l>from that mouth that is like a gem which shines without fault,</l>
+<l corresp="10bc">	comes my life. </l>
+<l rend="space">O great man, you who do not remember us who have not rest from the feast,</l>
+<l>you should not go to the big streets. While I listen </l>
+<l>to the words you perfectly learned when your mother repeated [them],</l>
+<l>[my] heart absorbs ambrosia not ceasing to be a remedy.</l>
+<l>[My] paragon, say a few [more].</l>
+<l rend="space">You with bright jewels, while the bard whom we fetched when standing at a distance,</l>
+<l>[his] mouth running as if to corrupt, is from the “headquarters”, </l>
+<l>while we praise [him] as the remedy we will appease [our] pain,</l>
+<l>he who comes closer [and] closer without stopping [and] says “daddy, daddy”,</l>
+<l>as soon as we join [him] to the bamboo of [our] glorious soft bamboo shoulder,</l>
+<l>when he (the bard) remembers the truth, won’t he go?</l>
+<l rend="space">Remembering, like a robber giving affliction </l>
+<l>when [his] weapons discharge together nearby,</l>
+<l>he has come here in order to taunt us.</l>
+<l rend="space">Like those in the vast inside of the fortification, calculating [their] failure</l>
+<l>will say, without seeing the robbers, “we have seen [them]”,</l>
+<l>standing in the distance, speaking about thing not done, don’t be angry.</l>
+<l>Who would transgress your orders?</l>
+<l rend="space">You, harrassing [me] with mischief, not shaking, coming upon my son</l>
+<l>– while your garment thrives on which powder was shed that dripped</l>
+<l>from the hair tuft of a strange woman against whose breast with mature ornaments you fought,</l>
+<l>you who [happened to] stand against the wind, go!</l>
+<l rend="space">Now, friend, if, although we make clear that we are without fault,</l>
+<l>there is no bringing you back to us at all,</l>
+<l>we will take the one with my father’s name who was eminent,</l>
+<l>we, in a way fit for affliction, like the cow</l>
+<l>who goes when the calf is tied with unflagging longing.</l>
             </lg>
         </div>
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali81">
-<interp type="alignment" select="0">60ML96MG45MG18MG34ML100MG76MG10MG15M2G7MG56M2G24MG17ML5MG16MG5MG5MG16MG25MG2ML3M2G17MG13MG64MG14MG81ML27MG7MG10MG106MG15MG14MG3M2G17MG60MG27M,328MG6MG149MG7MG186MG81MG111MG115MG11MG145MG</interp>
+<interp type="alignment" select="0">60ML96MG45MG18MG34ML100MG76MG10MG15M2G7MG56M2G24MG17ML5MG16MG5MG5MG16MG25MG2ML3MG17MG13MG64MG14MG81ML27MG7MG10MG106MG15MG14MG3M2G17MG60MG27M,328MG6MG149MG7MG185MG81MG111MG115MG11MG145MG</interp>
 <entry>
 <form>mai</form>
 <def>blemish</def>
@@ -1017,13 +1051,19 @@
 <gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-ivaṉ</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ivaṉ</form>
 <def>this-one</def>
-<form type="simple">ivaṉ</form>
 <gramGrp>
   <gram type="role">masculine singular</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>vāy</form>

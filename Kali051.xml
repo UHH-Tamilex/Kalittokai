@@ -73,7 +73,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali51">
-<interp type="alignment" select="0">23ML6ML8MG50MG38MG6MG16MG25MG63MG26M2G36MG3MG90MG16MG14M2G26ML36M,499MG</interp>
+<interp type="alignment" select="0">23ML6ML8MG50MG38MG6MG16MG25MG63MG26MG36MG3MG90MG16MG14MG26ML36M,497MG</interp>
 <entry>
 <form>cuṭar<c type="geminated">t</c></form>
 <def>glow</def>
@@ -486,13 +486,19 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-eṉṉai</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉṉai</form>
 <def>me</def>
-<form type="simple">eṉṉai</form>
 <gramGrp>
   <gram type="role">accusative</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>vaḷai</form>
@@ -717,14 +723,19 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-eṉṉai<c type="geminated">k</c></form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉṉai<c type="geminated">k</c></form>
 <def>me</def>
-<form type="simple">eṉṉai</form>
-<form type="sandhi">eṉṉai<c type="geminated">k</c></form>
 <gramGrp>
   <gram type="role">accusative</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>kaṭai<c type="geminated">k</c></form>

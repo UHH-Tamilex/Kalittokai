@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -70,13 +72,35 @@
                 <l>ṉāyiḻai mēṉip pacappu.</l>
             </lg>
             <lg type="translation" xml:lang="en">
-                <l/>
+<l>            Come oh friend, in order to see: it has waterfalls,</l>
+<l>hanging from the mountain, that took the colour of light,</l>
+<l>the mountain in the land of the shameless man without consideration.</l>
+<l rend="space">Will he let go so that the heart of those who had affection [for him] is desolate,</l>
+<l>he with a heart that desires virtue,</l>
+<l>in a balance not to be deviated from one bit after examining?</l>
+<l rend="space">Among all the mountains that bloom with cool fragrant Kōṅkam</l>
+<l>it appears like an elephant adorned with gold,</l>
+<l>the mountain in the land of the vain man without consideration.</l>
+<l rend="space">Will he let go so that his mountain will resemble abundant pain,</l>
+<l>he with a generous hand who gives chariots</l>
+<l>to those who want [them], who possesses more grace than the water?</l>
+<l rend="space">With the honey combs with honey nodes that are linked above to the top of the mountain</l>
+<l>it appears like the moon that got into the clouds</l>
+<l>the hill of the one who grave [us] trouble so that [our] jewels become loose.</l>
+<l rend="space">Friend don’t talk of [his] cruelty at all,</l>
+<l>of him who is without virtue, not fearing what has to be feared,</l>
+<l>of him who took my heart captive.</l>
+<l rend="space">As we sang so, he stood in secret [and] listened.</l>
+<l>When he clasped by the hand my friend with hanging dark tresses</l>
+<l>[and] approached the small of [her] back, the man with a handsome sweet chest,</l>
+<l>like the darkness before the sun it vanished</l>
+<l>the pallor on the body of my [friend with] choice jewels. </l>
             </lg>
         </div>
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali42">
-<interp type="alignment" select="0">49ML7MG43MG36MG28MR4MG51MR78ML17M2G30MG23MG5MG3MG54ML39MG14MG5ML14MR15MG14MG14ML123MG27MG43MGMG75MG40MG22M,245MG26MG76MG77MG85MG80MG87MG73MG144MG</interp>
+<interp type="alignment" select="0">49ML7MG43MG36MG28MR4MG51MR78ML17M2G30MG23MG5MG3MG54ML39MG19ML14MR15MG14MG14ML123MG27MG119MG40MG22M,245MG26MG76MG77MG84MG80MG87MG73MG142MG</interp>
 <entry>
 <form>maṟam</form>
 <def>boldness</def>
@@ -800,15 +824,19 @@
 </gramGrp>
 </entry>
 <entry>
-<form>koṉ-<c type="geminated">ṉ</c>āḷaṉ</form>
+<form>koṉ</form>
+<def>koṉ</def>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ṉ</c>āḷaṉ</form>
 <def>man</def>
-<form type="simple">āḷaṉ</form>
-<form type="sandhi"><c type="geminated">ṉ</c>āḷaṉ</form>
 <gramGrp>
   <gram type="role">masculine singular</gram>
   <gram type="role">noun</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">koṉ</m></gramGrp>
 </entry>
 <entry>
 <form>nāṭṭu</form>
@@ -1174,7 +1202,7 @@
 </gramGrp>
 </entry>
 <entry>
-<form>eṉṟ(i)</form>
+<form>eṉṟu</form>
 <def>said</def>
 <form type="sandhi">eṉṟi</form>
 <gramGrp>

@@ -89,7 +89,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali47">
-<interp type="alignment" select="0">22M2G37MG26MG3MG10ML21MG54MG36MG35MG45ML13M2G5MG4MG18M2G5MG3MG56MG19M2G6MG10MG12MG31MR57ML8MG3MG26ML8ML5MG33ML5M2G5MG30MG6MG20ML35M2G20M2G2M,4MG251MG113MG110MG137MG6MG149MG</interp>
+<interp type="alignment" select="0">22M2G37MG26MG3MG10ML21MG54MG36MG35MG45ML13M2G5MG4MG18M2G5MG3MG56MG19M2G6MG10MG12MG31MR57ML8MG3MG26ML8ML5MG33ML5M2G5MG30MG6MG20ML35MG20M2G2M,4MG251MG113MG110MG137MG6MG148MG</interp>
 <entry>
 <form>oṉṟu</form>
 <def>one-it</def>
@@ -1160,13 +1160,19 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-avaṉ</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>avaṉ</form>
 <def>that-one</def>
-<form type="simple">avaṉ</form>
 <gramGrp>
   <gram type="role">masculine singular</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>mēe</form>

@@ -61,13 +61,38 @@
                 <l>pakalum peṟuvaiyiva ṭaṭameṉ ṟōḷē.</l>
             </lg>
             <lg type="translation" xml:lang="en">
-                <l/>
+<l corresp="9cd">            O man from the good land of good mountains, </l>
+<l corresp="2">where the elephant that sleeps at the side of the tall mountain </l>
+<l corresp="1">with suffering, as it had been attacked [and] vanquished by a [tiger with] curved stripes, </l>
+<l corresp="3">because what is has done in reality is in [its] mind, </l>
+<l corresp="4">suddenly being frightened when seeing [that] in [its] dream </l>
+<l>[and] ruining the ornate beauty of the kino tree </l>
+<l corresp="5f">that newly blossoms, which it has perceived as that [tiger],</l>
+<l>at the time it sees that tree after its anger about [its] dishonored strength</l>
+<l corresp="7f">has calmed down cannot look at [it]</l>
+<l corresp="8ab">[and] bows down in shame, </l>
+<l rend="space">As for saying that you have such love for her with kajal eyes</l>
+<l>[like] budding graceful blossoms, it is sweet. Unsweet is</l>
+<l>your coming here by the difficult road that is like this,</l>
+<l>while it is a place that listens to lightning, not saying “thunder”, not saying “rain”.</l>
+<l rend="space">As for saying that you have such love for her, being one </l>
+<l>who provided pleasantly, it is sweet. Unsweet is</l>
+<l>your coming here by the frightful difficult road,</l>
+<l>crossing the cloud-climbed slope, you with [your] chest fragrant of scent.</l>
+<l rend="space">As for saying that you have such consideration for her with dark tresses</l>
+<l>that resemble the darkness, it is sweet. Unsweet is</l>
+<l>your coming here by the difficult road where elephant bulls stir</l>
+<l>without saying I am [only] one man, holding up [your] shining spear in victory.</l>
+<l rend="space">Therefore,</l>
+<l>don’t come at night, lord. On [your] slope</l>
+<l>where the wide rocks are lined with mixed flowers</l>
+<l>you will obtain [them] also by day, her broad soft shoulders.</l>
             </lg>
         </div>
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali49">
-<interp type="alignment" select="0">4MG78MG39MG47ML31MG19ML24MR19MG43M2G11M2G5M2G41M2G72M2G11M2G5M2G23MG16MG5MG77M2G11M2G5M2G39MG5MG80MG14ML9MG2M,264MG136MG143MG139MG6MG77MG</interp>
+<interp type="alignment" select="0">4MG78MG39MG47ML31MG19ML24MR19MG43M2G11MG46M2G72M2G11MG28MG16MG5MG77M2G11MG44MG5MG80MG14ML9MG2M,264MG133MG140MG136MG6MG77MG</interp>
 <entry>
 <form>koṭu-vari</form>
 <def>curved-stripe</def>
@@ -513,15 +538,21 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-iṉṉāt<c type="elided">u</c>-ē</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉṉāt<c type="elided">u</c></form>
 <def>pleasing-not-it</def>
-<form type="simple">iṉṉātu-ē</form>
 <form type="sandhi">iṉṉātē</form>
 <gramGrp>
   <gram type="role">neuter singular</gram>
   <gram type="role">negative</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>miṉ</form>
@@ -710,15 +741,21 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-iṉṉāt<c type="elided">u</c>-ē</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉṉāt<c type="elided">u</c></form>
 <def>pleasing-not-it</def>
-<form type="simple">iṉṉātu-ē</form>
 <form type="sandhi">iṉṉātē</form>
 <gramGrp>
   <gram type="role">neuter singular</gram>
   <gram type="role">negative</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>maṇam</form>
@@ -918,15 +955,21 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-iṉṉāt<c type="elided">u</c>-ē</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉṉāt<c type="elided">u</c></form>
 <def>pleasing-not-it</def>
-<form type="simple">iṉṉātu-ē</form>
 <form type="sandhi">iṉṉātē</form>
 <gramGrp>
   <gram type="role">neuter singular</gram>
   <gram type="role">negative</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>oḷiṟu</form>

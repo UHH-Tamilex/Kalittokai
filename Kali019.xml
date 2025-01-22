@@ -48,13 +48,25 @@
                 <l>ravalam paṭutalu muṇṭu.</l>
             </lg>
             <lg type="translation" xml:lang="en">
-                <l/>
+<l>            “That day when, speaking straight [and] sweet words</l>
+<l corresp="1-2c">[and] with those gently embracing [me], </l>
+<l corresp="2d-3">how could I know that all those were lies, lord? </l>
+<l corresp="4">That, bringing gossip that would not reach the wide mansion, </l>
+<l corresp="5">[you] would think of the hot desert hateful by midday I knew. </l>
+<l corresp="6">Indeed, you are no man. Now, </l>
+<l rend="space" corresp="7">go now. Having gone, completing the work you do, </l>
+<l>without love, changing, would you know the quality</l>
+<l corresp="8">of here whom you abandoned, while we remember [your]?” so saying,   </l>
+<l corresp="9d-10">don’t ask those who come on my account anything. If you ask, </l>
+<l corresp="12">without completing the work to do that is difficult to fail,  </l>
+<l corresp="11">so that you superiority that shines like the day is laid waste, </l>
+<l>there is unique suffering to be undergone.</l>
             </lg>
         </div>
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali19">
-<interp type="alignment" select="0">48MG25MG4M2G5M2G9ML64MG45MG29M2G8MG26M2G75MG15MG7M,172MG202MG</interp>
+<interp type="alignment" select="0">48MG25MG4M2G5MG9ML64MG45MG29M2G8MG26M2G75MG15MG7M,171MG202MG</interp>
 <entry>
 <form>cevviya</form>
 <def>straight-they</def>
@@ -156,14 +168,20 @@
 <gramGrp type="particle"><m type="enclitic">ō</m></gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-aiya</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aiya</form>
 <def>lord</def>
-<form type="simple">aiya</form>
 <gramGrp>
   <gram type="role">masculine singular</gram>
   <gram type="role">vocative</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form><c type="glide">v</c>akal</form>

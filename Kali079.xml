@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -61,7 +59,29 @@
                 <l>ṉīṅkem putalvaṉait tantu.</l>
             </lg>
             <lg type="translation" xml:lang="en">
-                <l/>
+<l corresp="6">            Listen, o man from the village with the cool ghat, with appropriate paddy field, </l>
+<l corresp="3">where a single ray that extends [and] glows so that it is felt by the pointed petals </l>
+<l corresp="2">of a lotus with thorny stem that bends [its] whole base, </l>
+<l corresp="1">which flowered in between the red paddy sprouting in the wide field where birds buzz, </l>
+<l corresp="5">appears like the pendant that is placed as is suitable </l>
+<l corresp="4">on the ornate forehead of one who dances on a staged to be praised by the assembly, </l>
+<l rend="space">You should not come here with [your] ornaments [and] pick up our son</l>
+<l>– he will wet your chest with [his] gem-like red mouth.</l>
+<l>[And] won’t she die, she who took the hint by your sandal paste</l>
+<l>that is fragrant, thinking I know those he touched”?</l>
+<l rend="space">Don’t embrace our son – he will run as one who gripped </l>
+<l>the pearl-adorned necklace of many strands on your joyful wide chest.</l>
+<l>[And] won’t she sulk, she who to the hint by your ornaments</l>
+<l>on your chest, you who had the embrace of youthfull good girls with glorious jewels?</l>
+<l rend="space">You should just see [him but] not pick up our son – he will run</l>
+<l>as one who has pulled at the assorted cluster on which bees him on your head.</l>
+<l>[And] won’t she be furious, she who took the hint by your chaplet</l>
+<l>that is fragrant, thinking “this shows those whom [you] were close to”?</l>
+<l rend="space">That is to say,</l>
+<l rend="space">Leave! Go away! You should not stand at [our] tall gate,</l>
+<l>praising with many false [words] our flower-eyed son.</l>
+<l>There only, to them you should go, giving [back]</l>
+<l>our son here who will spoil [your] ornaments.</l>
             </lg>
         </div>
     </body>

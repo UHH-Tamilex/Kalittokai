@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -53,13 +51,27 @@
                 <l>ṉeṉṟaṭi cērtalu muṇṭu.</l>
             </lg>
             <lg type="translation" xml:lang="en">
-                <l/>
+<l>Who is this who takes our tresses? This too</l>
+<l>is of a mischief equal to the ruling of a city.</l>
+<l>Don’t come to our house, coming like an enemy.</l>
+<l rend="space">What are these? Being one thing in heart with two heads like a bird with one life</l>
+<l>that attacked [me] in war, don’t sulk. As you talk</l>
+<l>what is the way for my precious life to last?</l>
+<l rend="space">Ach, we have understood – you need not be angry – ???</l>
+<l>about your fraudulent talk [which is my] suffering,</l>
+<l>as if the demonesses of Koṟṟi from the big wilderness snapped their fingers.</l>
+<l rend="space">There is no remedy if the king is enraged. Is there a fault? I whom you long for,</l>
+<l>[you with] sweet smile, am without any evil.</l>
+<l rend="space">See(?) see the back being bent in this war </l>
+<l>of him who is without shame who does not remember, having forgotten honour.</l>
+<l>If she rebukes [me] saying “likely we won’t give him leave while he lies”,</l>
+<l>there is also joining [her] feet, saying “I failed”. </l>
             </lg>
         </div>
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali89">
-<interp type="alignment" select="0">24MG14MG9MG6MG12ML8M2G55MG9ML23MGMG80ML22MG23MG3M2G21M2G12ML5MG12MG30M2G8MG41MG9MG7M,85MG7MG82MG2MG88MG11MG53MG124MG</interp>
+<interp type="alignment" select="0">24MG14MG9MG6MG12ML8M2G55MG9ML104ML22MG23MG3M2G21M2G12ML5MG12MG30M2G8MG41MG9MG7M,85MG7MG80MG2MG88MG11MG53MG124MG</interp>
 <entry>
 <form>yār</form>
 <def>who</def>
@@ -342,7 +354,7 @@
 </gramGrp>
 </entry>
 <entry>
-<form>āṟ(i)</form>
+<form>āṟu</form>
 <def>way</def>
 <form type="sandhi">āṟi</form>
 <gramGrp>

@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -73,13 +71,46 @@
                 <l>vaṉpili peṟṟa makaṉ.</l>
             </lg>
             <lg type="translation" xml:lang="en">
-                <l/>
+<l corresp="5a-c">            Closely look to the fill of [your] eye’s glance </l>
+<l corresp="4">at that mouth which wets the bright ornament shining with beauty </l>
+<l corresp="3">that is adorned with a gold-made sword and axe </l>
+<l corresp="2">to hang down from the soft head in three hand-fashioned strings, </l>
+<l corresp="1">like the cbage of a youthful bull elephant, [his] head marked with black. </l>
+<l corresp="10">Please come here, my battle elephant </l>
+<l corresp="9">who advances while frog-mouthed tinkling anklets ring </l>
+<l>that are put on [your] feet, as your hand-fashioned elephant</l>
+<l corresp="7f">ravages the sand of girls with bracelets, leaping at the protected fort </l>
+<l corresp="5d-6">while in battle the red half made with gold on coral twinkles. </l>
+<l rend="space">[My] hero, although being equal to your father in all [your] beauties, listening to my mouth </l>
+<l>for the sign that is equal in fate to the position of your father you may equal [him].</l>
+<l>You may equal [him], great man, in the victory</l>
+<l>that is taken on the battle field, overcoming scorched enemies. Else, you may not equal [him]</l>
+<l>in forsaking [them] so that [their] soft shoulders become emaciated</l>
+<l>like you father [did] those who understood “we are not one”.</l>
+<l rend="space">You may equal [him], great man, in the justice of [his] sceptre</l>
+<l>which does not deviate from the order, going by day without taking a part. Else, you may not equal [him] </l>
+<l>in forsaking [them] so that those of chosen worthiness die,</l>
+<l>like your father, so that [their] beauty fades like a flower beaten by the wind.</l>
+<l rend="space">You may equal [him], great man, in giving to those who desire </l>
+<l>excellent wealth that does not know of perishing. Else, you may not equal [him]</l>
+<l>in forsaking without at glance so that pain abounds,</l>
+<l>like your father women with beautiful soft glances. </l>
+<l rend="space">Thus,</l>
+<l>while we grumble at things with are not [a they should?], at whom does he smile,</l>
+<l>the son begotten by one who is not this son?</l>
+<l rend="space">Standing in secret, he has certainly deigned to come.</l>
+<l rend="space">If [that is] so, you with choice jewels, is it the fault of me who is not proud?</l>
+<l>Without holding back you gave him here. We are base for giving [him]. We,</l>
+<l>although we, being scorched, ward that off, stroking [my] hand,</l>
+<l>like a lion climbing the foot of a hill,</l>
+<l>he leapt at the wide chest of [his] father, </l>
+<l>the son begotten by one without love who is without virtue.</l>
             </lg>
         </div>
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali86">
-<interp type="alignment" select="0">22MG79ML29MG43MG112MG22MG3MR15MGMR36MG45MG14M2G20MG25ML66M2G40MG36ML9MG8MG14M2G38ML88M2G8MG36MG3M2G6MG3MG51MG79MG14M,298MG6MG185MG113MG106MG5MG4MG50MG10MG21MG10MG179MG</interp>
+<interp type="alignment" select="0">22MG79ML29MG43MG112MG22MG3MR15MGMR36MG45MG14MG20MG25ML66MG40MG36ML9MG8MG14MG38ML88M2G8MG36MG3M2G6MG3MG51MG79MG14M,298MG6MG184MG112MG105MG5MG4MG50MG10MG21MG10MG179MG</interp>
 <entry>
 <form>mai</form>
 <def>black</def>
@@ -736,16 +767,22 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-ovvāti</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ovvāti</form>
 <def>equal-not-you</def>
-<form type="simple">ovvāti</form>
 <gramGrp>
   <gram type="role">negative</gram>
   <gram type="role">subjuntive</gram>
   <gram type="role">singular</gram>
   <gram type="role">second person</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form><c type="glide">y</c>oṉṟiṉēm</form>
@@ -913,16 +950,22 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-ovvāti</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ovvāti</form>
 <def>congruous-not-you</def>
-<form type="simple">ovvāti</form>
 <gramGrp>
   <gram type="role">negative</gram>
   <gram type="role">subjuntive</gram>
   <gram type="role">singular</gram>
   <gram type="role">second person</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>kāl</form>
@@ -1083,16 +1126,22 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-ovvāti</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ovvāti</form>
 <def>equal-not-you</def>
-<form type="simple">ovvāti</form>
 <gramGrp>
   <gram type="role">negative</gram>
   <gram type="role">subjuntive</gram>
   <gram type="role">singular</gram>
   <gram type="role">second person</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>mātar</form>

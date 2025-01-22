@@ -1,4 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -101,7 +101,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali25">
-<interp type="alignment" select="0">6MG76MG4MG37MG51MG40MG16MG44MG115MG19MG10M2G4ML55MG17MG11MG10M2G13MG15MG8M2G14MG58MG6ML11ML5MG13MG10M2G8MG24M2G15MG9MG21ML21MG6ML20MR8MG10M2G31MG25MG11MG26MR10MG7MG5MGMR6MG14MG38MR32MG2M,450MG167MG154MG162MG8MG125MG</interp>
+<interp type="alignment" select="0">6MG76MG4MG37MG51MG40MG16MG44MG115MG19MG10MG4ML55MG17MG11MG10M2G13MG15MG8MG14MG58MG6ML11ML5MG13MG10M2G8MG24MG15MG9MG21ML21MG6ML20MR8MG10M2G31MG25MG11MG26MR10MG7MG5MGMR6MG14MG38MR32MG2M,449MG166MG153MG162MG8MG125MG</interp>
 <entry>
 <form>vayakk<c type="elided">u</c></form>
 <def>splendour</def>
@@ -677,14 +677,20 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-ivaḷ</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ivaḷ</form>
 <def>this-one</def>
-<form type="simple">ivaḷ</form>
 <form type="sandhi">ivaṇ</form>
 <gramGrp>
   <gram type="role">feminine singular</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>nilaimai</form>
@@ -876,14 +882,20 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-avar</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>avar</form>
 <def>that-one</def>
-<form type="simple">avar</form>
 <gramGrp>
   <gram type="role">honorific</gram>
   <gram type="role">third person</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>puṟakkoṭai-<c type="glide">y</c>ē</form>
@@ -1101,14 +1113,20 @@
 </gramGrp>
 </entry>
 <entry>
-<form>maṟṟ<c type="elided">u</c>-avar</form>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>avar</form>
 <def>that-one</def>
-<form type="simple">avar</form>
 <gramGrp>
   <gram type="role">honorific</gram>
   <gram type="role">third person</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="proclitic">maṟṟu</m></gramGrp>
 </entry>
 <entry>
 <form>olkattu</form>
