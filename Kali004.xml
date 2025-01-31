@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -1220,7 +1222,7 @@
 </entry>
 </standOff>
 <standOff corresp="#Kali4-kilavi" type="wordsplit">
-<interp type="alignment" select="0">90MG41M,37MG4MG32MG26MG28MG</interp>
+<interp type="alignment" select="0">73M2G17MG41M,37MG4MG34MG26MG28MG</interp>
 <entry>
 <form>itu</form>
 <def>this</def>
@@ -1302,12 +1304,14 @@
 </gramGrp>
 </entry>
 <entry>
-<form>vāṟum</form>
-<def>known</def>
+<form><c type="glide">v</c>āṟ<c type="elided">u</c>-um</form>
+<def>way</def>
+<form type="simple">āṟu</form>
+<form type="sandhi"><c type="glide">v</c>āṟ</form>
 <gramGrp>
-  <gram type="role">perfective aspect</gram>
-  <gram type="role">peyareccam</gram>
+  <gram type="role">noun</gram>
 </gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
 </entry>
 <entry>
 <form>avaḷ</form>
@@ -1354,9 +1358,9 @@
 </entry>
 <entry>
 <form>āka</form>
-<def>become</def>
+<def>may-become</def>
 <gramGrp>
-  <gram type="role">infinitive</gram>
+  <gram type="role">optative</gram>
 </gramGrp>
 </entry>
 <entry>
