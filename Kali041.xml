@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
       <fileDesc>
         <titleStmt>
@@ -29,7 +31,7 @@
   
           <div xml:id="Kali41-kilavi">
             <p type="edition">iḵtu iruvarum ivvakaiyāṟ pāṭiya vaḷḷaippāṭṭut talaivaṉ ciṟaippuṟamākak kēṭṭu, varaivuvēṇṭiviṭat, 
-                tantaiyar varaivuṭampaṭṭamai tōḻi talaivikku uraittatu.</p>
+                tantaiyar varaivuṭam-paṭṭamai tōḻi talaivikku uraittatu.</p>
             <p type="translation" xml:lang="en"/>
           </div>
           <div xml:id="Kali41">
@@ -1960,4 +1962,158 @@
 <gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
 </entry>
 </standOff>
-  </TEI>
+  <standOff corresp="#Kali41-kilavi" type="wordsplit">
+<interp type="alignment" select="0">10MG93MG37M,70MG17MG20MG31MG</interp>
+<entry>
+<form>iḵtu</form>
+<def>this</def>
+</entry>
+<entry>
+<form>iruvar-um</form>
+<def>two-they</def>
+<form type="simple">iruvar</form>
+<gramGrp>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>i<c type="geminated">v</c></form>
+<def>this-</def>
+</entry>
+<entry>
+<form>vakaiyāl</form>
+<def>manner</def>
+<form type="sandhi">vakaiyāṟ</form>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāṭiya</form>
+<def>sung</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaḷḷai<c type="geminated">p</c></form>
+<def>Vaḷḷai song</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāṭṭu<c type="geminated">t</c></form>
+<def>song</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>talaivaṉ</form>
+<def>hero</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ciṟai<c type="geminated">p</c></form>
+<def>fence</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>puṟam</form>
+<def>outside</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āka<c type="geminated">k</c></form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kēṭṭu</form>
+<def>heard</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>varaivu</form>
+<def>marriage</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vēṇṭi</form>
+<def>wanted</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>iṭa<c type="geminated">t</c></form>
+<def>put</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tantaiyar</form>
+<def>father</def>
+<gramGrp>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>varaiv<c type="elided">u</c></form>
+<def>marriage</def>
+<form type="sandhi">varaiv</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṭampaṭṭamai</form>
+<def>having-agreed</def>
+<form type="sandhi">uṭam-paṭṭamai</form>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tōḻi</form>
+<def>confidante</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>talaivikku</form>
+<def>heroine</def>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uraittatu</form>
+<def>told-it</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
