@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -1208,4 +1210,212 @@
 <gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
 </entry>
 </standOff>
-</TEI>
+<standOff corresp="#Kali47-kilavi" type="wordsplit">
+<interp type="alignment" select="0">41MG23MG34M2G12M2G40MG12M,168MG</interp>
+<entry>
+<form>itu</form>
+<def>this</def>
+</entry>
+<entry>
+<form>talaimakaṟku<c type="geminated">k</c></form>
+<def>hero</def>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuṟai</form>
+<def>request</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nērnta</form>
+<def>granted</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tōḻi</form>
+<def>confidante</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>avaṉ</form>
+<def>that-one</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṉmai-<c type="glide">y</c>um</form>
+<def>nature</def>
+<form type="simple">taṉmai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>avaṉ</form>
+<def>that-one</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṉakku<c type="geminated">k</c></form>
+<def>self</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">dative</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kūṟuvaṉa-<c type="glide">v</c>um</form>
+<def>told-they</def>
+<form type="simple">kūṟuvaṉa</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter plural</gram>
+  <gram type="role">imperfect aspect</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>a<c type="geminated">k</c></form>
+<def>that-</def>
+</entry>
+<entry>
+<form>kūṟṟu<c type="geminated">t</c></form>
+<def>word</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṉṉāl</form>
+<def>self</def>
+<form type="sandhi">taṉṉāṟ</form>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>poṟukka</form>
+<def>bear</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>oṇṇāta</form>
+<def>be-possible-not</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>āṟ<c type="elided">u</c>-um</form>
+<def>way</def>
+<form type="simple">āṟu</form>
+<form type="sandhi"><c type="glide">v</c>āṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>avaṉ</form>
+<def>that-one</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>karutt<c type="elided">u</c>-um</form>
+<def>intention</def>
+<form type="simple">karuttu</form>
+<form type="sandhi">karutt</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>talaivikku<c type="geminated">k</c></form>
+<def>heroine</def>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kūṟi</form>
+<def>told</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>avaṉ</form>
+<def>that-one</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuṟai</form>
+<def>request</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nayappa<c type="geminated">t</c></form>
+<def>agree</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṉ</form>
+<def>self</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ṉ</c>uḷ-<c type="geminated">ḷ</c>ē</form>
+<def>inside</def>
+<form type="simple">uḷ</form>
+<form type="sandhi"><c type="geminated">ṉ</c>uḷ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>colliyatu</form>
+<def>spoken-it</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
