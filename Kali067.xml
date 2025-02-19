@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -1122,4 +1124,118 @@
 </gramGrp>
 </entry>
 </standOff>
-</TEI>
+<standOff corresp="#Kali67-kilavi" type="wordsplit">
+<interp type="alignment" select="0">100M,99MG</interp>
+<entry>
+<form>itu</form>
+<def>this</def>
+</entry>
+<entry>
+<form>vāyil</form>
+<def>door</def>
+<form type="sandhi">vāyiṉ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṟutta</form>
+<def>refused</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>talaimakaḷ</form>
+<def>heroine</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">feminine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āṟṟāmai</form>
+<def>inability</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāyil</form>
+<def>mediator</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āka<c type="geminated">p</c></form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pukku<c type="geminated">k</c></form>
+<def>entered</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kūṭiya</form>
+<def>met</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>talaimakaṉatu</form>
+<def>hero</def>
+<gramGrp>
+  <gram type="role">genitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nīkkattu<c type="geminated">k</c></form>
+<def>departure</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇ</form>
+<def>place</def>
+<form type="sandhi">kaṭ</form>
+<gramGrp>
+  <gram type="role">postposition</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pukka</form>
+<def>entered</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tōḻikku<c type="geminated">k</c></form>
+<def>confidante</def>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kūṟiyatu</form>
+<def>told-it</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
