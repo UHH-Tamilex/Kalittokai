@@ -1737,16 +1737,18 @@
 </entry>
 </standOff>
 <standOff corresp="#Kali56-kilavi" type="wordsplit">
-<interp type="alignment" select="0">56MG8MG6MG17M2G8M2G43MG33M2G41M2G7M,27MG122MG79MG</interp>
+<interp type="alignment" select="0">56MG8MG6MG17M2G8M2G43MG33M2G41MG7M,27MG122MG78MG</interp>
 <entry>
 <form>itu</form>
 <def>this</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>“kāmam</form>
+<def>passion</def>
 <form type="sandhi">“kāmañ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>cālā</form>
@@ -1758,12 +1760,18 @@
 </entry>
 <entry>
 <form><c type="glide">v</c>iḷamaiyōḷ</form>
+<def>youth-she</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">feminine singular</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>vayiṉ</form>
 <def>side</def>
 <form type="sandhi">vayi,ṉ</form>
 <gramGrp>
+  <gram type="role">postposition</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -1776,10 +1784,10 @@
 </entry>
 <entry>
 <form>cālā</form>
-<def>not-worthy-they</def>
+<def>not-abound</def>
 <gramGrp>
-  <gram type="role">plural</gram>
   <gram type="role">negative</gram>
+  <gram type="role">peyareccam</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -1825,12 +1833,14 @@
 <entry>
 <form>iru</form>
 <def>two</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>tiṟattāl</form>
+<def>element</def>
 <form type="sandhi">tiṟattāṟ</form>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>taṉṉoṭ<c type="elided">u</c>-um</form>
@@ -1861,11 +1871,16 @@
 <def>pride-they</def>
 <gramGrp>
   <gram type="role">pronominalised noun</gram>
+  <gram type="role">adverb</gram>
   <gram type="role">plural</gram>
 </gramGrp>
 </entry>
 <entry>
 <form>puṇarttu<c type="geminated">c</c></form>
+<def>united</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>col</form>
@@ -1921,7 +1936,7 @@
 </entry>
 <entry>
 <form>tōṉṟum</form>
-<def>appearing-</def>
+<def>appearing</def>
 <form type="sandhi">tōṉṟuṅ</form>
 <gramGrp>
   <gram type="role">peyareccam</gram>
@@ -1929,10 +1944,18 @@
 </entry>
 <entry>
 <form>kaikkiḷai<c type="geminated">k</c></form>
+<def>Kaikkiḷai</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>kuṟipp<c type="elided">u</c>-ē”</form>
+<def>intention</def>
 <form type="sandhi">kuṟippē”</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>eṉpataṉāl</form>
@@ -1946,7 +1969,11 @@
 </entry>
 <entry>
 <form>tarukki<c type="geminated">c</c></form>
+<def>been-proud</def>
 <form type="sandhi">ṟarukki<c type="geminated">c</c></form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>colli<c type="geminated">c</c></form>
@@ -1979,8 +2006,12 @@
 </gramGrp>
 </entry>
 <entry>
-<form>iṉp<c type="elided">u</c>-</form>
+<form>iṉp<c type="elided">u</c></form>
+<def>pleasure</def>
 <form type="sandhi">iṉp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>uṟṟatu</form>
