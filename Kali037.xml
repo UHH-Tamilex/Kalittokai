@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -30,15 +28,15 @@
     <body>
 
 
-        <div xml:id="Kali37-kilavi">
-          <p type="edition">itu “nāṟṟamun tōṟṟamu moḻukkamu muṇṭiyuñ – ceyviṉai maṟaippiṉuñ 
+        <div rend="parallel">
+          <p xml:id="Kali37-kilavi">itu “nāṟṟamun tōṟṟamu moḻukkamu muṇṭiyuñ – ceyviṉai maṟaippiṉuñ 
             celaviṉum payilviṉum – puṇarcci yetirppāṭuḷḷuṟuttu varūu – muṇarcci yēḻiṉu muṇarnta piṉṟait” 
             taṉṉai avaḷ maṟaiyāmai kāraṇamāka “meyyiṉum poyyiṉum vaḻinilai piḻaiyātu, palvēṟu kavarporu ṇāṭṭattāṟ” 
             <note>(to.po.114)</note> ṟalaimakaṭkut tōḻi kūṟiyatu.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali37">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali37">
                 <l>kayamala ruṇkaṇṇāy kāṇā yoruvaṉ</l>
                 <l>vayamā ṉaṭittērvāṉ pōlat toṭaimāṇṭa</l>
                 <l>kaṇṇiyaṉ villaṉ varumeṉṉai nōkkupu</l>
@@ -62,7 +60,7 @@
                 <l>voṇkuḻāy celkeṉak kūṟi viṭumpaṇpi</l>
                 <l>ṉaṅka ṇuṭaiya ṉavaṉ.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
                 <l>You with painted eyes [like] blossoms from the tank, look: someone, (1)</l>
                 <l>like one who searches for the trace of a strong animal, comes,</l>
                 <l>with a chaplet glorious for [its] fastening, with a bow. Looking at me, (2f.)</l>

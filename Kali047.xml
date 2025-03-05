@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,13 +27,13 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali47-kilavi">
-          <p type="edition">itu talaimakaṟkuk kuṟainērnta tōḻi avaṉ taṉmaiyum avaṉ taṉakkuk kūṟuvaṉavum 
+        <div rend="parallel">
+          <p xml:id="Kali47-kilavi">itu talaimakaṟkuk kuṟainērnta tōḻi avaṉ taṉmaiyum avaṉ taṉakkuk kūṟuvaṉavum 
             akkūṟṟut taṉṉāṟ poṟukka voṇṇātavāṟum avaṉ karuttun talaivikkuk kūṟi avaṉ kuṟainayappat taṉṉuḷḷē colliyatu.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali47">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali47">
                 <l>oṉṟu, irappāṉpō leḷivantuñ collu mulakam</l>
                 <l>purappāṉ pōlvatōr matukaiyu muṭaiyaṉ</l>
                 <l>vallārai vaḻipaṭ ṭoṉṟaṟin tāṉpō</l>
@@ -61,7 +59,7 @@
                 <l>kūṟuveṉ pōlak kāṭṭi</l>
                 <l>maṟṟavaṉ mēevaḻi mēvāy neñcē.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
                 <l>One thing, although he came abject, like someone who begs, he possesses</l>
                 <l>strength that is like that of the protector of the world who speaks,</l>
                 <l>revering those who are expert, like on who knows one thing,</l>

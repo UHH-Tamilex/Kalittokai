@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -28,14 +26,14 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali3-kilavi">
-          <p type="edition">itu talaimakaṉāṟ pirivuṇarttappaṭṭa tōḻi, talaimakaṭku aḵtu uraittu avaḷatu 
+        <div rend="parallel">
+          <p xml:id="Kali3-kilavi">itu talaimakaṉāṟ pirivuṇarttappaṭṭa tōḻi, talaimakaṭku aḵtu uraittu avaḷatu 
             āṟṟāmaiyiṉvakai talaimakaṟku uṇarttavum, piṉṉum piriviṉ mēṟceṉṟa uḷḷattaṉāyiṉāṉai, nīr celluṅ 
             kāṉamē 2nummai iṭikkuṅ kēḷirpōla vilakkumeṉa, avaṉ celavaḻuṅkumvakai avaḷ kūṟiyatu.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali3">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali3">
                 <l>aṟaṉiṉṟi yayaṟūṟṟu mampalai nāṇiyum</l>
                 <l>vaṟaṉīnti nīcellu nīḷiṭai niṉaippavu</l>
                 <l>miṟainillā vaḷaiyōṭa vitaḻcōrpu paṉimalkap</l>
@@ -61,7 +59,7 @@
                 <l>mēṉiṉṟu meykūṟuṅ kēḷirpō ṉīcelluṅ</l>
                 <l>kāṉan takaippa celavu.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
                 <l>Even though she is ashamed of the rumour that a virtueless neighbourhood might spread,</l>
                 <l>so that she thinks of the long way where you go, crossing droughts,</l>
                 <l>so that the bangles that don’t stay put run over [her] joints, so that dew flows from [her] lashes [and] abounds,</l>

@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -27,14 +25,14 @@
   </teiHeader>
   <text xml:lang="ta" type="edition">
     <body>
-        <div xml:id="Kali1-kilavi">
-          <p type="edition">eṉpatu, “vāḻttiyal vakaiyē nāṟpākku murittē” <note>(to.po.8.109)</note> eṉṟataṉkaṇ vakaiyeṉṟataṉāṟ koṇṭa 
+        <div rend="parallel">
+          <p xml:id="Kali1-kilavi">eṉpatu, “vāḻttiyal vakaiyē nāṟpākku murittē” <note>(to.po.8.109)</note> eṉṟataṉkaṇ vakaiyeṉṟataṉāṟ koṇṭa 
             aṟumuṟai vāḻttaṉṟit taṉakkup payaṉpaṭumpaṭi muṉṉilaiyākak kaṭavuḷai vāḻttutaliṟ kaṭavuḷvāḻttu eṉap 
             peyarpeṟṟatu.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali1">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali1">
               <l>āṟaṟi yantaṇark karumaṟai palapakarntu</l>
               <l>tēṟunīr caṭaikkarantu tiripuran tīmaṭuttuk</l>
               <l>kūṟāmaṟ kuṟittataṉmēṟ celluṅ kaṭuṅkūḷi</l>
@@ -53,7 +51,7 @@
               <l>māṇiḻai yarivai kāppa</l>
               <l>vāṇamil poruḷemak kamarntaṉai yāṭi.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
               <l>Announcing many rare secrets (Veda words) to brahmins who know the path,</l>
               <l>hiding clear water in [your] matted hair, goring the three cities with a fiery [arrow],</l>
               <l>listen now, you with eight arms [and] sapphire throat of unrelenting battle</l>

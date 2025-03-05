@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,12 +27,12 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali57-kilavi">
-          <p type="edition">ituvumatu.</p>
-          <p type="translation" xml:lang="en"/>
+        <div rend="parallel">
+          <p xml:id="Kali57-kilavi">ituvumatu.</p>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali57">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali57">
                 <l>vēyeṉat tiraṇṭatōḷ veṟikamaḻ vaṇaraimpāṉ</l>
                 <l>māṉveṉṟa maṭanōkkiṉ mayiliyaṟ ṟaḷarpolki</l>
                 <l>yāycilam pariyārppa vaviroḷi yiḻaiyimaippak</l>
@@ -60,7 +58,7 @@
                 <l>tuṇaiyamai tōḻiyark kamartta kaṇṇaḷ</l>
                 <l>maṉaiyāṅkup peyarntāḷe ṉaṟivakap paṭuttē.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l corresp="1">            With bamboo-like round shoulders, with curly five-parted [hair] fragrant with perfume, </l>
 <l corresp="2">with innocent glance that vanquish [that of] the deer, she with peacock nature faltering [and] becoming tired </l>
 <l corresp="3">as the piece in [her] choice anklets tinkle, a her shining bright jewels flash, </l>

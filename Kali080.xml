@@ -27,12 +27,12 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali80-kilavi">
-          <p type="edition">itu parattaiyiṟ pirintu vanta talaivaṉ ciṟaippuṟattāṉākat talaivi makaṉukku uraittatu.</p>
-          <p type="translation" xml:lang="en"/>
+        <div rend="parallel">
+          <p xml:id="Kali80-kilavi">itu parattaiyiṟ pirintu vanta talaivaṉ ciṟaippuṟattāṉākat talaivi makaṉukku uraittatu.</p>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali80">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali80">
                 <l>nayantalai māṟuvār māṟuka māṟāk</l>
                 <l>kayantalai miṉṉuṅ katirviṭu mukkāḻ</l>
                 <l>payantaveṅ kaṇṇāra yāṅkāṇa nalkit</l>
@@ -60,7 +60,7 @@
                 <l>ṟātutēr vaṇṭiṉ kiḷaipaṭat taiiya</l>
                 <l>kōtai paripāṭak kāṇkum.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l corresp="1">            Let those who are changed on account of longing be changed. Unchanged, </l>
 <l corresp="3">let us see [you], for our eyes to be full, who had brought forth </l>
 <l corresp="2">[you with] three ray-emitting strands that flash on [your] soft head, </l>

@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -28,13 +26,13 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali34-kilavi">
-          <p type="edition">itu paruvaṅkaṇṭu vaṉpuṟai yetiraḻintu āṟṟāḷāya talaivikkut tōḻi avaṉ 
+        <div rend="parallel">
+          <p xml:id="Kali34-kilavi">itu paruvaṅkaṇṭu vaṉpuṟai yetiraḻintu āṟṟāḷāya talaivikkut tōḻi avaṉ 
             varavuṇarntu kaḻiyuvakaiyāṟ kūṟiyatu.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali34">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali34">
                 <l>maṉṉuyi rēmuṟa malarñālam puravīṉṟu</l>
                 <l>paṉṉīrāṟ pāypuṉal parantūṭṭi yiṟantapiṟ</l>
                 <l>ciṉṉīrā ṉaṟalvāra vakalyāṟu kaviṉpeṟa</l>
@@ -60,7 +58,7 @@
                 <l>paṇṇiya māviṉar pukutantār</l>
                 <l>kaṇṇuṟu pūcal kaikaḷain tāṅkē.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l corresp="1">            After, bringing forth protection for the blooming world so that the creatures rejoice </l>
 <l corresp="2">the flood that expands with many waters spready, feeds [it and] goes beyond, </l>
 <l corresp="3">while the black sand overflows with few water, as the wide river obtains beauty, </l>

@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,13 +27,13 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali67-kilavi">
-          <p type="edition">itu vāyiṉmaṟutta talaimakaḷ āṟṟāmaivāyilākap pukkuk kūṭiya talaimakaṉatu 
+        <div rend="parallel">
+          <p xml:id="Kali67-kilavi">itu vāyiṉmaṟutta talaimakaḷ āṟṟāmaivāyilākap pukkuk kūṭiya talaimakaṉatu 
             nīkkattukkaṭ pukka tōḻikkuk kūṟiyatu.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali67">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali67">
                 <l>kārmuṟṟi yiṇarūḻtta kamaḻtōṭṭa malarvēyntu</l>
                 <l>cīrmuṟṟip pulavarvāyc ciṟappeyti yirunilan</l>
                 <l>tārmuṟṟi yatupōlat takaipūtta vaiyaitaṉ</l>
@@ -58,7 +56,7 @@
                 <l>tuṟaipōta lollumō tūvākā tāṅkē</l>
                 <l>yaṟaipōku neñcuṭai yārkku.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
                 <l>The man from a town of floods, surrounded by fortifications that do not know of a single successful battle</l>
                 <l>with enemies, apart from the hostility with which the water dashes successfully against the walls,</l>
                 <l>[water] of the Vaiya that blooms with worthiness like a garland that completes</l>

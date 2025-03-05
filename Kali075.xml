@@ -27,13 +27,13 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali75-kilavi">
-          <p type="edition">itu talaivaṉ nāṭōṟum vatuvaiyayarntu vantāl yāṉ ataṟkup poṟēṉāka nī ūṭaliṉṟi 
+        <div rend="parallel">
+          <p xml:id="Kali75-kilavi">itu talaivaṉ nāṭōṟum vatuvaiyayarntu vantāl yāṉ ataṟkup poṟēṉāka nī ūṭaliṉṟi 
             avaṉ vantapoḻutē etirkoḷḷuti yeṉṟa tōḻikkut talaimakaḷ ataṟkuk kāraṇaṅ kūṟiyatu.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali75">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali75">
                 <l>nīrār ceṟuvi ṉeytaloṭu nīṭiya</l>
                 <l>nērita ḻāmpa ṉiraiyitaḻ koṇmār</l>
                 <l>cīrār cēyiḻai yolippa vōṭu</l>
@@ -68,7 +68,7 @@
                 <l>māya makiḻnaṉ parattaimai</l>
                 <l>nōvēṉ ṟōḻi kaṭaṉamak keṉavē.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l corresp="9">            The man from the flourishing good village with high heaps, </l>
 <l corresp="5">where the pretty-winged multitude whose food is Āral fish, </l>
 <l corresp="4">rising in fright of the noise [made] by women in the Ōrai game, </l>
@@ -81,7 +81,7 @@
 <l corresp="10">if he is keen on uniting with new girls, </l>
 <l corresp="13ab">you who undertake seeing me, </l>
 <l>saying “I ache for that daily, friend, because of [his] </l>
-<l corresp="11f" >wedding days. You won’t ache,” </l>
+<l corresp="11f">wedding days. You won’t ache,” </l>
 <l corresp="13cd">	now listen clearly: </l>
 <l rend="space">if I sit without asking</l>
 <l>“you would come shining with light. What is your intention?,”</l>

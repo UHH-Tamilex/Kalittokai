@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,14 +27,14 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali43-kilavi">
-          <p type="edition">itu varaivu nīṭa āṟṟāḷāyiṉa viṭattut tōḻi tāṉun talaiviyum vaḷḷaippāṭaluḷ 
+        <div rend="parallel">
+          <p xml:id="Kali43-kilavi">itu varaivu nīṭa āṟṟāḷāyiṉa viṭattut tōḻi tāṉun talaiviyum vaḷḷaippāṭaluḷ 
             murukaṉaip pāṭuvārpōla iruvarkkum ēṟpat talaivaṉaip pāṭat talaivi āṟṟiṉamai tōḻi taṉṉuḷḷē 
             kūṟuvāḷāyt talaivaṉ ciṟaippuṟamākak kūṟiyatu.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali43">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali43">
                 <l>vēṅkai tolaitta veṟipoṟi vāraṇat</l>
                 <l>tēntu maruppi ṉiṉavaṇ ṭimirpūtuñ</l>
                 <l>cānta maratti ṉiyaṉṟa vulakkaiyā</l>
@@ -69,7 +67,7 @@
                 <l>vāṭiya meṉṟōḷum vīṅkiṉa</l>
                 <l>vāṭamai veṟpa ṉaḷittakkāṟ pōṉṟē.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l>            If [we] call it “enemy”, where bees sit on the buds</l>
 <l>of the Malabar lilies like rings tightened on the hand of those suited [to each other],</l>
 <l>– the hill of him who is not ashamed to appear to the people </l>

@@ -27,13 +27,13 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali89-kilavi">
-          <p type="edition">itu talaivaṉ “kāmattiṉ valiyum” (to.po.146) eṉṟataṉāl āṟṟāmai vāyilāka malintu 
+        <div rend="parallel">
+          <p xml:id="Kali89-kilavi">itu talaivaṉ “kāmattiṉ valiyum” (to.po.146) eṉṟataṉāl āṟṟāmai vāyilāka malintu 
             pukku neruṅkik kūṭumiṭattu avaṉuṭaṉ talaivi ūṭic cilacolli avaṉ āṟṟāmai kūṟuvatu kēṭṭu ūṭaṟīrntatu.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali89">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali89">
                 <l>yāriva ṉeṅkūntal koḷvā ṉituvumō</l>
                 <l>rūrāṇmaik kotta paṭiṟuṭait temmaṉai</l>
                 <l>vāraṉī vantāṅkē māṟu;</l>
@@ -50,7 +50,7 @@
                 <l>poyppa viṭēe meṉaneruṅkiṟ ṟappiṉe</l>
                 <l>ṉeṉṟaṭi cērtalu muṇṭu.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l>Who is this who takes our tresses? This too</l>
 <l>is of a mischief equal to the ruling of a city.</l>
 <l>Don’t come to our house, coming like an enemy.</l>

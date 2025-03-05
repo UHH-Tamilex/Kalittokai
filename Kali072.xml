@@ -27,12 +27,12 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali72-kilavi">
-          <p type="edition">ituvumatu.</p>
-          <p type="translation" xml:lang="en"/>
+        <div rend="parallel">
+          <p xml:id="Kali72-kilavi">ituvumatu.</p>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali72">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali72">
                 <l>iṇaipaṭa nivanta nīlameṉ cēkkaiyuṭ</l>
                 <l>ṭuṇaipuṇa raṉṉattiṉ tūvimel laṇaiyacaiic</l>
                 <l>cēṭiyal vaḷḷattup peytapāl cilakāṭṭi</l>
@@ -60,7 +60,7 @@
                 <l>yaḻintuniṟ pēṇik koḷali ṉiḻintatō</l>
                 <l>vinnō yuḻatta lemakku.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l corresp="8cd">            O man from the ornate good village of paddy fields, where, </l>
 <l corresp="4">like the face of a girl instructing soft little parakeets who is in a huff </l>
 <l corresp="3">when being shown a little milk poured into a bowl of great nature, </l>

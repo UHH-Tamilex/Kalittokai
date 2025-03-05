@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -28,14 +26,14 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali14-kilavi">
-          <p type="edition">itu talaimakaṉāṟ pirivuṇarttappaṭṭa tōḻi, talaimakaṟku, muṉṉai-yiṟ ciṟappai emvayiṟ 
+        <div rend="parallel">
+          <p xml:id="Kali14-kilavi">itu talaimakaṉāṟ pirivuṇarttappaṭṭa tōḻi, talaimakaṟku, muṉṉai-yiṟ ciṟappai emvayiṟ 
             pārāṭṭiya tellām emvayiṟ piṟanta veṟup-peṉpatu ippoḻutaṟintēṉ, ivvakaippaṭṭa pōkku niṉakku 
             ev-vakaiyāṉ vantateṉa, avaṉ celavaḻuṅkac colliyatu.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali14">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali14">
                 <l>aṇaimaru ḷiṉṟuyi lampaṇait taṭameṉṟōṭ</l>
                 <l>ṭuṇaimala reḻiṉīlat tēnteḻiṉ malaruṇkaṇ</l>
                 <l>maṇamauvaṉ mukaiyaṉṉa māvīḻvār niraiveṇpaṉ</l>
@@ -56,7 +54,7 @@
                 <l>kavavukkai viṭappeṟum poruṭṭiṟat</l>
                 <l>tavavukkai viṭuta latumaṉum poruḷē.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l>            “Broad soft shoulders [like] pretty bamboo, for sweet sleep like on a bed,</l>
 <l>blossoming kajal eyes with the eminent grace of graceful blue lotuses as companion blossoms, </l>
 <l>white teeth in a straight row desired by [bee-]animals like buds of fragrant wilden jasmine,</l>

@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -28,15 +26,15 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali26-kilavi">
-          <p type="edition">itu ''mēviya ciṟappi ṉēṉōr'' <note>(to.po.28)</note> eṉṉuñ cūttirattiṟ pakaimēṟceṉṟa aracaṉ tiṟaipeṟṟa 
+        <div rend="parallel">
+          <p xml:id="Kali26-kilavi">itu ''mēviya ciṟappi ṉēṉōr'' <note>(to.po.28)</note> eṉṉuñ cūttirattiṟ pakaimēṟceṉṟa aracaṉ tiṟaipeṟṟa 
             nāṭu kāttu ataṉkaṭ ṭaṉ neṟimuṟaimai aṭippaṭuttu varutaṟkup pirivaṉeṉṟaliṉ, piriviṉkaṭ ṭalaivaṉ iḷavēṉiṟ 
             kālaṅkuṟittup piriya, akkāla varaviṉkaṭ ṭalaivi āṟṟāḷāy avar namakku aruḷuṅkālaiyil aruḷār-kāṇeṉṟāṭkut, 
             tōḻi, avar varaviṟku ikkālan tūtāyaṉṟē vantatu? nī āṟṟuvāyākaveṉa vaṟpuṟuttiyatu.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali26">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali26">
                 <l>orukuḻai yoruvaṉpō liṇarcērnta marāamum</l>
                 <l>parutiyañ celvaṉpō ṉaṉaiyūḻtta ceruntiyu</l>
                 <l>mīṉēṟṟuk koṭiyōṉpōṉ miñiṟārkkuṅ kāñciyu</l>
@@ -63,7 +61,7 @@
                 <l>cerumēm paṭṭa veṉṟiyar</l>
                 <l>varumeṉa vantaṉṟavar vāymoḻit tūtē.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l corresp="1">          “Cadamba trees joined by cluster that are like the one with the one earring, </l>
 <l corresp="2">pear trees on which the buds have matured that are like the goer with the disk, </l>
 <l corresp="3">portia trees where bees hum that are like the one with the fish bull banner, </l>

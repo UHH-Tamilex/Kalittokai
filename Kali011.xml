@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -28,14 +26,14 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali11-kilavi">
-          <p type="edition">itu talaivi mūṉṟaṉpakuti talaivaṉkūṟip poruḷvayiṟ pirikiṉṟa 
+        <div rend="parallel">
+          <p xml:id="Kali11-kilavi">itu talaivi mūṉṟaṉpakuti talaivaṉkūṟip poruḷvayiṟ pirikiṉṟa 
             kālattuk kāṭu kaṭiyavāyiṉum ivvakaippaṭṭaṉavum uḷaveṉṟu kūṟiṉār, avai kāṇṭaliṉ 
             varuvareṉat tōḻikkuk kūṟi ataṟku nimittamuṅ kūṟi āṟṟuvittatu.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali11">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali11">
                 <l>aritāya vaṟaṉeyti yaruḷiyōrk kaḷittalum</l>
                 <l>peritāya pakaiveṉṟu pēṇārait teṟutalum</l>
                 <l>purivamar kātaliṟ puṇarcciyun tarumeṉap</l>
@@ -60,7 +58,7 @@
                 <l>palliyum pāṅkot ticaittaṉa</l>
                 <l>nalleḻi luṇkaṇu māṭumā liṭaṉē.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
                 <l>Will our lover who, at the thought that</l>
                 <l>providing for those who graciously adher to Dharma which is difficult</l>
                 <l>and punishing those who don’t honour after having won a victory which is great</l>

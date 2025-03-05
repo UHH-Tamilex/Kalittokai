@@ -27,12 +27,12 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali88-kilavi">
-          <p type="edition">iḵtu avvāṟṟāṟ pukka talaivaṉuṭaṉ ūṭiyum uṟaḻntuñ collip poyc cūḷañci ūṭal tīrntatu.</p>
-          <p type="translation" xml:lang="en"/>
+        <div rend="parallel">
+          <p xml:id="Kali88-kilavi">iḵtu avvāṟṟāṟ pukka talaivaṉuṭaṉ ūṭiyum uṟaḻntuñ collip poyc cūḷañci ūṭal tīrntatu.</p>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali88">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali88">
                 <l>orūuk, koṭiyiya ṉallār kuraṉāṟṟat tuṟṟa</l>
                 <l>muṭiyutir pūntātu moympiṉa vākat</l>
                 <l>toṭiya vemakkunī yārai periyārk</l>
@@ -55,7 +55,7 @@
                 <l>nīyuṟum poyccū ḷaṇaṅkākiṉ maṟṟiṉi</l>
                 <l>yārmēl viḷiyumō kūṟu.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l>            Having renounced [them], as on [your] shoulders there is the flower pollen</l>
 <l>that dropped from the perfumed knots of the hair of good women with creeper nature,</l>
 <l>who are you to us who have bracelets? Those who are servants</l>

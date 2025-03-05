@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -28,16 +26,16 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali18-kilavi">
-          <p type="edition">iḵtu “oṉṟāt tamariṉum” <note>(to.po.41.1ab+7-10)</note> eṉṉuñ cūttirattil “nāḷatu ciṉmaiyu miḷamaiya 
+        <div rend="parallel">
+          <p xml:id="Kali18-kilavi">iḵtu “oṉṟāt tamariṉum” <note>(to.po.41.1ab+7-10)</note> eṉṉuñ cūttirattil “nāḷatu ciṉmaiyu miḷamaiya 
             tarumaiyun, tāḷāṇ pakkamun takutiyatamaitiyu, miṉmaiya tiḷivu muṭaimaiya tuyarcciyu, maṉpiṉa 
             takalamu makaṟciya tarumaiyum” eṉak kūṟiya eṭṭiṉaiyun talaivaṉ kūṟak kēṭṭa tōḻi avaṟṟai 
             “nikaḻntatu kūṟi nilaiyalun tiṇaiyē” <note>(to.po.44)</note> eṉṉum vitiyāṟ ṟalaivaṟkuk kūṟic 
             celavaḻuṅkuvittatu.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali18">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali18">
                 <l>arumporuḷ vēṭkaiyi ṉuḷḷan turappap</l>
                 <l>pirintuṟai cūḻāti yaiya virumpinī</l>
                 <l>yeṉṟō ḷeḻutiya toyyilum yāḻaniṉ</l>
@@ -51,7 +49,7 @@
                 <l>moṉṟiṉār vāḻkkaiyē vāḻkkai yaritarō</l>
                 <l>ceṉṟa viḷamai taraṟku.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l corresp="1">            While [your] heart is driven by the desire for precious wealth, </l>
 <l corresp="2a-c">you would not consider staying away, lord? </l>
 <l>See, think of the sandal paste you longingly drew on my shoulder</l>

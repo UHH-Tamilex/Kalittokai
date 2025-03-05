@@ -27,13 +27,13 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali87-kilavi">
-          <p type="edition">itu parattaiyarcēri ceṉṟamai aṟintilaḷeṉat talaivimāṭṭuc ceṉṟavaṉōṭu ivaḷ ūṭi 
+        <div rend="parallel">
+          <p xml:id="Kali87-kilavi">itu parattaiyarcēri ceṉṟamai aṟintilaḷeṉat talaivimāṭṭuc ceṉṟavaṉōṭu ivaḷ ūṭi 
             uṟaḻntu kūṟit tōḻi vāyilāka ūṭa-ṟīrvāḷ taṉ neñcoṭu kūṟiyatu.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali87">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali87">
                 <l>orūunī yeṅkūntal koḷḷalyām niṉṉai</l>
                 <l>verūutuṅ kāṇuṅ kaṭai;</l>
                 <l rend="space">teriyiḻāy! ceytava ṟilvaḻi yāṅkuc ciṉavuvāy</l>
@@ -51,7 +51,7 @@
                 <l>takaiyatu kāṇṭaippāy neñcē paṉiyāṉāp</l>
                 <l>pāṭilkaṇ pāyal koḷa.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l>            Having renounced [us], don’t take our tresses. The moment we see you</l>
 <l>we shall be frightened.</l>
 <l rend="space">You with clear jewels, the faultless way we acted, why are you angry</l>

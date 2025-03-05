@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
       <fileDesc>
         <titleStmt>
@@ -29,14 +27,14 @@
     <text xml:lang="ta" type="edition">
       <body>
   
-          <div xml:id="Kali40-kilavi">
-            <p type="edition">itu tōḻiyun talaimakaḷun talaimakaṉatu malaiyai vāḻttip pāṭukiṉṟa vaḷḷaippāṭṭiṟ, 
+          <div rend="parallel">
+            <p xml:id="Kali40-kilavi">itu tōḻiyun talaimakaḷun talaimakaṉatu malaiyai vāḻttip pāṭukiṉṟa vaḷḷaippāṭṭiṟ, 
                 ṟōḻi iyaṟpaṭamoḻiyat talaimakaḷ iyaṟpaḻittamai, talaimakaṉ ciṟaippuṟamākak kēṭṭu varaiyavarukiṉṟamai, 
                 tōḻi talaimakaṭku uraittatu.</p>
-            <p type="translation" xml:lang="en"/>
+            <p xml:lang="en"/>
           </div>
-          <div xml:id="Kali40">
-              <lg type="edition">
+          <div rend="parallel">
+              <lg xml:id="Kali40">
                   <l>akaviṉam pāṭuvān tōḻi yamarkka</l>
                   <l>ṇakaimoḻi nallavar nāṇu nilaipōṟ</l>
                   <l>ṟakaikoṇṭa vēṉaluṭ ṭāḻkura lurīi</l>
@@ -72,7 +70,7 @@
                   <l>meṉmulai yākaṅ kaviṉpeṟac</l>
                   <l>cemmalai yākiya malaikiḻa vōṉē.</l>
               </lg>
-              <lg type="translation" xml:lang="en">
+              <lg xml:lang="en">
                   <l>Calling, we shall sing, friend. Stripping the ears</l>
                   <l>that hang down from the millet that has become just so,</l>
                   <l>like the bashful attitude of good girls with beautiful eyes [and] joking words,</l>
