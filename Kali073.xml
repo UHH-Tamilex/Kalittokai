@@ -27,13 +27,13 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali73-kilavi">
-          <p type="edition">itu “taṅkiya voḻukkattuk kiḻavaṉai vaṇaṅki – yeṅkaiyark kuraiyeṉa virattaṟkaṭ” (to.po.147) 
+        <div rend="parallel">
+          <p xml:id="Kali73-kilavi">itu “taṅkiya voḻukkattuk kiḻavaṉai vaṇaṅki – yeṅkaiyark kuraiyeṉa virattaṟkaṭ” (to.po.147) 
             ṭalaivi kūṟiyatu.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali73">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali73">
                 <l>akaṉṟuṟai yaṇipeṟap putaloṭu tāḻnta</l>
                 <l>pakaṉṟaippū vuṟanīṇṭa pācaṭait tāmarai</l>
                 <l>kaṇpora voḷiviṭṭa veḷḷiya vaḷḷattāṟ</l>
@@ -57,7 +57,7 @@
                 <l>pulattakaip peṇṭirait tēṟṟimaṟ ṟiyāmēṟ</l>
                 <l>ṟōlāmō niṉpoy maruṇṭu.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
                 <l>Oh man from a good village adorned by paddy fields, where</l>
                 <l>the red lotus with green leaves that has grown long so that it reaches the flowers of the jalap tree</l>
                 <l>that decoratively hang down with the bushes by the wide ghat</l>

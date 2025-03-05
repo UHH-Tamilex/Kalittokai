@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,12 +27,12 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali60-kilavi">
-          <p type="edition">itu talaimakaṟkuk kuṟainērnta tōḻi talaimakaḷōṭu uṟaḻntu avaṉatu kuṟainayappak kūṟiyatu.</p>
-          <p type="translation" xml:lang="en"/>
+        <div rend="parallel">
+          <p xml:id="Kali60-kilavi">itu talaimakaṟkuk kuṟainērnta tōḻi talaimakaḷōṭu uṟaḻntu avaṉatu kuṟainayappak kūṟiyatu.</p>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali60">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali60">
                 <l>cuṇaṅkaṇi vaṉamulaic cuṭarkoṇṭa naṟunutaṉ</l>
                 <l>maṇaṅkamaḻ naṟuṅkōtai mārivī ḻiruṅkūnta</l>
                 <l>ṉuṇaṅkeḻi loṇṭitti nuḻainoci maṭamaruṅkul</l>
@@ -68,7 +66,7 @@
                 <l>kēṇmai viruppuṟ ṟavaṉai yetirniṉṟu</l>
                 <l>nāṇaṭap peyartta nayavara viṉṟē.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l>            You with beautiful breasts adorned with beauty spots, with a glowing fragrant forehead,</l>
 <l>with a fragrant garland scented with perfume, with dark tresses that descend [like] clouds,</l>
 <l>with a thin innocent(?) belly onto which got fine graceful bright beauty spots,</l>

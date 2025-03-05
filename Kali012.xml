@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -28,14 +26,14 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali12-kilavi">
-          <p type="edition">itu talaimakaṉāṟ pirivuṇarttappaṭṭa tōḻi kāṭṭatu kaṭumaiyun 
+        <div rend="parallel">
+          <p xml:id="Kali12-kilavi">itu talaimakaṉāṟ pirivuṇarttappaṭṭa tōḻi kāṭṭatu kaṭumaiyun 
             talaiviyatu meṉmaiyum "nāḷatu ciṉmaiyum iḷamaiya tarumaiyun tāḷāṇ pakkamun 
             “takutiya tamaitiyu maṉpiṉa takalamum akaṟciya tarumaiyuṅ” (to.po.41) kūṟic celavaḻuṅkuvittatu.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali12">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali12">
                 <l>iṭumu ṇeṭuvēli pōlak kolaivar</l>
                 <l>koṭumaran tēyttār patukkai niraitta</l>
                 <l>kaṭunavai yārāṟ ṟaṟucuṉai muṟṟi</l>
@@ -56,7 +54,7 @@
                 <l>kūṟṟamu mūppu maṟantārō ṭorāaṅku</l>
                 <l>māṟṟumaik koṇṭa vaḻi.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l corresp="9">            You who would go after wealth, leaving [her with] fragrant forehead </l>
 <l corresp="8">who is afraid even though you [just] wake up a little after sleeping, </l>
 <l corresp="7cd">on unending long roads where </l>

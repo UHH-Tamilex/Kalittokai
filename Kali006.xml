@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -28,13 +26,13 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali6-kilavi">
-          <p type="edition">itu talaivaṉ celavuk kuṟippaṟintu nīrcelluṅ kaṭuñcurattut tuṉpattiṟkut 
+        <div rend="parallel">
+          <p xml:id="Kali6-kilavi">itu talaivaṉ celavuk kuṟippaṟintu nīrcelluṅ kaṭuñcurattut tuṉpattiṟkut 
             tuṇaiyāka emmaiyum uṭaṉkoṇṭu ceṉmiṉeṉat talaivi kūṟiyatu.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali6">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali6">
                 <l>maraiyā maralkavara māri vaṟappa</l>
                 <l>varaiyōṅ karuñcurat tāriṭaic celvōr</l>
                 <l>curaiyampu mūḻkac curuṅkip puraiyōrta</l>
@@ -47,7 +45,7 @@
                 <l>tuṉpan tuṇaiyāka nāṭi ṉatuvalla</l>
                 <l>tiṉpamu muṇṭō vemakku.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
                 <l>If [you] say: harsh are the jungles, where difficult distress</l>
                 <l rend="1">moistens the eye with water when deranged by not getting cool water</l>
                 <l rend="1">for [their] parched, fading tongues, as the inner water dries up</l>

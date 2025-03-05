@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -28,13 +26,13 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali28-kilavi">
-          <p type="edition">iḵtu iḷavēṉil varaviṉkaṇ āṟṟāta talaivi tūtuviṭak karutat, tōḻi, avar pirintiruttalai 
+        <div rend="parallel">
+          <p xml:id="Kali28-kilavi">iḵtu iḷavēṉil varaviṉkaṇ āṟṟāta talaivi tūtuviṭak karutat, tōḻi, avar pirintiruttalai 
             nammiṉuntām vallarallareṉac colli vaṟpuṟuttiyatu.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali28">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali28">
                 <l>pāṭalcāl ciṟappiṟ ciṉaiyavuñ cuṉaiyavu</l>
                 <l>nāṭiṉar koyalvēṇṭā nayantutāṅ koṭuppapōṟ</l>
                 <l>ṟōṭaviḻ kamaḻkaṇṇi taiyupu puṉaivārkaṭ</l>
@@ -60,7 +58,7 @@
                 <l>tāmpirin tuṟaita lāṟṟalar</l>
                 <l>parintevaṉ ceyti varukuvar viraintē.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
                 <l>At the time when,</l>
                 <l>while place after place obtains beauty, as [flowers] from branches and from pools,</l>
                 <l>of an excellence worthy of singing, hang down so that [their] multitude touches</l>

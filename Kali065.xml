@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,8 +27,8 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali65-kilavi">
-          <p type="edition">iḵtu iravukkuṟi alarā meṉṟañcit talaivaṉai nīkki niṟuttak karutiya tōḻi 
+        <div rend="parallel">
+          <p xml:id="Kali65-kilavi">iḵtu iravukkuṟi alarā meṉṟañcit talaivaṉai nīkki niṟuttak karutiya tōḻi 
             “allakuṟip paṭutalu mavaḷvayi ṉurittē, yavaṉkuṟi mayaṅkiya vamaivoṭu variṉē” <note>(to.po.133)</note> 
             eṉṉuñ cūttirattāṉ allakuṟippaṭutal taṉakkum urittākaliṉ, avaṉ ceyta kuṟiyaṟitaṟkup 
             puṟattuc ceṉṟavaḻi, āṇṭup piṟantatōr ceytiyāka oru poyyai nāṭakavaḻakkum ulakiyalvaḻakkumākap 
@@ -38,10 +36,10 @@
             itaṉai “irantu kuṟaiyuṟṟa kiḻavaṉait tōḻi, nirampa nīkki niṟuttalaṉṟiyum, vāymai kūṟalum 
             poytalaip peytalum, nalvakai yuṭaiya nalattiṟ kūṟiyum, palvakai yāṉum paṭaikkavum peṟumē” <note>(to.po.134)</note> 
             eṉa vaḻuvamaittavāṟṟāṟ koḷka.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali65">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali65">
                 <l>tiruntiḻāy kēḷāynam mūrkkellāñ cālum</l>
                 <l>perunakai yalka ṉikaḻnta torunilaiyē</l>
                 <l>maṉpatai yellā maṭinta viruṅkaṅku</l>
@@ -72,7 +70,7 @@
                 <l>vāḻkkai yatuvākak koṇṭa mutupārppāṉ</l>
                 <l>vīḻkkaip peruṅkaruṅ kūttu.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l>               You with perfect jewels, listen to what happened at one point</l>
 <l corresp="1f">at night, a big laughter worthy of all [the people in] our village: </l>
 <l>in dark night, when all humanity had dozed off,</l>

@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,15 +27,15 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali66-kilavi">
-          <p type="edition">itu parattaiyiṟ pirintu vanta talaivaṉ taṉatu āṟṟāmaiyē vāyilākat 
+        <div rend="parallel">
+          <p xml:id="Kali66-kilavi">itu parattaiyiṟ pirintu vanta talaivaṉ taṉatu āṟṟāmaiyē vāyilākat 
             talaiviyuḻaic ceṉṟāṟku, avaṉ muṉpu vatuvaiyayarntatūum appoḻutu puṉalāṭiyatūum 
             ippoḻutu tuṇaṅkaiyāṭiyatūuṅ kūṟip pulantāḷ talaivi, avaḷ pulantavāṟu kaṇṭu ceṉṟu 
             cārnta talaimakaṉuṭaṉ ūṭal tīrkiṉṟāḷ kūṟiyatu.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali66">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali66">
                 <l>vīṅkunī raviḻnīlam pakarpavar vayaṟkoṇṭa</l>
                 <l>ñāṅkar malarcūḻtan tūrpukunta varivaṇ</l>
                 <l>ṭōṅkuya reḻilyāṉaik kaṉaikaṭāṅ kamaḻnāṟṟa</l>
@@ -64,7 +62,7 @@
                 <l>nīṭṭittā yeṉṟu kaṭāaṅkaṭun tiṇṭēr</l>
                 <l>pūṭṭu viṭāa niṟuttu.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l corresp="8">            O man from the good village adorned by floods who has forgotten [and] does not remember the flower ponds </l>
 <l corresp="2">where the striped bees, that had entered the village, henceforth surrounding the blossoms </l>
 <l corresp="3">which the sellers of blue lotus of the swelling waters had taken from the paddy fields, </l>

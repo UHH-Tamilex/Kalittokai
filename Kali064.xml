@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,14 +27,14 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali64-kilavi">
-          <p type="edition">iḵtu arumai ceytayartta talaivaṉ vantuḻit talaivi eḷḷiṉa iṭattut talaivaṉ 
+        <div rend="parallel">
+          <p xml:id="Kali64-kilavi">iḵtu arumai ceytayartta talaivaṉ vantuḻit talaivi eḷḷiṉa iṭattut talaivaṉ 
             avaḷōṭu uṟaḻntu kūṟi nakaiyāṭik kūṭṭattiṟku uṭampaṭuvittatu. itaṟku viti 
             “uyarmoḻik kuriya vuṟaḻuṅ kiḷavi” <note>(to.po.238)</note> eṉpataṉuṭ ṭalaivaṉ uyarmoḻikkut talaivi uṟaḻntu kūṟumeṉṟām.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali64">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali64">
                 <l>aṇimuka matiyēyppa vammatiyai naṉiyēykku</l>
                 <l>maṇimuka māmaḻainiṉ piṉṉoppap piṉṉiṉkaṇ</l>
                 <l>virinuṇṇūl cuṟṟiya vīrita ḻalari</l>
@@ -68,7 +66,7 @@
                 <l>muttēr muṟuvalāy nīpaṭum poṉṉellā</l>
                 <l>mutti yeṟintu viṭaṟku.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l>            While [your] adorned face resembles the moon, while you braids are equal</l>
 <l corresp="1-2c">to black clouds around the sapphire face that much resembles that moon, </l>
 <l corresp="3">while the flowers with moist petals that turn around the fine thread that expands in [your] braids </l>

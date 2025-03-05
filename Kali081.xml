@@ -27,14 +27,14 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali81-kilavi">
-          <p type="edition">itu talaivaṉ parattaiyiṟ pirintu vantuḻit talaivi taṉ makaṉait taḻīi viḷaiyāṭukiṉṟa 
+        <div rend="parallel">
+          <p xml:id="Kali81-kilavi">itu talaivaṉ parattaiyiṟ pirintu vantuḻit talaivi taṉ makaṉait taḻīi viḷaiyāṭukiṉṟa 
             viḷaiyāṭṭiṉkaṭ taṉ varavu aṟiyāmaic ceṉṟu niṉṟa talaivaṉ avaḷ ūṭaluṇarvaṉavum uṟaḻntu colli 
             makaṉvāyilāka ūṭaṟīrntatu.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali81">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali81">
                 <l>maiyaṟa viḷaṅkiya maṇimaru ḷavvāytaṉ</l>
                 <l>meypeṟā maḻalaiyiṉ viḷaṅkupū ṇaṉaittarap</l>
                 <l>polampiṟai yuṭṭāḻnta puṉaiviṉai yuruḷkalaṉ</l>
@@ -73,7 +73,7 @@
                 <l>tāvā viruppoṭu kaṉṟiyāt tuḻiccellu</l>
                 <l>māpōṟ paṭartaka nām.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l corresp="9-10a">        Similar to the great victory abounding in adornment of the lord who abides under the Banyan tree, </l>
 <l corresp="8">repeating [his] steps, moving forward with [his] hand the chariot with strong legs </l>
 <l corresp="7">in the front yard, having forgotten the breast that blooms with milk, </l>

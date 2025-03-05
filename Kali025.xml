@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -28,13 +26,13 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali25-kilavi">
-          <p type="edition">itu pirivuṇarttappaṭṭa tōḻi nī pirintāṟ pīṭilār toṭarpupōla nummai alar tūṟṟuvaṉa 
+        <div rend="parallel">
+          <p xml:id="Kali25-kilavi">itu pirivuṇarttappaṭṭa tōḻi nī pirintāṟ pīṭilār toṭarpupōla nummai alar tūṟṟuvaṉa 
             ivvakaippaṭṭaṉa cilavuḷaveṉat talaivi āṟṟāmai kūṟic celavaḻuṅkuvittatu.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali25">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali25">
                 <l>vayakkuṟu maṇṭilam vaṭamoḻip peyarpeṟṟa</l>
                 <l>mukattavaṉ makkaḷuḷ mutiyavaṉ puṇarppiṉā</l>
                 <l>laivareṉ ṟulakēttu maracarka ḷakattarāk</l>
@@ -65,7 +63,7 @@
                 <l>tuḷimāṟu poḻutiṉiv vulakam pōluniṉ</l>
                 <l>ṉaḷimāṟu poḻutiṉiv vāyiḻai kaviṉē.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
                 <l>You would indeed traverse, lord,</l>
                 <l>the desert hot [as] fire among the hills</l>
                 <l>where, in the roaring fire that engulfed the high mountain with dry bamboo,</l>

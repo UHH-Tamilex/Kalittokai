@@ -27,14 +27,14 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali86-kilavi">
-          <p type="edition">itu “tantaiya roppar makkaḷeṉpataṉā lantamil ciṟappiṉ makappaḻittu neruṅkalum” (to.po.147) 
+        <div rend="parallel">
+          <p xml:id="Kali86-kilavi">itu “tantaiya roppar makkaḷeṉpataṉā lantamil ciṟappiṉ makappaḻittu neruṅkalum” (to.po.147) 
             eṉpataṉāṉ makaṉait talaivaṉai okkalāṅ kuṇaṉum okkalākāk kuṇaṉun talaivi kūṟukiṉṟuḻi maṟaintu pukka talaivaṉ 
             avaḷ ūṭaluṇarvaṉa colla makaṉ vāyilāka ūṭaṟīrvāḷ taṉṉuḷḷē kūṟiyatu.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali86">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali86">
                 <l>maipaṭu ceṉṉi maḻakaḷiṟ ṟōṭaipōṟ</l>
                 <l>kaipuṉai mukkāḻ kayantalait tāḻap</l>
                 <l>polañcey maḻuvoṭu vāḷaṇi koṇṭa</l>
@@ -70,7 +70,7 @@
                 <l>tantai viyaṉmārpiṟ pāyntā ṉaṟaṉillā</l>
                 <l>vaṉpili peṟṟa makaṉ.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l corresp="5a-c">            Closely look to the fill of [your] eye’s glance </l>
 <l corresp="4">at that mouth which wets the bright ornament shining with beauty </l>
 <l corresp="3">that is adorned with a gold-made sword and axe </l>

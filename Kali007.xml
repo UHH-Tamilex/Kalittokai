@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -28,19 +26,19 @@
   <text xml:lang="ta" type="edition">
     <body>
         
-        <div xml:id="Kali7-kilavi">
-          <p type="edition">itu, pirivuṇarttappaṭṭa tōḻi talaimakaṟku nīr pirikiṉṟīreṉṟu 
+        <div rend="parallel">
+          <p xml:id="Kali7-kilavi">itu, pirivuṇarttappaṭṭa tōḻi talaimakaṟku nīr pirikiṉṟīreṉṟu 
             yāṉ kūṟat talaivi kēṭpiṉ avaṭku akkālattu nikaḻvaṉavaṟṟai nummōṭu ārāyvatuṭaiyēṉ; 
             nīr ceyyum poruḷ ivaḷ uyiraiyun taru-kiṟkumō eṉac celavaḻuṅkak kūṟiyatu.
             </p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
         <div xml:id="Kali7-kilavi2">
             <p type="edition">iḵtu “uṭaṉ cēṟal ceykaiyō ṭaṉṉavai piṟavu – maṭampaṭa vanta tōḻi kaṇṇum” 
         <note>(to.po.146, l. 43f.)</note> eṉpataṉuṭ ceykai kūṟukiṉṟatu.</p>
         </div>
-        <div xml:id="Kali7">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali7">
                 <l>vēṉi luḻanta vaṟituyaṅ kōykaḷiṟu</l>
                 <l>vāṉīṅku vaippiṉ vaḻaṅkāttēr nīrkkavāaṅ</l>
                 <l>kāṉaṅ kaṭatti reṉakkēṭpiṉ yāṉoṉ</l>
@@ -63,7 +61,7 @@
                 <l>ḷiṉṉuyir tarutalu māṟṟumō</l>
                 <l>muṉṉiya tēettu muyaṉṟucey poruḷē.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l>            If I hear that you would cross the forest,</l>
 <l>where the sadly weakened, tired elephant bull that bore the summer</l>
 <l>longs for water that is a chariot that does not move (i.e., a mirage) in the region left by the clouds,</l>

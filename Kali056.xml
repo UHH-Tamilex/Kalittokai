@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,14 +27,14 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali56-kilavi">
-          <p type="edition">itu “kāmañ cālā viḷamai yōḷvayi, ṉēmañ cālā viṭumpai yeyti naṉmaiyun 
+        <div rend="parallel">
+          <p xml:id="Kali56-kilavi">itu “kāmañ cālā viḷamai yōḷvayi, ṉēmañ cālā viṭumpai yeyti naṉmaiyun 
             tīmaiyu meṉṟiru tiṟattāṟ ṟaṉṉoṭu mavaḷoṭun tarukkiya puṇarttuc colletir peṟāaṉ colli yiṉpuṟal, 
             pullit tōṉṟuṅ kaikkiḷaik kuṟippē” <note>(to.po.50)</note> eṉpataṉāṟ ṟarukkic collic colletir peṟāṉ iṉpuṟṟatu.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali56">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali56">
                 <l>ūrkkā ṉivanta potumparu ṇīrkkāṟ</l>
                 <l>koḻuniḻaṉ ñāḻaṉ mutiriṇar koṇṭu</l>
                 <l>kaḻuma muṭittuk kaṇkūṭu kūḻai</l>
@@ -72,7 +70,7 @@
                 <l>paṟaiyaṟain tallatu cellaṟka veṉṉā</l>
                 <l>viṟaiyē tavaṟuṭai yāṉ.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
                 <l>While [her] hair, meeting the eye after completing to mix [it]</l>
                 <l>with ripening clusters of the Cassia with rich shade</l>
                 <l>from the water channel in the grove come up at the foot of the village,</l>

@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -28,13 +26,13 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali4-kilavi">
-          <p type="edition">itu poruḷvayiṟ pirivēṉeṉṟa talaimakaṟkut, tōḻi, talaivi celavuk kuṟippu 
+        <div rend="parallel">
+          <p xml:id="Kali4-kilavi">itu poruḷvayiṟ pirivēṉeṉṟa talaimakaṟkut, tōḻi, talaivi celavuk kuṟippu 
             aṟintavāṟum, avaḷatu āṟṟāmaiyum uṇarttic, celavu oḻivāyākaveṉak kūṟiyatu.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali4">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali4">
                 <l>valimuṉpiṉ valleṉṟa yākkaip pulinōkkiṟ</l>
                 <l>cuṟṟamai villar curivaḷar pittaiya</l>
                 <l>raṟṟampārt talkuṅ kaṭuṅkaṇ maṟavartāṅ</l>
@@ -61,7 +59,7 @@
                 <l>poḻutiṭaip paṭanīppiṉ vāḻvāḷō</l>
                 <l>voḻikiṉip perumaniṉ poruṭpiṇic celavē.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l corresp="8ab">That you would remember </l>
 <l corresp="7">with desire the bringing of wealth, you with a white spear on [your] right, </l>
 <l corresp="6">on the lonely, difficult way where even birds don’t roam, </l>

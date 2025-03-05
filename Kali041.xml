@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
       <fileDesc>
         <titleStmt>
@@ -29,13 +27,13 @@
     <text xml:lang="ta" type="edition">
       <body>
   
-          <div xml:id="Kali41-kilavi">
-            <p type="edition">iḵtu iruvarum ivvakaiyāṟ pāṭiya vaḷḷaippāṭṭut talaivaṉ ciṟaippuṟamākak kēṭṭu, varaivuvēṇṭiviṭat, 
+          <div rend="parallel">
+            <p xml:id="Kali41-kilavi">iḵtu iruvarum ivvakaiyāṟ pāṭiya vaḷḷaippāṭṭut talaivaṉ ciṟaippuṟamākak kēṭṭu, varaivuvēṇṭiviṭat, 
                 tantaiyar varaivuṭam-paṭṭamai tōḻi talaivikku uraittatu.</p>
-            <p type="translation" xml:lang="en"/>
+            <p xml:lang="en"/>
           </div>
-          <div xml:id="Kali41">
-              <lg type="edition">
+          <div rend="parallel">
+              <lg xml:id="Kali41">
                   <l>pāṭukam vāvāḻi tōḻi vayakkaḷiṟṟuk</l>
                   <l>kōṭulakkai yākanaṟ cēmpi ṉilaicuḷakā</l>
                   <l>vāṭukaḻai nellai yaṟaiyuraluṭ peytiruvām</l>
@@ -81,7 +79,7 @@
                   <l>maṉṟal vēṅkaik kīḻiruntu</l>
                   <l>maṇanayan taṉaṉam malaikiḻa vōṟkē.</l>
               </lg>
-              <lg type="translation" xml:lang="en">
+              <lg xml:lang="en">
 <l>              We will sing, come oh friend, with the tusk</l>
 <l>of the strong elephant bull as a pestle, with a leaf of good kale as a fan</l>
 <l>pouring into the rock mortar the paddy from the dancing bamboo, the two of us</l>

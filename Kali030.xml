@@ -26,14 +26,14 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali30-kilavi">
-          <p type="edition">itu paruvavaraviṉkaṇ āṟṟāta talaimakaḷ iṟantatu cintittu nammāṭṭu aṉpilarāyiṉum 
+        <div rend="parallel">
+          <p xml:id="Kali30-kilavi">itu paruvavaraviṉkaṇ āṟṟāta talaimakaḷ iṟantatu cintittu nammāṭṭu aṉpilarāyiṉum 
             ikkālattu ivvūriṉkaṭ paṇṭu tām viḷaiyāṭiyavāṟu niṉaintu varuvar ikkālavaravu colluvār uḷarāyiṉeṉak 
             kēṭṭa pāṇaṉ pācaṟaikkaṭ ceṉṟu talaivaṉaik kaṇṭu kūṟiyatu.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali30">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali30">
                 <l>aruntava māṟṟiyār nukarccipō laṇikoḷa</l>
                 <l>virintāṉāc ciṉaitoṟūum vēṇṭuntā tamarntāṭip</l>
                 <l>purintārkkum vaṇṭoṭu pulamputīrn tevvāyu</l>
@@ -56,7 +56,7 @@
                 <l>kāmar kaḻalaṭi cērā</l>
                 <l>nāmañcā ṟevvari ṉaṭuṅkiṉaḷ peritē.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l corresp="4">            In summer which is imminent so that dark bees take [their] seats </l>
 <l corresp="3">everywhere, loneliness ending, together with bees that humm desirously, </l>
 <l corresp="2">dancing, settling on the pollen they want on every branch that does not end opening [blossoms] </l>

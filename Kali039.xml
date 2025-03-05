@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
       <fileDesc>
         <titleStmt>
@@ -29,16 +27,16 @@
     <text xml:lang="ta" type="edition">
       <body>
   
-          <div xml:id="Kali39-kilavi">
-            <p type="edition">itu “muṉṉilai yaṟaṉeṉap paṭutaleṉ ṟiruvakaip, puraitīr 
+          <div rend="parallel">
+            <p xml:id="Kali39-kilavi">itu “muṉṉilai yaṟaṉeṉap paṭutaleṉ ṟiruvakaip, puraitīr 
                 kiḷavi tāyiṭaip pukuppiṉum” <note>(to.po.114.41-42)</note> eṉṉum viti paṟṟit tamar varaivu maṟuttuḻit tōḻi 
                 tāykku aṟattoṭu niṟpa, avaḷ taṉṉaiyar mutaliyōrkku aṟattoṭu niṟpa, avarum oruvāṟṟāṉ uṭaṉpaṭṭamai 
                 tōḻi talaivikkuk kūṟit, tāṉum avaḷum varaivu kaṭitiṉ muṭitaṟporuṭṭu varaiyuṟai teyvattiṟkuk 
                 kuravaiyāṭa avaṉ varaiyavarukiṉṟamai tōḻi talaivikku uraittatu.</p>
-            <p type="translation" xml:lang="en"/>
+            <p xml:lang="en"/>
           </div>
-          <div xml:id="Kali39">
-              <lg type="edition">
+          <div rend="parallel">
+              <lg xml:id="Kali39">
                   <l>kāmar kaṭumpuṉal kalantemmō ṭāṭuvā</l>
                   <l>ṭāmaraikkaṇ putaittañcit taḷarntataṉō ṭoḻukalā</l>
                   <l>ṉīṇāka naṟuntaṇṭār tayaṅkappāyn taruḷiṉāṟ</l>
@@ -91,7 +89,7 @@
                   <l>cēyuyar veṟpaṉum vantaṉaṉ</l>
                   <l>pūveḻi luṇkaṇum polikamā viṉiyē.</l>
               </lg>
-              <lg type="translation" xml:lang="en">
+              <lg xml:lang="en">
                   <l>She who bathed with us, mingling in the desirable fast flood,</l>
                   <l>because of her slipping [and] flowing on with it, out of fear covering [her] lotus eyes,</l>
                   <l>the one who went [by], out of grace leaping [in], so that [his] fragrant cool garland</l>

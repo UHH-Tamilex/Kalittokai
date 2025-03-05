@@ -27,13 +27,13 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali85-kilavi">
-          <p type="edition">itu talaivi taṉ makaṉaip pārāṭṭip pāl kūṟiṭṭu ūṭṭukiṉṟavaḻic 
+        <div rend="parallel">
+          <p xml:id="Kali85-kilavi">itu talaivi taṉ makaṉaip pārāṭṭip pāl kūṟiṭṭu ūṭṭukiṉṟavaḻic 
             ciṟaippuṟamākak kēṭṭup pukka talaivaṉaik kaṇṭu taṉṉuḷḷē pulantu pulaviyoṭu piṉṉum pārāṭṭiyatu.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali85">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali85">
                 <l>kālavai, cuṭupoṉ vaḷaiiya vīramai cuṟṟoṭu</l>
                 <l>poṭiyaḻaṟ puṟantanta ceyvuṟu kiṇkiṇi;</l> <!-- ceyyuṟu vs ceyvuṟu, variant in text, changed here to Eva's translation choise, left unchanged in Word-->
                 <l>uṭuttavai,</l>
@@ -74,7 +74,7 @@
                 <l>varicaip perumpāṭṭo ṭellām parukīttait</l>
                 <l>taṇṭuveṉ ñāyarmāṭṭaip pāl.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l>            On the feet, along with two suitable toe-rings that curve in burning gold, </l>
 <l>well-crafted tinkling anklets that were brought out of the fire with ashes.</l>
 <l rend="space">The things worn,</l>

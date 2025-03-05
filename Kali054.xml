@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,15 +27,15 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali54-kilavi">
-          <p type="edition">itu kaippaṭṭuk kalaṅkiya varuttattaik kaḷaintēṉeṉa uraiyeṉat tōḻikku 
+        <div rend="parallel">
+          <p xml:id="Kali54-kilavi">itu kaippaṭṭuk kalaṅkiya varuttattaik kaḷaintēṉeṉa uraiyeṉat tōḻikku 
             uraittaṟkaṭ ṭalaivi kūṟiyatu. atu notumalar varaiviṟku maṇamuracu iyampiyavaḻi āṇṭāṉum 
             piṟavāṇṭāṉun tōḻikku iṉṉavāṟu kūṭṭam nikaḻntateṉak kūṟi, ataṉai namar aṟiyak kūṟalvēṇṭumeṉṟun 
             talaivaṟku nam varuttam aṟiyak kūṟalvēṇṭumeṉṟun talaivi kūṟutaṟkaṇ nikaḻvatu.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali54">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali54">
                 <l>koṭiyavuṅ kōṭṭavu nīriṉṟi niṟampeṟap</l>
                 <l>poṭiyaḻaṟ puṟantanta pūvāppūm polaṉkōtai</l>
                 <l>toṭiceṟi yāppamai yarimuṉkai yaṇaittōḷā</l>
@@ -59,7 +57,7 @@
                 <l>tiṉṉatu ceytā ḷivaḷeṉa</l>
                 <l>maṉṉā vulakattu maṉṉuvatu puraimē.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l corresp="3">            O you with shoulders [soft as] a bed [and] beautiful forearms suited to tightly tying bracelets, </l>
 <l corresp="2">with a garland of golden flowers that do not flower that are like fire protected by ashes </l>
 <l corresp="1">so that they obtain the waterless colour of [flowers] grown on creepers and branches, </l>

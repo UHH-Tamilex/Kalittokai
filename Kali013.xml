@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -28,14 +26,14 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali13-kilavi">
-          <p type="edition">itu talaimakaṉāṟ pirivu uṇarttappaṭṭu āṟṟāḷākiya talaimakaḷ, yāṉ nummoṭu pōtuval 
+        <div rend="parallel">
+          <p xml:id="Kali13-kilavi">itu talaimakaṉāṟ pirivu uṇarttappaṭṭu āṟṟāḷākiya talaimakaḷ, yāṉ nummoṭu pōtuval 
             eṉṟāṭkut, talaivaṉ avaḷatu meṉmaiyum kāṭṭiṉ kaṭumaiyuṅ kūṟi uṭampaṭāṉāka, āṟṟāḷāya talaiviyait tōḻi, 
             avar nammoṭu nakaiyāṭic coṉṉār pirivarallareṉa vaṟpuṟuttiyatu.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali13">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali13">
                 <l>cerumiku ciṉavēntaṉ civantiṟutta pulampōla</l>
                 <l>verimēynta karivaṟal vāypukuva kāṇāvāyp</l>
                 <l>porimalarn taṉṉa poṟiya maṭamāṉ</l>
@@ -65,7 +63,7 @@
                 <l>koṭuṅkuḻāy tuṟakkuna rallar</l>
                 <l>naṭuṅkutal kāṇmār nakaikuṟit taṉarē.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l corresp="9">            To the hot desert difficult to walk when the rain drops have shifted, </l>
 <l>where, </l>
 <l corresp="3">while the innocent deer that are spotted as if spots blossomed [on them] </l>

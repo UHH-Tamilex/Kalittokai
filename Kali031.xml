@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -28,15 +26,15 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali31-kilavi">
-          <p type="edition">iḵtu iḷavēṉiṟkālattu varuval, attuṇaiyum āṟṟiyiruveṉṟu maṇ nacaiyāl vēntaṉ ceṉṟavaḻi 
+        <div rend="parallel">
+          <p xml:id="Kali31-kilavi">iḵtu iḷavēṉiṟkālattu varuval, attuṇaiyum āṟṟiyiruveṉṟu maṇ nacaiyāl vēntaṉ ceṉṟavaḻi 
             muṉpaṉikkālamum piṉpaṉik-kālamum vantu varuttaliṉ āṟṟāta talaiviyait tōḻi varuvareṉa vaṟpuṟuppavum, 
             vaṉpuṟai etiraḻintavaḻit, talaivaṉ yāṅ kuṟitta paruvam varuntuṇaiyum āṟṟiyirāḷeṉap piṉpaṉikkālattu 
             varukiṉṟa varavuṇarntu tōḻi kaḻiyuvakaiyāṟ kūṟiyatu.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali31">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali31">
                 <l>kaṭumpuṉal kālpaṭṭuk kaluḻtēṟik kaviṉpeṟa</l>
                 <l>neṭuṅkayat tayalaya layirtōṉṟa vammaṇal</l>
                 <l>vaṭuttūra varippapō līṅkaivā ṭutirpukap</l>
@@ -63,7 +61,7 @@
                 <l>mīḷivēṟ ṟāṉaiyar pukutantār</l>
                 <l>nīḷuyar kūṭa ṉeṭuṅkoṭi yeḻavē.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l corresp="1">            When, after fierce flood has reached the channels, the muddiness cleared [and] beautifully </l>
 <l corresp="2a-c">fine sand appears in the long ponds in every neighbouhood, </l>
 <l corresp="2d-3">as fading date palms drop [and] fall like things lines when manifestly the pretty sand creeps up [them] </l>

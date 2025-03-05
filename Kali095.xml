@@ -27,13 +27,13 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali95-kilavi">
-          <p type="edition">itu “koṭiyōr koṭumai cuṭumeṉa voṭiyātu - nallicai nayantōr colloṭu tokaiip - pakutiyi 
+        <div rend="parallel">
+          <p xml:id="Kali95-kilavi">itu “koṭiyōr koṭumai cuṭumeṉa voṭiyātu - nallicai nayantōr colloṭu tokaiip - pakutiyi 
             ṉīṅkiya takutikkaṭ” (to.po.147) ṭalaivi parattaiyaraip pūḻākkik kūṟiyatu.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali95">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali95">
                 <l>nillāṅku nillāṅ kivartara lellānī</l>
                 <l>nāṟiruṅ kūntalā riṟcelvā yivvaḻi</l>
                 <l>yāṟu mayaṅkiṉai pōṟinī vantāṅkē</l>
@@ -68,7 +68,7 @@
                 <l>viṭalainī nīttali ṉōyperi tēykku</l>
                 <l>naṭalaippaṭ ṭellāniṉ pūḻ.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l>            Stand there. Stand there. Don’t climb, friend.</l>
 <l>You who gon to the house of those with fragrant dark tresses, this way</l>
 <l>you may seem confused about the way. Coming like that,</l>

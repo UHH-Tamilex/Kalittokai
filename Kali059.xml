@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,13 +27,13 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali59-kilavi">
-          <p type="edition">iḵtu irantu kuṟaiyuṟṟup piṉṉiṉṟa talaivaṉ āṟṟāṉāyt talaiviyai nōkki iṅṅaṉam 
+        <div rend="parallel">
+          <p xml:id="Kali59-kilavi">iḵtu irantu kuṟaiyuṟṟup piṉṉiṉṟa talaivaṉ āṟṟāṉāyt talaiviyai nōkki iṅṅaṉam 
             varuttuvaiyāyiṉ nī ceytavam iṉṟāmeṉak kūṟiyatu.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali59">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali59">
                 <l>taḷainekiḻ piṇinivanta pācaṭait tāmarai</l>
                 <l>muḷainimirn tavaipōlu muttukkō lavirtoṭi</l>
                 <l>yaṭukkanā ṟalarkānta ṇuṇṇērtaṇ ṇēruruviṟ</l>
@@ -64,7 +62,7 @@
                 <l>ceytataṉ payampaṟṟu viṭātu</l>
                 <l>nayampaṟṟu viṭiṉillai nacaiiyōr tiṟattē.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l corresp="4">            With your rounded fine beautiful forearms that resemble ladles </l>
 <l corresp="3">of a form with the cool beauty, the subtle beauty of the Malabar glory lily that scents the mountain side, </l>
 <l corresp="2">with beautiful shining pearl bracelets that resemble the erect sprouts </l>

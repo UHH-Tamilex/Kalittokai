@@ -27,12 +27,12 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali78-kilavi">
-          <p type="edition">itu parattaiyar cēriyiṟ ceṉṟuvanta talaivaṉōṭu ūṭiya kāmak-kiḻatti ūṭaṟīrkiṉṟāḷ kūṟiyatu.</p>
-          <p type="translation" xml:lang="en"/>
+        <div rend="parallel">
+          <p xml:id="Kali78-kilavi">itu parattaiyar cēriyiṟ ceṉṟuvanta talaivaṉōṭu ūṭiya kāmak-kiḻatti ūṭaṟīrkiṉṟāḷ kūṟiyatu.</p>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali78">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali78">
                 <l>paṉmalarp paḻaṉatta pācaṭait tāmarai</l>
                 <l>yiṉmala rimirpūtun tuṇaipuṇa riruntumpi</l>
                 <l>yuṇṭuṟai yuṭaintapūp puṉalcāyppap pulantūṭip</l>
@@ -61,7 +61,7 @@
                 <l>mukaimalarn taṉṉa muyakkiṟ ṟakaiyiṉṟē</l>
                 <l>taṇpaṉi vaika lemakku.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l corresp="10cd">            O man from the good village of spreading floods, </l>
 <l corresp="2">where the dark bee united with [its] mates who hum [and] gorge themselves on the sweet blossom </l>
 <l corresp="1">of the green-leaved lotus from the paddy field with many blossoms, </l>

@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -28,8 +26,8 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali2-kilavi">
-          <p type="edition">iḵtu “oṉṟāt tamariṉum” <note>(to.po.41)</note> eṉṉuñ cūttirattu,
+        <div rend="parallel">
+          <p xml:id="Kali2-kilavi">iḵtu “oṉṟāt tamariṉum” <note>(to.po.41)</note> eṉṉuñ cūttirattu,
             <l rend="2">“nāḷatu ciṉmaiyu miḷamaiya tarumaiyun</l>
             <l rend="2">tāḷāṇ pakkamun takutiya tamaitiyu</l>
             <l rend="2">miṉmaiya tiḷivu muṭaimaiya tuyarcciyu</l> 
@@ -38,10 +36,10 @@
             eṉpataṉuḷ iṉmaiyatu iḷivu kūṟi ilvāḻkkaineṟi āṟṟutaṟkup poruḷvayiṟ pirivēṉeṉṟa 
             talaimakaṟkut talaimakaḷatu iyalpu kūṟi, ippeṟṟiyāḷaip piriyāmaiyē poruḷāvateṉac collic 
             celavu aḻuṅkuvittamai tōḻi talaimakaṭku vantu colliyatu.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali2">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali2">
                 <l>toṭaṅkaṟkaṭ ṭōṉṟiya mutiyavaṉ mutalāka</l>
                 <l>vaṭaṅkātār miṭalcāya vamararvan tirattaliṉ</l>
                 <l>maṭaṅkalpōṟ ciṉaii māyañce yavuṇaraik</l>
@@ -72,7 +70,7 @@
                 <l>ṟolkaviṉ ṟolaita lañciyeṉ</l>
                 <l>colvarait taṅkiṉar kāta lōrē.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
                 <l>Listen, though, lord, as one who has is determined to traverse,</l>
                 <l>so that she of a love difficult to forget stays behind,</l>
                 <l>the long way where obstructive fires shine so that the way gets lost</l>

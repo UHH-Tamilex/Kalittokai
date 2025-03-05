@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,13 +27,13 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali53-kilavi">
-          <p type="edition">iḵtu oruvaḻittaṇantu vanta talaivaṟkut tōḻi talaivi yāṟṟāmaiyum 
+        <div rend="parallel">
+          <p xml:id="Kali53-kilavi">iḵtu oruvaḻittaṇantu vanta talaivaṟkut tōḻi talaivi yāṟṟāmaiyum 
             āṟṟuvittalatarumaiyuñ colli varaivukaṭāyatu.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali53">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali53">
                 <l>vaṟaṉuṟa laṟiyāta vaḻaiyamai naṟuñcāral</l>
                 <l>viṟaṉmalai viyalaṟai vīḻpiṭi yuḻaiyatā</l>
                 <l>maṟamiku vēḻantaṉ māṟukoṇ maintiṉāṟ</l>
@@ -61,7 +59,7 @@
                 <l>taḷipeṟat takaipeṟ ṟāṅkuniṉ</l>
                 <l>ṉaḷipeṟa nantumiva ḷāynutaṟ kaviṉē.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l corresp="7">            O man from the victorious mountain worthy to be sung when the clouds showered [their] yield, </l>
 <l corresp="6">where waterfalls tumble down noisily so as to obtain adornment when the water increases, </l>
 <l corresp="5">while every day the fragrant Malabar glory lilies newly bring forth high buds, </l>

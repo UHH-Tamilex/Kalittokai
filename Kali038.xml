@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,14 +27,14 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali38-kilavi">
-          <p type="edition">iḵtu iravukkuṟi vantu nīṅkun talaivaṉai etirppaṭṭut tōḻi 
+        <div rend="parallel">
+          <p xml:id="Kali38-kilavi">iḵtu iravukkuṟi vantu nīṅkun talaivaṉai etirppaṭṭut tōḻi 
             talaiviyatu nilaimai kūṟi avaṉai varaivu kaṭāva, avaṉ varaiyavarukiṉṟamai tōḻi talaivikku 
             varaivumalintu kūṟiyatu.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali38">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali38">
                 <l>imaiyavil vāṅkiya vīrñcaṭai yantaṇa</l>
                 <l>ṉumaiyamarn tuyarmalai yiruntaṉa ṉāka</l>
                 <l>vaiyiru talaiyi ṉarakkar kōmāṉ</l>
@@ -64,7 +62,7 @@
                 <l>vēṅkai viriviṭa nōkki</l>
                 <l>vīṅkiṟaip paṇaittōḷ varaintaṉaṉ koḷaṟkē.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l corresp="9">            Listen, man from the land, where suffers, without extracting its tusk, </l>
 <l>the rutting elephant, who took exception to the kino tree that flowered</l>
 <l corresp="6f">so as to resemble the form of the tiger it had fought, [and] pierced it, </l>
