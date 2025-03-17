@@ -233,7 +233,9 @@
 <entry>
 <form>vauvaliṉ</form>
 <def>snatching</def>
-<gramGrp type="affix"><m>iṉ</m><gramGrp><gram type="role">oblique</gram></gramGrp></gramGrp>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>meliv<c type="elided">u</c></form>
@@ -275,7 +277,9 @@
 <entry>
 <form>puliyoṭu</form>
 <def>tiger</def>
-<gramGrp type="affix"><m>oṭu</m><gramGrp><gram type="role">sociative</gram></gramGrp></gramGrp>
+<gramGrp>
+  <gram type="role">sociative</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>vil</form>
@@ -343,7 +347,9 @@
 <entry>
 <form>kuṭiyoṭu</form>
 <def>clan</def>
-<gramGrp type="affix"><m>oṭu</m><gramGrp><gram type="role">sociative</gram></gramGrp></gramGrp>
+<gramGrp>
+  <gram type="role">sociative</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>tōṉṟiya</form>
@@ -819,7 +825,9 @@
 <form>maruppiṉ</form>
 <def>horn</def>
 <form type="sandhi">maruppiṟ</form>
-<gramGrp type="affix"><m>iṉ</m><gramGrp><gram type="role">oblique</gram></gramGrp></gramGrp>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>kāri</form>
@@ -861,7 +869,9 @@
 <form>nōkkiṉ</form>
 <def>glance</def>
 <form type="sandhi">ṉōkkiṉ</form>
-<gramGrp type="affix"><m>iṉ</m><gramGrp><gram type="role">oblique</gram></gramGrp></gramGrp>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>nallāḷ</form>
@@ -941,7 +951,9 @@
 <form>tuppiṉ</form>
 <def>vigour</def>
 <form type="sandhi">tuppiṟ</form>
-<gramGrp type="affix"><m>iṉ</m><gramGrp><gram type="role">oblique</gram></gramGrp></gramGrp>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>cēey</form>
@@ -1150,7 +1162,9 @@
 <entry>
 <form><c type="glide">v</c>ēṟṟiṉ</form>
 <def>bull</def>
-<gramGrp type="affix"><m>iṉ</m><gramGrp><gram type="role">oblique</gram></gramGrp></gramGrp>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>mēl</form>
@@ -1169,7 +1183,9 @@
 <entry>
 <form>ikaliṉ</form>
 <def>being-hostile</def>
-<gramGrp type="affix"><m>iṉ</m><gramGrp><gram type="role">oblique</gram></gramGrp></gramGrp>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>miṭai</form>
@@ -1225,7 +1241,9 @@
 <entry>
 <form>maruppiṉ</form>
 <def>horn</def>
-<gramGrp type="affix"><m>iṉ</m><gramGrp><gram type="role">oblique</gram></gramGrp></gramGrp>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>māṟ<c type="elided">u</c></form>
@@ -1382,20 +1400,31 @@
   <gram type="role">infinitive</gram>
 </gramGrp>
 </entry>
-<entry>
+<superEntry type="ambiguous">
+<entry><entry>
 <form><c type="glide">v</c>arip<c type="elided">u</c></form>
 <def>cut(a.)</def>
 <form type="sandhi"><c type="glide">v</c>arip</form>
 <gramGrp>
 </gramGrp>
-</entry>
-<entry>
+</entry><entry>
 <form>arip<c type="elided">u</c></form>
 <def>cut(a.)</def>
 <form type="sandhi">arip</form>
 <gramGrp>
 </gramGrp>
-</entry>
+</entry></entry>
+<entry><entry>
+<form>vari</form>
+<def>line</def>
+</entry><entry>
+<form>parip<c type="elided">u</c></form>
+<def>run(a.)</def>
+<form type="sandhi">parip</form>
+<gramGrp>
+</gramGrp>
+</entry></entry>
+</superEntry>
 <entry>
 <form>iṟup<c type="elided">u</c></form>
 <def>broken</def>
@@ -1809,7 +1838,9 @@
 <entry>
 <form>icaiyiṉ</form>
 <def>sound</def>
-<gramGrp type="affix"><m>iṉ</m><gramGrp><gram type="role">oblique</gram></gramGrp></gramGrp>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>iyam</form>
@@ -2117,7 +2148,9 @@
 <form>mārpiṉ</form>
 <def>chest</def>
 <form type="sandhi">mārpiṟ</form>
-<gramGrp type="affix"><m>iṉ</m><gramGrp><gram type="role">oblique</gram></gramGrp></gramGrp>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>ceṟṟār</form>
@@ -2474,7 +2507,9 @@
 <form>muraciṉ</form>
 <def>drum</def>
 <form type="sandhi">muraciṟ</form>
-<gramGrp type="affix"><m>iṉ</m><gramGrp><gram type="role">oblique</gram></gramGrp></gramGrp>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>teṉṉavaṟk<c type="elided">u</c></form>
