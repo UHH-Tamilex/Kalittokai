@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -28,7 +30,7 @@
     <body>
 
         <div rend="parallel">
-          <p xml:id="Kali73-kilavi">itu “taṅkiya voḻukkattuk kiḻavaṉai vaṇaṅki, yeṅkaiyark kuraiyeṉa virattaṟkaṭ” <note>(to.po.147.15f.)</note> 
+          <p xml:id="Kali73-kilavi">itu “taṅkiya voḻukkattuk kiḻavaṉai vaṇaṅki, yeṅkaiyark kuraiyeṉa virattaṟkaṭ” <note>(to.po.147)</note> 
             ṭalaivi kūṟiyatu.</p>
           <p xml:lang="en"/>
         </div>
@@ -1196,4 +1198,97 @@
 </gramGrp>
 </entry>
 </standOff>
-</TEI>
+<standOff corresp="#Kali73-kilavi" type="wordsplit">
+<interp type="alignment" select="0">50MG36M,38MG47MG</interp>
+<entry>
+<form>itu</form>
+<def>this</def>
+</entry>
+<entry>
+<form>“taṅkiya</form>
+<def>stayed</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>oḻukkattu<c type="geminated">k</c></form>
+<def>conduct</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kiḻavaṉai</form>
+<def>hero</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaṇaṅki</form>
+<def>bowed</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>eṅkaiyarkk<c type="elided">u</c></form>
+<def>younger sister</def>
+<form type="sandhi"><c type="glide">y</c>eṅkaiyarkk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>urai</form>
+<def>tell</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>eṉa</form>
+<def>say</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>irattal</form>
+<def>begging</def>
+<form type="sandhi"><c type="glide">v</c>irattaṟ</form>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇ”</form>
+<def>place</def>
+<form type="sandhi">kaṭ”</form>
+<gramGrp>
+  <gram type="role">postposition</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>talaivi</form>
+<def>heroine</def>
+<form type="sandhi">ṭalaivi</form>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">feminine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kūṟiyatu</form>
+<def>told-it</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
