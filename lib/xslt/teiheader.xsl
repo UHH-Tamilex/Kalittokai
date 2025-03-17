@@ -57,18 +57,7 @@
             </xsl:if>
             <xsl:if test="x:editor[@role='translator']">
                 <xsl:text>Translated by </xsl:text>
-                <xsl:for-each select="x:editor[@role='translator']">
-                    <xsl:choose>
-                        <xsl:when test="position() = last() and position() != 1">
-                            <xsl:text> &amp; </xsl:text>
-                        </xsl:when>
-                        <xsl:when test="position() != 1">
-                            <xsl:text>, </xsl:text>
-                        </xsl:when>
-                        <xsl:otherwise/>
-                    </xsl:choose>
-                    <xsl:apply-templates/>
-                </xsl:for-each>
+                <xsl:value-of select="x:editor[@role='translator']"/>
                 <xsl:text>.</xsl:text>
             </xsl:if>
         </p>
