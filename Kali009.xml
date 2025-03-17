@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -28,14 +26,14 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali9-kilavi">
-          <p type="edition">iḵtu uṭaṉpōya talaivipiṉ ceṉṟa cevili iṭaiccurattu mukkōṟpakavaraik 
+        <div rend="parallel">
+          <p xml:id="Kali9-kilavi">iḵtu uṭaṉpōya talaivipiṉ ceṉṟa cevili iṭaiccurattu mukkōṟpakavaraik 
             kaṇṭu ivvakaippaṭṭārai āṇṭuk kāṇīrō-veṉa viṉaviyāṭku, avaraik kaṇṭu aḵtaṟameṉavē 
             karutip pōntēm, nīrum avartiṟattu evvampaṭa vēṇṭāveṉa ētu-kāṭṭi avar teruṭṭiyatu.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali9">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali9">
                 <l>eṟittaru katirtāṅki yēntiya kuṭainīḻa</l>
                 <l>luṟittāḻnta karakamu muraicāṉṟa mukkōlu</l>
                 <l>neṟippaṭac cuvalacaii vēṟōrā neñcattuk</l>
@@ -61,7 +59,7 @@
                 <l>ciṟantāṉai vaḻipaṭīic ceṉṟaṉa</l>
                 <l>ḷaṟantalai piriyā vāṟumaṟ ṟatuvē.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
                 <l>“Oh brahmins with a gait that holds [your] nature of doing the command intended</l>
                 <l>by the heart that does not agree to another, having orderly tied to [your] shoulder</l>
                 <l>the pitcher that hangs from the net and the trident worthy to by spoken about</l>

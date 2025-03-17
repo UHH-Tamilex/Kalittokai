@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,13 +27,13 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali44-kilavi">
-          <p type="edition">itu varaiyātu vantoḻukun talaivaṉait tōḻi, talaiviyatu kaṟpu mikutiyum ivvoḻukkam 
+        <div rend="parallel">
+          <p xml:id="Kali44-kilavi">itu varaiyātu vantoḻukun talaivaṉait tōḻi, talaiviyatu kaṟpu mikutiyum ivvoḻukkam 
             alarākiṉṟamaiyum avaḷatu āṟṟāmaiyuṅ kūṟi, varaivu kaṭāyatu.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali44">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali44">
                 <l>katirviri kaṉaicuṭark kaviṉkoṇṭa naṉañcāra</l>
                 <l>letireti rōṅkiya mālvarai yaṭukkat</l>
                 <l>tatiricai yaruvita ṉañciṉai micaivīḻa</l>
@@ -58,7 +56,7 @@
                 <l>ḷaruntuya rārañar tīrkku</l>
                 <l>maruntākic celkam peruma nāmviraintē.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
                 <l>Oh man from the victorious mountain fragrant of honey that is as if Śrī was lovingly sitting [on it],</l>
                 <l>having reached distinction on the pretty place of the lotus blossom on which filaments become loose,</l>
                 <l>while handsome elephant bulls with lines forehead pour flowers [and] water upon [her],</l>

@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,13 +27,13 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali49-kilavi">
-          <p type="edition">itu nīr ivvāṟu varukiṉṟa varavu emakkut tuṉpattiṟkuk kāraṇamākā niṉṟateṉak 
+        <div rend="parallel">
+          <p xml:id="Kali49-kilavi">itu nīr ivvāṟu varukiṉṟa varavu emakkut tuṉpattiṟkuk kāraṇamākā niṉṟateṉak 
             kūṟi iravu varuvāṉait tōḻi pakal varukaveṉṟatu.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali49">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali49">
                 <l>koṭuvari tākki veṉṟa varuttamoṭu</l>
                 <l>neṭuvarai maruṅkiṟ ṟuñcum yāṉai</l>
                 <l>naṉaviṟṟāṉ ceytatu maṉatta tākaliṟ</l>
@@ -62,7 +60,7 @@
                 <l>yakalaṟai varikkuñ cāraṟ</l>
                 <l>pakalum peṟuvaiyiva ṭaṭameṉ ṟōḷē.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l corresp="9cd">            O man from the good land of good mountains, </l>
 <l corresp="2">where the elephant that sleeps at the side of the tall mountain </l>
 <l corresp="1">with suffering, as it had been attacked [and] vanquished by a [tiger with] curved stripes, </l>

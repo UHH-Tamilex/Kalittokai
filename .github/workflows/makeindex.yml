@@ -38,3 +38,10 @@ jobs:
           commit_message: automatic wordindex update
           file_pattern: index.html wordindex.html wordindex.db
           commit_user_name: Tamilex Bot
+
+      - name: deploy
+        uses: peaceiris/actions-gh-pages@v4
+        with: 
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./
+          exclude_assets: '.github'

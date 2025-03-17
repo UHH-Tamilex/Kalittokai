@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -28,14 +26,14 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali21-kilavi">
-          <p type="edition">itu talaimakaṉāṟ pirivuṇarttappaṭṭa tōḻi avaṉai neruṅkik, kaḷavukālattoḻukkam 
+        <div rend="parallel">
+          <p xml:id="Kali21-kilavi">itu talaimakaṉāṟ pirivuṇarttappaṭṭa tōḻi avaṉai neruṅkik, kaḷavukālattoḻukkam 
             eṭuttukkāṭṭalāṟ ṟeḷivupaṭa moḻintatūum poruḷatu nilaiyiṉmaiyum avaḷatu āṟṟāmaiyuṅ kūṟic 
             celavu maṟuttatu.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali21">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali21">
                 <l>pāṉmaruṇ maruppi ṉuralpurai pāvaṭi</l>
                 <l>yīrnaṟuṅ kamaḻkaṭāat tiṉampiri yorutta</l>
                 <l>lāṟukaṭi koḷḷum vēṟupulam paṭarntu</l>
@@ -51,7 +49,7 @@
                 <l>ṟimaippuvarai vāḻāṇ maṭavō</l>
                 <l>ḷamaikkaviṉ koṇṭa tōḷiṇai maṟantē.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l corresp="3">            “Setting out for other regions where the path is watched over </l>
 <l corresp="2">by the male, separated from the herd, with moist fragrant scented icquor, </l>
 <l corresp="1">mortar-like broad feet [and] milk-like tusks, </l>

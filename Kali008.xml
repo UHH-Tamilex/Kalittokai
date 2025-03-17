@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -28,13 +26,13 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali8-kilavi">
-          <p type="edition">itu collātu piriyaluṟṟa talaivaṉ kuṟippaṟintu tōḻi poruḷatu 
+        <div rend="parallel">
+          <p xml:id="Kali8-kilavi">itu collātu piriyaluṟṟa talaivaṉ kuṟippaṟintu tōḻi poruḷatu 
             nilaiyāmai kūṟi avaḷoṭu kūṭic celkiṉṟa ilvāḻkkaic celavē poruḷeṉa avaṉ celavaḻuṅkak kūṟiyatu.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali8">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali8">
                 <l>naṭuvikan torīi nayaṉillāṉ viṉaivāṅkak</l>
                 <l>koṭitōrtta maṉṉavaṉ kōlpōla ñāyiṟu</l>
                 <l>kaṭukupu katirmūṭṭik kāyciṉan teṟutali</l>
@@ -60,7 +58,7 @@
                 <l>taṉṉakar viḻaiyak kūṭi</l>
                 <l>ṉiṉṉuṟal viyaṉmārpa vatumaṉum poruḷē.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l corresp="7a-c">            To you who, without saying [anything], resolved to traverse </l>
 <l corresp="6">the hot desert difficult to walk where the victorious mountains are hot </l>
 <l corresp="4">so that the handsome elephant bull that is weakened by the oozing, fragrant musth he experiences </l>

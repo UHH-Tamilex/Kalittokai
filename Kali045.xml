@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,13 +27,13 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali45-kilavi">
-          <p type="edition">itu varaiviṭai yāṟṟāta talaivikkut tōḻi tāṉ talaivaṉai neruṅki varaivukaṭāva 
+        <div rend="parallel">
+          <p xml:id="Kali45-kilavi">itu varaiviṭai yāṟṟāta talaivikkut tōḻi tāṉ talaivaṉai neruṅki varaivukaṭāva 
             atukēṭṭa talaivaṉ varaivumuyaṟciyāṉ varutal iṭaiyiṭṭatūun tamar varai vetirntatūuṅ kūṟi avaḷai āṟṟuvittatu.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali45">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali45">
                 <l>viṭiyalveṅ katirkāyum vēyama lakalaṟaik</l>
                 <l>kaṭicuṉaik kaviṉiya kāntaḷaṅ kulaiyiṉai</l>
                 <l>yarumaṇi yavirutti yaravunī ruṇalcettup</l>
@@ -61,7 +59,7 @@
                 <l>piṟaipurai nutalavarp pēṇinam</l>
                 <l>muṟaivarain taṉarava ruvakku nāḷē.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l corresp="7cd">            O man from the victorious mountain high in the distance, where </l>
 <l corresp="3">the snake with hood spots that shine [like] precious sapphires takes for water to drink </l>
 <l corresp="2">the bunches of Malabar lilies that beautified the protected pool </l>

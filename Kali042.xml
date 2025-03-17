@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,15 +27,15 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali42-kilavi">
-          <p type="edition">itu muṉpu peṟṟavaḻi malintataṉaip piṉpu pirintavaḻik kalaṅkik kūṟiyatu. eṉṉai? 
+        <div rend="parallel">
+          <p xml:id="Kali42-kilavi">itu muṉpu peṟṟavaḻi malintataṉaip piṉpu pirintavaḻik kalaṅkik kūṟiyatu. eṉṉai? 
             talaivaṉ arumai ceytayarttavaḻit tōḻi talaiviyai āṟṟuvittaṟporuṭṭut talaivaṉai iyaṟpaḻippat 
             talaivi iyaṟpaṭamoḻintataṉaic ciṟaippuṟamākak kēṭṭut talaivaṉ muṉṉorukāl vantu ciṟupuṟañ cārat 
             tāṉ āṟṟiṉamai kuṟittup piṉṉorukāl avvāṟu pāṭa avaṉ ciṟupuṟañ cārāmaiyiṟ kalaṅki neñcoṭu kūṟiyatākaliṉ.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali42">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali42">
                 <l>maṟaṅko ḷirumpulit toṉmuraṇ ṭolaitta</l>
                 <l>muṟañcevi vāraṇa muṉkuḷa karuntik</l>
                 <l>kaṟaṅkumveḷ ḷaruvi yoliyiṟ ṟuñcum</l>
@@ -71,7 +69,7 @@
                 <l>ñāyiṟṟu muṉṉa riruḷpōla māyntateṉ</l>
                 <l>ṉāyiḻai mēṉip pacappu.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l>            Come oh friend, in order to see: it has waterfalls,</l>
 <l>hanging from the mountain, that took the colour of light,</l>
 <l>the mountain in the land of the shameless man without consideration.</l>

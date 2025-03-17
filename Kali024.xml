@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -28,13 +26,13 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali24-kilavi">
-          <p type="edition">itu talaimakaṉ kuṟippuk kaṇṭu pirivaṉeṉa aiyuṟṟuc celkiṉṟa talaivi akkālattut talaivaṉ 
+        <div rend="parallel">
+          <p xml:id="Kali24-kilavi">itu talaimakaṉ kuṟippuk kaṇṭu pirivaṉeṉa aiyuṟṟuc celkiṉṟa talaivi akkālattut talaivaṉ 
             kaṉaviṉ araṟṟiṉamai kēṭṭup poruḷvayiṟ pirikiṉṟāṉeṉat tuṇintu āṟṟāḷāyt tōḻikkuc colliyatu.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali24">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali24">
                 <l>neñcu naṭukkuṟak kēṭṭuṅ kaṭuttuntā</l>
                 <l>mañciya tāṅkē yaṇaṅkāku meṉṉuñco</l>
                 <l>liṉṟīṅ kiḷaviyāy vāymaṉṟa niṉkēḷ</l>
@@ -53,7 +51,7 @@
                 <l>ṉoyyār nuvalum paḻiniṟpat tammoṭu</l>
                 <l>pōyiṉṟu colleṉ ṉuyir.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l>            The words that says: “having heard something they fear and throbbed</l>
 <l>at [it] so that the heart shivers thus it will become a torment,”</l>
 <l corresp="1-3">it certainly is true, you with pleasing sweet speech. Now listen: </l>

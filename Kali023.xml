@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -28,13 +26,13 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali23-kilavi">
-          <p type="edition">itu pirivuṇarttappaṭṭu āṟṟāḷāya talaivi emmaiyum uṭaṉkoṇṭu ceṉmiṉeṉṟāṭku uṭaṉpaṭātu 
+        <div rend="parallel">
+          <p xml:id="Kali23-kilavi">itu pirivuṇarttappaṭṭu āṟṟāḷāya talaivi emmaiyum uṭaṉkoṇṭu ceṉmiṉeṉṟāṭku uṭaṉpaṭātu 
             avaṉ piriyaluṟat taṉatu iṟantupāṭutōṉṟak kūṟiyatu.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali23">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali23">
                 <l>ilaṅkoḷi maruppiṟ kaimmā vuḷampunar</l>
                 <l>pulaṅkaṭi kavaṇaiyiṟ pūñciṉai yutirkku</l>
                 <l>milaṅkumalai vempiya pōkkaru veñcuran</l>
@@ -55,7 +53,7 @@
                 <l>niṉṉāṅku varūumeṉ ṉeñciṉai</l>
                 <l>yeṉṉāṅku vārā tōmpiṉai koṇmē.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l>            Now, I </l>
 <l>won’t eat at all and I won’t live at all,</l>
 <l rend="space">Those who have been abandoned after the beauty of [their] shoulders has been consumed</l>

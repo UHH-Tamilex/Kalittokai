@@ -27,12 +27,12 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali91-kilavi">
-          <p type="edition">ituvumatu.</p>
-          <p type="translation" xml:lang="en"/>
+        <div rend="parallel">
+          <p xml:id="Kali91-kilavi">ituvumatu.</p>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali91">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali91">
                 <l>arinī raviḻnīla malli yaṉiccam</l>
                 <l>purinekiḻ mullai naṟavō ṭamainta</l>
                 <l>terimalark kaṇṇiyun tāru nayantār</l>
@@ -58,7 +58,7 @@
                 <l>kāṇi ṉekiḻumeṉ ṉeñcāyi ṉeṉṉuṟṟāy</l>
                 <l>pēṇāynī peṭpac ceyal.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l>            You with shoulders soft to touch, what is [the point of] being angry here, speaking about things [I] did not do?</l>
 <l>Because of doubt, there is no evil of condition in me.</l>
 <l>Through god please see. I will explain.</l>

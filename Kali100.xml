@@ -27,12 +27,12 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali100-kilavi">
-          <p type="edition">ituvumatu.</p>
-          <p type="translation" xml:lang="en"/>
+        <div rend="parallel">
+          <p xml:id="Kali100-kilavi">ituvumatu.</p>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali100">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali100">
                 <l>īṇṭunīr micaittōṉṟi yiruḷcīkkuñ cuṭarēpōl</l>
                 <l>vēṇṭātār neñcuṭka veruvanta koṭumaiyu</l>
                 <l>nīṇṭutōṉ ṟuyarkuṭai niḻaleṉac cērntārkkuk</l>
@@ -57,8 +57,8 @@
                 <l>niṉṉaiyāṉ kaḻaṟutal vēṇṭumō</l>
                 <l>veṉṉōrka ḷiṭumpaiyuṅ kaḷaintīvāy niṉakkē.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
-<l corresp="6">            You with a drum of sounding sound who is worshipped [and] praised by people anywhere </l>
+            <lg xml:lang="en">
+<l corresp="6">You with a drum of sounding sound who is worshipped [and] praised by people anywhere </l>
 <l corresp="5">in the wide world, without a stain on your glorious conduct, </l>
 <l corresp="2">with cruelty that frightens the enemies so that [their] hearts dread [you], </l>
 <l corresp="1">just like the sun that sweeps away the darkness, appearing on the water here, </l>

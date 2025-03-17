@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,14 +27,14 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali92-kilavi">
-          <p type="edition">itu parattaiyiṟ pirintu vanta talaivaṉ vāyilpeṟātu āṟṟāmai vāyilākap 
+        <div rend="parallel">
+          <p xml:id="Kali92-kilavi">itu parattaiyiṟ pirintu vanta talaivaṉ vāyilpeṟātu āṟṟāmai vāyilākap 
             pukkut talaiviyai nayappittal kāraṇamākat teyvamakaḷir poytalāṭuvatoru kaṉākkaṇṭēṉ, 
             atu naṉvāyp paruvam vantu iṟuttatu pārāyeṉa ūṭaṟīrvatu payaṉākat talaivikkuk kūṟiyatu.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali92">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali92">
                 <l>puṉavaḷar pūṅkoṭi yaṉṉāy kaḻiyak</l>
                 <l>kaṉaveṉap paṭṭatōr kārikai nīrttē</l>
                 <l>muyaṅkiya nallār mulaiyiṭai mūḻki</l>
@@ -106,7 +104,7 @@
                 <l>rāṉā viruppō ṭaṇiyayarpa kāmaṟku</l>
                 <l>vēṉil viruntetir koṇṭu.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
                 <l>HE</l>
                 <l>You who are like a flower creeper growing in the field, a</l>
                 <l>thing of very beautiful nature happened as a dream.</l>

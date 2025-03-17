@@ -27,13 +27,13 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali97-kilavi">
-          <p type="edition">itu “koṭiyōr koṭumai cuṭumeṉa ... pakutiyi ṉīṅkiya takutikkaṭ” ṭalaivi 
+        <div rend="parallel">
+          <p xml:id="Kali97-kilavi">itu “koṭiyōr koṭumai cuṭumeṉa ... pakutiyi ṉīṅkiya takutikkaṭ” ṭalaivi 
             parattaiyarai yāṉaiyākak kūṟip pulantatu.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali97">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali97">
                 <l>aṉṉai kaṭuñco laṟiyātāy pōlanī</l>
                 <l>yeṉṉaip pulappa toṟukkuveṉ maṉyāṉ</l>
                 <l>ciṟukālai yiṟkaṭai vantu kuṟiceyta</l>
@@ -66,7 +66,7 @@
                 <l>viṭāatu nīyemmil vantāyav viyāṉai</l>
                 <l>kaṭāam paṭumiṭat tōmpu.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
                 <l>“You are like that, as if you didn’t know harsh words.</l>
                 <l>I dislike [your] sulking with me.”</l>
                 <l>“Coming to the house gate in the early morning, I have never</l>

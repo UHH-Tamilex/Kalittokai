@@ -27,14 +27,14 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali76-kilavi">
-          <p type="edition">iḵtu “acca nīṭiṉum” (to.po.111) eṉṟataṉāṟ kūṭṭamuṇmai uṇarnta tōḻikku uṇmai 
+        <div rend="parallel">
+          <p xml:id="Kali76-kilavi">iḵtu “acca nīṭiṉum” (to.po.111) eṉṟataṉāṟ kūṭṭamuṇmai uṇarnta tōḻikku uṇmai 
             kūṟutaṟku añciya accam nīṭṭittut talaivi kūṟiyatu. itu “tiṇaimayak kuṟutaluṅ kaṭinilai yilavē” 
             eṉṉuñ cūttiravitiyāṉ (to.po.12), marutattuk kuṟiñci vantatu.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali76">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali76">
                 <l>puṉaiyiḻai nōkkiyum puṉalāṭap puṟañcūḻntu</l>
                 <l>maṇivari taiiyunam milvantu vaṇaṅkiyu</l>
                 <l>niṉaiyupu varuntumin neṭuntakai tiṟattivvū</l>
@@ -58,7 +58,7 @@
                 <l>tāṉayan tiruntativ vūrāyi ṉevaṉkolō</l>
                 <l>nāñceyaṟ pāla tiṉi.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l corresp="5ab">            If I ask </l>
 <l corresp="4">“are you like that, to bring up [and] recite ‘she is like this, </l>
 <l corresp="3">in this village, on account of this paragon who suffers when thinking </l>

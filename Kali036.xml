@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -28,13 +26,13 @@
   <text xml:lang="ta" type="edition">
     <body>
 
-        <div xml:id="Kali36-kilavi">
-          <p type="edition">itu kālaṅkaṇṭu āṟṟāta talaiviyatu nilaimaikaṇṭu, āṟṟāta tōḻi tāṉ āṟṟāḷāy 
+        <div rend="parallel">
+          <p xml:id="Kali36-kilavi">itu kālaṅkaṇṭu āṟṟāta talaiviyatu nilaimaikaṇṭu, āṟṟāta tōḻi tāṉ āṟṟāḷāy 
             avaṭkuk kūṟiyatu.</p>
-          <p type="translation" xml:lang="en"/>
+          <p xml:lang="en"/>
         </div>
-        <div xml:id="Kali36">
-            <lg type="edition">
+        <div rend="parallel">
+            <lg xml:id="Kali36">
                 <l>koṭumiṭa ṉāñcilāṉ ṟārpōṉ marāttu</l>
                 <l>neṭumicaic cūḻu mayilāluñ cīra</l>
                 <l>vaṭinaram picaippapōl vaṇṭoṭu curumpārppat</l>
@@ -62,7 +60,7 @@
                 <l>kēḷvi yantaṇar kaṭavum</l>
                 <l>vēḷvi yāviyi ṉuyirkkumeṉ ṉeñcē.</l>
             </lg>
-            <lg type="translation" xml:lang="en">
+            <lg xml:lang="en">
 <l corresp="3">            While bees1 buzz with bees2 like when refined string sound </l>
 <l corresp="2">that are the time measure when the peacocks dance who surround the high top </l>
 <l corresp="1">of the kadamba trees like the garland of him with the curved strong plough, </l>
