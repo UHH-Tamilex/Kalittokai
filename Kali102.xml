@@ -7,7 +7,7 @@
       <titleStmt>
         <title>
             <title xml:lang="ta">Kalittokai</title> 102. 
-            <persName xml:lang="ta"></persName>
+            <persName xml:lang="ta"/>
         </title>     
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
@@ -16,7 +16,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -32,7 +32,7 @@
 
         <div rend="parallel">
           <p xml:id="Kali102-kilavi">iḵtu āyaṉ talaivaṉāy ēṟu taḻuviṉamai cuṟṟattār kaṇṭu niṉṟu kūṟiyatu.</p>
-          <p xml:lang="en"></p>
+          <p xml:lang="en"/>
         </div>
         <div rend="parallel">
             <lg xml:id="Kali102">
@@ -1127,4 +1127,78 @@
 <def>word.</def>
 </entry>
 </standOff>
-</TEI>
+<standOff corresp="#Kali102-kilavi" type="wordsplit">
+<interp type="alignment" select="0">60M,59MG</interp>
+<entry>
+<form>iḵtu</form>
+<def>this</def>
+</entry>
+<entry>
+<form>āyaṉ</form>
+<def>cowherd</def>
+<gramGrp>
+  <gram type="role">masculine singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>talaivaṉ</form>
+<def>hero</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āy</form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ēṟu</form>
+<def>bull</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taḻuviṉamai</form>
+<def>having-embraced</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cuṟṟattār</form>
+<def>retinue-they</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇṭu</form>
+<def>seen</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉṟu</form>
+<def>stood</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kūṟiyatu</form>
+<def>told-it</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
