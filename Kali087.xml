@@ -749,7 +749,7 @@
 </entry>
 </standOff>
 <standOff corresp="#Kali87-kilavi" type="wordsplit">
-<interp type="alignment" select="0">31MG67ML24M,123MG</interp>
+<interp type="alignment" select="0">98ML24M,122MG</interp>
 <entry>
 <form>itu</form>
 <def>this</def>
@@ -778,17 +778,10 @@
 </gramGrp>
 </entry>
 <entry>
-<form>aṟint<c type="elided">u</c></form>
-<def>known</def>
-<form type="sandhi">aṟint</form>
+<form>aṟintilaḷ</form>
+<def>know-not-she</def>
 <gramGrp>
-  <gram type="role">absolutive</gram>
-</gramGrp>
-</entry>
-<entry>
-<form>ilaḷ</form>
-<def>not she</def>
-<gramGrp>
+  <gram type="role">negative</gram>
   <gram type="role">singular</gram>
   <gram type="role">feminine</gram>
 </gramGrp>
