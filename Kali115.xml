@@ -144,7 +144,9 @@
 <entry>
 <form><c type="glide">v</c>uraittāṅku<c type="geminated">k</c></form>
 <def>told</def>
-<gramGrp type="affix"><m>āṅku</m><gramGrp><gram type="role">comparative</gram></gramGrp></gramGrp>
+<gramGrp>
+  <gram type="role">comparative</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>karantatū<c type="elided">u</c>-um</form>
@@ -156,7 +158,9 @@
 <entry>
 <form>kaiyoṭu</form>
 <def>hand</def>
-<gramGrp type="affix"><m>oṭu</m><gramGrp><gram type="role">sociative</gram></gramGrp></gramGrp>
+<gramGrp>
+  <gram type="role">sociative</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>kōḷ</form>
@@ -266,6 +270,7 @@
 <form><c type="glide">y</c>āy</form>
 <def>select</def>
 <gramGrp>
+  <gram type="role">verbal root</gram>
 </gramGrp>
 </entry></entry>
 </superEntry>
@@ -606,7 +611,9 @@
 <entry>
 <form>varaippiṉ</form>
 <def>border</def>
-<gramGrp type="affix"><m>iṉ</m><gramGrp><gram type="role">oblique</gram></gramGrp></gramGrp>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>maṇal</form>
