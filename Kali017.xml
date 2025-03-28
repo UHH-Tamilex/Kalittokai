@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -383,7 +385,6 @@
 <def>compel-you</def>
 <form type="simple">valitti</form>
 <gramGrp>
-  <gram type="role">subjuntive</gram>
   <gram type="role">singular</gram>
   <gram type="role">second person</gram>
 </gramGrp>
@@ -475,7 +476,7 @@
 </entry>
 <entry>
 <form>ōṭum</form>
-<def>running-</def>
+<def>fleeing-</def>
 <form type="sandhi">oṭun</form>
 <gramGrp>
   <gram type="role">peyareccam</gram>
@@ -599,7 +600,6 @@
 <def>make-effort-you</def>
 <form type="simple">muyaṟi</form>
 <gramGrp>
-  <gram type="role">subjuntive</gram>
   <gram type="role">singular</gram>
   <gram type="role">second person</gram>
 </gramGrp>
@@ -827,7 +827,6 @@
 <def>make-effort-you</def>
 <form type="simple">muyaṟi</form>
 <gramGrp>
-  <gram type="role">subjuntive</gram>
   <gram type="role">singular</gram>
   <gram type="role">second person</gram>
 </gramGrp>
