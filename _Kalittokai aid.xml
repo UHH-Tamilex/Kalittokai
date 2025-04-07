@@ -48,8 +48,14 @@ COPY STANDOFF FROM INTERFACE HERE
 </TEI>
 
 
-If there are alternative translations:
-<choice><seg></seg>			<seg></seg></choice>
+If there are alternative translations; inline:
+<choice><seg>alternative1</seg><seg>alternative2</seg></choice>
+
+If there is alternate tranlation; alternative poem or lines are put in a frame - maybe best for whole (short) poems?:
+<lg type="alternate" sameAs="lineNrs">
+  <l>evening who does unpleasant things harasses [us] without a place [to take refuge in].</l>
+  ...add any number of lines...
+</lg>
 
 For surplus notes (like (Brahmā) in Kali01):
 <entry>     
@@ -59,13 +65,10 @@ For surplus notes (like (Brahmā) in Kali01):
 </entry>
 
 for space between lines / Tamil original: after a line ending with colon;
-
 <l rend="space">
 
-for chunks in English translation (check with the split or word-by-word translation for chunks)
-
+for chunks in English translation (check with the split or word-by-word translation for chunks):
 <l corresp="number of line(s)">
 
 lines starting with tabs/spaces
-
 <l rend="indentNr"> Nr can be any number, check the ready xml in LiveServer what number to use the phrase or word to be in the end of line, but not overflowing to the next line 
