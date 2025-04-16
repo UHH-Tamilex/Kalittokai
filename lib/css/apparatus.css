@@ -29,7 +29,9 @@ section div.wide {
     line-height: 1.3rem;
     position: sticky;
 }
-
+.hidden {
+    display: none;
+}
 .apparatus-block span.note::after,
 .apparatus-block span.note::before {
     content: '';
@@ -39,10 +41,12 @@ section div.wide {
     font-size: 90%;
     white-space: normal;
 }
-
+.ignoredtags {
+    display: none;
+}
 .app {
-    margin-right: 2em;
-    white-space: nowrap;
+    /*margin-right: 2em;*/
+    white-space: normal;
 }
 
 .lem-inline:not(.lem-anchor) {
@@ -54,8 +58,10 @@ section div.wide {
 .lem-anchor {
     font-variant: super;
 }
-
-.lem-inline:hover, .lem-inline:hover *, .lem:hover, .highlit, .highlit * {
+.lem .caesura {
+    display: none;
+}
+.lem-inline:hover, .lem-inline:hover *, .lem .rdg-text:hover, .highlit, .highlit * {
     text-decoration: none;
     background: rgba(255,255,128,1);
 }
@@ -71,13 +77,22 @@ section div.wide {
 */
 
 .lem {
+    white-space: nowrap;
+    margin-right: 0.4rem;
+}
+
+.lem .rdg-text {
     font-weight: bold;
     margin-right: 0.5em;
     white-space: normal;
 }
 
-.lem:not(.lem-anchor)::after {
+.lem .rdg-text::after {
     content: ']';
+}
+
+.lem-wit {
+    white-space: normal;
 }
 
 .rdg-text {
@@ -90,6 +105,11 @@ section div.wide {
 
 .rdg {
     white-space: nowrap;
+    margin-right: 0.4rem;
+}
+
+.rdg-wit {
+    white-space: normal;
 }
 
 .rdg-alt {
@@ -107,11 +127,11 @@ section div.wide {
     border-bottom: 2px dotted rgb(168,81,16);
 }
 
-.rdg:not(:last-child) .rdg-wit .msid:last-child::after, .lem-wit > .msid:last-child::after {
+.rdg:not(:last-child) .rdg-wit::after, .lem-wit::after {
     content: ';';
 }
 
-.rdg:last-child .rdg-wit .msid:last-child::after {
+.rdg:last-child .rdg-wit::after {
     content: '.';
 }
 
@@ -230,6 +250,10 @@ a.alignment-pointer:link, a.alignment-pointer:active {
     cursor: default;
 }
 
+.apparatus-block .anchored-note {
+    display: inline-block;
+}
+
 .anchor.highlit::after {
     background: rgba(255,255,128,1);
 }
@@ -248,14 +272,6 @@ a.alignment-pointer:link, a.alignment-pointer:active {
 
 .parallel .text-block {
     width: unset;
-}
-
-.ignoredtags {
-    display: none;
-}
-
-.hidden {
-    display: none;
 }
 
 @media (max-width: 600px) {

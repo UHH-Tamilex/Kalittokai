@@ -154,11 +154,11 @@
 
 <xsl:template match="x:lg">
     <xsl:text>
-\stanza[\smallskip]
+\begin{astanza}[\smallskip]
 
 </xsl:text><xsl:apply-templates select="x:l | x:trailer"/>
 <xsl:text>
-
+\end{astanza}
 </xsl:text>
 </xsl:template>
 
@@ -207,7 +207,7 @@
 </xsl:template>
 
 <xsl:template match="x:unclear">
-<xsl:text>\textenglish{\color{lightgray}(}</xsl:text><xsl:apply-templates/><xsl:text>\textenglish{\color{lightgray})}</xsl:text>
+<xsl:text>\textenglish{\color{gray}(}</xsl:text><xsl:apply-templates/><xsl:text>\textenglish{\color{gray})}</xsl:text>
 </xsl:template>
 
 <xsl:template match="x:subst">
@@ -234,7 +234,7 @@
 </xsl:template>
 
 <xsl:template match="x:sic">
-    <xsl:text>\textenglish{\color{lightgray}¿}</xsl:text><xsl:apply-templates/><xsl:text>\textenglish{\color{lightgray}?}</xsl:text>
+    <xsl:text>\textenglish{\color{gray}¿}</xsl:text><xsl:apply-templates/><xsl:text>\textenglish{\color{gray}?}</xsl:text>
 </xsl:template>
 
 <xsl:template match="x:surplus">
@@ -255,7 +255,7 @@
 </xsl:template>
 
 <xsl:template match="x:lb">
-    <xsl:text>\textenglish{\textbf{⸤}}</xsl:text>
+    <xsl:text>\textenglish{\color{gray}⸤}</xsl:text>
     <!--
         <xsl:text>\textsc{(</xsl:text>
         <xsl:choose>
@@ -270,27 +270,16 @@
     -->
 </xsl:template>
 
-<xsl:template match="x:pb">
-    <xsl:text>\textenglish{\textbf{⎡}}</xsl:text>
-    <!--
-        <xsl:text>\textsc{(</xsl:text>
-        <xsl:choose>
-            <xsl:when test="@n">
-                <xsl:text>f. </xsl:text><xsl:value-of select="@n"/>
-            </xsl:when>
-            <xsl:otherwise>
-                <xsl:text>page break</xsl:text>
-            </xsl:otherwise>
-        </xsl:choose>
-        <xsl:text>)}</xsl:text>
-    -->
-</xsl:template>
+<!--xsl:template match="x:pb">
+    <xsl:text>\textenglish{\color{gray}⎡}</xsl:text>
+</xsl:template-->
+<xsl:template match="x:pb"/>
 
 <xsl:template match="x:g">
     <xsl:text>\uwave{</xsl:text><xsl:apply-templates/><xsl:text>}</xsl:text>           
 </xsl:template>
 <xsl:template match="x:g[@rend='vowel-sign']">
-    <xsl:text>\vowelsign{</xsl:text><xsl:apply-templates/><xsl:text>}</xsl:text>           
+    <xsl:text>{\vowelsign{}</xsl:text><xsl:apply-templates/><xsl:text>}</xsl:text>           
 </xsl:template>
 
 <xsl:template match="x:supplied">
@@ -400,7 +389,7 @@
 <xsl:template match="x:item/x:quote/x:lg/x:l">
     <xsl:apply-templates/>
 </xsl:template>
--->
+
 <xsl:template match="x:item/x:title">
     <xsl:text>\emph{</xsl:text><xsl:apply-templates/><xsl:text>}</xsl:text>
 </xsl:template>
@@ -443,7 +432,7 @@
         <xsl:when test="./node()">
             <xsl:apply-templates select="./node()"/>
         </xsl:when>
-        <xsl:otherwise><xsl:text>\textsc{om.}</xsl:text></xsl:otherwise>
+        <xsl:otherwise><xsl:text>\textenglish{\textsc{om.}}</xsl:text></xsl:otherwise>
     </xsl:choose>
     <xsl:text> </xsl:text>
     <xsl:text>\textenglish{</xsl:text>
