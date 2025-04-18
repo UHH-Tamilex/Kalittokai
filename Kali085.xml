@@ -123,7 +123,7 @@
     </body>
   </text>
   <standOff type="wordsplit" corresp="#Kali85">
-<interp type="alignment" select="0">60MG40MG162MG10MG37ML44MG15MG14MG13MG6MG5MG33MG26MG10MG17MG34MG7MG8MG14MG43MR14MG8MG5MG3MG9MG7ML100ML14MR36ML75MG66MG8MG24MG15MG21MG57MG10MG30M,7MG63MG9MG97MG8MG57MG8MG110MG6MG159MG4MG142MG10MG110MG9MG78MG8MG82MG7MG28MG2MG18MG92MG</interp>
+<interp type="alignment" select="0">60MG40MG162MG10MG37ML44MG29MG13MG6MG5MG33MG26MG10MG17MG34MG7MG8MG14MG43MR14MG8MG5MG3MG9MG7ML100ML14MR36ML75MG66MG8MG24MG15MG21MG57MG10MG30M,7MG63MG9MG97MG8MG57MG8MG110MG165MG4MG142MG10MG110MG9MG78MG8MG82MG7MG28MG2MG18MG92MG</interp>
 <entry>
 <form>kālavai</form>
 <def>leg-they</def>
@@ -457,18 +457,11 @@
 </gramGrp>
 </entry>
 <entry>
-<form>kaṇ</form>
-<def>eye</def>
+<form>kaṇṇuḷ</form>
+<def>dance</def>
+<form type="sandhi">kaṇṇuṭ</form>
 <gramGrp>
   <gram type="role">noun</gram>
-</gramGrp>
-</entry>
-<entry>
-<form><c type="geminated">ṇ</c>uḷ</form>
-<def>inside</def>
-<form type="sandhi"><c type="geminated">ṇ</c>uṭ</form>
-<gramGrp>
-  <gram type="role">postposition</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -671,7 +664,6 @@
 <entry>
 <form>cūṭiṉa</form>
 <def>worn-they</def>
-<form type="sandhi">cūṭiṉai</form>
 <gramGrp>
   <gram type="role">participial noun</gram>
   <gram type="role">neuter plural</gram>
@@ -681,7 +673,7 @@
 <entry>
 <form>irum</form>
 <def>big/dark</def>
-<form type="sandhi">ruṅ</form>
+<form type="sandhi">iruṅ</form>
 <gramGrp>
   <gram type="role">adjective</gram>
 </gramGrp>
@@ -1331,7 +1323,6 @@
 <form>uṇṭi</form>
 <def>drink-you</def>
 <gramGrp>
-  <gram type="role">subjuntive</gram>
   <gram type="role">singular</gram>
   <gram type="role">second person</gram>
 </gramGrp>
@@ -1477,7 +1468,6 @@
 <form>uṇṭi</form>
 <def>drink-you</def>
 <gramGrp>
-  <gram type="role">subjuntive</gram>
   <gram type="role">singular</gram>
   <gram type="role">second person</gram>
 </gramGrp>
