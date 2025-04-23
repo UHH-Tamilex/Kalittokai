@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -202,7 +199,7 @@
         </div>
     </body>
   </text>
-<standOff xmlns="http://www.tei-c.org/ns/1.0" type="wordsplit" corresp="#Kali103">
+<standOff type="wordsplit" corresp="#Kali103">
 <interp type="alignment" select="0">15MG3ML36M2G7M2G8MG9M2G7MG8MG7MG10MG67MG3ML5M2GMR145MG16MG3ML6MG4MG47MG50MG5MG34MG5MG9MG8M2G7MG21MG5MG134MG53ML149MG17MG14MG9MG5MG12M2G5MG63MG14MG13MG12M2G25MG81MG19MG3MG39MG25MG13MG15MG5MG7MG10MG17MG13MG14MG12M2G24MG45MG43MG77MG17MG5MG11MG6MG42MG4MG2ML6MG10MG23MG26M2G11MG57MG2ML6MG2ML4MG8MG10MG25MG16MG9MG44MG11MG33ML43MG19MG16ML22MG26MG62ML4M2G38ML2MG8MG73M,298MG13MG331MG9MG50MG105MG118MG114MG113MG8MG191MG112MG183MG4MG228MG50MG82MG80MG88MG4MG145MG</interp>
 <entry>
 <form>mel</form>

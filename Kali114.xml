@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>
             <title xml:lang="ta">Kalittokai</title> 114. 
-            <persName xml:lang="ta"></persName>
+            <persName xml:lang="ta"/>
         </title>     
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
@@ -16,7 +13,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -32,7 +29,7 @@
 
         <div rend="parallel">
           <p xml:id="Kali114-kilavi">iḵtu "āṅkataṉ puṟattup puraipaṭa vanta maṟuttaloṭu tokaii" (to.po.107) eṉpatu, "avaṉ varaivu vēṇṭiṉa iṭattu avvaraivu puṟattatākiya vaḻit talaivi taṉṉuyarvu uṇṭākat tōṉṟiya maṟutta-lōṭē muṟkūṟiyavaṟṟait tokuttu" eṉṟu poruḷ kūṟi, "ataṉ puṟameṉavē ataṟku ayalākiya notumalar varaivāyiṟṟu" eṉṟām; uyarvu kuṭippiṟappuṅ kaṟpum; ataṟkēṟpap piṟar varaivu maṟuttut talaivaṉ varaiyumāṟu nī kūṟeṉat tōḻikkuk kūṟiyatu.</p>
-          <p xml:lang="en"></p>
+          <p xml:lang="en"/>
         </div>
         <div rend="parallel">
             <lg xml:id="Kali114">
@@ -84,7 +81,7 @@
         </div>
     </body>
   </text>
-<standOff xmlns="http://www.tei-c.org/ns/1.0" type="wordsplit" corresp="#Kali114">
+<standOff type="wordsplit" corresp="#Kali114">
 <interp type="alignment" select="0">13MG41MG5MG76MG14MG50MG30MG10MG5ML3MG3MG12MG18MG14MG50MG27MG7MG26M2G29MG29MG39M2G18MG5M2G35MG23MG23MG3M2G2M,179MG28MG130MG300MG</interp>
 <entry>
 <form>vāri</form>

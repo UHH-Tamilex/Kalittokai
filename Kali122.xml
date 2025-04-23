@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>
             <title xml:lang="ta">Kalittokai</title> 122. 
-            <persName xml:lang="ta"></persName>
+            <persName xml:lang="ta"/>
         </title>     
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
@@ -16,7 +13,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -32,7 +29,7 @@
 
         <div rend="parallel">
           <p xml:id="Kali122-kilavi">itu kāmañcālā iḷamaiyōḷvayiṟ piṉ kaḷavoḻukkam oḻukiya talaivaṉ iṭaiyiṭṭup pirintu toṉmuṟai maṉaiviyaroṭu puṇarcci yeyti iruntāṉāka, ataṉaiyaṟintu āṟṟāḷāya talaivi āṟṟāmai kaṇṭu viṉāya tōḻikku attalaivi avaṉoḻukukiṉṟavāṟun taṉṉeñcu avaṉ vayattatāyavāṟuṅ kūṟiyatu.</p>
-          <p xml:lang="en"></p>
+          <p xml:lang="en"/>
         </div>
         <div rend="parallel">
             <lg xml:id="Kali122">
@@ -90,7 +87,7 @@
         </div>
     </body>
   </text>
-<standOff xmlns="http://www.tei-c.org/ns/1.0" type="wordsplit" corresp="#Kali122">
+<standOff type="wordsplit" corresp="#Kali122">
 <interp type="alignment" select="0">10MG7MG7MG7MG35MG15MG4MG2MG30MG14MG2MR3MG15MG68MG6MG13MG14MG26MG7MG10ML4MR8MG36MG6MG15MG14MG27MG24ML7MG30MG6MG13MG14MG27MG18ML5ML7MG20MR4MG12MG10MR34MG4ML12MG17M2G2M,203MG6MG126MG135MG127MG6MG107MG</interp>
 <entry>
 <form>kōtai</form>

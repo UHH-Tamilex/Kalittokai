@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>
             <title xml:lang="ta">Kalittokai</title> 107. 
-            <persName xml:lang="ta"></persName>
+            <persName xml:lang="ta"/>
         </title>     
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
@@ -16,7 +13,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -32,7 +29,7 @@
 
         <div rend="parallel">
           <p xml:id="Kali107-kilavi">itu talaivi tōḻikku aṟattoṭu niṟpat tamar varaivuṭampaṭṭamai avaṭku avaḷ colliyatu.</p>
-          <p xml:lang="en"></p>
+          <p xml:lang="en"/>
         </div>
         <div rend="parallel">
             <lg xml:id="Kali107">
@@ -112,7 +109,7 @@
         </div>
     </body>
   </text>
-<standOff xmlns="http://www.tei-c.org/ns/1.0" type="wordsplit" corresp="#Kali107">
+<standOff type="wordsplit" corresp="#Kali107">
 <interp type="alignment" select="0">8MG14MG17M2G17M2G134MG35MG7MG12MG34MGMG24MG9MG30MGMG4M2G17M2G12MG14MG33MGMG15MG6MGMG16M2G12MG25ML4ML6ML42M2G7MG3ML17MG15MG14MG24MG18M2G30MG3MGMG35MG23MG12MG5MG13M2G5MG16MG8ML9MG5MG46MG20M,116MG17MG122MG7MG55MG12MG54MG88MG18MG13MG113MG8MG80MG53MG9MG157MG</interp>
 <entry>
 <form>ellā</form>
