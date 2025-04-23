@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -204,7 +201,7 @@
         </div>
     </body>
   </text>
-<standOff xmlns="http://www.tei-c.org/ns/1.0" type="wordsplit" corresp="#Kali104">
+<standOff type="wordsplit" corresp="#Kali104">
 <interp type="alignment" select="0">34MG4MG20MG49MG34MG27MG8MG14MG5MG2MG18MG18ML3MG25MG3MG67MG3ML3MG41MG19MG2ML12MG30ML4MG8MG7MG6MG6MG16MG7MG77MG17MG9MG5MG92ML5ML101M2G3MG3MG32ML26MG41MG93ML25MG16ML18ML14MG5MG2ML3MG89MR3ML3MG6MG11MG4MG5MG5MG5MG19MG4MG4MG27MG25MG10MG26MG8MG26MG13M2G32MG37MG5MG78MG4MG34ML10MG18MG5MG9MG49MG43MG9MG33MG110MG11MG28MG4ML5MG2ML6MG2ML101ML29MG5MG36MG46MG3ML18ML10ML46MG3M2G27MG49M2G5MG3MG108MG20MG7MG3M,585MG60MG7MG273MG7MG92MG8MG205MG207MG206MG4MG263MG10MG86MG49MG116MG8MG118MG7MG114MG5MG88MG</interp>
 <entry>
 <form>mali</form>

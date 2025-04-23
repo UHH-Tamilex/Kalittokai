@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -33,7 +31,7 @@
           <p xml:id="Kali99-kilavi">iḵtu aracaṉ talaivaṉāy avaṉ talaiviyai nīṅki iruntataṟkut talaivi pulavi 
             nīṭṭittu āṟṟāḷāya vaḻi avaṭku nikaḻnta kāmattu miku tiṟattai avvaracaṉai nōkkic cāṉṟōr kūṟiyatu. 
             itu peruntiṇai.</p>
-          <p xml:lang="en"></p>
+          <p xml:lang="en"/>
         </div>
         <div rend="parallel">
             <lg xml:id="Kali99">

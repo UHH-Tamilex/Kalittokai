@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -100,7 +97,7 @@
         </div>
     </body>
   </text>
-<standOff xmlns="http://www.tei-c.org/ns/1.0" type="wordsplit" corresp="#Kali113">
+<standOff type="wordsplit" corresp="#Kali113">
 <interp type="alignment" select="0">5ML79MG7MG119MG35MG18MG14MG31MG7MG12MG72MG2ML7ML14MG12MG10MG22MG10MG11MG25MG25MG40MG37MG30MG10MG5MG17MG3MG29ML9MG4ML15MR18M2G2M,105MG62MG64MG5MG52MG4MG29MG6MG18MG5MG117MG82MG20MG58MG24MG123MG</interp>
 <entry>
 <form>nalam</form>

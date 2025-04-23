@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,7 +30,7 @@
         <div rend="parallel">
           <p xml:id="Kali79-kilavi">itu cellāk kālaic celkeṉak kūṟi viṭuttatu. atu talaivaṉ iṉic cellāṉeṉpatu 
             iṭamuṅ kālamumpaṟṟi aṟinta kālattu ūṭaluḷḷattāṟ kūṭap peṟātāḷ celkeṉak kūṟi viṭuttāṟṟutalām.</p>
-          <p xml:lang="en"></p>
+          <p xml:lang="en"/>
         </div>
         <div rend="parallel">
             <lg xml:id="Kali79">
