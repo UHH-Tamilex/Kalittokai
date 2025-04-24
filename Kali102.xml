@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -121,7 +118,7 @@
         </div>
     </body>
   </text>
-<standOff xmlns="http://www.tei-c.org/ns/1.0" type="wordsplit" corresp="#Kali102">
+<standOff type="wordsplit" corresp="#Kali102">
 <interp type="alignment" select="0">35MG19MG19MG15MG9MG11MG14MG24MG8MG7MG6MG35ML13MG20MG36ML54MG14MG6MG7M2G47MG23MG13M2G36ML9ML2MG26MG25MG54MG5MG5MG74MG61MG32MG15MG21MG7MG23MG15ML13MG5MG17M2G27MG25MG90MG50MG5M,268MG6MG117MG7MG50MG8MG57MG57MG60MG13MG45MG7MG104MG48MG86MG8MG167MG</interp>
 <entry>
 <form>kaṇ</form>
