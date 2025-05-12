@@ -69,8 +69,8 @@
         </div>
     </body>
   </text>
-<standOff type="wordsplit" corresp="#Kali117">
-<interp type="alignment" select="0">41MG84MG8MG40MG3MG32M2G32MG40MG30MG23MG47MG6MG10MG30MG14MG10M,140MG8MG126MG6MG181MG</interp>
+<standOff xmlns="http://www.tei-c.org/ns/1.0" type="wordsplit" corresp="#Kali117">
+<interp type="alignment" select="0">125MG8MG40MG3MG32M2G32MG40MG30MG23MG47MG6MG10MG30MG14MG10M,139MG8MG126MG6MG181MG</interp>
 <entry>
 <form>māṇa</form>
 <def>be glorious</def>
@@ -104,13 +104,8 @@
 <def>esteemed</def>
 </entry>
 <entry>
-<form>tuṭaitt<c type="elided">u</c></form>
-<def>polished</def>
-<form type="sandhi">tuṭaitt</form>
-</entry>
-<entry>
-<form>aṉṉa</form>
-<def>like</def>
+<form>tuṭaittaṉṉa</form>
+<def>polished-like</def>
 </entry>
 <entry>
 <form>mēṉiyāy</form>

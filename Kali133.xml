@@ -81,7 +81,7 @@
     </body>
   </text>
 <standOff xmlns="http://www.tei-c.org/ns/1.0" type="wordsplit" corresp="#Kali133">
-<interp type="alignment" select="0">24MG5MG30MG25ML101MG3MG11MG47MG4MG11MG5MG11MG4MG28MG4MG30MG4MG33MG36MG16MG20MG29MG32ML52ML2MG15ML32MG2M,176MG321MG143MG</interp>
+<interp type="alignment" select="0">24MG5MG30MG25ML101MG3MG11MG47MG15MG5MG11MG32MG34MG89MG49MG32ML52ML2MG15ML32MG2M,176MG314MG143MG</interp>
 <entry>
 <form>mā</form>
 <def>big</def>
@@ -290,11 +290,18 @@
 <form type="sandhi">paṇp</form>
 </entry>
 <entry>
-<form>eṉa<c type="geminated">p</c>-paṭuvatu</form>
-<def>say(inf.)-happen-it</def>
-<form type="sandhi">eṉa<c type="geminated">p</c>paṭuvatu</form>
+<form>eṉa<c type="geminated">p</c></form>
+<def>say</def>
 <gramGrp>
   <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paṭuvatu</form>
+<def>happen-it</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter singular</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -317,11 +324,18 @@
 <form type="sandhi">aṉp</form>
 </entry>
 <entry>
-<form>eṉa<c type="geminated">p</c>-paṭuvatu</form>
-<def>say(inf.)-happen-it</def>
-<form type="sandhi">eṉa<c type="geminated">p</c>paṭuvatu</form>
+<form>eṉa<c type="geminated">p</c></form>
+<def>say</def>
 <gramGrp>
   <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paṭuvatu</form>
+<def>happen-it</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter singular</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -342,11 +356,18 @@
 <form type="sandhi"><c type="glide">y</c>aṟiv</form>
 </entry>
 <entry>
-<form>eṉa<c type="geminated">p</c>-paṭuvatu</form>
-<def>say(inf.)-happen-it</def>
-<form type="sandhi">eṉa<c type="geminated">p</c>paṭuvatu</form>
+<form>eṉa<c type="geminated">p</c></form>
+<def>say</def>
 <gramGrp>
   <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paṭuvatu</form>
+<def>happen-it</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter singular</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -372,11 +393,18 @@
 <form type="sandhi">ceṟiv</form>
 </entry>
 <entry>
-<form>eṉa<c type="geminated">p</c>-paṭuvatu</form>
-<def>say(inf.)-happen-it</def>
-<form type="sandhi">eṉa<c type="geminated">p</c>paṭuvatu</form>
+<form>eṉa<c type="geminated">p</c></form>
+<def>say</def>
 <gramGrp>
   <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paṭuvatu</form>
+<def>happen-it</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter singular</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -392,11 +420,18 @@
 <def>fulness</def>
 </entry>
 <entry>
-<form><c type="glide">y</c>eṉa<c type="geminated">p</c>-paṭuvatu</form>
-<def>say(inf.)-happen-it</def>
-<form type="sandhi"><c type="glide">y</c>eṉa<c type="geminated">p</c>paṭuvatu</form>
+<form><c type="glide">y</c>eṉa<c type="geminated">p</c></form>
+<def>say</def>
 <gramGrp>
   <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paṭuvatu</form>
+<def>happen-it</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter singular</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -419,11 +454,18 @@
 <def>order</def>
 </entry>
 <entry>
-<form><c type="glide">y</c>eṉa<c type="geminated">p</c>-paṭuvatu</form>
-<def>say(inf.)-happen-it</def>
-<form type="sandhi"><c type="glide">y</c>eṉa<c type="geminated">p</c>paṭuvatu</form>
+<form><c type="glide">y</c>eṉa<c type="geminated">p</c></form>
+<def>say</def>
 <gramGrp>
   <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paṭuvatu</form>
+<def>happen-it</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter singular</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -444,11 +486,18 @@
 <def>patience</def>
 </entry>
 <entry>
-<form><c type="glide">y</c>eṉa<c type="geminated">p</c>-paṭuvatu</form>
-<def>say(inf.)-happen-it</def>
-<form type="sandhi"><c type="glide">y</c>eṉa<c type="geminated">p</c>paṭuvatu</form>
+<form><c type="glide">y</c>eṉa<c type="geminated">p</c></form>
+<def>say</def>
 <gramGrp>
   <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paṭuvatu</form>
+<def>happen-it</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter singular</gram>
 </gramGrp>
 </entry>
 <entry>
