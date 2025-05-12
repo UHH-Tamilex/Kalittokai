@@ -87,7 +87,7 @@
     </body>
   </text>
 <standOff xmlns="http://www.tei-c.org/ns/1.0" type="wordsplit" corresp="#Kali121">
-<interp type="alignment" select="0">19MG44MG22MG13MG115MG27ML38MG40MG3MG5MR29ML20MG33MG12MG6MG77MG27MG15MG6MG35MR18ML40M2G43MG65MG6MG2M,212MG139MG143MG155MG132MG</interp>
+<interp type="alignment" select="0">19MG44MG22MG13MG115MG27ML38MG40MG3MG5MR29ML20MG33MG12MG6MG77MG27MG15MG6MG35MR18ML40M2G108MG6MG2M,212MG139MG143MG155MG131MG</interp>
 <entry>
 <form>oḷ</form>
 <def>bright</def>
@@ -729,13 +729,9 @@
 <form type="sandhi">varuntāmaṟ</form>
 </entry>
 <entry>
-<form>koṇṭ<c type="elided">u</c></form>
+<form>koṇṭāṅku</form>
 <def>taken</def>
-<form type="sandhi">koṇṭ</form>
-</entry>
-<entry>
-<form>āṅku</form>
-<def>like</def>
+<gramGrp type="affix"><m>āṅku</m><gramGrp><gram type="role">comparative</gram></gramGrp></gramGrp>
 </entry>
 <entry>
 <form>neṟi</form>

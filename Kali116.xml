@@ -73,8 +73,8 @@
         </div>
     </body>
   </text>
-<standOff type="wordsplit" corresp="#Kali116">
-<interp type="alignment" select="0">4MG54MG15MG3M2G60MG18MR7ML14ML43MG7MG4MG6MG38M2G32M2G17ML35MG40MG8M2G2ML2MG41MG14M2G9MG3ML8M,114MG5MG82MG7MG60MG85MG153MG</interp>
+<standOff xmlns="http://www.tei-c.org/ns/1.0" type="wordsplit" corresp="#Kali116">
+<interp type="alignment" select="0">4MG54MG15MG3M2G60MG18MR7ML14ML43MG7MG4MG44M2G32M2G17ML35MG40MG8M2G2ML2MG41MG14M2G9MG3ML8M,114MG5MG82MG7MG59MG85MG153MG</interp>
 <entry>
 <form>pāṅk<c type="elided">u</c></form>
 <def>side</def>
@@ -314,13 +314,9 @@
 <def>cow</def>
 </entry>
 <entry>
-<form>ceṉṟ<c type="elided">u</c></form>
+<form>ceṉṟāṅku</form>
 <def>gone</def>
-<form type="sandhi">ceṉṟ</form>
-</entry>
-<entry>
-<form>āṅku</form>
-<def>like</def>
+<gramGrp type="affix"><m>āṅku</m><gramGrp><gram type="role">comparative</gram></gramGrp></gramGrp>
 </entry>
 <entry>
 <form>vaṉkaṇṇaḷ</form>
