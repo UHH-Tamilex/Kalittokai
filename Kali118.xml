@@ -89,7 +89,7 @@
         </div>
     </body>
   </text>
-<standOff type="wordsplit" corresp="#Kali118">
+<standOff xmlns="http://www.tei-c.org/ns/1.0" type="wordsplit" corresp="#Kali118">
 <interp type="alignment" select="0">36ML24MG45MG71MG56M2G15M2G23MG27MG57ML22MG157MG38MG159MG11MG27MG7MGMR5MG2MG5ML5MG7M2G18MG16MG17M2G2M,294MG7MG149MG7MG146MG7MG153MG8MG102MG</interp>
 <entry>
 <form>vel</form>
@@ -720,9 +720,9 @@
 </entry>
 <entry>
 <form>eṉavāṅku</form>
-<def>say(inf.)-thus</def>
+<def>say-thus</def>
 <gramGrp>
-  <gram type="role">infinitive</gram>
+  <gram type="role">conjunction</gram>
 </gramGrp>
 </entry>
 <entry>

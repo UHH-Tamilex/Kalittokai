@@ -86,7 +86,7 @@
         </div>
     </body>
   </text>
-<standOff type="wordsplit" corresp="#Kali121">
+<standOff xmlns="http://www.tei-c.org/ns/1.0" type="wordsplit" corresp="#Kali121">
 <interp type="alignment" select="0">19MG44MG22MG13MG115MG27ML38MG40MG3MG5MR29ML20MG33MG12MG6MG77MG27MG15MG6MG35MR18ML40M2G43MG65MG6MG2M,212MG139MG143MG155MG132MG</interp>
 <entry>
 <form>oḷ</form>
@@ -345,7 +345,9 @@
 <entry>
 <form><c type="glide">y</c>uṟaiyoṭu</form>
 <def>drop</def>
-<gramGrp type="affix"><m>oṭu</m><gramGrp><gram type="role">sociative</gram></gramGrp></gramGrp>
+<gramGrp>
+  <gram type="role">sociative</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>vaikiya</form>
@@ -675,9 +677,9 @@
 </entry>
 <entry>
 <form>eṉavāṅku</form>
-<def>say(inf.)-thus</def>
+<def>say-thus</def>
 <gramGrp>
-  <gram type="role">infinitive</gram>
+  <gram type="role">conjunction</gram>
 </gramGrp>
 </entry>
 <entry>

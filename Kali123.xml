@@ -77,7 +77,7 @@
         </div>
     </body>
   </text>
-<standOff type="wordsplit" corresp="#Kali123">
+<standOff xmlns="http://www.tei-c.org/ns/1.0" type="wordsplit" corresp="#Kali123">
 <interp type="alignment" select="0">36MG11MG15MG15MG9MG27MG48ML14MG64MG13MG12MG9MG6MG5MR4M2G16MG29ML8MG13MG13MG9MG7MG5MR4M2G55MG13MG14MG9MG8MG5MR4M2G16MG7M2G7ML27MR9MG8ML62M2G2M,197MG107MG113MG115MG8MG29MG105MG</interp>
 <entry>
 <form>karum</form>
@@ -583,7 +583,7 @@
 </entry>
 <entry>
 <form>eṉavāṅku</form>
-<def>say(inf.)-thus</def>
+<def>say-thus</def>
 <gramGrp>
   <gram type="role">conjunction</gram>
 </gramGrp>
