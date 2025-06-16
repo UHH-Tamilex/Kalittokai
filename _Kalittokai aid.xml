@@ -75,7 +75,9 @@ lines starting with tabs/spaces
 
 for subtitles:
 <head type="subtitle"><l>SUBTITLE</l></head>
-this adds subtitle with space before and after it.
-<l rend="subtitle">SUBTITLE</l> does not add space.
+this adds subtitle with space before and after it. Text is bigger than normal text.
+<l rend="subtitle">SUBTITLE</l> does not add space. Text is same size as normal text. If you want space before it, use the combination:
+  <l rend="space"></l>
+  <l rend="subtitle">SUBTITLE</l>
 
  
