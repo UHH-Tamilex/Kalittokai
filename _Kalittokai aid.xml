@@ -64,11 +64,18 @@ For surplus notes (like (Brahmā) in Kali01):
   <note>NOTE</note>
 </entry>
 
-for space between lines / Tamil original: after a line ending with colon;
-<l rend="space">
+for space between lines / Tamil original: after a line ending with colon; it work on both sides.
+<l rend="space">TEXT</l>
 
 for chunks in English translation (check with the split or word-by-word translation for chunks):
-<l corresp="number of line(s)">
+<l corresp="number of line(s)">TEXT</l>
 
 lines starting with tabs/spaces
-<l rend="indentNr"> Nr can be any number, check the ready xml in LiveServer what number to use the phrase or word to be in the end of line, but not overflowing to the next line 
+<l rend="indentNr">TEXT</l> Nr can be any number, check the ready xml in LiveServer what number to use the phrase or word to be in the end of line, but not overflowing to the next line
+
+for subtitles:
+<head type="subtitle"><l>SUBTITLE</l></head>
+this adds subtitle with space before and after it.
+<l rend="subtitle">SUBTITLE</l> does not add space.
+
+ 
