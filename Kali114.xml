@@ -81,7 +81,7 @@
         </div>
     </body>
   </text>
-<standOff type="wordsplit" corresp="#Kali114">
+<standOff xmlns="http://www.tei-c.org/ns/1.0" type="wordsplit" corresp="#Kali114">
 <interp type="alignment" select="0">13MG41MG5MG76MG14MG50MG30MG10MG5ML3MG3MG12MG18MG14MG50MG27MG7MG26M2G29MG29MG39M2G18MG5M2G35MG23MG23MG3M2G2M,179MG28MG130MG300MG</interp>
 <entry>
 <form>vāri</form>
@@ -244,7 +244,7 @@
 </entry>
 <entry>
 <form>ceṉṟu</form>
-<def>went</def>
+<def>went;</def>
 </entry>
 <entry>
 <form>ceṉṟu</form>
@@ -261,7 +261,7 @@
 </entry>
 <entry>
 <form>kūṟuka</form>
-<def>may-say</def>
+<def>may say</def>
 <gramGrp>
   <gram type="role">optative</gram>
 </gramGrp>
@@ -379,7 +379,7 @@
 </entry>
 <entry>
 <form>colliya</form>
-<def>may-speak</def>
+<def>may speak</def>
 <gramGrp>
   <gram type="role">optative</gram>
 </gramGrp>
@@ -585,7 +585,7 @@
 </entry>
 <entry>
 <form>terumaral</form>
-<def>being-confused</def>
+<def>being confused</def>
 </entry>
 <entry>
 <form>kaiviṭṭ<c type="elided">u</c></form>
@@ -628,10 +628,6 @@
 <form>peṟiṉ-um</form>
 <def>obtain-if-even</def>
 <form type="simple">peṟiṉ</form>
-<gramGrp>
-  <gram type="role">concessive</gram>
-  <gram type="role">conditional</gram>
-</gramGrp>
 <gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
 </entry>
 <entry>
