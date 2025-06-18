@@ -97,8 +97,8 @@
         </div>
     </body>
   </text>
-<standOff type="wordsplit" corresp="#Kali113">
-<interp type="alignment" select="0">5ML79MG7MG119MG35MG18MG14MG31MG7MG12MG72MG2ML7ML14MG12MG10MG22MG10MG11MG25MG25MG40MG37MG30MG10MG5MG17MG3MG29ML9MG4ML15MR18M2G2M,105MG62MG64MG5MG52MG4MG29MG6MG18MG5MG117MG82MG20MG58MG24MG123MG</interp>
+<standOff xmlns="http://www.tei-c.org/ns/1.0" type="wordsplit" corresp="#Kali113">
+<interp type="alignment" select="0">5ML14MG65MG7MG119MG35MG18MG14MG31MG7MG12MG72MG2ML7ML14MG12MG10MG22MG10MG11MG25MG25MG40MG37MG30MG10MG5MG17MG3MG29ML9MG4ML15MR18M2G2M,106MG62MG64MG5MG52MG4MG29MG6MG18MG5MG117MG82MG20MG58MG24MG123MG</interp>
 <entry>
 <form>nalam</form>
 <def>beauty</def>
@@ -112,12 +112,9 @@
 <def>increased</def>
 </entry>
 <entry>
-<form>naya</form>
-<def>yearn</def>
-</entry>
-<entry>
-<form>varu</form>
-<def>come</def>
+<form>naya-varu</form>
+<def>yearn-come</def>
+<form type="sandhi">nayavaru</form>
 </entry>
 <entry>
 <form>taṭa</form>
@@ -164,7 +161,7 @@
 </entry>
 <entry>
 <form><c type="glide">y</c>uṟīi</form>
-<def>made t0 have</def>
+<def>made-have</def>
 </entry>
 <entry>
 <form><c type="glide">y</c>ulamaral</form>
@@ -330,7 +327,7 @@
 </entry>
 <entry>
 <form>okkum</form>
-<def>is-likely</def>
+<def>is likely</def>
 </entry>
 <entry>
 <form>pul</form>
@@ -487,10 +484,6 @@
 <form>aṟiyiṉ-um</form>
 <def>know-if-even</def>
 <form type="simple">aṟiyiṉ</form>
-<gramGrp>
-  <gram type="role">concessive</gram>
-  <gram type="role">conditional</gram>
-</gramGrp>
 <gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
 </entry>
 <entry>
@@ -786,9 +779,6 @@
 <entry>
 <form>urumiṉ</form>
 <def>thunder</def>
-<gramGrp>
-  <gram type="role">oblique</gram>
-</gramGrp>
 </entry>
 <entry>
 <form>atirum</form>
