@@ -81,8 +81,8 @@
         </div>
     </body>
   </text>
-<standOff type="wordsplit" corresp="#Kali115">
-<interp type="alignment" select="0">63MG14M2G30MG6MG18M2G15MG7MG3ML13MG15MG36M2G7MG8MG32MG19MG15MG8ML29M2G31MG8MG51MG9MG10MG12MG8MG43ML4MG6MG68MG6M2G12MG10MG14M,7MG280MG6MG212MG5MG151MG</interp>
+<standOff xmlns="http://www.tei-c.org/ns/1.0" type="wordsplit" corresp="#Kali115">
+<interp type="alignment" select="0">77M2G30MG6MG18M2G15MG7MG3ML13MG15MG36M2G7MG8MG32MG19MG15MG8ML29M2G31MG8MG51MG9MG10MG12MG8MG43ML4MG6MG68MG6M2G12MG10MG14M,7MG279MG6MG212MG5MG151MG</interp>
 <entry>
 <form>tōḻi</form>
 <def>friend</def>
@@ -139,13 +139,9 @@
 </gramGrp>
 </entry>
 <entry>
-<form><c type="glide">v</c>uraitt<c type="elided">u</c></form>
+<form><c type="glide">v</c>uraittāṅku<c type="geminated">k</c></form>
 <def>told</def>
-<form type="sandhi"><c type="glide">v</c>uraitt</form>
-</entry>
-<entry>
-<form>āṅku<c type="geminated">k</c></form>
-<def>like</def>
+<gramGrp type="affix"><m>āṅku</m><gramGrp><gram type="role">comparative</gram></gramGrp></gramGrp>
 </entry>
 <entry>
 <form>karantatū<c type="elided">u</c>-um</form>
