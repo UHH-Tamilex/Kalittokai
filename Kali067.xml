@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -965,7 +967,7 @@
 </entry>
 <entry>
 <form>tāḻum</form>
-<def>becomes-low</def>
+<def>is-downcast</def>
 <gramGrp>
   <gram type="role">habitual future</gram>
 </gramGrp>
