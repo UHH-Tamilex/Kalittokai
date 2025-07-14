@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -284,7 +286,7 @@
 </entry>
 <entry>
 <form>taṇmai-<c type="glide">y</c>um</form>
-<def>quality</def>
+<def>coolness</def>
 <form type="simple">taṇmai</form>
 <gramGrp>
   <gram type="role">noun</gram>
@@ -925,7 +927,6 @@
 <form>ceyti</form>
 <def>do-you</def>
 <gramGrp>
-  <gram type="role">subjuntive</gram>
   <gram type="role">singular</gram>
   <gram type="role">second person</gram>
 </gramGrp>
