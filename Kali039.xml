@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
       <fileDesc>
         <titleStmt>
@@ -146,7 +148,7 @@
       </body>
     </text>
     <standOff type="wordsplit" corresp="#Kali39">
-<interp type="alignment" select="0">21MG5MG6ML17MG12MG6MG8ML2ML3MR24MG118MG6MG17MG13MG60MG14ML21MG12MG72MG33MG16MG51MG15MG78MG4MG16MG36MG18MG5MG19MG7MG40MG2MR6MG98ML52MG18MG22ML27M2G24MG5M2G28M2G16MGMR2MG17MG22MG11MG35MG22MG60MG8MG7MG19MG32MG5MG39MG85MG8MG2ML12MG12ML18MG22MG8MG6MG3M,234MG10MG111MG106MG136MG8MG59MG7MG115MG106MG6MG63MG130MG139MG63MG9MG22MG15MG19M2G8MG210MG</interp>
+<interp type="alignment" select="0">21MG5MG6ML17MG12MG6MG8ML2ML3MR24MG118MG6MG17MG13MG60MG14ML21MG12MG72MG33MG16MG51MG15MG78MG4MG16MG36MG18MG5MG19MG7MG40MG2MR6MG98ML52MG18MG22ML27M2G24MG5M2G28M2G16MGMR2MG17MG22MG11MG35MG22MG58M3G8MG7MG19MG32MG5MG39MG85MG8MG2ML12MG12ML18MG22MG8MG6MG3M,234MG10MG111MG106MG136MG8MG59MG7MG115MG106MG6MG63MG130MG139MG63MG9MG22MG15MG19M2G8MG210MG</interp>
 <entry>
 <form>kāmar</form>
 <def>desirable</def>
@@ -1668,7 +1670,6 @@
 <form>kaṭitum</form>
 <def>drive-away-we</def>
 <gramGrp>
-  <gram type="role">subjuntive</gram>
   <gram type="role">plural</gram>
   <gram type="role">first person</gram>
 </gramGrp>
@@ -1958,6 +1959,7 @@
 <form>kaṇkaḷ-um</form>
 <def>eyes</def>
 <form type="simple">kaṇkaḷ</form>
+<form type="sandhi">kaṇṇ</form>
 <gramGrp>
   <gram type="role">plural</gram>
 </gramGrp>
@@ -2370,10 +2372,11 @@
 <entry>
 <form>polika-mā</form>
 <def>let-flourish</def>
-<form type="sandhi">polikamā</form>
+<form type="simple">polika</form>
 <gramGrp>
   <gram type="role">optative</gram>
 </gramGrp>
+<gramGrp type="particle"><m type="enclitic">mā</m></gramGrp>
 </entry>
 <entry>
 <form><c type="glide">v</c>iṉi-<c type="glide">y</c>ē</form>
