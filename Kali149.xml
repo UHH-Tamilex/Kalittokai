@@ -7,7 +7,7 @@
       <titleStmt>
         <title>
             <title xml:lang="ta">Kalittokai</title> 149. 
-            <persName xml:lang="ta"></persName>
+            <persName xml:lang="ta"/>
         </title>     
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
@@ -16,7 +16,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -57,17 +57,17 @@
               <l>O man from the coast of strong waters that seem to express the time of the king(?),</l>
               <l>with boats in rows as male elephants, with the sound of the waves as drums,</l>
               <l corresp="1-3">and with the pretty wings of the flocks of birds that join the shore, listen:</l>
-              <l></l>
+              <l/>
               <l>Like the wealth of him who failed in knowledge, not absorbing when announced that the heart</l>
               <l>of the one who taught [him] suffers will dwindle all alone,</l>
               <l>He who does not help those who helped [him] in weakness, even though in his</l>
               <l corresp="4-7">remainder it is, that won’t attack [and] won’t let go, see.</l>
-              <l></l>
+              <l/>
               <l>Like the family of one without effort for riches who felt friendship </l>
               <l>when the hearts of [his] kinfolk suffers will dwindle all alone,</l>
               <l>if the work of a king who lied in [his] vows succeeds, even though his</l>
               <l corresp="8-11">sword’s edge may be good, that won’t cut [and] won’t let go, see.</l>
-              <l></l>
+              <l/>
               <l corresp="12">Thus,</l>
               <l>that much now, great man, think of its state [and] see:</l>
               <l>like the affliction that comes to the works</l>
@@ -603,4 +603,83 @@
 <gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
 </entry>
 </standOff>
-</TEI>
+<standOff corresp="#Kali149-kilavi" type="wordsplit">
+<interp type="alignment" select="0">17MG53M,70MG</interp>
+<entry>
+<form>itu</form>
+<def>this</def>
+</entry>
+<entry>
+<form>varaivu</form>
+<def>marriage</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nīṭṭitt<c type="elided">u</c></form>
+<def>delayed</def>
+<form type="sandhi">nīṭṭitt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uḻi<c type="geminated">t</c></form>
+<def>place</def>
+<gramGrp>
+  <gram type="role">postposition</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>talaiviyatu</form>
+<def>heroine</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">feminine</gram>
+  <gram type="role">genitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āṟṟāmai</form>
+<def>inability</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kūṟi<c type="geminated">t</c></form>
+<def>talked</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>talaivaṉai</form>
+<def>hero</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>varaivu</form>
+<def>marriage</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṭāyatu</form>
+<def>urged-it</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+</standOff></TEI>
