@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>
             <title xml:lang="ta">Kalittokai</title> 147. 
-            <persName xml:lang="ta"></persName>
+            <persName xml:lang="ta"/>
         </title>     
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
@@ -16,7 +13,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -32,7 +29,7 @@
 
         <div rend="parallel">
           <p xml:id="Kali147-kilavi">ituvumatu. itaṟkum muṉṉaṅkūṟiya uraiyaik kūṟikkoḷka.</p>
-          <p xml:lang="en"></p>
+          <p xml:lang="en"/>
         </div>
         <div rend="parallel">
             <lg xml:id="Kali147">
@@ -183,7 +180,7 @@
         </div>
     </body>
   </text>
-<standOff xmlns="http://www.tei-c.org/ns/1.0" type="wordsplit" corresp="#Kali147">
+<standOff type="wordsplit" corresp="#Kali147">
 <interp type="alignment" select="0">2MG38ML4MG24MG7MG5MG8MG10MG18MG3MG18MG28MG6ML33ML34MG5M2G34M2G16MGMR9M2G7MG17MG26MG15MG24MG17MG4MG3MG25MG5MG66MG52ML5MG15ML4MG29ML10MG22MG24MG6ML45ML20MG40MG17M2G14MG14MG2MG15MG18ML26MG15M2G88M2G16M2G12MG65MG7MG19MG10MG11MG31ML44MG30MG21MG10MG24MG7MG17M2G6MG87MG39MG26MG33M2G2ML9MG21MG13MG48MG9ML13M2G31MG67MG7ML30MG8MG36MG19MG33MG21MG3MG14ML72ML4MG4MR21M,396MG142MG13MG22MG120MG11MG85MG113MG79MG82MG283MG56MG146MG106MG117MG8MG300MG</interp>
 <entry>
 <form>āṟ<c type="elided">u</c></form>
@@ -259,7 +256,7 @@
 <entry>
 <form>oru</form>
 <def>one</def>
-</entry>
+<gramGrp><gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp></entry>
 <entry>
 <form>pāṟṟ<c type="elided">u</c></form>
 <def>part-it</def>

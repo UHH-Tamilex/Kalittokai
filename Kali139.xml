@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>
             <title xml:lang="ta">Kalittokai</title> 139. 
-            <persName xml:lang="ta"></persName>
+            <persName xml:lang="ta"/>
         </title>     
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
@@ -16,7 +13,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -32,7 +29,7 @@
 
         <div rend="parallel">
           <p xml:id="Kali139-kilavi">itu maṭalēṟukiṉṟa talaivaṉ cāṉṟōrkkuk kūṟiyatu.</p>
-          <p xml:lang="en"></p>
+          <p xml:lang="en"/>
         </div>
         <div rend="parallel">
             <lg xml:id="Kali139">
@@ -88,33 +85,33 @@
               <l corresp="10d-11">while there is a sigh for the distress that does not make clear my bearing troublesome pain, </l>
               <l corresp="12">without leaving out one thing with respect to the woman with taught jewels,</l>
               <l corresp="13">I sing, having set up [my] leaping horse:</l>
-              <l></l>
+              <l/>
               <l>While waves of trouble slap [me] midnight and day,</l>
               <l>saying “I am on a horse” I swim with a palmyra stem as a raft,</l>
               <l>being caught in the sea of passion</l>
               <l corresp="14-17">that is caused by the woman with sweet words not having [me].</l>
-              <l></l>
+              <l/>
               <l>This horse which was given by her who caused</l>
               <l corresp="18-19">[my] infatuation that is an escape from [this] pain difficult to escape from.</l>
-              <l></l>
+              <l/>
               <l>While onlookers ridicule [me], stirring up, meeting [me]</l>
               <l>it has completely broken my male handsomeness,</l>
               <l>the weapon that came by the order of Kāma </l>
               <l corresp="20-23">as the beauty of that woman with glorious jewels who destroyed [me] inside.</l>
-              <l></l>
+              <l/>
               <l>It is protection for me who whom it appeared as a fierce weapon against passion,</l>
               <l corresp="24-25">this horse that was given by [her with] graceful forehead.  </l>
-              <l></l>
+              <l/>
               <l>As burning flames do not end, my difficult/precious life [just] remains.</l>
               <l>In [that way] will it burn inside,</l>
               <l>my heart that suitable met</l>
               <l corresp="26-29">the woman with sweet smile [and] bud-like shining teeth?  </l>
-              <l></l>
+              <l/>
               <l>Fire indeed the difficult pain of passion. Shade indeed </l>
               <l corresp="30-31">is this horse she with fine jewels gave [me].</l>
-              <l></l>
+              <l/>
               <l corresp="32">Thus,</l>
-              <l></l>
+              <l/>
               <l>you who know that, worthy people,</l>
               <l>like of those who make the king who fell again </l>
               <l>have the world of high status, to be placed among</l>
@@ -124,7 +121,7 @@
         </div>
     </body>
   </text>
-<standOff xmlns="http://www.tei-c.org/ns/1.0" type="wordsplit" corresp="#Kali139">
+<standOff type="wordsplit" corresp="#Kali139">
 <interp type="alignment" select="0">12MG23MG37MG34MG3MG4MG49MG4MG24MG17M2G17MG12MG44MG19MG7MR11ML14MG6MG7MG15MG37M2G7MG55ML13MG39MG4MG4ML51MG20MG7MG5ML27MG45MG8ML27MG33MG5M2G2MG15MG5MG41MG21MG26MG90MG28MG19ML13MG2M,410MG111MG45MG110MG50MG116MG49MG8MG150MG</interp>
 <entry>
 <form>cāṉṟavir</form>

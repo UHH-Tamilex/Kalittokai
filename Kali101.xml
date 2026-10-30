@@ -1,4 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -140,7 +140,7 @@
         </div>
     </body>
   </text>
-<standOff xmlns="http://www.tei-c.org/ns/1.0" type="wordsplit" corresp="#Kali101">
+<standOff type="wordsplit" corresp="#Kali101">
 <interp type="alignment" select="0">31MG5MG36MG12ML4MG19MG9MG4ML22MG2ML20MG7MG31MG7MG17MG4ML9MG52MG24MG20MG32MG71MG33MG7ML20ML3MG34MG61ML11MG34MG144MG10MG5M2G16MG30MR120MG175ML38MG50MG81ML5MG92MG28ML31MG21M,319MG6MG158MG191MG185MG181MG8MG46MG79MG118MG109MG4MG115MG</interp>
 <entry>
 <form>taḷi</form>
@@ -1361,7 +1361,7 @@
 <entry>
 <form>oru</form>
 <def>one</def>
-</entry>
+<gramGrp><gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp></entry>
 <entry>
 <form>nāḷ</form>
 <def>day</def>

@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>
             <title xml:lang="ta">Kalittokai</title> 126. 
-            <persName xml:lang="ta"></persName>
+            <persName xml:lang="ta"/>
         </title>     
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
@@ -16,7 +13,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -32,7 +29,7 @@
 
         <div rend="parallel">
           <p xml:id="Kali126-kilavi">itu tōḻi talaiviyatu āṟṟāmai kūṟit talaivaṉai varaivukaṭāyatu.</p>
-          <p xml:lang="en"></p>
+          <p xml:lang="en"/>
         </div>
         <div rend="parallel">
             <lg xml:id="Kali126">
@@ -87,7 +84,7 @@
         </div>
     </body>
   </text>
-<standOff xmlns="http://www.tei-c.org/ns/1.0" type="wordsplit" corresp="#Kali126">
+<standOff type="wordsplit" corresp="#Kali126">
 <interp type="alignment" select="0">31MR16MG4MG17MG34MR97MG10ML34M2G8MG3M2G29MG38MG7MG30ML33M2G8MG3M2G12MG12MG44MG7MG5ML15ML45M2G8MG3M2G6MG33MG31MG22MG13ML13ML2MG67MG2M,184MG159MG158MG155MG8MG112MG</interp>
 <entry>
 <form>poṉ</form>
@@ -193,7 +190,7 @@
 <entry>
 <form>mu<c type="geminated">k</c></form>
 <def>three</def>
-</entry>
+<gramGrp><gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp></entry>
 <entry>
 <form>kōl</form>
 <def>staff</def>

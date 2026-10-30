@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>
             <title xml:lang="ta">Kalittokai</title> 124. 
-            <persName xml:lang="ta"></persName>
+            <persName xml:lang="ta"/>
         </title>     
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
@@ -16,7 +13,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -32,7 +29,7 @@
 
         <div rend="parallel">
           <p xml:id="Kali124-kilavi">itu "veḷippaṭa varaital paṭāmai varaitaleṉ ṟāyi raṇ ṭeṉpa varaita lāṟē" (to.po.140) eṉpataṉāṟ kaḷavu veḷippaṭṭapiṉ varaiyātu poruḷvayiṟ pirintu vantāṉait tōḻi etirppaṭṭu niṉṟu talaiviyatu āṟṟāmai kūṟi varaivukaṭāyatu.</p>
-          <p xml:lang="en"></p>
+          <p xml:lang="en"/>
         </div>
         <div rend="parallel">
             <lg xml:id="Kali124">
@@ -84,7 +81,7 @@
         </div>
     </body>
   </text>
-<standOff xmlns="http://www.tei-c.org/ns/1.0" type="wordsplit" corresp="#Kali124">
+<standOff type="wordsplit" corresp="#Kali124">
 <interp type="alignment" select="0">5ML3MG60MR78MG37MR8MG3ML8MG34MG3M2G40MG47MR8MG3ML8MG37MG13MG31MG32ML12MR8MG3ML8MG11ML15ML9MG21MR34MG35MG5ML21MG68M2G2M,137MG146MG155MG153MG6MG141MG</interp>
 <entry>
 <form>ñālam</form>

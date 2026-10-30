@@ -1,6 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -192,7 +190,7 @@
         </div>
     </body>
   </text>
-  <standOff xmlns="http://www.tei-c.org/ns/1.0" type="wordsplit" corresp="#Kali105">
+  <standOff type="wordsplit" corresp="#Kali105">
 <interp type="alignment" select="0">17MG3MG73MG5MG59MG12MG9MG25MG23MG26MG12ML55MG2MG66MG34MG27MG9MGMG5MG62MG64MG7ML9MG15MG9MG8MG6M2G30MG96MG9MG17ML104MG24MG12MG30M2G6MG9MG8MG11MG16MG15MG4M2G13MG3M2GMR27MG62MG88MG10MG32MG5MG9ML25MR27MG17MG18MG43MG21MG12MG15M2G9MG2ML2MG22MG79MG4ML23ML8MG27MG56MG5MG41MG22MG10MG5MG11MGMG12MG2MG7MG19MG10MG68MG28MG20MG21MG9MG10MG22MG3MG33MG11MG9MG16MG10M2G5MG4MG19ML14MR8MG57MG5MG15MG3M,744MG7MG234MG179MG118MG114MG115MG4MG78MG97MG111MG33MG84MG7MG111MG127MG4MG153MG</interp>
 <entry>
 <form>araicu</form>
@@ -516,7 +514,7 @@
 <entry>
 <form>oru</form>
 <def>one</def>
-</entry>
+<gramGrp><gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp></entry>
 <entry>
 <form>kuḻai</form>
 <def>earring</def>
@@ -660,7 +658,7 @@
 <form>āyiram</form>
 <def>thousand</def>
 <form type="sandhi">āyiraṅ</form>
-</entry>
+<gramGrp><gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp></entry>
 <entry>
 <form>kaṇ</form>
 <def>eye</def>
@@ -1606,7 +1604,7 @@
 <entry>
 <form><c type="glide">v</c>iru</form>
 <def>two</def>
-</entry>
+<gramGrp><gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp></entry>
 <entry>
 <form>peru</form>
 <def>great</def>

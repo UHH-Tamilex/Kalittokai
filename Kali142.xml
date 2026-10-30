@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>
             <title xml:lang="ta">Kalittokai</title> 142. 
-            <persName xml:lang="ta"></persName>
+            <persName xml:lang="ta"/>
         </title>     
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
@@ -16,7 +13,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -36,7 +33,7 @@
                                          <l> maṭaṉē varutta maruṭkai mikutiyō</l>
                                          <l> ṭavaināṟ poruṭka ṇikaḻu meṉpa". </l>
           iccūttiram "piṉṉar nāṉkum peruntiṇai peṟumē" (to.po.105) eṉṟa ciṟappuṭaip peruntiṇaiyaṉṟip peruntiṇaik kuṟippākak kantaruvattuṭpaṭṭu vaḻuvi varum. "ēṟiya maṭaṟṟiṟam" (to.po.51) mutaliya nāṉkaṉuḷ oṉṟāy muṉṉar nikaḻnta kantaruvam piṉṉar vaḻuvi vanta "tēṟuta loḻinta kāmattu mikutiṟam" (to.po.51) ākiya peruntiṇai vaḻuvamaikkiṉṟatu. ōtalun tūtum oḻinta pakaivayiṟ pirivākiya vāḷāṇetirum pirivum muṭiyuṭai vēntarkkum avar ēvaliṟ piriyum aracarkkum iṉṟiyamaiyāmaiyiṉ appiriviṟ pirikiṉṟāṉ, "vaṉpuṟai kuṟitta ṟavircci yākum" (to.po.185) eṉpataṉāṟ kaṟpuppōla nī ivvāṟoḻuki yāṉ varuntuṇaiyum āṟṟiyiruveṉa āṟṟuvittup pirital ilakkaṇamaṉmaiyiṉ vāḷāppiriyumaṉṟē? aṅṅaṉam pirintuḻi, avaṉ kūṟiya kūṟṟiṉaiyē koṇṭu āṟṟuvikkun tōḻikkum āṟṟuvitta laritākaliṉ avaṭku aṉpiṉṟi nīṅkiṉāṉeṉṟu āṟṟāmai mikku āṇṭup peruntiṇaippakuti nikaḻumeṉṟu uṇarka.</p>
-          <p xml:lang="en"></p>
+          <p xml:lang="en"/>
         </div>
         <div rend="parallel">
             <lg xml:id="Kali142">
@@ -178,7 +175,7 @@
         </div>
     </body>
   </text>
-<standOff xmlns="http://www.tei-c.org/ns/1.0" type="wordsplit" corresp="#Kali142">
+<standOff type="wordsplit" corresp="#Kali142">
 <interp type="alignment" select="0">5MG12MG28MG65MR42MG55ML26MG18ML8MR22MG47MG3M2G64M2G48MG22MG14MG3MG29ML40MG4MGMG4MG33MG30MG3MG25MG3MG50MG23MG8MG3M2G40MG5MG48MG13MG8MG13MG32MG30MG3MG62MG49MG30M2G34MG41MG31MG23MR21ML16MG62MG4MG59MG7MG16M2G7MG36ML7MG46MG16MG3M2G37MG5MG31MG14MG10MG8MG6MG27MG46MG8ML10MG15MG7M2G15MG28MG105ML23M,391MG2MG52MG4MG105MG6MG140MG148MG245MG112MG118MG55MG115MG112MG118MG8MG230MG</interp>
 <entry>
 <form>puriv<c type="elided">u</c></form>
@@ -223,7 +220,7 @@
 <entry>
 <form>oru</form>
 <def>one</def>
-</entry>
+<gramGrp><gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp></entry>
 <entry>
 <form>varai</form>
 <def>limit</def>
@@ -1043,7 +1040,7 @@
 <entry>
 <form>oru</form>
 <def>one</def>
-</entry>
+<gramGrp><gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp></entry>
 <entry>
 <form>nilai-<c type="glide">y</c>ē</form>
 <def>state</def>
@@ -1828,7 +1825,7 @@
 <entry>
 <form>iraṇṭu</form>
 <def>two</def>
-</entry>
+<gramGrp><gram type="role">noun</gram><gram type="role">numeral</gram></gramGrp></entry>
 <entry>
 <form>eṉa<c type="geminated">p</c></form>
 <def>say</def>
