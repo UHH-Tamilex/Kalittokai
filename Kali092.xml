@@ -1,4 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -914,7 +914,7 @@
 <entry>
 <form>oru</form>
 <def>one</def>
-</entry>
+<gramGrp><gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp></entry>
 <entry>
 <form>pāl</form>
 <def>part</def>
@@ -1966,7 +1966,7 @@
 <entry>
 <form><c type="glide">y</c>oru</form>
 <def>one</def>
-</entry>
+<gramGrp><gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp></entry>
 <entry>
 <form>kai</form>
 <def>hand</def>
@@ -2920,7 +2920,7 @@
 <form>nāl</form>
 <def>four</def>
 <form type="sandhi">nāṉ</form>
-</entry>
+<gramGrp><gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp></entry>
 <entry>
 <form>māṭa<c type="geminated">k</c></form>
 <def>storied-mansion</def>
@@ -3206,7 +3206,7 @@
 <entry>
 <form>oru</form>
 <def>one</def>
-</entry>
+<gramGrp><gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp></entry>
 <entry>
 <form>kaṉā<c type="geminated">k</c></form>
 <def>dream</def>

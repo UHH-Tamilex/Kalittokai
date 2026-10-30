@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -88,7 +85,7 @@
         </div>
     </body>
   </text>
-<standOff xmlns="http://www.tei-c.org/ns/1.0" type="wordsplit" corresp="#Kali150">
+<standOff type="wordsplit" corresp="#Kali150">
 <interp type="alignment" select="0">6M4G39MG29MG27MG52MG10MG37MG9MG12MG54MG90MGMR5MG22MG16MG8MG8MG16MG18MG34MG15MG8MG9MG9MG30MG23MG51MG23MG7MG67MG16ML9ML19MG2M,244MG144MG153MG158MG4MG108MG</interp>
 <entry>
 <form>alarnt[u</form>

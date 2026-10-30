@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>
             <title xml:lang="ta">Kalittokai</title> 143. 
-            <persName xml:lang="ta"></persName>
+            <persName xml:lang="ta"/>
         </title>     
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
@@ -16,7 +13,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -32,7 +29,7 @@
 
         <div rend="parallel">
           <p xml:id="Kali143-kilavi">ituvumatu. itaṟkum muṟkūṟiya uraikaḷaik kūṟikkoṇṭu poruḷuraikka.</p>
-          <p xml:lang="en"></p>
+          <p xml:lang="en"/>
         </div>
         <div rend="parallel">
             <lg xml:id="Kali143">
@@ -107,7 +104,7 @@
               <l>Unendingly [her] heart frenzied, thinking, looking at the ground,</l>
               <l>being afraid, crying, lamenting – this is one woman,</l>
               <l corresp="1-9">what did she do?” You who say [so], listen, I have done nothing.</l>
-              <l></l>
+              <l/>
               <l>There is one man who has left [me], like, being without consideration </l>
               <l>for an animal  that heard his lute in secret, killing [it] with one beat </l>
               <l>so that its precious life ceased, by beating a drum,</l>
@@ -115,54 +112,54 @@
               <l>will be one who possess fulness/self-control.</l>
               <l>Desiring him who made my soft shoulders emaciated my heart</l>
               <l corresp="10-15">went for him in that place [and] has gone into the distance.</l>
-              <l></l>
+              <l/>
               <l>In unison, you may again come after me thus, saying “we will embrace [you].”</l>
               <l>You may again inquire, alas, “has she become weak?”</l>
               <l>You who are confused thinking she is confused, don’t be upset.</l>
               <l>The absence of any evil towards him who is like [my] precious life,</l>
               <l corresp="16-20">is it not shown by my life?</l>
-              <l></l>
+              <l/>
               <l>Oh sun, destroying blame[worthy people], listening when they say you are </l>
               <l>quick to pass who don’t know what goes on </l>
               <l>I have come in worship as one who begs you: at the time you rage </l>
               <l>against the one who abandoned [me] so that my heart is desolate</l>
               <l corresp="21-25">let me not stay behind [alone].</l>
-              <l></l>
+              <l/>
               <l>At time the mango tree, fit for desolation, takes on shoots</l>
               <l>these villagers, they wear the shoots [and] sing their beauty.</l>
               <l>If you bring back the one who went the way the Ām tree sprouts,</l>
               <l corresp="26-29">we will surely sprout [too].</l>
-              <l></l>
+              <l/>
               <l>He who is capable of stripping a waterlily of its calyx, capable</l>
               <l>of drawing a spreading sugarcane on [my] long soft shoulders, capable</l>
               <l>of writing with paste on [my] young breasts, because of a restraint</l>
               <l>like that of him who masters the bow in his hand, he is capable</l>
               <l corresp="30-34">of a good many things, the one who rules my shoulders.</l>
-              <l></l>
+              <l/>
               <l>So that the blossoms close in the long backwaters, like my mind that is thinking,</l>
               <l>so that the flute of those who guard the herds appear, like my desperate heart,</l>
               <l>so that the sound of the lute in Cevvaḻi lingers, like my speech that is exhausted,</l>
               <l>so that day vanishes in one go, like my brightness that is gone,</l>
               <l corresp="35-40">evening to has come upon me.</l>
-              <l></l>
+              <l/>
               <l>You who have set without me so that I suffer here along with the darkness</l>
               <l corresp="41-42">you are not considerate, oh sun.</l>
-              <l></l>
+              <l/>
               <l>If our husbands are not here in this world [surrounded by] water,</l>
               <l>if [it is] true that those who have obtained a mind that is excellent</l>
               <l>obtain what they want as they want in flawless heaven,</l>
               <l corresp="43-46">I will possess fame everywhere.</l>
-              <l></l>
+              <l/>
               <l>In this inescapable misery when the village spreads gossip</l>
               <l>like sponge gourd blossom they have become very pale,</l>
               <l>my eye who cause him much grief</l>
               <l corresp="47-50">in those days [when they were] like blue lotus blooming in the water.</l>
-              <l></l>
+              <l/>
               <l>And what about this king who guards the living beings</l>
               <l>in the world, embracing [them] like his own life?</l>
               <l>He is not guarding my life at all,</l>
               <l corresp="51-54">by showing [me] the one who is like [my] precious life.</l>
-              <l></l>
+              <l/>
               <l>That is to say,</l>
               <l>She whose mind is taken over by confusion along with lasting pain,</l>
               <l>when he who traversed many mountains humbly comes [and] joins [her] feet,</l>
@@ -172,7 +169,7 @@
         </div>
     </body>
   </text>
-<standOff xmlns="http://www.tei-c.org/ns/1.0" type="wordsplit" corresp="#Kali143">
+<standOff type="wordsplit" corresp="#Kali143">
 <interp type="alignment" select="0">13ML52ML16ML35MG35MG9MG58ML25MG13MG58MG13MG30MG6ML26ML15MGMR19MG21ML36MG26MG16MG3M2G14MG3MG10MG49MG6MG8MG19M2G20M2G4MG50MG166ML19M2G9ML6MG9ML18MG5MG31MG43ML44ML52ML52MG13MG36MG2MG10MG10MG10MGMG6MG21MG31MG36MG2ML25MG18M2G92MG2MG73MG4MG32MG5MG87MG61MG2M,291MG215MG4MG159MG143MG7MG109MG149MG205MG55MG113MG105MG109MG8MG126MG</interp>
 <entry>
 <form>akal</form>
@@ -1297,7 +1294,7 @@
 <entry>
 <form>oru</form>
 <def>one</def>
-</entry>
+<gramGrp><gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp></entry>
 <entry>
 <form>nilai-<c type="glide">y</c>ē</form>
 <def>state</def>
@@ -1402,7 +1399,7 @@
 <def>happened-you</def>
 </entry>
 <entry>
-<form><c type="glide"></c>aruḷ</form>
+<form><c type="glide"/>aruḷ</form>
 <def>grace</def>
 </entry>
 <entry>
@@ -1709,7 +1706,7 @@
 <def>one-it</def>
 </entry>
 <entry>
-<form><c type="glide"></c>eṉ</form>
+<form><c type="glide"/>eṉ</form>
 <def>my</def>
 </entry>
 <entry>

@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>
             <title xml:lang="ta">Kalittokai</title> 146. 
-            <persName xml:lang="ta"></persName>
+            <persName xml:lang="ta"/>
         </title>     
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
@@ -16,7 +13,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -32,7 +29,7 @@
 
         <div rend="parallel">
           <p xml:id="Kali146-kilavi">ituvumatu. itaṟkum muṉṉaṅkūṟiya uraiyaik kūṟikkoḷka.</p>
-          <p xml:lang="en"></p>
+          <p xml:lang="en"/>
         </div>
         <div rend="parallel">
             <lg xml:id="Kali146">
@@ -152,7 +149,7 @@
         </div>
     </body>
   </text>
-<standOff xmlns="http://www.tei-c.org/ns/1.0" type="wordsplit" corresp="#Kali146">
+<standOff type="wordsplit" corresp="#Kali146">
 <interp type="alignment" select="0">15MG22MG29MG31MG3MG22ML15MG40MGMR5MG13ML21ML25MG19MG43MG33MG2ML10MG24MG7M2G9MG29MG6MR7MG12MG8MG40MG5ML21MG40MG3MG13MGMR5MG10MG19M2G19M2G7MG6MG3MG33MGMG3ML12ML18ML86ML2MG14MR21MG8MG10MG31MG7MG46ML4MG40MG9MG65MR10MG13MG14MG11MG45MG27MG32MG20MG46MG12MR12MR18MG7MG38MG44MG30MG44MG15MG51ML7MG10M2G2M,325MG7MG84MG116MG210MG208MG117MG54MG114MG113MG146MG138MG</interp>
 <entry>
 <form>urai</form>
@@ -186,7 +183,7 @@
 <entry>
 <form><c type="glide">y</c>oru</form>
 <def>one</def>
-</entry>
+<gramGrp><gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp></entry>
 <entry>
 <form>nilai-<c type="glide">y</c>ē</form>
 <def>position</def>

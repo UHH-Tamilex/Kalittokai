@@ -1,4 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -87,7 +87,7 @@
         </div>
     </body>
   </text>
-<standOff xmlns="http://www.tei-c.org/ns/1.0" type="wordsplit" corresp="#Kali110">
+<standOff type="wordsplit" corresp="#Kali110">
 <interp type="alignment" select="0">26MG8MG4MR33M2G14MG18M2G12MG16MG21MG14M2G41MG93ML46MG60ML10MGMR6MG9MG13ML3MG7MG6MG6M2GMR21M2G5MG39MG5MG12MG16MG3M2G32MG4MG40MG23M,231MG110MG117MG116MG8MG120MG</interp>
 <entry>
 <form>kaṭi</form>

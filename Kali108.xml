@@ -1,4 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -166,7 +166,7 @@
         </div>
     </body>
   </text>
-<standOff xmlns="http://www.tei-c.org/ns/1.0" type="wordsplit" corresp="#Kali108">
+<standOff type="wordsplit" corresp="#Kali108">
 <interp type="alignment" select="0">39ML36MG32MG21MG33MG3ML16MG60MG10MG28ML39MR43MG9MG47MG3ML5M2GMR14MG12MG14MG2MR98MG25MG5M2G12M2G53MG34MG12MG17ML13MG11MG3MG69MG37MG8MG11MG32M2G7MG28M2G29MG6M2G8MG34MG8MG5MG6ML11MG11MG53MG11MG207MG21MG13MG107MR85MG30MG34MG12MG63MG3MG33MG10MG25MG3ML65M,243MG19MG139MG147MG7MG18MG12MG108MG7MG148MG9MG38MG118MG10MG311MG169MG20MG152MG211MG</interp>
 <entry>
 <form>ikal</form>

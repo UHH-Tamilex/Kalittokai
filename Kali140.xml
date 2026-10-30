@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>
             <title xml:lang="ta">Kalittokai</title> 140. 
-            <persName xml:lang="ta"></persName>
+            <persName xml:lang="ta"/>
         </title>     
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
@@ -16,7 +13,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -32,7 +29,7 @@
 
         <div rend="parallel">
           <p xml:id="Kali140-kilavi">itu maṭalēṟuvēṉeṉṟa talaivaṉ kaṇṭārkkuk kūṟiyatu.</p>
-          <p xml:lang="en"></p>
+          <p xml:lang="en"/>
         </div>
         <div rend="parallel">
             <lg xml:id="Kali140">
@@ -111,7 +108,7 @@
         </div>
     </body>
   </text>
-<standOff xmlns="http://www.tei-c.org/ns/1.0" type="wordsplit" corresp="#Kali140">
+<standOff type="wordsplit" corresp="#Kali140">
 <interp type="alignment" select="0">25MG3M2G5MG33MG20MG36MG95ML10MG3MG65MG59MG8MG14MG3M2G4MG8MG14M2G22ML5MG31MG79MR7M2G10MG43M2G32MG7MG24M2G8MG48MG8MG3MG13M2G29M2G8MG13MG21ML2MG24MG68ML5MG4MG7MG3M,353MG7MG112MG116MG120MG116MG4MG143MG</interp>
 <entry>
 <form>kaṇṭavir</form>

@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>
             <title xml:lang="ta">Kalittokai</title> 144. 
-            <persName xml:lang="ta"></persName>
+            <persName xml:lang="ta"/>
         </title>     
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
@@ -16,7 +13,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -32,7 +29,7 @@
 
         <div rend="parallel">
           <p xml:id="Kali144-kilavi">ituvumatu atu. itaṟkum avvurai kūṟik koḷka.</p>
-          <p xml:lang="en"></p>
+          <p xml:lang="en"/>
         </div>
         <div rend="parallel">
             <lg xml:id="Kali144">
@@ -188,7 +185,7 @@
         </div>
     </body>
   </text>
-<standOff xmlns="http://www.tei-c.org/ns/1.0" type="wordsplit" corresp="#Kali144">
+<standOff type="wordsplit" corresp="#Kali144">
 <interp type="alignment" select="0">26MG14MG9MG10ML3MG20MG3MG32ML43MG25MG2ML4MG2ML48MG103MR28MG18MG17MG11MG10MG2ML40MG6MG11MR51MG10M2G7M2G12MR80ML12MG3M2G54MG26MG50M2G3MR19MG12MG23MG54MG20MG47ML2MG51MG27MG10MG23MGMG6MG5M2G6MG24MG26MG19MG14M2G9MG91MG6MG60MG27MG10ML5MG48MG13MG9MG3M2G69MG16MG50M2G4ML6MG11MG3M2G34MG32ML11MG13ML3MG3M2G52MG27MG8MG8MG13MG3M2G5MG22MG12MG3MG3MG42MG30MG24MG44MR20MG3MG8MG17M2G2M,238MG6MG209MG30MG199MG10MG75MG143MG7MG48MG24MG7MG45MG202MG47MG5MG109MG10MG50MG115MG9MG122MG9MG110MG9MG125MG4MG180MG</interp>
 <entry>
 <form>nal</form>

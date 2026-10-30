@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>
             <title xml:lang="ta">Kalittokai</title> 132. 
-            <persName xml:lang="ta"></persName>
+            <persName xml:lang="ta"/>
         </title>     
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
@@ -16,7 +13,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -32,7 +29,7 @@
 
         <div rend="parallel">
           <p xml:id="Kali132-kilavi">itu varaivu nīṭṭittuḻip pakaṟkuṟi vantu nīṅkun talaivaṉai etirppaṭṭut tōḻi,avaṉai nāṇu neñcalaippa varaivukaṭāyatu.</p>
-          <p xml:lang="en"></p>
+          <p xml:lang="en"/>
         </div>
         <div rend="parallel">
             <lg xml:id="Kali132">
@@ -86,12 +83,12 @@
                 <l>when blame spreads [and] gossip is strewn [around]</l>
                 <l>like pain that passes being utmost torment</l>
                 <l>in those who approach, thinking it is the force of the god they worship,</l>
-                <l rend="indent7"  corresp="21-24">	it is cruel.</l>
+                <l rend="indent7" corresp="21-24">	it is cruel.</l>
             </lg>
         </div>
     </body>
   </text>
-<standOff xmlns="http://www.tei-c.org/ns/1.0" type="wordsplit" corresp="#Kali132">
+<standOff type="wordsplit" corresp="#Kali132">
 <interp type="alignment" select="0">78MG3MG36MG35MG35MG9MG10MG95ML15MG15M2G54ML2ML83MG3M2G13MG9MG13ML2MG14ML26MG65M2G125MR17MG22MG39MG6M2G2M,267MG145MG151MG145MG8MG134MG</interp>
 <entry>
 <form>uravu</form>

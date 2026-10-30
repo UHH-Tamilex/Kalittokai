@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<?xml-model href="tei_all.dtd" type="application/xml-dtd"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -96,7 +93,7 @@
         </div>
     </body>
   </text>
-<standOff xmlns="http://www.tei-c.org/ns/1.0" type="wordsplit" corresp="#Kali134">
+<standOff type="wordsplit" corresp="#Kali134">
 <interp type="alignment" select="0">52MG9MG92MG3M2G33MR75ML21MG8MG3MG7MG7MG50ML52MG9M2G11ML12MG9ML11ML18MG4MG67MG9M2G35ML17MG15MG4MG65MG9M2G10ML22ML36MG45MG31MG53MR7M2G9M2G2M,364MG147MG153MG147MG8MG139MG</interp>
 <entry>
 <form>mallarai</form>
@@ -488,7 +485,7 @@
 <form><c type="glide">v</c>oru</form>
 <def>one</def>
 <gramGrp>
-</gramGrp>
+<gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp>
 </entry>
 <entry>
 <form>nilai-<c type="glide">y</c>ē</form>

@@ -1,4 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -142,7 +142,7 @@
         </div>
     </body>
   </text>
-<standOff xmlns="http://www.tei-c.org/ns/1.0" type="wordsplit" corresp="#Kali106">
+<standOff type="wordsplit" corresp="#Kali106">
 <interp type="alignment" select="0">29MG89MR52MG26MG40MG4ML6MG29MG27MG59MG20ML31MG25MG78MG160MG23MG61MG24MG8M2G14M2G36MG9MG16MG20MG11MG3MG28ML14ML55MG59MG18MG3MG8MG14MG15MG30MG10M2G17MG8MG28MG53MG7MG42MG8MR76MG3M,161MG6MG120MG113MG8MG123MG7MG80MG8MG88MG6MG119MG4MG84MG88MG91MG5MG94MG90MG4MG124MG</interp>
 <entry>
 <form>kaḻuvoṭu</form>

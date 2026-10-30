@@ -1,4 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?><?xml-model href="tei_all.dtd" type="application/xml-dtd"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -81,7 +81,7 @@
         </div>
     </body>
   </text>
-<standOff xmlns="http://www.tei-c.org/ns/1.0" type="wordsplit" corresp="#Kali114">
+<standOff type="wordsplit" corresp="#Kali114">
 <interp type="alignment" select="0">13MG41MG5MG76MG14MG50MG30MG10MG5ML3MG3MG12MG18MG14MG50MG27MG7MG26M2G29MG29MG39M2G18MG5M2G35MG23MG23MG3M2G2M,179MG28MG130MG300MG</interp>
 <entry>
 <form>vāri</form>
@@ -558,7 +558,7 @@
 <entry>
 <form><c type="glide">v</c>oru</form>
 <def>one</def>
-</entry>
+<gramGrp><gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp></entry>
 <entry>
 <form>maṇam</form>
 <def>union</def>
@@ -656,7 +656,7 @@
 <entry>
 <form>iru</form>
 <def>two</def>
-</entry>
+<gramGrp><gram type="role">adjective</gram><gram type="role">numeral</gram></gramGrp></entry>
 <entry>
 <form>maṇam</form>
 <def>marriage</def>
